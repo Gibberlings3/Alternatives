@@ -1,0 +1,615 @@
+BACKUP ~alternatives/backup~ 
+AUTHOR ~berelinde@gmail.com~ 
+
+README ~alternatives/readme-alternatives.html~ 
+
+VERSION ~v13.4~ //180828
+
+ALWAYS
+
+/* continuous chapter system for EET */
+  ACTION_IF GAME_IS ~eet~ BEGIN
+    OUTER_SET bg2_chapter = 12
+  END ELSE BEGIN
+    OUTER_SET bg2_chapter = 0
+  END
+  OUTER_FOR (i=1; i<=10; i=i+1) BEGIN
+    OUTER_SET bg2_chapter = bg2_chapter + 1
+    OUTER_SPRINT name_source ~bg2_chapter_%i%~
+    OUTER_SET EVAL ~%name_source%~ = bg2_chapter
+  END
+
+  // BG:EE tra conversion
+
+  // Only setup-alternatives is stated in LANGUAGE and needs to be reloaded after conversion
+  ACTION_DEFINE_ARRAY alternatives_reload BEGIN setup-alternatives END
+  ACTION_DEFINE_ARRAY alternatives_noconvert BEGIN END
+	
+	/* don't convert the mod name for Windows users. by c4_angel */
+	ACTION_IF ~%LANGUAGE%~ STR_EQ ~schinese~ THEN BEGIN
+		ACTION_DEFINE_ARRAY alternatives_noconvert BEGIN ~prompts-%WEIDU_OS%~ END
+	END
+	/* no convertion */
+
+  LAF HANDLE_CHARSETS
+    INT_VAR
+      infer_charset = 1
+    STR_VAR
+      tra_path = EVAL ~%MOD_FOLDER%~
+      noconvert_array = alternatives_noconvert
+      reload_array = alternatives_reload
+  END
+END /* ALWAYS */
+
+AUTO_TRA ~alternatives/%s~
+
+LANGUAGE ~English~ ~english~ ~alternatives/english/setup-alternatives.tra~ 
+LANGUAGE ~Russian~ ~russian~ ~alternatives/russian/setup-alternatives.tra~
+LANGUAGE ~French~ ~french~ ~alternatives/french/setup-alternatives.tra~ 
+LANGUAGE ~German~ ~german~ ~alternatives/german/setup-alternatives.tra~ 
+LANGUAGE ~Simplified Chinese~ 
+				 ~schinese~
+				 ~alternatives/english/setup-alternatives.tra~ 
+				 ~alternatives/schinese/setup-alternatives.tra~  
+				 ~alternatives/schinese/prompts-%WEIDU_OS%.tra~
+
+
+BEGIN @1 
+
+
+/* Fix from White Agnus: for BGII:EE and for BGII with Fixpack */
+
+COPY_EXISTING ~AR1600.bcs~ ~override~
+  DECOMPILE_AND_PATCH BEGIN
+   REPLACE_TEXTUALLY ~\(Global("ThiefGroup","[gG][lL][oO][bB][aA][lL]",1)\)~ ~OR(3) \1 Global("B!Alternatives","GLOBAL",10) Global("B!Tourist","GLOBAL",10)~
+
+  END
+  BUT_ONLY
+
+
+APPEND ~STATE.IDS~
+  ~0x80101FEF CD_STATE_NOTVALID~
+  UNLESS ~CD_STATE_NOTVALID~ 
+  
+/* AUDIO */
+
+// Use the new HANDLE_AUDIO function instead of the scripts
+/*
+// scripts to compress/decompress sounds
+ACTION_IF (~%WEIDU_OS%~ STRING_EQUAL_CASE ~win32~) THEN BEGIN
+  AT_NOW                   ~alternatives/audio/audio-install.bat~
+  AT_INTERACTIVE_UNINSTALL ~alternatives/audio/audio-uninstall.bat~
+END ELSE BEGIN
+  ACTION_IF (~%WEIDU_OS%~ STRING_EQUAL_CASE ~osx~) THEN BEGIN
+    AT_NOW                   ~sh alternatives/audio/audio-install-osx.sh~
+    AT_INTERACTIVE_UNINSTALL ~sh alternatives/audio/audio-uninstall-osx.sh~
+  END ELSE BEGIN
+    AT_NOW                   ~bash alternatives/audio/audio-install-lin.sh~
+    AT_INTERACTIVE_UNINSTALL ~bash alternatives/audio/audio-uninstall-lin.sh~
+  END
+END
+*/
+// Since the audio files and the decoders are in the audio directory, no parameter needed
+LAF HANDLE_AUDIO END
+
+/* ITEMS */ 
+
+COPY ~alternatives/items/b!poison.itm~ ~override~ 
+    SAY NAME1 @11 
+    SAY NAME2 @11 
+    SAY UNIDENTIFIED_DESC @12 
+    SAY DESC @12 
+    
+APPEND ~ITEMDIAL.2da~ 
+~B!PUZLBX    5689  B!PUZLBX~
+UNLESS ~B!PUZLBX~
+
+COPY ~alternatives/items/ib!box.bam~ ~override~
+COPY ~alternatives/items/gb!box.bam~ ~override~
+COPY ~alternatives/items/cb!box.bam~ ~override~
+COPY ~alternatives/items/b!puzlbx.itm~ ~override~ 
+    SAY NAME1 @9 
+    SAY NAME2 @9 
+    SAY UNIDENTIFIED_DESC @10 
+    SAY DESC @10 
+    WRITE_ASCII 0x3a ~ib!box~ #8  //inventory icon (thanks Epantiras!)
+    WRITE_ASCII 0x44 ~gb!box~ #8  //ground icon
+    WRITE_ASCII 0x58 ~cb!box~ #8  //carried icon
+    
+COPY_EXISTING ~misc6u.itm~ ~override/b!altbox.itm~ 
+    SAY NAME1 @9 
+    SAY NAME2 @9 
+    SAY UNIDENTIFIED_DESC @20 
+    SAY DESC @20 
+    WRITE_ASCII 0x3a ~ib!box~ #8  //inventory icon (thanks Epantiras!)
+    WRITE_ASCII 0x44 ~gb!box~ #8  //ground icon
+    WRITE_ASCII 0x58 ~cb!box~ #8  //carried icon
+
+COPY_EXISTING ~misc6u.itm~ ~override/b!altltr.itm~ 
+    SAY NAME1 @13 
+    SAY NAME2 @13 
+    SAY UNIDENTIFIED_DESC @14 
+    SAY DESC @14 
+
+/* CREATURES */
+
+COPY_EXISTING ~habrega.cre~ ~override/b!brega.cre~ 
+    SAY NAME1 @2 
+    SAY NAME2 @2 
+    WRITE_ASCII 0x248 ~shout~ #8  //override = shout 
+    WRITE_ASCII 0x280 ~b!brega~  #32  //DV = b!brega 
+    WRITE_ASCII 0x2cc ~b!brega~  #8  //dialogue = b!brega 
+    
+COPY_EXISTING ~hprelate.cre~ ~override/b!prelat.cre~ 
+    SAY NAME1 @3 
+    SAY NAME2 @3 
+    WRITE_ASCII 0x248 ~shout~  #8  //override = shout 
+    WRITE_ASCII 0x280 ~b!prelat~  #32  //DV = b!prelat 
+    WRITE_ASCII 0x2cc ~b!prelat~  #8  //dialogue = b!prelat 
+    
+COPY_EXISTING ~madeen.cre~ ~override/b!altmsg.cre~ 
+    SAY NAME1 @4 
+    SAY NAME2 @4 
+    WRITE_ASCII 0x248 ~b!altmsg~  #8  //override = b!altmsg 
+    WRITE_ASCII 0x280 ~b!altmsg~  #32  //DV = b!altmsg 
+    WRITE_ASCII 0x2cc ~b!altmsg~  #8  //dialogue = b!altmsg 
+
+COPY_EXISTING ~irlana.cre~ ~override/b!aster.cre~
+    SAY NAME1 @5
+    SAY NAME2 @5
+    WRITE_ASCII 0x248 ~b!asters~ #8  //override      = b!asters 
+    WRITE_ASCII 0x280 ~b!aster~  #32  //DV            = b!aster 
+    WRITE_ASCII 0x2cc ~b!aster~  #8  //dialogue      = b!aster
+    WRITE_BYTE  0x2c  ~67~       // metal color   = 67 shiney gold
+    WRITE_BYTE  0x2d  ~11~       // minor color   = 11 light rose red
+    WRITE_BYTE  0x2e  ~11~       // major color   = 11 light rose red
+    WRITE_BYTE  0x2f  ~26~       // skin color    = 26 wood
+    WRITE_BYTE  0x30  ~24~       // leather color = 24 dark gold
+    WRITE_BYTE  0x31  ~67~       // armor color   = 67 shiney gold
+    WRITE_BYTE  0x32  ~25~       // hair color    = 25 dark pure gold
+    
+COPY_EXISTING ~irlana.cre~ ~override/b!aster2.cre~
+    SAY NAME1 @5
+    SAY NAME2 @5
+    WRITE_ASCII 0x248 ~b!aste2s~ #8  //override      = b!aste2s 
+    WRITE_ASCII 0x280 ~b!aster2~  #32  //DV            = b!aster2 
+    WRITE_ASCII 0x2cc ~b!aster2~  #8  //dialogue      = b!aster2
+    WRITE_BYTE  0x2c  ~67~       // metal color   = 67 shiney gold
+    WRITE_BYTE  0x2d  ~11~       // minor color   = 11 light rose red
+    WRITE_BYTE  0x2e  ~11~       // major color   = 11 light rose red
+    WRITE_BYTE  0x2f  ~26~       // skin color    = 26 wood
+    WRITE_BYTE  0x30  ~24~       // leather color = 24 dark gold
+    WRITE_BYTE  0x31  ~67~       // armor color   = 67 shiney gold
+    WRITE_BYTE  0x32  ~25~       // hair color    = 25 dark pure gold
+    
+COPY_EXISTING ~amng2.cre~ ~override/b!stdoor.cre~
+    SAY NAME1 @6
+    SAY NAME2 @6
+    WRITE_ASCII 0x248 ~b!stdoor~  #8  //override      = b!stdoor 
+    WRITE_ASCII 0x250 ~shout~     #8  // class         = shout
+    WRITE_ASCII 0x280 ~b!stdoor~  #32  //DV            = b!stdoor 
+    WRITE_ASCII 0x2cc ~b!stdoor~  #8  //dialogue      = b!stdoor    
+
+COPY_EXISTING ~arnfgt06.cre~ ~override/b!zahl.cre~
+    SAY NAME1 @7
+    SAY NAME2 @7
+    WRITE_ASCII 0x248 ~b!zahl~    #8  //override      = b!zahl 
+    WRITE_ASCII 0x250 ~shout~     #8  // class         = shout
+    WRITE_ASCII 0x280 ~b!zahl~    #32  //DV            = b!zahl 
+    WRITE_ASCII 0x2cc ~b!zahl~    #8  //dialogue      = b!zahl 
+    
+COPY_EXISTING ~rumar.cre~ ~override/b!mal.cre~
+    SAY NAME1 @8
+    SAY NAME2 @8
+    WRITE_BYTE  0x27b  0x13      // alignment = lawful evil 
+    WRITE_ASCII 0x248 ~shout~     #8   //override     = shout 
+    WRITE_ASCII 0x250 ~initdlg~   #8   //class        = b!mal
+    WRITE_ASCII 0x280 ~b!mal~   #32  //DV        = b!mal 
+    WRITE_ASCII 0x2cc ~b!mal~     #8    //dialogue    = b!mal
+    WRITE_BYTE  0x2c  ~67~       // metal color   = 67 shiny gold
+    WRITE_BYTE  0x2d  ~35~       // minor color   = 35 dark ghostly pink
+    WRITE_BYTE  0x2e  ~115~      // major color   = 115 sunkissed
+    WRITE_BYTE  0x2f  ~48~       // skin color    = 48 light bronze
+    WRITE_BYTE  0x30  ~24~       // leather color = 24 dark gold
+    WRITE_BYTE  0x31  ~67~       // armor color   = 67 shiny gold
+    WRITE_BYTE  0x32  ~75~       // hair color    = 75 pure black
+    SAY SELECT_COMMON1 ~I suppose I can extend you my hand, though I'll have to wash it after.~ [NOBMA01] 
+
+COPY_EXISTING ~rumar.cre~ ~override/b!mal2.cre~
+    SAY NAME1 @8
+    SAY NAME2 @8
+    WRITE_BYTE  0x27b  0x13      // alignment = lawful evil 
+    WRITE_ASCII 0x248 ~shout~  #8   //override     = shout 
+    WRITE_ASCII 0x250 ~nofight~   #8   //class        = b!mal
+    WRITE_ASCII 0x280 ~b!mal2~   #32  //DV           = b!mal 
+    WRITE_ASCII 0x2cc ~b!mal2~   #8   //dialogue     = b!mal
+    WRITE_BYTE  0x2c  ~67~       // metal color   = 67 shiny gold
+    WRITE_BYTE  0x2d  ~35~       // minor color   = 35 dark ghostly pink
+    WRITE_BYTE  0x2e  ~115~      // major color   = 115 sunkissed
+    WRITE_BYTE  0x2f  ~48~       // skin color    = 48 light bronze
+    WRITE_BYTE  0x30  ~24~       // leather color = 24 dark gold
+    WRITE_BYTE  0x31  ~67~       // armor color   = 67 shiny gold
+    WRITE_BYTE  0x32  ~75~       // hair color    = 75 pure black
+    SAY SELECT_COMMON1 ~I suppose I can extend you my hand, though I'll have to wash it after.~ [NOBMA01] 
+  
+COPY_EXISTING ~gaelan.cre~ ~override/b!vhelon.cre~
+    SAY NAME1 @15
+    SAY NAME2 @15
+    WRITE_BYTE  0x27b  0x23      // alignment = neutral evil 
+    WRITE_ASCII 0x248 ~b!vhels~      #8   //override     = b!vhels  
+    WRITE_ASCII 0x250 ~shout~        #8   //class        = shout 
+    WRITE_ASCII 0x258 ~nofight~     #8   //race         = nofight 
+    WRITE_ASCII 0x280 ~b!vhellon~    #32  //DV           = b!vhellon 
+    WRITE_ASCII 0x2cc ~b!vhelon~     #8   //dialogue     = b!vhelon
+    WRITE_BYTE  0x2c  ~00~       // metal color   = 00  red-tinted black
+    WRITE_BYTE  0x2d  ~63~       // minor color   = 63  light grey 
+    WRITE_BYTE  0x2e  ~62~       // major color   = 62  dark lavender
+    WRITE_BYTE  0x2f  ~13~       // skin color    = 13  light pure silver 
+    WRITE_BYTE  0x30  ~66~       // leather color = 66  faded black 
+    WRITE_BYTE  0x31  ~00~       // armor color   = 00  red-tinted black 
+    WRITE_BYTE  0x32  ~105~      // hair color    = 105 white 
+    ADD_CRE_ITEM ~b!poison~ #0 #0 #0 ~IDENTIFIED~ ~INV1~ 
+    
+COPY_EXISTING ~gorch.cre~ ~override/b!nador.cre~
+    SAY NAME1 @16
+    SAY NAME2 @16
+    WRITE_BYTE  0x27b  0x22      // alignment = neutral 
+    WRITE_ASCII 0x250 ~nofight~      #8   //class        = nofight 
+    WRITE_ASCII 0x280 ~b!nador~      #32  //DV           = b!nador 
+    WRITE_ASCII 0x2cc ~b!nador~      #8   //dialogue     = b!nador 
+    ADD_CRE_ITEM ~misc42~ #0 #0 #0 ~IDENTIFIED~ ~INV1~ 
+
+COPY_EXISTING ~gorch.cre~ ~override/b!nador2.cre~
+    SAY NAME1 @16
+    SAY NAME2 @16
+    WRITE_BYTE  0x27b  0x22      // alignment = neutral 
+    WRITE_ASCII 0x250 ~nofight~      #8   //class        = nofight 
+    WRITE_ASCII 0x280 ~b!nador2~      #32  //DV           = b!nador 
+    WRITE_ASCII 0x2cc ~b!nador2~      #8   //dialogue     = b!nador 
+    
+COPY_EXISTING ~roger.cre~ ~override/b!ballus.cre~
+    SAY NAME1 @17
+    SAY NAME2 @17
+    WRITE_BYTE  0x27b  0x23      // alignment = neutral evil 
+    WRITE_ASCII 0x248 ~b!balus~      #8   //override     = b!balus  
+    WRITE_ASCII 0x250 ~shout~        #8   //class        = shout 
+    WRITE_ASCII 0x258 ~nofight~     #8   //race         = nofight 
+    WRITE_ASCII 0x280 ~b!ballus~     #32  //DV           = b!ballus  
+    WRITE_ASCII 0x2cc ~b!ballas~     #8   //dialogue     = b!ballus
+    WRITE_SHORT  0x28  51712              //animatiion   = NOBLE_MAN
+
+COPY_EXISTING ~dharlot1.cre~ ~override/b!leyt.cre~ 
+    SAY NAME1 @18
+    SAY NAME2 @18
+    WRITE_ASCII 0x280 ~b!leyt~     #32  //DV           = b!leyt  
+    WRITE_ASCII 0x2cc ~b!leyt~     #8   //dialogue     = b!leyt 
+    ADD_CRE_ITEM ~b!puzlbx~ #0 #0 #0 ~IDENTIFIED~ ~INV1~
+    
+COPY_EXISTING ~maevar.cre~ ~override/b!wael.cre~
+    SAY NAME1 @19
+    SAY NAME2 @19
+    WRITE_ASCII 0x248 ~b!balus~      #8   //override     = b!balus  
+    WRITE_ASCII 0x250 ~shout~        #8   //class        = shout 
+    WRITE_ASCII 0x258 ~nofight~     #8   //race         = nofight 
+    WRITE_ASCII 0x260 ~None~             #8   //general      = none
+    WRITE_ASCII 0x280 ~b!wael~       #32  //DV           = b!wael  
+    WRITE_ASCII 0x2cc ~b!wael~       #8   //dialogue     = b!wael 
+
+COPY_EXISTING ~maevar.cre~ ~override/b!wael2.cre~
+    SAY NAME1 @19
+    SAY NAME2 @19
+    WRITE_ASCII 0x248 ~b!balus~      #8   //override     = b!balus  
+    WRITE_ASCII 0x250 ~shout~        #8   //class        = shout 
+    WRITE_ASCII 0x258 ~nofight~     #8   //race         = nofight 
+    WRITE_ASCII 0x260 ~None~             #8   //general      = none
+    WRITE_ASCII 0x280 ~b!wael2~       #32  //DV          = b!wael2  
+    WRITE_ASCII 0x2cc ~None~             #8     //dialogue   = none 
+    
+COPY_EXISTING ~noblem1.cre~ ~override/b!vulova.cre~ 
+    SAY NAME1 @21 
+    SAY NAME2 @21 
+    WRITE_ASCII 0x248 ~b!balus~      #8   //override     = b!balus  
+    WRITE_ASCII 0x2cc ~b!vulova~     #8   //dialogue     = b!vulova 
+    WRITE_ASCII 0x280 ~b!vulova~     #32  //DV           = b!vulova 
+    
+COPY_EXISTING ~noblew1.cre~ ~override/b!vulg1.cre~ 
+    SAY NAME1 @22 
+    SAY NAME2 @22 
+    WRITE_ASCII 0x248 ~b!balus~      #8   //override     = b!balus  
+    WRITE_ASCII 0x2cc ~b!vulg_1~     #8   //dialogue     = b!vulg_1 
+    WRITE_ASCII 0x280 ~b!vulg1~      #32  //DV           = b!vulg1 
+    
+COPY_EXISTING ~nobl4.cre~ ~override/b!vulg2.cre~ 
+    SAY NAME1 @22 
+    SAY NAME2 @22 
+    WRITE_ASCII 0x248 ~b!balus~      #8   //override     = b!balus  
+    WRITE_ASCII 0x2cc ~b!vulg_2~     #8   //dialogue     = b!vulg_2 
+    WRITE_ASCII 0x280 ~b!vulg2~      #32  //DV           = b!vulg2 
+    
+COPY_EXISTING ~noblew1.cre~ ~override/b!vulg3.cre~ 
+    SAY NAME1 @22 
+    SAY NAME2 @22 
+    WRITE_ASCII 0x248 ~b!balus~      #8   //override     = b!balus  
+    WRITE_ASCII 0x2cc ~b!vulg_1~     #8   //dialogue     = b!vulg_1 
+    WRITE_ASCII 0x280 ~b!vulg3~      #32  //DV           = b!vulo3 
+    
+COPY_EXISTING ~nobl4.cre~ ~override/b!vulg4.cre~ 
+    SAY NAME1 @22 
+    SAY NAME2 @22 
+    WRITE_ASCII 0x248 ~b!balus~      #8   //override     = b!balus  
+    WRITE_ASCII 0x2cc ~b!vulg_2~     #8   //dialogue     = b!vulg_2 
+    WRITE_ASCII 0x280 ~b!vulg4~      #32  //DV           = b!vulg4 
+    
+COPY_EXISTING ~noblew1.cre~ ~override/b!vulg5.cre~ 
+    SAY NAME1 @22 
+    SAY NAME2 @22 
+    WRITE_ASCII 0x248 ~b!balus~      #8   //override     = b!balus  
+    WRITE_ASCII 0x2cc ~b!vulg_1~     #8   //dialogue     = b!vulg_1 
+    WRITE_ASCII 0x280 ~b!vulg5~     #32  //DV           = b!vulg5 
+    
+COPY_EXISTING ~nobl4.cre~ ~override/b!vulg6.cre~ 
+    SAY NAME1 @22 
+    SAY NAME2 @22 
+    WRITE_ASCII 0x248 ~b!balus~      #8   //override     = b!balus  
+    WRITE_ASCII 0x2cc ~b!vulg_2~     #8   //dialogue     = b!vulg_2  
+    WRITE_ASCII 0x280 ~b!vulg6~     #32  //DV           = b!vulg6 
+
+COPY_EXISTING ~mtown1.cre~ ~override/b!vulcok.cre~    
+    SAY NAME1 @23 
+    SAY NAME2 @23 
+    WRITE_ASCII 0x248 ~b!balus~      #8   //override     = b!balus  
+    WRITE_ASCII 0x2cc ~b!vulcok~     #8   //dialogue     = b!vulcok 
+    WRITE_ASCII 0x280 ~b!vulcok~     #32  //DV           = b!vulcok 
+    
+COPY_EXISTING ~mtown1.cre~ ~override/b!vulbtr.cre~    
+    SAY NAME1 @24 
+    SAY NAME2 @24 
+    WRITE_ASCII 0x248 ~b!balus~      #8   //override     = b!balus  
+    WRITE_ASCII 0x2cc ~b!vulbtr~     #8   //dialogue     = b!vulbtr 
+    WRITE_ASCII 0x280 ~b!vulbtr~     #32  //DV           = b!vulbtr
+
+/* STORE */ 
+
+COPY ~alternatives/items/b!altsto.sto~ ~override/b!altsto.sto~ 
+  SAY NAME2 @15 
+          
+    
+EXTEND_TOP    ~ar0300.bcs~   ~alternatives/script/b!ar0300.baf~      //spawns the guide who will let the PC into the Shadow Thieves' headquarters
+EXTEND_TOP    ~ar0300.bcs~   ~alternatives/script/b!ar0300_fix.baf~  //fixes the area transitions for hostile Shadow Thieves 
+EXTEND_TOP    ~ar0311.bcs~   ~alternatives/script/b!ar0311.baf~      //turns Gaelan Hostile 
+EXTEND_TOP    ~ar0312.bcs~   ~alternatives/script/b!ar0312.baf~      //turns Arledrian hostile
+EXTEND_BOTTOM    ~ar0328.bcs~   ~alternatives/script/b!ar0328.baf~      //spawns hostile Shadow Thieves in the guild 
+EXTEND_TOP    ~ar0400.bcs~   ~alternatives/script/b!ar0400.baf~
+  EVALUATE_BUFFER       //spawns Malficus in the Slums 
+EXTEND_TOP    ~ar0511.bcs~   ~alternatives/script/b!ar0511.baf~      //Five Flagons 2nd floor, spawns "Aster", the Order of the Aster contact 
+EXTEND_TOP    ~ar0513.bcs~   ~alternatives/script/b!ar0513.baf~      //spawns Wael, the assassin in Delosar's, 1st floor 
+EXTEND_BOTTOM ~ar0801.bcs~   ~alternatives/script/b!ar0801.baf~ 
+  EVALUATE_BUFFER      //"good" route, crypt spawns 
+EXTEND_BOTTOM ~ar0803.bcs~   ~alternatives/script/b!ar0803.baf~      //Bodhi's Lair, sided with Aster 
+EXTEND_TOP    ~ar0900.bcs~   ~alternatives/script/b!ar0900.baf~
+  EVALUATE_BUFFER       //spawns Leyt, the puzzle-box person in the Temple District 
+EXTEND_BOTTOM ~ar1000.bcs~   ~alternatives/script/b!ar1000.baf~ 
+  EVALUATE_BUFFER      //sets up cutscene where PC overhears Brega and Wessalen in Gov't District 
+EXTEND_TOP    ~ar1002.bcs~   ~alternatives/script/b!ar1002.baf~      //spawns Harbormaster Nador and Assistant Harbormaster Ballus in the Council of Six building 
+EXTEND_TOP    ~ar1007.bcs~   ~alternatives/script/b!ar1007.baf~      //Vulova estate spawns 
+EXTEND_BOTTOM ~bodfgt01.bcs~ ~alternatives/script/b!bdfgt1.baf~      //extend bodfgt01.bcs - attacking Bodhi, Aster route 
+EXTEND_TOP    ~ar0300.bcs~   ~alternatives/script/b!stguard_ar0300.baf~  //destroys the door guard if tasks are taken 
+EXTEND_TOP    ~ar0329.bcs~   ~alternatives/script/b!ar0329.baf~       //Aran Linvail journal entry
+USING ~alternatives/%s\dialogue.tra~
+
+EXTEND_BOTTOM    ~ar1515.bcs~   ~alternatives/script/b!ar1515.baf~       //Enter Spellhold journal entry
+USING ~alternatives/%s\dialogue.tra~
+
+//EXTEND_BOTTOM ~stguard1.bcs~ ~alternatives/script/b!stgrd.baf~       //destroys the door guard if tasks are taken 
+EXTEND_TOP    ~baldur.bcs~   ~alternatives/script/b!baldur.baf~      //spawns a messenger to summon the PC to meet the Order of the Aster delegate at the Five Flagons 
+COMPILE ~alternatives/script/b!alt41b.baf~      //Aster and party at the Docks
+COMPILE ~alternatives/script/b!alt41d.baf~      //Gets PC and party to Brynnlaw
+COMPILE ~alternatives/script/b!alt_01.baf~      //Sets up PC to overhear Wessalyn and Brega talking 
+COMPILE ~alternatives/script/b!alt_02.baf~      //End of dialogue between Wessalyn and Brega
+
+/* 
+COMPILE ~alternatives/script/b!altm3b.baf~      //Aster takes the party to the Docks
+*/
+
+/* copy and modify the original cutscene instead - for compatibility */
+COPY_EXISTING ~movie03b.bcs~ ~override/b!altm3b.bcs~
+  DECOMPILE_AND_PATCH BEGIN
+    REPLACE_TEXTUALLY ~\("Movie03d"\)~
+~"b!altm3d"~
+ END
+  BUT_ONLY_IF_IT_CHANGES
+
+/*
+COMPILE ~alternatives/script/b!altm3d.baf~      //Imoen in Spellhold (Aster option)
+*/
+
+/* copy and modify the original cutscene instead - for compatibility */
+COPY_EXISTING ~movie03d.bcs~ ~override/b!altm3d.bcs~
+  DECOMPILE_AND_PATCH BEGIN
+    REPLACE_TEXTUALLY ~\("Cut41b"\)~
+~"b!alt41b"~
+ END
+  BUT_ONLY_IF_IT_CHANGES
+
+ 
+COMPILE ~alternatives/script/b!altmsg.baf~      //Script for Alten, messenger of the Order of the Aster
+COMPILE ~alternatives/script/b!balus.baf~       //override script for Assistant Harbormaster Ballas 
+COMPILE ~alternatives/script/b!doleyt.baf~      //Leyt's cutscene nookie 
+COMPILE ~alternatives/script/b!mal41b.baf~      //Malficus and the PC part at the Docks 
+COMPILE ~alternatives/script/b!mal41d.baf~      //gets the PC and party to Brynnlaw if they sided with Malficus 
+
+/*
+COMPILE ~alternatives/script/b!malm3b.baf~      //modeled on movie_3b - Malficus takes the party to the docks 
+*/
+
+/* copy and modify the original cutscene instead - for compatibility */
+COPY_EXISTING ~movie03b.bcs~ ~override/b!malm3b.bcs~
+  DECOMPILE_AND_PATCH BEGIN
+    REPLACE_TEXTUALLY ~\(ActionOverride(Player2,Rest())\)~
+~ActionOverride("b!mal",DestroySelf()) \1~
+
+    REPLACE_TEXTUALLY ~\("Movie03d"\)~
+~"b!malm3d"~
+ END
+  BUT_ONLY_IF_IT_CHANGES
+
+/*
+COMPILE ~alternatives/script/b!malm3d.baf~      //modeled on movie03d - Imoen in Spellhold, Malficus route
+*/
+
+/* copy and modify the original cutscene instead - for compatibility */
+COPY_EXISTING ~movie03d.bcs~ ~override/b!malm3d.bcs~
+  DECOMPILE_AND_PATCH BEGIN
+    REPLACE_TEXTUALLY ~\("Cut41b"\)~
+~"b!mal41b"~
+ END
+  BUT_ONLY_IF_IT_CHANGES
+
+
+COMPILE ~alternatives/script/b!stdoor.baf~	//override script door guard (in front of Shadow Thieves)
+ 
+COMPILE ~alternatives/script/b!vhels.baf~       //Vhellon's DSH 
+COMPILE ~alternatives/script/b!vul1.baf~        //PC assassinates Nador
+COMPILE ~alternatives/script/b!wael1.baf~       //Setup for Wael's assassination of Nador 
+COMPILE ~alternatives/script/b!wael2.baf~       //Wael assassinates Nador 
+COMPILE ~alternatives/script/b!wael3.baf~       //Party is returned to its locations following assassination 
+COMPILE ~alternatives/script/b!zahl.baf~
+  EVALUATE_BUFFER         //essentially, it's arnfgt06.bcs, Haz
+COMPILE ~alternatives/script/b!chap3a.baf~      //chapter 3 transition, Aster route
+COMPILE ~alternatives/script/b!chap3m.baf~      //chapter 3 transition, Malficus route 
+
+
+/* "Getting Inside the Asylum" */
+ADD_JOURNAL TITLE (#74336) @294 @914 USING ~alternatives/%s\dialogue.tra~
+
+/* Meeting with Valen's mistress */
+ADD_JOURNAL TITLE (#74376) @153 @580 USING ~alternatives/%s\dialogue.tra~
+
+/* Collect the fee for Gaelan Bayle */
+ADD_JOURNAL TITLE (#74424) @154 @581 USING ~alternatives/%s\dialogue.tra~
+
+/* A Very Long Holiday */
+ADD_JOURNAL TITLE (@916) @143 @144 @145 @146 @147 @148 @149 @150 @151 
+@155 @372 @373 @374 @375 @523 USING ~alternatives/%s\dialogue.tra~
+
+/* An ally for a price. */
+ADD_JOURNAL TITLE (@917) @42 @119 @152 @157 @216 @217 @240 @258 @582 USING ~alternatives/%s\dialogue.tra~
+
+ADD_JOURNAL @257 USING ~alternatives/%s\dialogue.tra~
+
+ADD_JOURNAL @292 USING ~alternatives/%s\dialogue.tra~
+
+ADD_JOURNAL @906 USING ~alternatives/%s\dialogue.tra~
+
+COMPILE EVALUATE_BUFFER ~alternatives/dialogue/dialogue.d~ 
+
+ACTION_IF FILE_EXISTS_IN_GAME ~stguard1.bcs~ THEN BEGIN 
+    COPY_EXISTING ~stguard1.bcs~ ~override~ 
+    EXTEND_BOTTOM ~stguard1.bcs~ ~alternatives/script/b!stgrd.baf~       //destroys the door guard if tasks are taken 
+END 
+
+
+/* VAMPIRES */
+
+COPY_EXISTING ~AR0800.bcs~ ~override~
+    DECOMPILE_BCS_TO_BAF 
+        REPLACE_TEXTUALLY ~!Global("WorkingForAran","GLOBAL",1)~ ~!Global("WorkingForAran","GLOBAL",1) !GlobalGT("B!Alternatives","GLOBAL",5) !GlobalGT("B!Tourist","GLOBAL",7)~ 
+    COMPILE_BAF_TO_BCS 
+
+/* FIXING JOURNAL ENTRIES */ 
+COPY_EXISTING ~AR0329.bcs~ ~override~ 
+    DECOMPILE_BCS_TO_BAF 
+        REPLACE_TEXTUALLY ~GlobalGT("BodhiJob","GLOBAL",0)~ ~GlobalGT("BodhiJob","GLOBAL",0) !GlobalGT("B!Alternatives","GLOBAL",5) !GlobalGT("B!Tourist","GLOBAL",7)~ 
+    COMPILE_BAF_TO_BCS 
+
+/* CHAPTER 3 TRANSITION */ 
+
+COPY_EXISTING ~CH03AMON.mos~ ~override/b!chap3a.mos~ 
+COPY_EXISTING ~CH03AMON.mos~ ~override/b!chap3m.mos~ 
+
+COPY ~alternatives/2da/b!chap3a.2da~ ~override/b!chap3a.2da~ 
+  REPLACE ~999993~ @999993 
+  
+COPY ~alternatives/2da/b!chap3m.2da~ ~override/b!chap3m.2da~ 
+  REPLACE ~999994~ @999994 
+  
+/* CHAPTER 4 TRANSITION */ 
+
+COPY_EXISTING ~CH04ASHP.mos~ ~override/b!altch4.mos~ 
+COPY_EXISTING ~CH04ASHP.mos~ ~override/b!malch4.mos~ 
+
+
+COPY ~alternatives/2da/b!altch4.2da~ ~override/b!altch4.2da~ 
+  REPLACE ~999991~ @999991 
+  
+COPY ~alternatives/2da/b!malch4.2da~ ~override/b!malch4.2da~ 
+  REPLACE ~999992~ @999992 
+  
+/* JASTEY'S TRUE FRIEND BLOOD ALTERNATIVE */ 
+
+    
+    COMPILE ~alternatives/quallo/quallo_add.d~
+
+    COPY_EXISTING ~misc5q.itm~ ~override/c#altblo.itm~
+        SAY NAME1 @26
+        SAY NAME2 @26 
+        SAY UNIDENTIFIED_DESC @27 
+        SAY DESC @27 
+
+    EXTEND_TOP ~pipe02.bcs~ ~alternatives/quallo/pipe02_add.baf~
+
+    COPY_EXISTING ~pipe04.bcs~ ~override~
+        DECOMPILE_BCS_TO_BAF 
+            REPLACE_TEXTUALLY ~TakePartyItem("misc5q")~ ~TakePartyItem("misc5q") TakePartyItem("c#altblo")~ 
+        COMPILE_BAF_TO_BCS 
+
+    COMPILE ~alternatives/quallo/c#sewcc.baf~
+
+    COPY_EXISTING ~sewcc.cre~ ~override/sewcc.cre~
+        WRITE_ASCII 0x248 ~c#sewcc~ #8 // override      = c#sewcc.bcs
+        
+/* JASTEY'S TEMPLE THIEVERY ALTERNATIVE */ 
+
+ACTION_IF NOT FILE_EXISTS_IN_GAME ~c#aj4x.itm~ THEN BEGIN 
+    COPY ~alternatives/items/c#aj4x.itm~ ~override/c#aj4x.itm~
+    COPY ~alternatives/items/c#aj4y.itm~ ~override/c#aj4y.itm~
+    COMPILE ~alternatives/dialogue/item.d~ 
+END 
+    
+ 
+/* b!mal.cre and b!mal2.cre soundset in Chinese by c4_angel */
+ACTION_IF ~%LANGUAGE%~ STR_EQ ~schinese~ THEN BEGIN
+	COPY_EXISTING ~b!mal.cre~ ~override/b!mal.cre~
+		SAY SELECT_COMMON1 @40001
+
+	COPY_EXISTING ~b!mal2.cre~ ~override/b!mal2.cre~
+		SAY SELECT_COMMON1 @40001
+END
+
+
+
+
+/* prevent chapter screw up if player accepts both Alternatives and Saerileth's paths to Spellhold: set chapter instead of Increment Chapter */
+
+
+ACTION_IF (MOD_IS_INSTALLED ~Setup-Saerileth.TP2~ "0") THEN BEGIN
+
+COPY_EXISTING ~MOVIE02C.bcs~ ~override~
+  DECOMPILE_AND_PATCH BEGIN
+
+    REPLACE_TEXTUALLY ~\(IncrementChapter("")\)~
+~SetGlobal("Chapter","GLOBAL",%bg2_chapter_3%)~
+  END
+  BUT_ONLY_IF_IT_CHANGES
+
+
+COPY_EXISTING ~NSCH3c.bcs~ ~override~
+  DECOMPILE_AND_PATCH BEGIN
+
+    REPLACE_TEXTUALLY ~\(IncrementChapter("")\)~
+~SetGlobal("Chapter","GLOBAL",%bg2_chapter_3%)~
+  END
+  BUT_ONLY_IF_IT_CHANGES
+
+END
+

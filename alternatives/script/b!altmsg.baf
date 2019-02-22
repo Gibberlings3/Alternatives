@@ -1,0 +1,10 @@
+
+// b!altmsg.baf - script for Alten, messenger of the Order of the Aster
+
+IF 
+    Global("B!Alternatives","GLOBAL",3)
+THEN
+    RESPONSE #100
+        Dialogue(Player1)
+END 
+  

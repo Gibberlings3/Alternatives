@@ -1,0 +1,12 @@
+
+// b!ar0329.baf - Killed Aran Linvail
+
+IF
+    Dead("aran02")
+    Global("DearAranJournal","AR0329",0)
+    GlobalGT("B!Alternatives","GLOBAL",5) 
+THEN
+    RESPONSE #100
+        SetGlobal("DearAranJournal","AR0329",1)
+        AddJournalEntry(@915, QUEST) 
+END 

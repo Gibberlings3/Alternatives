@@ -1,0 +1,26 @@
+
+/* b!ar0513.baf - extends ar0513.bcs - spawns Wael, the assassin in Delosar's, 1st floor */ 
+
+IF 
+    Global("B!Bloodless","GLOBAL",1) 
+    Global("B!WaelSpawn","AR0513",0) 
+THEN 
+    RESPONSE #100 
+        CreateCreature("b!wael",[1048.284],2) 
+        SetGlobal("B!WaelSpawn","AR0513",1) 
+        Continue() 
+END 
+
+IF
+    Exists("b!wael")
+    Global("B!WaelSpawn","AR0513",1)
+    OR(4)  
+        Global("B!TouristFirstClass","GLOBAL",1) 
+        GlobalGT("B!Alternatives","GLOBAL",5) 
+        GlobalGT("BodhiJob","GLOBAL",0) 
+        Global("WorkingForAran","GLOBAL",1) 
+THEN 
+    RESPONSE #100 
+        SetGlobal("B!WaelSpawn","AR0513",2) 
+        ActionOverride("b!wael",DestroySelf()) 
+END

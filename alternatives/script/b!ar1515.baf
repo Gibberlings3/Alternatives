@@ -1,0 +1,11 @@
+
+// b!ar1515.baf - Erases journal entries for getting into Spellhold
+
+IF 
+  Global("B!AltJournal","AR1515",0) 
+THEN 
+  RESPONSE #100 
+    EraseJournalEntry(@914) 
+    EraseJournalEntry(@294) 
+    SetGlobal("B!AltJournal","AR1515",1)
+END 

@@ -1,0 +1,29 @@
+
+/* b!ar1002 - extends ar1002.bcs - spawns Harbormaster Nador and Assistant Harbormaster Ballus in the Council of Six building */ 
+
+IF 
+    Global("B!NadorSpawn","AR1002",0) 
+THEN 
+    RESPONSE #100 
+        CreateCreature("b!nador",[1138.948],4) 
+        SetGlobal("B!NadorSpawn","AR1002",1) 
+        Continue() 
+END 
+
+IF 
+    Global("B!BallusSpawn","AR1002",0) 
+THEN 
+    RESPONSE #100 
+        CreateCreature("b!ballus",[1344.808],3) 
+        SetGlobal("B!BallusSpawn","AR1002",1) 
+        Continue() 
+END 
+
+IF 
+    Global("B!NadorSpawn","AR1002",1) 
+    Dead("b!nador2")  
+THEN 
+    RESPONSE #100 
+        ActionOverride("b!nador",DestroySelf()) 
+        SetGlobal("B!NadorSpawn","AR1002",2) 
+END 

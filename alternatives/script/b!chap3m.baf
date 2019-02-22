@@ -1,0 +1,18 @@
+
+// b!chap3m.baf - Chapter 3 transition, Malficus route 
+
+IF 
+    True() 
+THEN 
+    RESPONSE #100 
+        CutSceneId(Player1) 
+		FadeToColor([20.0],0)
+		Wait(1)
+		TextScreen("B!CHAP3M")
+		FadeFromColor([20.0],0)
+        EndCutSceneMode() 
+
+		SmallWait(1)
+		StartCutSceneMode()
+		StartCutScene("Movie02a")
+END 

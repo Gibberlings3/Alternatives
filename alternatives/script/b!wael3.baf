@@ -1,0 +1,31 @@
+
+// b!wael3.baf - Party is returned to its locations following assassination
+
+IF 
+    True() 
+THEN 
+    RESPONSE #100 
+        CutSceneId(Player1) 
+        FadeToColor([30.0],0)
+		Wait(2) 
+		ActionOverride("b!wael2",DestroySelf()) 
+        ActionOverride("b!vulbtr",DestroySelf()) 
+        ActionOverride("b!vulcok",DestroySelf()) 
+        ActionOverride("b!vulova",DestroySelf()) 
+        ActionOverride("b!vulg1",DestroySelf()) 
+        ActionOverride("b!vulg2",DestroySelf()) 
+        ActionOverride("b!vulg3",DestroySelf()) 
+        ActionOverride("b!vulg4",DestroySelf()) 
+        ActionOverride("b!vulg5",DestroySelf()) 
+        ActionOverride("b!vulg6",DestroySelf()) 
+        Wait(1) 
+        UndoExplore() 
+        RestorePartyLocations() 
+        MultiPlayerSync()
+        Wait(1)
+        ActionOverride("b!wael",DestroySelf())
+        FadeFromColor([30.0],0)
+        MoveViewObject(Player1,INSTANT)
+        Wait(1)
+        EndCutSceneMode()
+END		

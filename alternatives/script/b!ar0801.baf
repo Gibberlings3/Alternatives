@@ -1,0 +1,37 @@
+
+// b!ar0801.baf - extends ar0801.bcs - "good" route, crypt spawns
+
+IF
+	Global("B!Alternatives","GLOBAL",8)
+	Global("FindLassal","AR0801",0)
+	GlobalLT("Chapter","GLOBAL",%bg2_chapter_4%)
+THEN
+	RESPONSE #100
+		SetGlobal("FindLassal","AR0801",1)
+		CreateCreature("LASSAL02",[1538.1232],14) // Lassal
+		CreateCreature("BODVAM01",[549.781],14) // Durst
+		CreateCreature("BODVAM02",[931.979],10) // Gellal
+		CreateCreature("BODFGT01",[1678.1229],2) // Grimwarder
+		CreateCreature("BODFGT01",[1443.1287],10) // Grimwarder
+		CreateCreature("BODFGT02",[1623.1080],2) // Grimward Archer
+		CreateCreature("BODFGT02",[1311.1143],10) // Grimward Archer
+		CreateCreature("B!ZAHL",[1737.1485],0) // Haz-replacement Zahl
+		CreateCreature("ARNGOL01",[1671.1467],6) // Golem
+		CreateCreature("VAMFLM01",[986.583],6) // Fledgling Vampire
+		CreateCreature("GHOGR01",[1103.539],6) // Greater Ghoul
+		CreateCreature("GHOGR01",[176.855],6) // Greater Ghoul
+		CreateCreature("VAMFLM01",[280.946],6) // Fledgling Vampire
+		CreateCreature("GOLCLA01",[505.1389],6) // Clay Golem
+		CreateCreature("VAMFLF01",[1991.670],6) // Fledgling Vampire
+		CreateCreature("BODTAN",[2121.683],6) // Tanova
+END
+
+
+IF
+	Dead("b!zahl") // Zahl
+	Global("FleshAttack","AR0801",0)
+THEN
+	RESPONSE #100
+		SetGlobal("FleshAttack","AR0801",1)
+		OpenDoor("DOOR03")
+END

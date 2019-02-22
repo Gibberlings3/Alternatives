@@ -1,0 +1,42 @@
+
+// b!vul1.baf - Wael assassinates Nador 
+
+IF 
+    True() 
+THEN 
+    RESPONSE #100 
+        CutSceneId(Player1)
+	SetGlobal("B!Tourist","GLOBAL",7) 
+	TakePartyItem("b!poison") 
+	DestroyItem("b!poison")
+        MultiPlayerSync()
+        StorePartyLocations() 
+        Explore() 
+        ActionOverride(Player2,JumpToPoint([906.440])) 
+        ActionOverride(Player3,JumpToPoint([938.563])) 
+        ActionOverride(Player4,JumpToPoint([982.531])) 
+        ActionOverride(Player5,JumpToPoint([1096.426])) 
+        ActionOverride(Player6,JumpToPoint([1135.426])) 
+        MoveViewPoint([733.440],INSTANT) 
+        ActionOverride("b!vulcok",MoveToPointNoInterrupt([631.330])) 
+        Wait(3) 
+        ActionOverride("b!vulcok",MoveToPointNoInterrupt([728.440])) 
+        Wait(3) 
+        ActionOverride("b!vulcok",MoveToPointNoInterrupt([727.495])) 
+        DisplayStringHead("b!vulcok",@0) 
+        Wait(3) 
+        DisplayStringHead("b!nador2",@1) 
+        Wait(3) 
+        ActionOverride("b!vulcok",EscapeArea()) 
+        Wait(3) 
+        DisplayStringHead("b!nador2",@2 )
+        Wait(5) 
+        ActionOverride("b!nador2",Kill(Myself)) 
+        Wait(1) 
+        DisplayStringHead("b!vulova",@3) 
+        Wait(3) 
+        DisplayStringHead("b!vulg1",@4) 
+        Wait(3) 
+        RestorePartyLocations() 
+        EndCutSceneMode()  
+END 

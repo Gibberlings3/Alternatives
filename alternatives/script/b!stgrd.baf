@@ -1,0 +1,14 @@
+
+/* b!stgrd.baf - extends stguard1.bcs - destroys the door guard if tasks are taken. */ 
+/* If Alternatives is installed before Quest Pack, this will break, but it's the best I can do. */ 
+
+IF 
+    Global("B!NoSTGuard","LOCALS",0) 
+    OR(2) 
+        GlobalGT("B!Alternatives","GLOBAL",5) 
+        GlobalGT("B!Tourist","GLOBAL",7)
+THEN 
+    RESPONSE #100 
+        SetGlobal("B!NoSTGuard","LOCALS",1) 
+        DestroySelf() 
+END 

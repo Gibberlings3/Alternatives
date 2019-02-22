@@ -1,0 +1,63 @@
+
+// b!ar1000.baf - extend ar1000.bcs, sets up cutscene where PC overhears Brega and Wessalen in Gov't District
+
+// From baldur.bcs, this summons Valen and Brus
+
+/* IF
+	PartyGoldGT(14999)
+	Global("BodiAppear","GLOBAL",0)
+	GlobalGT("ShadowWork","GLOBAL",0)
+	Global("WorkingForAran","GLOBAL",0)
+	GlobalTimerExpired("ValenAppearTimer","GLOBAL")
+	AreaType(OUTDOOR)
+	OR(6)
+		AreaCheck("AR0300")
+		AreaCheck("AR0400")
+		AreaCheck("AR0500")
+		AreaCheck("AR0700")
+		AreaCheck("AR0900")
+		AreaCheck("AR1000")
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+		ClearAllActions()
+		SetGlobal("BodiAppear","GLOBAL",1)
+		SetGlobalTimer("MakeBrusWait","GLOBAL",ONE_MINUTE)
+		CreateCreatureObject("ANAST",Player1,0,0,0) // Valen
+		ActionOverride("ANAST",StartDialogueNoSet(Player1))
+END
+
+IF
+	!Exists("BRUS")
+	!Exists("BRUS3")
+	Global("SpawnBrus","GLOBAL",1)
+	Global("CHAPTER","GLOBAL",%bg2_chapter_2%)
+	!AreaCheck("AR0800")
+	!AreaCheck("AR2000")
+	CombatCounter(0)
+	GlobalTimerExpired("MakeBrusWait","GLOBAL")
+	Global("ImTooSexyForThisBrus","GLOBAL",0)
+	AreaType(OUTDOOR)
+	Global("WorkingForAran","GLOBAL",0)
+	Global("WorkingForBodhi","GLOBAL",0)
+THEN
+	RESPONSE #100
+		ClearAllActions()
+		CreateCreatureObjectOffScreen("BRUS3",Player1,0,0,0) // Brus
+		SetGlobal("SPAWNBRUS","GLOBAL",2)
+		ActionOverride("brus3",StartDialogueNoSet(Player1))
+END */
+
+IF
+    GlobalGT("SpawnBrus","GLOBAL",1)
+    Global("Chapter","GLOBAL",%bg2_chapter_2%) 
+    GlobalGT("BodiAppear","GLOBAL",0)
+    Global("B!Alternatives","GLOBAL",0)
+    InMyArea(Player1)
+THEN
+    RESPONSE #100
+        SetGlobal("B!Alternatives","GLOBAL",1)
+        ClearAllActions() 
+        StartCutSceneMode() 
+        StartCutScene("B!ALT_01")
+END

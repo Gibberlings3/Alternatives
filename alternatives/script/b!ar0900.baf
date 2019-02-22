@@ -1,0 +1,23 @@
+
+///* b!ar0900.baf - extends ar0900.bcs - spawns Leyt, the puzzle-box person in the Temple District */ 
+
+IF 
+    Global("B!LeytSpawn","AR0900",0) 
+    GlobalGT("B!Tourist","GLOBAL",1) 
+THEN 
+    RESPONSE #100 
+        CreateCreature("b!leyt",[4575.879],2) 
+        SetGlobal("B!LeytSpawn","AR0900",1) 
+        Continue() 
+END 
+
+IF 
+    GlobalGT("Chapter","GLOBAL",%bg2_chapter_5%) 
+    Global("B!LeytSpawn","AR0900",1) 
+    InMyArea("b!leyt") 
+THEN 
+    RESPONSE #100 
+        ActionOverride("b!leyt",DestroySelf()) 
+        SetGlobal("B!LeytSpawn","AR0900",2) 
+        Continue() 
+END 

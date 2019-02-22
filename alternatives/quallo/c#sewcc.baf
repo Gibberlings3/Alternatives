@@ -1,0 +1,14 @@
+IF 
+PartyHasItem("SW2H14")
+THEN
+RESPONSE #100
+EscapeArea()
+END
+
+IF 
+Global("C#Alternatives_OtherBlood","GLOBAL",1)
+HasItem("MISC5Q",Myself)
+THEN
+RESPONSE #100
+DestroyItem("MISC5Q")
+END

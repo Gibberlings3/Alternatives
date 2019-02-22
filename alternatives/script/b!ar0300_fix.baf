@@ -1,0 +1,39 @@
+
+// b!ar0300_fix.baf - extends ar0300.baf
+
+IF
+	GlobalGT("B!Alternatives","GLOBAL",5)
+	Global("B!DocksDoors","AR0300",0)
+THEN
+	RESPONSE #100
+		TriggerActivation("Tran0305",FALSE)
+		TriggerActivation("Tran0306",FALSE)
+		TriggerActivation("Tran0327",TRUE)
+		TriggerActivation("Tran0328",TRUE)
+		TriggerActivation("Tran0329",TRUE)
+		TriggerActivation("Tran0307a",FALSE)
+		TriggerActivation("Tran0307b",FALSE)
+		TriggerActivation("Info307a",TRUE)
+		TriggerActivation("Info307b",TRUE)
+		SetGlobal("B!DocksDoors","AR0300",1)
+		Continue() 
+END 
+
+
+IF
+	GlobalGT("B!Tourist","GLOBAL",7)
+	Global("B!DocksDoors","AR0300",0)
+THEN
+	RESPONSE #100
+		TriggerActivation("Tran0305",FALSE)
+		TriggerActivation("Tran0306",FALSE)
+		TriggerActivation("Tran0327",TRUE)
+		TriggerActivation("Tran0328",TRUE)
+		TriggerActivation("Tran0329",TRUE)
+		TriggerActivation("Tran0307a",FALSE)
+		TriggerActivation("Tran0307b",FALSE)
+		TriggerActivation("Info307a",TRUE)
+		TriggerActivation("Info307b",TRUE)
+		SetGlobal("B!DocksDoors","AR0300",1)
+		Continue() 
+END 

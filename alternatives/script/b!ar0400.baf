@@ -1,0 +1,26 @@
+
+///* b!ar0400.baf - extends AR0400.bcs - spawns Malficus in the Slums */ 
+
+IF 
+    GlobalGT("SPAWNBRUS","GLOBAL",1)
+    GlobalGT("BodiAppear","GLOBAL",0)
+    Global("B!MalficusSpawn","AR0400",0) 
+THEN 
+    RESPONSE #100 
+        CreateCreature("b!mal",[2761.2538],0) 
+        SetGlobal("B!MalficusSpawn","AR0400",1) 
+        Continue() 
+END 
+
+IF 
+    GlobalGT("Chapter","GLOBAL",%bg2_chapter_5%) 
+    InMyArea("b!mal") 
+    Global("B!MalficusSpawn","AR0400",1) 
+THEN 
+    RESPONSE #100 
+        ActionOverride("b!mal",DestroySelf()) 
+        SetGlobal("B!MalficusSpawn","AR0400",2) 
+        Continue() 
+END 
+
+    

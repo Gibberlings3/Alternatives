@@ -1,0 +1,67 @@
+
+// b!bregas - the duplicate Brega's override script, just in case
+
+IF
+	AttackedBy([GOODCUTOFF],DEFAULT)
+	Allegiance(Myself,NEUTRAL)
+THEN
+	RESPONSE #100
+		Shout(HELPME)
+		Enemy()
+END
+
+IF
+	HitBy([GOODCUTOFF],CRUSHING)
+THEN
+	RESPONSE #100
+		Shout(HELPME)
+		Continue()
+END
+
+IF
+	Heard([ANYONE],HELPME)
+	Allegiance(Myself,NEUTRAL)
+	!Class(Myself,INNOCENT)
+THEN
+	RESPONSE #100
+		Shout(HELP57)
+		Enemy()
+		MoveToObject(LastHeardBy(Myself))
+END
+
+IF
+	Heard([ANYONE],HELPME)
+	Allegiance(Myself,NEUTRAL)
+THEN
+	RESPONSE #100
+		Enemy()
+END
+
+IF
+	Heard([ANYONE],HELP57)
+	Allegiance(Myself,NEUTRAL)
+THEN
+	RESPONSE #100
+		Enemy()
+END
+
+IF
+	Heard([ANYONE],HELPME)
+	!Class(Myself,INNOCENT)
+	!See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		MoveToObject(LastHeardBy(Myself))
+		Continue()
+END
+
+IF
+	Heard([ANYONE],HELP57)
+	!Class(Myself,INNOCENT)
+	!See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		MoveToObject(LastHeardBy(Myself))
+		Continue()
+END
+

@@ -1,0 +1,16 @@
+
+/* b!vhels.baf - Vhellon's DSH */
+
+IF
+See([PC])
+THEN
+  RESPONSE #50
+  DisplayStringHead(Myself,@0)
+  Wait(20)
+  RESPONSE #50
+  DisplayStringHead(Myself,@1)
+  Wait(20)
+  RESPONSE #50
+  DisplayStringHead(Myself,@2)
+  Wait(20)
+END

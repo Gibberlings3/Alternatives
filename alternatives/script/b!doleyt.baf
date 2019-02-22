@@ -1,0 +1,15 @@
+
+/* b!doleyt.baf - Leyt's cutscene nookie */ 
+
+IF 
+    True() 
+THEN 
+    RESPONSE #100 
+        CutSceneId(Player1) 
+        Wait(1)
+        FadeToColor([20.0],0)
+        Wait(2)
+        FadeFromColor([20.0],0)
+        Wait(1)
+        ActionOverride("B!LEYT",StartDialogueNoSet(Player1))
+END

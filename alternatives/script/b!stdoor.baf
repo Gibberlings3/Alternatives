@@ -1,0 +1,12 @@
+/* b!stdoor.baf - override script from door guard */
+
+IF
+	OR(2)
+		Global("B!Alternatives","GLOBAL",6)
+		Global("B!Tourist","GLOBAL",8)
+
+	See([PC])
+THEN
+	RESPONSE #100
+		StartDialogueNoSet([PC])
+END

@@ -1,0 +1,20 @@
+
+// b!bdfgt1.baf - extend bodfgt01.bcs - attacking Bodhi, Aster route
+
+IF
+	See("b!zahl")
+	!Dead("b!zahl") // Zahl
+	Range("b!zahl",4)
+THEN
+	RESPONSE #100
+		SetGlobal("GrimwarderAttack","AR0801",1)
+END
+
+IF
+	See("b!zahl")
+	!Dead("b!zahl") // Zahl
+	!Range("b!zahl",4)
+THEN
+	RESPONSE #100
+		MoveToObject("b!zahl")
+END

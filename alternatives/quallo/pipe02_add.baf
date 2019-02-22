@@ -1,0 +1,39 @@
+/* extension to the sewer pipe script - replacement of the carrion crawler's blood */
+
+
+IF
+	Clicked([ANYONE])
+	Range(LastTrigger,12)
+	OR(2)
+	PartyHasItem("MISC5Q") // Blood of Quallo's Friend
+	PartyHasItem("C#ALTBLO")
+	Global("PipeOrder","AR0404",2)
+THEN
+	RESPONSE #100
+		DisplayString(Myself,27111) // There are words scratched into the rust of the pipe. The handwriting looks like that of a child:  No sacrifice will do But the blood of a friend, true. But guilt will leave its stain If you wish to have the blade  This verse sounds like the ravings of a madman.
+		DisplayString(Myself,~As you pour the blood of a friend into the pipe, the water turns crimson.~) 
+		CreateVisualEffectObject("ICMAGICH",Myself)
+		SetGlobal("PipeOrder","AR0404",3)
+END
+
+IF
+	Clicked([ANYONE])
+	Range(LastTrigger,12)
+	OR(2)
+	PartyHasItem("MISC5Q") // Blood of Quallo's Friend
+	PartyHasItem("C#ALTBLO")
+THEN
+	RESPONSE #100
+		DisplayString(Myself,27081) // You hear the rush of wind and your hair stands on end. It seems that you've placed the items in the wrong order.
+		ReallyForceSpell(LastTrigger,MEPHIT_LIGHTNING_BOLT)
+		SetGlobal("PipeOrder","AR0404",0)
+END
+
+IF
+	Clicked([ANYONE])
+	Range(LastTrigger,12)
+	!PartyHasItem("C#ALTBLO")
+THEN
+	RESPONSE #100
+		DisplayString(Myself,27111) // There are words scratched into the rust of the pipe. The handwriting looks like that of a child:  No sacrifice will do But the blood of a friend, true. But guilt will leave its stain If you wish to have the blade  This verse sounds like the ravings of a madman.
+END

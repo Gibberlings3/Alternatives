@@ -1,0 +1,16 @@
+IF
+	OR(2)
+		Global("B!Alternatives","GLOBAL",6)
+		Global("B!Tourist","GLOBAL",8)
+	Global("B!Alt_ThiefSpawn","AR0328",0)
+THEN
+	RESPONSE #100
+		SetGlobal("B!Alt_ThiefSpawn","AR0328",1)
+		CreateCreature("FLYFGT01",[570.653],0)  // Shadow Thief
+		CreateCreature("FLYFGT02",[235.474],0)  // Shadow Thief
+		CreateCreature("FLYFGT02",[659.335],0)  // Shadow Thief
+		CreateCreature("FLYFGT02",[436.323],0)  // Shadow Thief
+		CreateCreature("FLYFGT03",[542.717],6)  // Shadow Thief
+		CreateCreature("FLYFGT03",[627.286],0)  // Shadow Thief
+		CreateCreature("FLYFGT04",[519.285],0)  // Shadow Thief
+END

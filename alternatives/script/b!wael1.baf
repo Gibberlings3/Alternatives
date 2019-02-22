@@ -1,0 +1,35 @@
+
+// b!wael1.baf - Setup for Wael's assassination of Nador  
+
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+		StorePartyLocations()
+		Wait(1)
+		MultiPlayerSync()
+		FadeToColor([30.0],0)
+		Wait(2)
+		LeaveAreaLUAPanic("AR1007","",[806.564],8)
+		LeaveAreaLUA("AR1007","",[806.564],8)
+		CreateCreature("b!wael2",[982.531],8)
+        CreateCreature("b!vulbtr",[987.381],0) 
+        CreateCreature("b!vulcok",[682.205],0)
+        CreateCreature("b!nador2",[670.502],2) 
+        CreateCreature("b!vulova",[669.577],8) 
+        CreateCreature("b!vulg1",[556.563],12) 
+        CreateCreature("b!vulg2",[597.605],10) 
+        CreateCreature("b!vulg3",[365.697],0) 
+        CreateCreature("b!vulg4",[403.734],7) 
+        CreateCreature("b!vulg5",[432.439],1) 
+        CreateCreature("b!vulg6",[479.697],10) 
+        Wait(1) 
+        Explore() 		
+		MultiPlayerSync()
+		MoveViewPoint([734.457],INSTANT)
+		Wait(1)
+		FadeFromColor([30.0],0)
+		Wait(1)
+		StartCutScene("b!wael2")
+END 

@@ -1,0 +1,87 @@
+
+// b!ar1007 - Vulova estate spawns 
+
+IF 
+    Global("B!Tourist","GLOBAL",6) 
+    Global("B!VulovaSpawns","AR1007",0) 
+THEN 
+    RESPONSE #100 
+        CreateCreature("b!vulbtr",[987.381],0) 
+        CreateCreature("b!vulcok",[682.205],0)
+        CreateCreature("b!nador2",[670.502],2) 
+        CreateCreature("b!vulova",[669.577],8) 
+        CreateCreature("b!vulg1",[556.563],12) 
+        CreateCreature("b!vulg2",[597.605],10) 
+        CreateCreature("b!vulg3",[365.697],0) 
+        CreateCreature("b!vulg4",[403.734],7) 
+        CreateCreature("b!vulg5",[432.439],1) 
+        CreateCreature("b!vulg6",[479.697],10) 
+        SetGlobal("B!VulovaSpawns","AR1007",1) 
+        Continue() 
+END 
+
+IF 
+    GlobalGT("B!Tourist","GLOBAL",7) 
+    Global("B!VulovaSpawns","AR1007",1) 
+THEN 
+    RESPONSE #100 
+        ActionOverride("b!vulbtr",DestroySelf()) 
+        ActionOverride("b!vulcok",DestroySelf()) 
+        ActionOverride("b!vulova",DestroySelf()) 
+        ActionOverride("b!vulg1",DestroySelf()) 
+        ActionOverride("b!vulg2",DestroySelf()) 
+        ActionOverride("b!vulg3",DestroySelf()) 
+        ActionOverride("b!vulg4",DestroySelf()) 
+        ActionOverride("b!vulg5",DestroySelf()) 
+        ActionOverride("b!vulg6",DestroySelf()) 
+        SetGlobal("B!VulovaSpawns","AR1007",2) 
+        Continue() 
+END 
+
+IF 
+    GlobalGT("B!Tourist","GLOBAL",7) 
+    Global("B!VulovaSpawns","AR1007",2) 
+    !Dead("b!nador2") 
+THEN 
+    RESPONSE #100 
+        ActionOverride("b!nador2",DestroySelf()) 
+        SetGlobal("B!VulovaSpawns","AR1007",3) 
+        Continue() 
+END 
+
+IF 
+    Global("B!VulovaSpawns","AR1007",1)
+    OR(4)  
+        Global("B!TouristFirstClass","GLOBAL",1) 
+        GlobalGT("B!Alternatives","GLOBAL",5) 
+        GlobalGT("BodhiJob","GLOBAL",0) 
+        Global("WorkingForAran","GLOBAL",1) 
+THEN 
+    RESPONSE #100 
+        ActionOverride("b!vulbtr",DestroySelf()) 
+        ActionOverride("b!vulcok",DestroySelf()) 
+        ActionOverride("b!vulova",DestroySelf()) 
+        ActionOverride("b!vulg1",DestroySelf()) 
+        ActionOverride("b!vulg2",DestroySelf()) 
+        ActionOverride("b!vulg3",DestroySelf()) 
+        ActionOverride("b!vulg4",DestroySelf()) 
+        ActionOverride("b!vulg5",DestroySelf()) 
+        ActionOverride("b!vulg6",DestroySelf()) 
+        SetGlobal("B!VulovaSpawns","AR1007",2) 
+        Continue() 
+END 
+
+IF 
+    Global("B!VulovaSpawns","AR1007",2) 
+    !Dead("b!nador2")
+OR(4)  
+        Global("B!TouristFirstClass","GLOBAL",1) 
+        GlobalGT("B!Alternatives","GLOBAL",5) 
+        GlobalGT("BodhiJob","GLOBAL",0) 
+        Global("WorkingForAran","GLOBAL",1) 
+THEN 
+    RESPONSE #100 
+        ActionOverride("b!nador2",DestroySelf()) 
+        SetGlobal("B!VulovaSpawns","AR1007",3) 
+        Continue() 
+END 

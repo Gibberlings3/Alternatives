@@ -1,0 +1,23 @@
+
+// b!ar0300 - extend ar0300.bcs - spawns the guide who will let the PC into the Shadow Thieves' headquarters 
+
+IF
+	Global("B!AltGuardSpawn","AR0300",0)
+	Global("B!Alternatives","GLOBAL",6)
+THEN
+	RESPONSE #100
+        CreateCreature("b!stdoor",[1550.842],13)
+        SetGlobal("B!AltGuardSpawn","AR0300",1) 
+        Continue() 
+END
+
+
+IF
+	Global("B!AltGuardSpawn","AR0300",0)
+	Global("B!Tourist","GLOBAL",8)
+THEN
+	RESPONSE #100
+        CreateCreature("b!stdoor",[1550.842],13)
+        SetGlobal("B!AltGuardSpawn","AR0300",1) 
+        Continue() 
+END

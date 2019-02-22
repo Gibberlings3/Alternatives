@@ -1,0 +1,32 @@
+
+// b!alt_01.baf - cutscene that sets up PC to overhear Brega and Wessalen talking
+
+IF
+    True()
+  THEN
+    RESPONSE #100
+      CutSceneId(Player1)
+      Wait(1)
+      FadeToColor([20.0],0)
+      Wait(2)
+      StorePartyLocations() 
+      JumpToPoint([4071.3195])
+      MoveViewPoint([3910.3221],INSTANT)
+      ActionOverride(Player2,JumpToPoint([4032.3156]))
+      ActionOverride(Player3,JumpToPoint([4123.3166]))
+      ActionOverride(Player4,JumpToPoint([4082.3129]))
+      ActionOverride(Player5,JumpToPoint([4160.3146]))
+      ActionOverride(Player6,JumpToPoint([4123.3107]))
+      Face(3)
+      ActionOverride(Player2,Face(3))
+      ActionOverride(Player3,Face(3))
+      ActionOverride(Player4,Face(3))
+      ActionOverride(Player5,Face(3))
+      ActionOverride(Player6,Face(3))
+      CreateCreature("b!brega",[3704.3189],0)
+      CreateCreature("b!prelat",[3761.3205],0)
+      Wait(2)
+      FadeFromColor([20.0],0)
+      Wait(2)
+      ActionOverride("b!brega",StartDialogNoSet("b!prelat"))
+  END

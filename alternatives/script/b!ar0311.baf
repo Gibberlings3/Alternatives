@@ -1,0 +1,16 @@
+
+// b!ar0311.baf - makes Gaelan go hostile
+
+
+IF
+  Global("GaelanSpawn2","GLOBAL",0)
+  !Dead("gaelan2")  // ~Gaelan Bayle~ 
+  OR(2) 
+      GlobalGT("B!Alternatives","GLOBAL",5) 
+      GlobalGT("B!Tourist","GLOBAL",7) 
+THEN
+  RESPONSE #100
+    ActionOverride("Gaelan",DestroySelf())
+    CreateCreature("GAELAN2",[451.267],0)  // ~Gaelan Bayle~
+    SetGlobal("GaelanSpawn2","GLOBAL",1)
+END

@@ -1,0 +1,13 @@
+
+/* b!balus.baf - override script for Assistant Harbormaster Ballas */ 
+
+IF
+    See(NearestEnemyOf(Myself))
+    HPPercentLT(Myself,50)
+THEN
+    RESPONSE #100
+        DisplayStringHead(Myself,@0)  
+        Wait(5)
+        EscapeArea() 
+END 
+ 

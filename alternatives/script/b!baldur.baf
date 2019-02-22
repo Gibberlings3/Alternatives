@@ -1,0 +1,14 @@
+
+// b!baldur.baf - extends baldur.bcs and spawns a messenger to summon the PC to meet the Order of the Aster delegate at the Five Flagons
+
+IF 
+    RealGlobalTimerExpired("B!AltTime","GLOBAL")
+    Global("B!Alternatives","GLOBAL",2) 
+    AreaType(OUTDOOR)
+    AreaType(CITY)
+THEN
+    RESPONSE #100
+        CreateCreatureObjectOffset("b!altmsg",Player1,[50.50])
+        SetGlobal("B!Alternatives","GLOBAL",3)
+END
+    

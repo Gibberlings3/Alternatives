@@ -1,0 +1,49 @@
+
+// b!ar0511 - extend script ar0511.bcs, Five Flagons 2nd floor, spawns "Aster", the Order of the Aster contact
+
+IF 
+    Global("B!Alternatives","GLOBAL",4) 
+    Global("B!AsterSpawn","AR0511",0) 
+THEN 
+    RESPONSE #100 
+        CreateCreature("b!aster",[1202.732],3)
+        SetGlobal("B!AsterSpawn","AR0511",1) 
+        Continue() 
+END 
+
+IF 
+    InMyArea("b!aster")
+    GlobalGT("AsylumPlot","GLOBAL",1)
+    Global("B!AsterSpawn","AR0511",1)
+THEN 
+    RESPONSE #100 
+        ActionOverride("b!aster",DestroySelf())
+        SetGlobal("B!AsterSpawn","AR0511",2) 
+        Continue() 
+END 
+
+IF 
+    Global("B!VhellonSpawn","AR0511",0) 
+THEN 
+    RESPONSE #100 
+        CreateCreature("b!vhelon",[777.396],4) 
+        SetGlobal("B!VhellonSpawn","AR0511",1) 
+        Continue() 
+END 
+
+
+IF
+    Exists("b!vhelon")
+    Global("B!VhellonSpawn","AR0511",1)
+    OR(4)  
+        Global("B!TouristFirstClass","GLOBAL",1) 
+        GlobalGT("B!Alternatives","GLOBAL",5) 
+        GlobalGT("BodhiJob","GLOBAL",0) 
+        Global("WorkingForAran","GLOBAL",1) 
+THEN 
+    RESPONSE #100 
+        SetGlobal("B!VhellonSpawn","AR0511",2) 
+        ActionOverride("b!vhelon",DestroySelf()) 
+END
+
+

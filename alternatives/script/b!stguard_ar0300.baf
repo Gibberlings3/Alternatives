@@ -1,0 +1,15 @@
+
+/* b!stgrd.baf - extends ar0300.bcs - destroys the Quest Pack door guard if tasks are taken. */ 
+/* If Alternatives is installed before Quest Pack, this will break, but it's the best I can do. Probably should put it in Crossmod Banter Pack eventually. */ 
+
+IF 
+    Global("B!NoSTGuard","AR0300",0) 
+    OR(2) 
+        GlobalGT("B!Alternatives","GLOBAL",5) 
+        GlobalGT("B!Alternatives","GLOBAL",7) 
+THEN 
+    RESPONSE #100 
+        ActionOverride("stguard1",DestroySelf()) 
+        SetGlobal("B!NoSTGuard","AR0300",1) 
+        Continue() 
+END 

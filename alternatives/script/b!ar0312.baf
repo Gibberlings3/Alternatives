@@ -1,0 +1,14 @@
+
+// b!ar0312.baf - Turns Arledrian hostile 
+
+IF
+  Global("ArledHostile","AR0312",0)
+  OR(2) 
+      GlobalGT("B!Alternatives","GLOBAL",5) 
+      GlobalGT("B!Tourist","GLOBAL",7) 
+THEN
+  RESPONSE #100
+    SetGlobal("ArledHostile","AR0312",1)
+    ActionOverride("Arledrian",Enemy())
+END
+

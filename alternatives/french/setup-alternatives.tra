@@ -1,0 +1,127 @@
+@0    = ~4~
+@1    = ~Alternatives~
+@2    = ~Inspecteur chef Brega~
+@3    = ~Prélat Wessalen~
+@4    = ~Alten~
+@5    = ~Aster~
+@6    = ~Harold~
+@7    = ~Zahl~
+@8    = ~Malficus~
+@9    = ~Boîte à documents~
+@10   = ~Cette boîte ornée en métal contient les documents qu’a requis Malficus Rodendril. La serrure semble être constituée d’une sorte de puzzle.~
+@11   = ~Venin de tête d’aspic de mort.~
+@12   = ~Le poison contenu dans cette fiole est réputé pour être l’un des plus mortels de Féérune. Il serait préférable de ne pas le stocker auprès des potions de soins, pour éviter toute confusion.~
+@13   = ~Documents cryptés~
+@14   = ~Ce sont les documents que Malficus Rodendril a requis. Ils sont écrits en runes Dethek mais semblent cryptés de manière complexe.~
+@15   = ~Vhellon~
+@16   = ~Maître du Port Nador~
+@17   = ~Assistant du Maître du Port Ballas~
+@18   = ~Leyt~
+@19   = ~Wael~
+@20   = ~Une fois le puzzle résolu, il n’y plus moyen d’interagir davantage avec cet objet.~
+@21   = ~Seigneur Vulova~
+@22   = ~Invité~
+@23   = ~Cuisinier~
+@24   = ~Majordome~
+@25   = ~Alternatives necessite le Quest Pack’s Extended Shadow Thief Content~
+@26   = ~Le Sang d’un Ami Véritable~
+@27   = ~Une fiole de sang collecté auprès de Quallo, si c’est bien le nom de ce vieil homme. Vous ne pouvez pas vous empêcher de vous sentir coupable d’avoir eu à le blesser pour l’obtenir.~
+@999991 = ~Vous ne tardez pas à hisser la voile, avec le flamboyant Saemon Havarian à la barre. Le périple se déroule sans événements notables, et si d’autres navires suivent la même route, ils doivent rester à bonne distance. Vous avancez bien et, bientôt, on aperçoit une île de bonne taille à l’horizon. On aurait pu la considérer comme un endroit agréable, mais une ombre sinistre s’étend tout au long. L’asile, Spellhold, surplombe une falaise.~ [b!altch4]
+@999992 = ~Vous ne tardez pas à hisser la voile, avec le flamboyant Saemon Havarian à la barre. Le périple se déroule sans événements notables, et si d’autres navires suivent la même route, ils doivent rester à bonne distance. Vous avancez bien et, bientôt, on aperçoit une île de bonne taille à l’horizon. On aurait pu la considérer comme un endroit agréable, mais une ombre sinistre s’étend tout au long. L’asile, Spellhold, surplombe une falaise.~ [b!malch4]
+@999993 = ~Les alliés coûtent cher dans la Cité de la Monnaie, mais vous êtes certain d’avoir fait un investissement sage. Vous devez faire confiance à vos instincts, et vos instincts vous disent que le moindre de deux maux reste inacceptable. Dame Aster promet qu’elle peut vous aider à sauver Imoen et trouver Irenicus sans compromettre votre éthique, et c’est tout ce dont vous avez besoin pour vous convaincre que vous avez choisi la bonne voie.~ ~Les alliés coûtent cher dans la Cité de la Monnaie, mais vous êtes certaine d’avoir fait un investissement sage. Vous devez faire confiance à vos instincts, et vos instincts vous disent que le moindre de deux maux reste inacceptable. Dame Aster promet qu’elle peut vous aider à sauver Imoen et trouver Irenicus sans compromettre votre éthique, et c’est tout ce dont vous avez besoin pour vous convaincre que vous avez choisi la bonne voie.~ [b!chap3a]
+@999994 = ~Les alliés coûtent cher dans la Cite de la Monnaie, mais vous avez investi prudemment pour servir au mieux vos intérêts. Il y a peu à gagner à tenter de réaliser une mission de sauvetage potentiellement futile, et votre soif de vengeance envers Irenicus n’est pas motivation suffisante pour le pourchasser. A la place, vous allez abandonner vos soucis derrière vous et naviguer vers des rivages lointains. Peut-être que là-bas, dans un endroit où les dieux de Féérune sont inconnus, vous échapperez enfin au poids de votre héritage.~ [b!chap3m]
+
+
+// WeiDU prompts
+@-1000= "Le mod %TP2_FILE_NAME% contient"
+@-1001= "composants optionnels distincts.
+Pour gagner du temps, vous pouvez choisir ce que vous souhaitez faire d'eux
+au niveau general plutot que de repondre aux questions pour chacun.
+"
+@-1002= "Que faut-il faire de tous les composants qui NE sont PAS ENCORE installes ?
+Les [I]nstaller, les [S]auter, dem[A]nder pour chacun ? "
+@-1003= "Que faut-il faire de tous les composants qui sont DEJA installes ?
+Les [R]einstaller, les s[U]pprimer, les [S]auter, dem[A]nder pour chacun ? "
+
+@-1004= "S'IL VOUS PLAIT, envoyez par e-mail le fichier"
+@-1005= "a"
+
+@-1006= "Installer le composant ["
+@-1007= "] ?
+[R]einstaller, co[N]server, s[U]pprimer ou [Q]uitter ? "
+@-1008= "] ?
+[I]nstaller, [N]e pas installer ou [Q]uitter ? "
+
+@-1009= "Entrez une partie du nom du module : "
+
+@-1010= "Reinstallation du composant ["
+@-1011= "] "
+@-1012= "Reinstallation dans la langue"
+
+@-1013= "Suppression de l'ancienne installation de ["
+@-1014= "] au prealable..."
+@-1015= "SUPPRESSION REUSSIE DE L'ANCIEN"
+
+@-1016= "Installation en cours"
+@-1017= "ERREUR pendant l'installation de ["
+@-1018= "], retour a l'etat anterieur"
+@-1019= "INSTALLATION REUSSIE"
+@-1020= "Saute"
+@-1021= "Suppression de ["
+@-1022= "] (composant #"
+@-1023= ")"
+@-1024= "SUPPRESSION REUSSIE DE ["
+
+@-1025= "] ?
+[R]einstaller, co[N]server, s[U]pprimer, [Q]uitter ou choisir un parmi :"
+@-1026= "] ?
+[N]e pas installer, [Q]uitter ou choisir un parmi :"
+@-1027= " (installe actuellement)"
+
+@-1028= "Souhaitez-vous afficher les composants de ["
+@-1029= "] ?
+[Y]Oui, [N]on ? "
+
+@-1030= "] ?
+choisir un parmi :"
+@-1031= "] ?
+[R]einstaller, co[N]server, [Q]uitter ou choisir un parmi :"
+@-1032= "INSTALLATION ECHOUEE A CAUSE D'ERREURS"
+@-1033= "INSTALLATION AVEC DES ALERTES"
+@-1034= "Souhaitez-vous afficher les instructions (ReadMe) ? [Y]Oui [N]on"
+@-1035= "Dans la langue"
+
+@-1036= "Saute le GROUPE ["
+@-1037= "] pour cause d'absence des pre-requis."
+
+@-1038= "dem[A]nder pour chaque composant, tout [S]auter, ou choisir une selection pre-definie :"
+@-1039= "dem[A]nder pour chaque composant, [R]einstaller la configuration courante, tout s[U]pprimer, tout [S]auter, ou choisir une selection pre-definie :"
+
+@-1040= "
+Veuillez choisir la langue dans laquelle vous souhaitez jouer au jeu.
+Si par la suite vous desirez jouer au jeu dans une langue differente, il vous
+faudra editer le fichier weidu.conf et reinstaller vos mods.
+"
+@-1041= "Tcheque"
+@-1042= "Allemand"
+@-1043= "Anglais"
+@-1044= "Espagnol"
+@-1045= "Francais"
+@-1046= "Italien"
+@-1047= "Polonais"
+@-1048= "Portugais"
+@-1049= "Turc"
+@-1050= "Japonais"
+@-1051= "Coreen"
+@-1052= "Chinois simplifie"
+@-1053= "Russe"
+@-1054= "Ukrainien"
+
+@-1060= "
+Ce jeu est disponible en plusieurs langues mais WeiDU ne sait pas laquelle a ete choisie quand ce mod a ete installe.
+
+Veuillez indiquer quelle langue du jeu a ete utilisee quand vous avez installe ce mod. Votre choix servira jusqu'a ce que WeiDU s'arrete mais ne sera pas memorise.
+"
+@-1061= "
+Utilisation de"
+@-1062= " et "
