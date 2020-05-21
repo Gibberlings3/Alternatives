@@ -999,3 +999,31 @@ Aran Linvail, le Maître des Voleurs de l’Ombre d’Athkatla, est mort. Je dois à p
 @918  = ~Avant que je ne m'engage à vous donner plus d'informations, vous devez me promettre de garder le secret.~
 @919  = ~Très bien. Réglez-moi les 15 000 pièces d'or pour sceller notre accord.~
 @920  = ~Si vous acceptez de vaincre les Voleurs de l'Ombre, vous trouverez que votre deuxième mission sera accomplie au service d'un bien encore plus grand.~
+
+/* new for v14 */
+/* @133 shortened. */
+@923  = ~Take all the time you need.~
+/* @924 is @240 without Imoen */
+@924  = ~Vampires in the Catacombs.
+
+I have defeated the vampires, and have faced Bodhi. She claimed to know something of Irenicus and seemed to be judging me in some manner before she retreated as a vampire bat. All that remains now is to return to "Aster" and tell her that the guild is gone, even if their leader remains unkilled. I might have some questions for her as well.
+
+One more troubling thing... Bodhi knew. She knew I am a child of Bhaal.~
+/* @925 is @258 without Imoen */
+@925  = ~Aster's tasks.
+
+I have completed the tasks Aster set out for me, and at last, she has agreed to allow me to depart for Spellhold, where Irenicus awaits. Whatever happens next, I am sure my biggest challenge yet awaits me on this isle.~
+/* @926 is @292 without Imoen */
+@926  = ~Chapter 4
+
+I have completed the tasks that Aster set out for me, including destroying both the Shadow Thieves and the vampires, though Bodhi herself escaped. Before she fled, she enlightened me about several things.
+
+The Shadow Thieves were the ones who attacked Irenicus in the dungeon that I awoke in.  They had heard about my kidnapping, but not thought much of it... but then Bodhi's guild appeared and many of the Shadow Thieves began to disappear.  They managed to track down Irenicus' dungeon and linked it to Bodhi... and I was witness to their subsequent disastrous assault.
+
+Aster told me that Irenicus was taken to an island asylum for mages called Spellhold.  The gold I supplied was used to book passage to the isle, and it is there that I will find the answers I seek.  Aster warns me, though, that the asylum is a veritable fortress meant to contain insane wizards and other 'deviants'... and even gaining entry will be a feat unto itself.  Regardless, passage with a privateer named Saemon Havarian has been booked and I am on my way...~
+/* @927 is @906 without Imoen */
+@927  = ~Chapter 4
+
+I have completed the tasks that Malficus set out for me only to find myself at the doorstep of Spellhold. What's worse, it looks like Malficus was following the orders of Bodhi, a powerful vampire.
+
+Like it or not, I'm here now, and the only way to get back is to go forward. From what I understand, Irenicus is here, at an island asylum for mages called Spellhold.  The gold I supplied was used to book passage to the isle, not to Maztica, as I had originally been led to believe, and it is there that I will find the answers I seek.  I have been warned, though, that the asylum is a veritable fortress meant to contain insane wizards and other 'deviants'... and even gaining entry will be a feat unto itself.~

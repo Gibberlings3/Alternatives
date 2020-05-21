@@ -176,7 +176,8 @@ SAY @49 /* ~We meet again, it seems. Are you satisfied now? Will you agree to th
 + ~Global("B!Aster_WhatWasTold","LOCALS",3) PartyGoldGT(14999)~ + @123 /* ~Very well, here's the gold.~ */ DO ~
 //SetGlobal("Chapter","GLOBAL",%bg2_chapter_3%) 
 SetGlobal("B!Alternatives","GLOBAL",6) SetGlobal("VampShadWar","GLOBAL",6) TakePartyGold(15000) DestroyGold(15000)~ + aster31
-++ @110 /* ~I need more time to think.~ */ + aster24 
++ ~Global("C#IM_ImoenStays","GLOBAL",0)~ + @110 /* ~I need more time to think.~ */ + aster24 
++ ~!Global("C#IM_ImoenStays","GLOBAL",0)~ + @110 /* ~I need more time to think.~ */ + aster24_I4E
 ++ @53 /* ~I'm no longer interested.~ */ + aster19
 END 
 
@@ -200,7 +201,8 @@ SAY @59 /* ~For 15,000 gold pieces, my associates will provide you with transpor
 + ~Global("B!Aster_WhatWasTold","LOCALS",3) PartyGoldGT(14999)~ + @123 /* ~Very well, here's the gold.~ */ DO ~
 //SetGlobal("Chapter","GLOBAL",%bg2_chapter_3%) 
 SetGlobal("B!Alternatives","GLOBAL",6) SetGlobal("VampShadWar","GLOBAL",6) TakePartyGold(15000) DestroyGold(15000)~ + aster31
-++ @110 /* ~I need more time to think.~ */ + aster24 
++ ~Global("C#IM_ImoenStays","GLOBAL",0)~ + @110 /* ~I need more time to think.~ */ + aster24 
++ ~!Global("C#IM_ImoenStays","GLOBAL",0)~ + @110 /* ~I need more time to think.~ */ + aster24_I4E 
 ++ @53 /* ~I'm no longer interested.~ */ + aster19
 END 
 
@@ -331,7 +333,8 @@ END
 IF ~~ aster18 
 SAY @108 /* ~I am a servant of the Morninglord. I will not ask you to do anything malevolent.~ */
 ++ @109 /* ~I'm satisfied. I agree to your terms.~ */ DO ~SetGlobal("B!Aster_WhatWasTold","LOCALS",1)~ + aster20 
-++ @110 /* ~I need more time to think.~ */ + aster24 
++ ~Global("C#IM_ImoenStays","GLOBAL",0)~ + @110 /* ~I need more time to think.~ */ + aster24 
++ ~!Global("C#IM_ImoenStays","GLOBAL",0)~ + @110 /* ~I need more time to think.~ */ + aster24_I4E 
 ++ @186 /* ~Why the subterfuge?~ */ + aster21 
 ++ @111 /* ~No, I'd still prefer to deal with another.~ */ + aster19 
 END 
@@ -344,14 +347,16 @@ END
 IF ~~ aster20 
 SAY @112  /* ~Splendid. Are you ready to hear about your first task?~ [b!ast_04] */
 ++ @113 /* ~As ready as I'll ever be.~ */ DO ~SetGlobal("B!Aster_WhatWasTold","LOCALS",2)~ + aster23c 
-++ @110 /* ~I need more time to think.~ */+ aster24 
++ ~Global("C#IM_ImoenStays","GLOBAL",0)~ + @110 /* ~I need more time to think.~ */ + aster24 
++ ~!Global("C#IM_ImoenStays","GLOBAL",0)~ + @110 /* ~I need more time to think.~ */ + aster24_I4E
 ++ @114 /* ~I'm a bit rushed at the moment. Can I come back later?~ */ + aster25 
 END 
 
 IF ~~ aster21 
 SAY @115 /* ~Some doors only open one way. If you travel through them, you may not travel back.~ */
 ++ @109 /* ~I'm satisfied. I agree to your terms.~ */ DO ~SetGlobal("B!Aster_WhatWasTold","LOCALS",1)~ + aster20 
-++ @110 /* ~I need more time to think.~ */+ aster24 
++ ~Global("C#IM_ImoenStays","GLOBAL",0)~ + @110 /* ~I need more time to think.~ */ + aster24 
++ ~!Global("C#IM_ImoenStays","GLOBAL",0)~ + @110 /* ~I need more time to think.~ */ + aster24_I4E 
 ++ @367 /* ~No. I won't listen to another word.~ */ + aster19 
 ++ @111 /* ~No, I'd still prefer to deal with another.~ */ + aster19 
 END 
@@ -388,7 +393,8 @@ SAY @919 /* ~Very well. Pay the 15,000 gold coins to seal our agreement.~ */
 + ~!PartyGoldLT(15000)~ + @123 /* ~Very well, here's the gold.~ */ DO ~
 //SetGlobal("Chapter","GLOBAL",%bg2_chapter_3%) 
 SetGlobal("B!Alternatives","GLOBAL",6) SetGlobal("VampShadWar","GLOBAL",6) TakePartyGold(15000) DestroyGold(15000)~ + aster31
-++ @110 /* ~I need more time to think.~ */ DO ~SetGlobal("B!Aster_WhatWasTold","LOCALS",3)~ + aster24 
++ ~Global("C#IM_ImoenStays","GLOBAL",0)~ + @110 /* ~I need more time to think.~ */ DO ~SetGlobal("B!Aster_WhatWasTold","LOCALS",3)~ + aster24 
++ ~!Global("C#IM_ImoenStays","GLOBAL",0)~ + @110 /* ~I need more time to think.~ */ DO ~SetGlobal("B!Aster_WhatWasTold","LOCALS",3)~ + aster24_I4E
 ++ @132 /* ~I won't do it.~ */ + aster19 
 END
 
@@ -400,6 +406,11 @@ END
 
 IF ~~ aster24 
 SAY @133 /* ~Take all the time you need... if you think your friend Imoen can survive the delay.~ */
+IF ~~ THEN EXIT 
+END 
+
+IF ~~ aster24_I4E
+SAY @923 /* ~Take all the time you need.~ */
 IF ~~ THEN EXIT 
 END 
 
@@ -842,26 +853,38 @@ APPEND BODHI2
 
 IF ~~ THEN BEGIN be1
   SAY #39746 /* ~Oh yes, yes I will.  I see no reason to finish this here.  You can still be useful to Irenicus where he is.  Fight on; I have seen what I came to see.~ */
-  IF ~~ THEN DO ~CreateVisualEffectObject("SPFLESHS",Myself)
+  IF ~Global("C#IM_ImoenStays","GLOBAL",0)~ THEN DO ~CreateVisualEffectObject("SPFLESHS",Myself)
 ReallyForceSpellDead(Myself,VAMPIRE_BAT_FORM_CHANGE)
 EscapeArea()
 ~ UNSOLVED_JOURNAL @240 EXIT
+  IF ~!Global("C#IM_ImoenStays","GLOBAL",0)~ THEN DO ~CreateVisualEffectObject("SPFLESHS",Myself)
+ReallyForceSpellDead(Myself,VAMPIRE_BAT_FORM_CHANGE)
+EscapeArea()
+~ UNSOLVED_JOURNAL @924 EXIT
 END
 
 IF ~~ THEN BEGIN be2 
   SAY #39747 /* ~Perhaps, but games can be deadly serious, especially when I keep the rules to myself. Fight on, and seek your lost Imoen; I have seen what I came to see.~ */
-  IF ~~ THEN DO ~CreateVisualEffectObject("SPFLESHS",Myself)
+  IF ~Global("C#IM_ImoenStays","GLOBAL",0)~ THEN DO ~CreateVisualEffectObject("SPFLESHS",Myself)
 ReallyForceSpellDead(Myself,VAMPIRE_BAT_FORM_CHANGE)
 EscapeArea()
 ~ UNSOLVED_JOURNAL @240 EXIT
+  IF ~!Global("C#IM_ImoenStays","GLOBAL",0)~ THEN DO ~CreateVisualEffectObject("SPFLESHS",Myself)
+ReallyForceSpellDead(Myself,VAMPIRE_BAT_FORM_CHANGE)
+EscapeArea()
+~ UNSOLVED_JOURNAL @924 EXIT
 END
 
 IF ~~ THEN BEGIN be3
   SAY #39748 /* ~Oh, I am not crawling away for fear of your wrath. By all means, coddle, develop and direct it. Fight on, and seek your lost Imoen; I have seen what I came to see.~ */
-  IF ~~ THEN DO ~CreateVisualEffectObject("SPFLESHS",Myself)
+  IF ~Global("C#IM_ImoenStays","GLOBAL",0)~ THEN DO ~CreateVisualEffectObject("SPFLESHS",Myself)
 ReallyForceSpellDead(Myself,VAMPIRE_BAT_FORM_CHANGE)
 EscapeArea()
 ~ UNSOLVED_JOURNAL @240 EXIT
+  IF ~!Global("C#IM_ImoenStays","GLOBAL",0)~ THEN DO ~CreateVisualEffectObject("SPFLESHS",Myself)
+ReallyForceSpellDead(Myself,VAMPIRE_BAT_FORM_CHANGE)
+EscapeArea()
+~ UNSOLVED_JOURNAL @924 EXIT
 END
 END 
 
@@ -915,15 +938,26 @@ END
 
 IF ~~ a4.5 
 SAY @256  
-IF ~~ THEN  DO ~EraseJournalEntry(@42) 
+IF ~Global("C#IM_ImoenStays","GLOBAL",0)~ THEN  DO ~EraseJournalEntry(@42) 
 EraseJournalEntry(@152) 
 EraseJournalEntry(@157) 
 EraseJournalEntry(@257) 
-EraseJournalEntry(@240) 
+EraseJournalEntry(@240)
+EraseJournalEntry(@924)  
 EraseJournalEntry(@217) 
 AddJournalEntry(@258,QUEST_DONE) 
 StartCutSceneMode()
 StartCutScene("B!ALTM3B")~ EXIT 
+IF ~!Global("C#IM_ImoenStays","GLOBAL",0)~ THEN  DO ~EraseJournalEntry(@42) 
+EraseJournalEntry(@152) 
+EraseJournalEntry(@157) 
+EraseJournalEntry(@257) 
+EraseJournalEntry(@240) 
+EraseJournalEntry(@924)  
+EraseJournalEntry(@217) 
+AddJournalEntry(@925,QUEST_DONE) 
+StartCutSceneMode()
+StartCutScene("B!ALTM3B")~ EXIT
 END 
 
 IF ~~ a4.6 
@@ -1034,7 +1068,8 @@ APPEND PPSAEM
 IF ~Global("B!Alternatives","GLOBAL",10)
 Global("AsylumPlot","GLOBAL",1)~ THEN BEGIN s0
   SAY #43922 /* ~We have arrived, and in good time, I might add. Congratulatory remarks for all the crew, and to our visitors for their delightful company.~ [PPSAEM02] */
-  IF ~!IsValidForPartyDialog("Nalia")
+  IF ~Global("C#IM_ImoenStays","GLOBAL",0)
+!IsValidForPartyDialog("Nalia")
 !IsValidForPartyDialog("Jan")
 !IsValidForPartyDialog("Yoshimo")
 !IsValidForPartyDialog("Korgan")~ THEN DO ~SetGlobal("AsylumPlot","GLOBAL",2) 
@@ -1043,26 +1078,32 @@ EraseJournalEntry(@152)
 EraseJournalEntry(@157) 
 EraseJournalEntry(@257) 
 EraseJournalEntry(@240) 
+EraseJournalEntry(@924)  
 EraseJournalEntry(@217)
 ~ JOURNAL @292 FLAGS 128 EXTERN ~PPSIME~ 1
-  IF ~IsValidForPartyDialog("Nalia")~ THEN DO ~SetGlobal("AsylumPlot","GLOBAL",2) 
+  IF ~Global("C#IM_ImoenStays","GLOBAL",0)
+IsValidForPartyDialog("Nalia")~ THEN DO ~SetGlobal("AsylumPlot","GLOBAL",2) 
   EraseJournalEntry(@42) 
 EraseJournalEntry(@152) 
 EraseJournalEntry(@157) 
 EraseJournalEntry(@257) 
 EraseJournalEntry(@240) 
+EraseJournalEntry(@924)  
 EraseJournalEntry(@217) 
 ~ JOURNAL @292 FLAGS 128 EXTERN ~NALIAJ~ 272
-  IF ~!IsValidForPartyDialog("Nalia")
+  IF ~Global("C#IM_ImoenStays","GLOBAL",0)
+!IsValidForPartyDialog("Nalia")
 IsValidForPartyDialog("Jan")~ THEN DO ~SetGlobal("AsylumPlot","GLOBAL",2) 
 EraseJournalEntry(@42) 
 EraseJournalEntry(@152) 
 EraseJournalEntry(@157) 
 EraseJournalEntry(@257) 
 EraseJournalEntry(@240) 
+EraseJournalEntry(@924)  
 EraseJournalEntry(@217) 
 ~ JOURNAL @292 FLAGS 128 EXTERN ~JANJ~ 150
-  IF ~!IsValidForPartyDialog("Nalia")
+  IF ~Global("C#IM_ImoenStays","GLOBAL",0)
+!IsValidForPartyDialog("Nalia")
 !IsValidForPartyDialog("Jan")
 IsValidForPartyDialog("Yoshimo")~ THEN DO ~SetGlobal("AsylumPlot","GLOBAL",2) 
 EraseJournalEntry(@42) 
@@ -1070,9 +1111,11 @@ EraseJournalEntry(@152)
 EraseJournalEntry(@157) 
 EraseJournalEntry(@257) 
 EraseJournalEntry(@240) 
+EraseJournalEntry(@924)  
 EraseJournalEntry(@217) 
 ~ JOURNAL @292 FLAGS 128 EXTERN ~YOSHJ~ 92
-  IF ~!IsValidForPartyDialog("Nalia")
+  IF ~Global("C#IM_ImoenStays","GLOBAL",0)
+!IsValidForPartyDialog("Nalia")
 !IsValidForPartyDialog("Jan")
 !IsValidForPartyDialog("Yoshimo")
 IsValidForPartyDialog("Korgan")~ THEN DO ~SetGlobal("AsylumPlot","GLOBAL",2)
@@ -1081,8 +1124,68 @@ EraseJournalEntry(@152)
 EraseJournalEntry(@157) 
 EraseJournalEntry(@257) 
 EraseJournalEntry(@240) 
+EraseJournalEntry(@924)  
 EraseJournalEntry(@217) 
 ~ JOURNAL @292 FLAGS 128 EXTERN ~KORGANJ~ 117
+  IF ~!Global("C#IM_ImoenStays","GLOBAL",0)
+!IsValidForPartyDialog("Nalia")
+!IsValidForPartyDialog("Jan")
+!IsValidForPartyDialog("Yoshimo")
+!IsValidForPartyDialog("Korgan")~ THEN DO ~SetGlobal("AsylumPlot","GLOBAL",2) 
+EraseJournalEntry(@42) 
+EraseJournalEntry(@152) 
+EraseJournalEntry(@157) 
+EraseJournalEntry(@257) 
+EraseJournalEntry(@240) 
+EraseJournalEntry(@924)  
+EraseJournalEntry(@217)
+~ JOURNAL @926 FLAGS 128 EXTERN ~PPSIME~ 1
+  IF ~!Global("C#IM_ImoenStays","GLOBAL",0)
+IsValidForPartyDialog("Nalia")~ THEN DO ~SetGlobal("AsylumPlot","GLOBAL",2) 
+  EraseJournalEntry(@42) 
+EraseJournalEntry(@152) 
+EraseJournalEntry(@157) 
+EraseJournalEntry(@257) 
+EraseJournalEntry(@240) 
+EraseJournalEntry(@924)  
+EraseJournalEntry(@217) 
+~ JOURNAL @926 FLAGS 128 EXTERN ~NALIAJ~ 272
+  IF ~!Global("C#IM_ImoenStays","GLOBAL",0)
+!IsValidForPartyDialog("Nalia")
+IsValidForPartyDialog("Jan")~ THEN DO ~SetGlobal("AsylumPlot","GLOBAL",2) 
+EraseJournalEntry(@42) 
+EraseJournalEntry(@152) 
+EraseJournalEntry(@157) 
+EraseJournalEntry(@257) 
+EraseJournalEntry(@240) 
+EraseJournalEntry(@924)  
+EraseJournalEntry(@217) 
+~ JOURNAL @926 FLAGS 128 EXTERN ~JANJ~ 150
+  IF ~!Global("C#IM_ImoenStays","GLOBAL",0)
+!IsValidForPartyDialog("Nalia")
+!IsValidForPartyDialog("Jan")
+IsValidForPartyDialog("Yoshimo")~ THEN DO ~SetGlobal("AsylumPlot","GLOBAL",2) 
+EraseJournalEntry(@42) 
+EraseJournalEntry(@152) 
+EraseJournalEntry(@157) 
+EraseJournalEntry(@257) 
+EraseJournalEntry(@240) 
+EraseJournalEntry(@924)  
+EraseJournalEntry(@217) 
+~ JOURNAL @926 FLAGS 128 EXTERN ~YOSHJ~ 92
+  IF ~!Global("C#IM_ImoenStays","GLOBAL",0)
+!IsValidForPartyDialog("Nalia")
+!IsValidForPartyDialog("Jan")
+!IsValidForPartyDialog("Yoshimo")
+IsValidForPartyDialog("Korgan")~ THEN DO ~SetGlobal("AsylumPlot","GLOBAL",2)
+EraseJournalEntry(@42) 
+EraseJournalEntry(@152) 
+EraseJournalEntry(@157) 
+EraseJournalEntry(@257) 
+EraseJournalEntry(@240) 
+EraseJournalEntry(@924)  
+EraseJournalEntry(@217) 
+~ JOURNAL @926 FLAGS 128 EXTERN ~KORGANJ~ 117
 END
 END 
 
@@ -1751,7 +1854,8 @@ SAY @483
 ++ @326 + mal13 
 END 
 
-IF ~~ mal51 
+IF WEIGHT #-1
+~NumTimesTalkedToGT(0) OR(3) GlobalGT("WorkingForAran","GLOBAL",0) GlobalGT("WorkingForBodhi","GLOBAL",0) GlobalGT("B!Alternatives","GLOBAL",4)~ mal51 
 SAY @487 
 IF ~~ THEN DO ~SetGlobal("B!RefusedAlternaMal","GLOBAL",1) EscapeArea()~ EXIT 
 END 
@@ -2105,7 +2209,7 @@ SAY @583
     AddXPObject(Player4,50000)
     AddXPObject(Player5,50000)
     AddXPObject(Player6,50000)~ + mal88 
-+ ~Global("B!Tourist","GLOBAL",9) Global("B!Bloodless","GLOBAL",2) Dead("Aran") !PartyGoldGT(50000)~ + @588DO ~    AddXPObject(Player1,50000)
++ ~Global("B!Tourist","GLOBAL",9) Global("B!Bloodless","GLOBAL",2) Dead("Aran") !PartyGoldGT(50000)~ + @588 DO ~AddXPObject(Player1,50000)
     AddXPObject(Player2,50000)
     AddXPObject(Player3,50000)
     AddXPObject(Player4,50000)
@@ -3259,7 +3363,8 @@ APPEND PPSAEM
 IF ~Global("B!Tourist","GLOBAL",10)
 Global("AsylumPlot","GLOBAL",1)~ THEN BEGIN sh0
   SAY #43922 /* ~We have arrived, and in good time, I might add. Congratulatory remarks for all the crew, and to our visitors for their delightful company.~ [PPSAEM02] */
-  IF ~!IsValidForPartyDialog("Nalia")
+  IF ~Global("C#IM_ImoenStays","GLOBAL",0)
+!IsValidForPartyDialog("Nalia")
 !IsValidForPartyDialog("Jan")
 !IsValidForPartyDialog("Yoshimo")
 !IsValidForPartyDialog("Korgan")~ THEN DO ~SetGlobal("AsylumPlot","GLOBAL",2)
@@ -3276,8 +3381,10 @@ EraseJournalEntry(@148)
 EraseJournalEntry(@149)
 EraseJournalEntry(@150)
 EraseJournalEntry(@151)
-EraseJournalEntry(@153)~ JOURNAL @906 FLAGS 128 EXTERN ~PPSIME~ 1
-  IF ~IsValidForPartyDialog("Nalia")~ THEN DO ~SetGlobal("AsylumPlot","GLOBAL",2)
+EraseJournalEntry(@153)~ 
+JOURNAL @906 FLAGS 128 EXTERN ~PPSIME~ 1
+  IF ~Global("C#IM_ImoenStays","GLOBAL",0)
+IsValidForPartyDialog("Nalia")~ THEN DO ~SetGlobal("AsylumPlot","GLOBAL",2)
   EraseJournalEntry(@42)
   EraseJournalEntry(@143)
 EraseJournalEntry(@144)
@@ -3292,7 +3399,8 @@ EraseJournalEntry(@149)
 EraseJournalEntry(@150)
 EraseJournalEntry(@151)
 EraseJournalEntry(@153)~ JOURNAL @906 FLAGS 128 EXTERN ~NALIAJ~ 272
-  IF ~!IsValidForPartyDialog("Nalia")
+  IF ~Global("C#IM_ImoenStays","GLOBAL",0)
+!IsValidForPartyDialog("Nalia")
 IsValidForPartyDialog("Jan")~ THEN DO ~SetGlobal("AsylumPlot","GLOBAL",2)
 EraseJournalEntry(@42)
 EraseJournalEntry(@143)
@@ -3308,7 +3416,8 @@ EraseJournalEntry(@149)
 EraseJournalEntry(@150)
 EraseJournalEntry(@151)
 EraseJournalEntry(@153)~ JOURNAL @906 FLAGS 128 EXTERN ~JANJ~ 150
-  IF ~!IsValidForPartyDialog("Nalia")
+  IF ~Global("C#IM_ImoenStays","GLOBAL",0)
+!IsValidForPartyDialog("Nalia")
 !IsValidForPartyDialog("Jan")
 IsValidForPartyDialog("Yoshimo")~ THEN DO ~SetGlobal("AsylumPlot","GLOBAL",2)
 EraseJournalEntry(@42)
@@ -3325,7 +3434,8 @@ EraseJournalEntry(@149)
 EraseJournalEntry(@150)
 EraseJournalEntry(@151)
 EraseJournalEntry(@153)~ JOURNAL @906 FLAGS 128 EXTERN ~YOSHJ~ 92
-  IF ~!IsValidForPartyDialog("Nalia")
+  IF ~Global("C#IM_ImoenStays","GLOBAL",0)
+!IsValidForPartyDialog("Nalia")
 !IsValidForPartyDialog("Jan")
 !IsValidForPartyDialog("Yoshimo")
 IsValidForPartyDialog("Korgan")~ THEN DO ~SetGlobal("AsylumPlot","GLOBAL",2)
@@ -3343,6 +3453,95 @@ EraseJournalEntry(@149)
 EraseJournalEntry(@150)
 EraseJournalEntry(@151)
 EraseJournalEntry(@153)~ JOURNAL @906 FLAGS 128 EXTERN ~KORGANJ~ 117
+  IF ~!Global("C#IM_ImoenStays","GLOBAL",0)
+!IsValidForPartyDialog("Nalia")
+!IsValidForPartyDialog("Jan")
+!IsValidForPartyDialog("Yoshimo")
+!IsValidForPartyDialog("Korgan")~ THEN DO ~SetGlobal("AsylumPlot","GLOBAL",2)
+EraseJournalEntry(@42)
+EraseJournalEntry(@143)
+EraseJournalEntry(@144)
+EraseJournalEntry(@145)
+EraseJournalEntry(@146)
+EraseJournalEntry(@372)
+EraseJournalEntry(@147)
+EraseJournalEntry(@373)
+EraseJournalEntry(@374)
+EraseJournalEntry(@148)
+EraseJournalEntry(@149)
+EraseJournalEntry(@150)
+EraseJournalEntry(@151)
+EraseJournalEntry(@153)~ JOURNAL @927 FLAGS 128 EXTERN ~PPSIME~ 1
+  IF ~!Global("C#IM_ImoenStays","GLOBAL",0)
+IsValidForPartyDialog("Nalia")~ THEN DO ~SetGlobal("AsylumPlot","GLOBAL",2)
+  EraseJournalEntry(@42)
+  EraseJournalEntry(@143)
+EraseJournalEntry(@144)
+EraseJournalEntry(@145)
+EraseJournalEntry(@146)
+EraseJournalEntry(@372)
+EraseJournalEntry(@147)
+EraseJournalEntry(@373)
+EraseJournalEntry(@374)
+EraseJournalEntry(@148)
+EraseJournalEntry(@149)
+EraseJournalEntry(@150)
+EraseJournalEntry(@151)
+EraseJournalEntry(@153)~ JOURNAL @927 FLAGS 128 EXTERN ~NALIAJ~ 272
+  IF ~!Global("C#IM_ImoenStays","GLOBAL",0)
+!IsValidForPartyDialog("Nalia")
+IsValidForPartyDialog("Jan")~ THEN DO ~SetGlobal("AsylumPlot","GLOBAL",2)
+EraseJournalEntry(@42)
+EraseJournalEntry(@143)
+EraseJournalEntry(@144)
+EraseJournalEntry(@145)
+EraseJournalEntry(@146)
+EraseJournalEntry(@372)
+EraseJournalEntry(@147)
+EraseJournalEntry(@373)
+EraseJournalEntry(@374)
+EraseJournalEntry(@148)
+EraseJournalEntry(@149)
+EraseJournalEntry(@150)
+EraseJournalEntry(@151)
+EraseJournalEntry(@153)~ JOURNAL @927 FLAGS 128 EXTERN ~JANJ~ 150
+  IF ~!Global("C#IM_ImoenStays","GLOBAL",0)
+!IsValidForPartyDialog("Nalia")
+!IsValidForPartyDialog("Jan")
+IsValidForPartyDialog("Yoshimo")~ THEN DO ~SetGlobal("AsylumPlot","GLOBAL",2)
+EraseJournalEntry(@42)
+EraseJournalEntry(@143)
+EraseJournalEntry(@144)
+EraseJournalEntry(@145)
+EraseJournalEntry(@146)
+EraseJournalEntry(@372)
+EraseJournalEntry(@147)
+EraseJournalEntry(@373)
+EraseJournalEntry(@374)
+EraseJournalEntry(@148)
+EraseJournalEntry(@149)
+EraseJournalEntry(@150)
+EraseJournalEntry(@151)
+EraseJournalEntry(@153)~ JOURNAL @927 FLAGS 128 EXTERN ~YOSHJ~ 92
+  IF ~!Global("C#IM_ImoenStays","GLOBAL",0)
+!IsValidForPartyDialog("Nalia")
+!IsValidForPartyDialog("Jan")
+!IsValidForPartyDialog("Yoshimo")
+IsValidForPartyDialog("Korgan")~ THEN DO ~SetGlobal("AsylumPlot","GLOBAL",2)
+EraseJournalEntry(@42)
+EraseJournalEntry(@143)
+EraseJournalEntry(@144)
+EraseJournalEntry(@145)
+EraseJournalEntry(@146)
+EraseJournalEntry(@372)
+EraseJournalEntry(@147)
+EraseJournalEntry(@373)
+EraseJournalEntry(@374)
+EraseJournalEntry(@148)
+EraseJournalEntry(@149)
+EraseJournalEntry(@150)
+EraseJournalEntry(@151)
+EraseJournalEntry(@153)~ JOURNAL @927 FLAGS 128 EXTERN ~KORGANJ~ 117
 END
 END 
 
