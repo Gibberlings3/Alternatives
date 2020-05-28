@@ -1,9 +1,10 @@
 BACKUP ~alternatives/backup~ 
-AUTHOR ~berelinde@gmail.com~ 
+//AUTHOR ~berelinde@gmail.com~ 
+SUPPORT ~https://www.gibberlings3.net/forums/forum/173-alternatives/~
 
 README ~alternatives/readme-alternatives.html~ 
 
-VERSION ~v13.4~ //180828
+VERSION ~v14~ 
 
 ALWAYS
 
@@ -33,7 +34,7 @@ ALWAYS
 
   LAF HANDLE_CHARSETS
     INT_VAR
-      infer_charset = 1
+      infer_charsets = 1
     STR_VAR
       tra_path = EVAL ~%MOD_FOLDER%~
       noconvert_array = alternatives_noconvert
@@ -52,6 +53,7 @@ LANGUAGE ~Simplified Chinese~
 				 ~alternatives/english/setup-alternatives.tra~ 
 				 ~alternatives/schinese/setup-alternatives.tra~  
 				 ~alternatives/schinese/prompts-%WEIDU_OS%.tra~
+LANGUAGE ~Italian~ ~italian~ ~alternatives/italian/setup-alternatives.tra~ 
 
 
 BEGIN @1 
@@ -493,13 +495,13 @@ ADD_JOURNAL TITLE (@916) @143 @144 @145 @146 @147 @148 @149 @150 @151
 @155 @372 @373 @374 @375 @523 USING ~alternatives/%s\dialogue.tra~
 
 /* An ally for a price. */
-ADD_JOURNAL TITLE (@917) @42 @119 @152 @157 @216 @217 @240 @258 @582 USING ~alternatives/%s\dialogue.tra~
+ADD_JOURNAL TITLE (@917) @42 @119 @152 @157 @216 @217 @240 @258 @582 @924 @925 USING ~alternatives/%s\dialogue.tra~
 
 ADD_JOURNAL @257 USING ~alternatives/%s\dialogue.tra~
 
-ADD_JOURNAL @292 USING ~alternatives/%s\dialogue.tra~
+ADD_JOURNAL @292 @926 USING ~alternatives/%s\dialogue.tra~
 
-ADD_JOURNAL @906 USING ~alternatives/%s\dialogue.tra~
+ADD_JOURNAL @906 @927 USING ~alternatives/%s\dialogue.tra~
 
 COMPILE EVALUATE_BUFFER ~alternatives/dialogue/dialogue.d~ 
 

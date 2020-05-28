@@ -10,3 +10,15 @@ THEN
         SetGlobal("DearAranJournal","AR0329",1)
         AddJournalEntry(@915, QUEST) 
 END 
+
+IF
+    Dead("aran02")
+    Global("DearAranJournal","AR0329",0)
+    GlobalGT("B!Tourist","GLOBAL",7) 
+THEN
+    RESPONSE #100
+        SetGlobal("DearAranJournal","AR0329",1)
+//        AddJournalEntry(@##, QUEST) 
+END 
+
+

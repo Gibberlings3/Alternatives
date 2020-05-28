@@ -340,7 +340,7 @@ Ich habe die Aufgaben erfüllt, die Aster mir gestellt hat. Die Schattendiebe sin
 
 Es waren die Schattendiebe, welche Irenicus in dem Gewölbe angriffen, in welchem ich aufwachte. Sie hatten von meiner Entführung gehört, aber sich keine Gedanken darüber gemacht... aber dann erschien Bohdis Gruppe und viele Schattendiebe verschwanden. Es gelang ihnen, Irenicus Kerker aufzuspüren und ihn mit Bohdi in Verbindung zu bringen... und ich war Zeuge ihres späteren verhängnisvollen Angriffs.
 
-Aster erzählte mir, dass Imoen und Irenicus an denselben Ort gebracht wurden: Einem Irrenhaus auf einer Insel, dass Zauberfete genannt wird. Das Gold, welches ich zahlte, wurde dafür genutzt, eine Überfahrt zu dieser Insel zu buchen, und dort werde ich die Antworten finden, die ich suche. Aran warnte mich, dass das Irrenhaus eine wahre Festung sei, dazu gedacht, verrückte Zauberer und andere "Abweichler"  zu verwahren... dort einzudringen wird ein Kunststück für sich werden. Trotzdem wurde eine Überfahrt mit einem Freibeuter, Saemon Havarian, gebucht und ich bin auf dem Weg.~
+Aster erzählte mir, dass Imoen und Irenicus an denselben Ort gebracht wurden: Einem Irrenhaus auf einer Insel, dass Zauberfete genannt wird. Das Gold, welches ich zahlte, wurde dafür genutzt, eine Überfahrt zu dieser Insel zu buchen, und dort werde ich die Antworten finden, die ich suche. Aster warnte mich, dass das Irrenhaus eine wahre Festung sei, dazu gedacht, verrückte Zauberer und andere "Abweichler"  zu verwahren... dort einzudringen wird ein Kunststück für sich werden. Trotzdem wurde eine Überfahrt mit einem Freibeuter, Saemon Havarian, gebucht und ich bin auf dem Weg.~
 @293 = ~Geht jetzt. Ich muss meinen Bericht zum Festland schicken. Es ist vage möglich, dass wir weitere Hilfe bekommen, jetzt wo der Weg frei ist.~
 @294 = ~Betreten der Zauberfeste
 
@@ -998,3 +998,31 @@ Aran Linvail, der Großmeister der Schattendiebe von Athkatla, ist tot. Nun sollt
 @918  = ~Bevor ich Euch mehr Informationen gebe, brauche ich Euer Wort, dass Ihr über alles, was wir hier besprechen, Schweigen bewahrt.~
 @919  = ~Nun denn. Das Bezahlen der 15.000 Goldmünzen wird unsere Abmachung besiegeln.~
 @920  = ~Wenn Ihr bereit seid, die Schattendiebe zu bekämpfen, dann werdet Ihr sehen, dass die zweite Aufgabe mindestens ebenso einem höheren Wohle dient.~
+
+/* new for v14 */
+@923  = ~Nehmt Euch soviel Zeit, wie Ihr braucht.~
+/* @924 is @240 without Imoen */
+@924  = ~Vampire in den Katakomben.
+
+Ich habe die Vampire besiegt und Bohdi Auge in Auge gegenübergestanden. Sie behauptete, etwas über Irenicus zu wissen und sie schien mich  inirgendeiner Weise einzuschätzen, bevor sie sich in Form einer Vampirfledermaus zurückzog. Alles, was jetzt zu tun bleibt, ist zu "Aster" zurückzukehren und ihr zu sagen, dass die Gilde ist weg, auch wenn ihr Anführer noch am Leben ist. Ich könnte ebenso ein paar Fragen an sie haben.
+
+Eine weitere beunruhigende Sache... Bodhi weiß Bescheid. Sie weiß, dass ich ein Kind des Bhaal bin.~
+/* @925 is @258 without Imoen */
+@925  = ~Asters Aufträge.
+
+Ich habe die zwei Aufträge, die Aster mir erteilt hat, ausgeführt, und endlich hat sie mir gestattet, zur Zauberfeste zu reisen, wo Irenicus wartet. Was auch immer als nächstes passiert, ich bin mir sicher, meine größte Herausforderung erwartet mich auf der Insel.~
+/* @926 is @292 without Imoen */
+@926  = ~Kapitel 4
+
+Ich habe die Aufgaben erfüllt, die Aster mir gestellt hat. Die Schattendiebe sind vernichtet, genau wie die Vampire, einzig Bohdi selbst konnte entkommen. Bevor sie floh, klärte sie mich über einige Dinge auf.
+
+Es waren die Schattendiebe, welche Irenicus in dem Gewölbe angriffen, in welchem ich aufwachte. Sie hatten von meiner Entführung gehört, aber sich keine Gedanken darüber gemacht... aber dann erschien Bohdis Gruppe und viele Schattendiebe verschwanden. Es gelang ihnen, Irenicus Kerker aufzuspüren und ihn mit Bohdi in Verbindung zu bringen... und ich war Zeuge ihres späteren verhängnisvollen Angriffs.
+
+Aster erzählte mir, dass Irenicus zu einem Irrenhaus auf einer Insel gebracht wurde, dass Zauberfete genannt wird. Das Gold, welches ich zahlte, wurde dafür genutzt, eine Überfahrt zu dieser Insel zu buchen, und dort werde ich die Antworten finden, die ich suche. Aster warnte mich, dass das Irrenhaus eine wahre Festung sei, dazu gedacht, verrückte Zauberer und andere "Abweichler"  zu verwahren... dort einzudringen wird ein Kunststück für sich werden. Trotzdem wurde eine Überfahrt mit einem Freibeuter, Saemon Havarian, gebucht und ich bin auf dem Weg.~
+/* @927 is @906 without Imoen */
+@927  = ~Kapitel 4
+
+Ich habe die Aufträge ausgeführt, die Malficus mir aufgetragen hat, nur um mich auf der Schwelle der Zauberfeste wiederzufinden. Was es schlimmer macht, ist, dass es so aussieht, als folge Malficus den Befehlen von Bohdi, einer mächtigen Vampirin.
+
+Ob es mir gefällt oder nicht, ich bin hier gestrandet und der einzige Weg zurück ist der nach vorne. Soweit ich es verstanden habe ist Irenicus hier auf der Insel, in einem Zufluchtsort für Magier, welches Zauberfeste genannt wird. Das Gold, das ich bereitgestellt habe, wurde dazu verwendet, die Überfahrt zu dieser Insel zu bezahlen, nicht nach Maztica, wie ich ursprünglich im Glauben gelassen wurde, und ich werde hier die Antworten finden, nach denen ich suche. Ich wurde gewarnt, dass das Heim eine wehrhafte Festung ist, die dazu bestimmt ist, wahnsinnige Zauberer und andere "Abweichler" einzusperren. Es soll schon ein Kunststück für sich sein, überhaupt Zutritt erlangen.~
+

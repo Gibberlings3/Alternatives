@@ -69,7 +69,7 @@ J’ai pour instructions d’aller rencontrer une personne du nom d’Aster au deuxièm
 @66   = ~Comme je cherchais le vestiaire, je vais devoir dire oui.~
 @67   = ~Avez-vous rendez-vous avec quelqu’un, ici ?~
 @68   = ~Pas complètement, mais vous n’êtes pas ce que j’attendais.~
-@69   = ~Splendide ! Je n’avais pas réalisé que je m'adressais à un frère dans la foi. Cela va rendre les choses plus faciles pour nous deux.~ ~Splendide ! Je n’avais pas réalisé que je m'adressais à une soeur dans la foi. Cela va rendre les choses plus faciles pour nous deux.~
+@69   = ~Splendide ! Je n’avais pas réalisé que je m'adressais à un frère dans la foi. Cela va rendre les choses plus faciles pour nous deux.~ ~Splendide ! Je n’avais pas réalisé que je m'adressais à une sœur dans la foi. Cela va rendre les choses plus faciles pour nous deux.~
 @70   = ~Je vais être franche avec vous. Je sais que vous voulez vous rendre à l’asile où Athkatla envoie ses « déviants magiques », comme on les appelle.~
 @71   = ~On dirait que vous n’approuvez pas.~
 @72   = ~Comment l’avez-vous appris ?~
@@ -209,7 +209,7 @@ J'ai rencontré Aster et elle paraît incapable de prendre "non" comme une réponse
 @176  = ~Rien de nouveau pour l'heure.~
 @177  = ~De l'aide me serait utile.~
 @178  = ~Merveilleuse nouvelle ! Je vais envoyer quelqu'un pour aider les survivants de l'assaut immédiatement. Ce serait trop d'espérer que les Voleurs de l'Ombre soient désormais de l'histoire ancienne, mais cette défaite handicapera leurs opérations pendant un certain temps. Certains de mes amis, en particulier, seront ravis de ce résultat.~
-@179  = ~Vous voulez parler de vos amis de l'Ordre du Coeur Radieux.~
+@179  = ~Vous voulez parler de vos amis de l'Ordre du Cœur Radieux.~
 @180  = ~Que dois-je faire d'autre avant de pouvoir partir pour Spellhold ?~
 @181  = ~Ce n'était pas une tâche facile, que vous m'avez confiée.~
 @182  = ~Vous n'en êtes peut-être pas conscient, mais je peux dire quand les gens mentent. Retournez-y.~ ~Vous n'en êtes peut-être pas consciente, mais je peux dire quand les gens mentent. Retournez-y.~
@@ -284,7 +284,7 @@ Une chose troublante de plus... Bodhi savait. Elle savait que je suis un enfant 
 @243  = ~J’ai fait ce que vous demandiez.~
 @244  = ~La tâche est accomplie. Puis-je me rendre à Spellhold, à présent ?~
 @245  = ~Aucune nouvelle, j’en ai peur.~
-@246  = ~Vous avez bien oeuvré, en effet. Si vous n’avez plus d'autres tâches en cours, vous pouvez partir à la prochaine marée.~ [b!ast_11]
+@246  = ~Vous avez bien œuvré, en effet. Si vous n’avez plus d'autres tâches en cours, vous pouvez partir à la prochaine marée.~ [b!ast_11]
 @247  = ~J’ai quelques questions à vous poser.~
 @248  = ~J’ai encore quelques affaires à régler.~
 @249  = ~Je suis prêt à partir.~ ~Je suis prête à partir.~
@@ -340,7 +340,7 @@ J'ai rempli les missions que m'avait confiées Aster, c'est-à-dire détruire à la 
 
 Les Voleurs de l'Ombre sont ceux qui ont attaqué Irenicus dans le donjon où je me suis réveillé. Ils avaient entendu parler de mon enlèvement mais n'en pensaient pas grand chose... mais alors la guilde de Bodhi est apparue et de nombreux Voleurs de l'Ombre ont commencé à disparaître. Ils ont réussi à découvrir le donjon d'Irenicus et l'ont lié à Bodhi... et je fus témoin de l'assaut désastreux qui s'ensuivit.
 
-Aster m'a dit qu'Imoen et Irenicus ont été emmenés au même endroit : une île-asile pour mages appelée Spellhold. L'or que je lui ai donné a servi à payer pour le passage jusqu'à cette île, et c'est là que je trouverai les réponses que je cherche. Aran m'a averti, cela dit, que l'asile es une véritable forteresse prévue pour enfermer les mages fous et autres "déviants"... et que parvenir à y entrer sera un haut fait en lui-même. Peu importe, une traversée avec un corsaire nommé Saemon Havarian a été organisée et je suis en route...~
+Aster m'a dit qu'Imoen et Irenicus ont été emmenés au même endroit : une île-asile pour mages appelée Spellhold. L'or que je lui ai donné a servi à payer pour le passage jusqu'à cette île, et c'est là que je trouverai les réponses que je cherche. Aster m'a averti, cela dit, que l'asile est une véritable forteresse prévue pour enfermer les mages fous et autres "déviants"... et que parvenir à y entrer sera un haut fait en lui-même. Peu importe, une traversée avec un corsaire nommé Saemon Havarian a été organisée et je suis en route...~
 @293  = ~Alors en route. Je dois renvoyer mon rapport sur le continent. Il est peut-être possible que nous recevions davantage d'aide, à présent que la voie est libre.~
 @294  = ~Entrer dans l'asile
 
@@ -566,7 +566,7 @@ Malficus Rhodendril, un individu sournois, bien trop apprêté, m'a proposé une ch
 @505  = ~Qu'est-ce que vous voulez que je fasse ?~
 @506  = ~Peut-être serait-ce mieux pour tout le monde que je paie tout de suite mon passage. Vous avez parlé de 90 000 pièces d'or, je pense ?~
 @507  = ~Vous pouvez éviter cette mission, si vous le voulez, mais je ne peux pas vous offrir le prix réduit qu'elle vous aurait octroyé. Il y a une autre tâche que je suis autorisé à vous offrir pour réduire le coût du voyage.~
-@508  = ~Avant de continuer, je dois obtenir votre plus solennel voeu de silence. La transmission de l'information que je suis sur le point de vous révéler à quiconque aurait des conséquences désastreuses, si ce ne sont fatales, pour vous-même.~
+@508  = ~Avant de continuer, je dois obtenir votre plus solennel vœu de silence. La transmission de l'information que je suis sur le point de vous révéler à quiconque aurait des conséquences désastreuses, si ce ne sont fatales, pour vous-même.~
 @509  = ~Vous avez ma promesse.~
 @510  = ~Je n'en parlerai pas à âme qui vive.~
 @511  = ~Je ne peux pas faire cette promesse.~
@@ -811,7 +811,7 @@ Au deuxième étage des Cinq Chopes, dans le grand parloir au-delà des chambres d'
 @741  = ~Bon, je suis un homme très occupé. Bonne journée.~
 @742  = ~Oh, il y a eu une enquête, ne vous inquiétez pas, mais il n'y a jamais eu la moindre réelle preuve contre moi, pas grâce à vous.~
 @743  = ~A présent, si vous ne partez pas immédiatement, je vous fais accuser de harcèlement.~
-@744  = ~Aaah. Je reconnais un oeil avisé quand j'en croise un.~ [MYSTR01]
+@744  = ~Aaah. Je reconnais un œil avisé quand j'en croise un.~ [MYSTR01]
 @745  = ~Qui êtes-vous ?~
 @746  = ~Ballas m'a dit que vous aviez quelque chose dont j'ai besoin.~
 @747  = ~Sauriez-vous où il est possible de faire quelques achats discrets ?~
@@ -999,3 +999,31 @@ Aran Linvail, le Maître des Voleurs de l’Ombre d’Athkatla, est mort. Je dois à p
 @918  = ~Avant que je ne m'engage à vous donner plus d'informations, vous devez me promettre de garder le secret.~
 @919  = ~Très bien. Réglez-moi les 15 000 pièces d'or pour sceller notre accord.~
 @920  = ~Si vous acceptez de vaincre les Voleurs de l'Ombre, vous trouverez que votre deuxième mission sera accomplie au service d'un bien encore plus grand.~
+
+/* new for v14 */
+/* @133 shortened. */
+@923  = ~Prenez tout le temps nécessaire.~
+/* @924 is @240 without Imoen */
+@924  = ~Des vampires dans les catacombes.
+
+J’ai vaincu les vampires et affronté Bodhi. Elle a prétendu savoir quelque chose à propos d'Irenicus et a paru me jauger, avant de battre en retraite sous forme de chauve-souris. Tout ce qu’il me reste à faire à présent est de retourner chez « Aster » et de la prévenir que la guilde a disparu, même si leur chef est toujours en vie. Je pourrais avoir quelques questions à lui poser, de surcroît.
+
+Une chose troublante de plus... Bodhi savait. Elle savait que je suis un enfant de Bhaal.~
+/* @925 is @258 without Imoen */
+@925  = ~Les tâches d’Aster
+
+J’ai terminé les missions que m’avait confiées Aster et enfin, elle a accepté de m’autoriser à partir pour Spellhold, où m’attend Irenicus. Quoi qu’il se passe ensuite, je suis sûr que mon plus grand défi jusqu'ici m’attend sur cette île.~
+/* @926 is @292 without Imoen */
+@926  = ~Chapitre 4
+
+J'ai rempli les missions que m'avait confiées Aster, c'est-à-dire détruire à la fois les Voleurs de l'Ombre et les vampires, même si Bodhi elle-même s'est échappée. Avant de fuir, elle m'a éclairé sur différentes choses.
+
+Les Voleurs de l'Ombre sont ceux qui ont attaqué Irenicus dans le donjon où je me suis réveillé. Ils avaient entendu parler de mon enlèvement mais n'en pensaient pas grand chose... mais alors la guilde de Bodhi est apparue et de nombreux Voleurs de l'Ombre ont commencé à disparaître. Ils ont réussi à découvrir le donjon d'Irenicus et l'ont lié à Bodhi... et je fus témoin de l'assaut désastreux qui s'ensuivit.
+
+Aster m'a dit qu'Irenicus a été emmené sur une île-asile pour mages appelée Spellhold. L'or que je lui ai donné a servi à payer pour le passage jusqu'à cette île, et c'est là que je trouverai les réponses que je cherche. Aster m'a averti, cela dit, que l'asile est une véritable forteresse prévue pour enfermer les mages fous et autres "déviants"... et que parvenir à y entrer sera un haut fait en lui-même. Peu importe, une traversée avec un corsaire nommé Saemon Havarian a été organisée et je suis en route...~
+/* @927 is @906 without Imoen */
+@927  = ~Chapitre 4
+
+J'ai rempli les missions que Malficus m'a proposées, tout ça pour me retrouver sur le seuil de Spellhold. Pire, on dirait que Malficus suivait les ordres de Bodhi, un vampire puissant.
+
+Bon gré, mal gré, je suis ici, à présent, et la seule manière de rentrer est d'aller de l'avant. D'après ce que j'ai compris, Irenicus est ici, dans un asile pour mages appelé Spellhold. L'or que je me suis procuré a servi à organiser le voyage jusqu'ici, pas Maztica, contrairement à ce que l'on m'a mené à croire originellement, et c'est ici que je trouverai les réponses que je cherche. On m'a prévenu, cependant, que l'asile est une véritable forteresse conçue pour retenir des mages déments et autres "déviants"... et que parvenir à y entrer sera un exploit en soi.~
