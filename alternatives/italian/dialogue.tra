@@ -1,180 +1,180 @@
-Ôªø@0    = ~Altri due corpi stamattina, Wes, e Saerk dice che ha perso un quarto del carico di spezie per "tariffe".~
-@1    = ~Un quarto? Le tue tariffe portuali sono cos√¨ alte?~
+@0    = ~Altri due corpi stamattina, Wes, e Saerk dice che ha perso un quarto del carico di spezie per "tariffe".~
+@1    = ~Un quarto? Le tue tariffe portuali sono cosÏ alte?~
 @2    = ~No.~
-@3    = ~Ah. Quel genere di tariffe. I Ladri Tenebrosi?~
+@3    = ~Ah. Quel genere di tariffe. I Ladri dell'Ombra?~
 @4    = ~Chi altri.~
 @5    = ~(sigh) Ricordi quando abbiamo fatto irruzione nella loro gilda con lamapde ad olio e torce infilate nei denti?~
 @6    = ~E con le uniformi, anche.~
 @7    = ~Le reclute sono molto attente quest'anno, Brega. Forse...~
 @8    = ~(sigh) Vorrei averlo fatto. Maledetti loro per avermi fatto firmare quell'atto della gilda.~
 @9    = ~Sei stato tu quello che ha deciso che un covo di tagliagole costituisse una gilda.~
-@10   = ~Non te lo spiegher√≤ di nuovo. E non √® stata una mia decisione, √® stato il Consiglio. Se la chiamiamo gilda, possiamo regolarla.~
+@10   = ~Non te lo spiegherÚ di nuovo. E non Ë stata una mia decisione, Ë stato il Consiglio. Se la chiamiamo gilda, possiamo regolarla.~
 @11   = ~E hanno recepito le regole?~
 @12   = ~Uno a zero. Dannazione, vorrei ci fosse un modo per farli fuori.~
 @13   = ~Ci dev'essere un modo. Ho sentito di un gruppo di avventurieri che farebbero di tutto in cambio di oro. Pare che stiano cercando di raggiungere il manicomio.~
-@14   = ~Perch√© vogliono andare l√¨?~
-@15   = ~Una di loro √® rinchiusa l√¨, pare. Era coinvolta nell'esplosione alla Passeggiata di Waukeen, anche se dicono che lei non sapesse di violare le leggi. Il nome del capo del gruppo √® <CHARNAME>.~
-@16   = ~Ah, s√¨, loro. Sai che tipo di persona √® <PRO_HESHE>?~
+@14   = ~PerchÈ vogliono andare lÏ?~
+@15   = ~Una di loro Ë rinchiusa lÏ, pare. Era coinvolta nell'esplosione alla Passeggiata di Waukeen, anche se dicono che lei non sapesse di violare le leggi. Il nome del capo del gruppo Ë <CHARNAME>.~
+@16   = ~Ah, sÏ, loro. Sai che tipo di persona Ë <PRO_HESHE>?~
 @17   = ~Non quello che chiameremmo un onesto cittadino, Brega, ma forse sta cercando di fare ammenda per almeno un po' delle sue cattive azioni passate.~
-@18   = ~E' sempre cos√¨ che va, no? Comunque, noi dobbiamo sfruttare tutto l'aiuto possibile.~
-@19   = ~N√© meglio n√© peggio di tante persone, cos√¨ ho sentito.~
+@18   = ~E' sempre cosÏ che va, no? Comunque, noi dobbiamo sfruttare tutto l'aiuto possibile.~
+@19   = ~NÈ meglio nÈ peggio di tante persone, cosÏ ho sentito.~
 @20   = ~Noi possiamo essere peggio. E abbiamo bisogno di tutto l'aiuto possibile.~
 @21   = ~Ho sentito solo cose buone di <PRO_HIMHER>.~
 @22   = ~Allora sono soddisfatto.~
 @23   = ~Se puoi trovar un accordo con loro, io posso organizzare il trasporto. In modo ufficioso, ovviamente.~
 @24   = ~In modo ufficioso. Sarebbe probabilmente meglio se anche l'Ordine non fosse coinvolto direttamente.~
-@25   = ~Quindi, la tua gente non pu√≤ parlare con loro e nemmeno la mia gente. Come pensi di assicurarti il loro aiuto?~
-@26   = ~Forse potremmo chiedere l'assistenza di qualcuno dell'Ordine meno reticente riguardo ai coinvolgimenti politici. Il delegato di Aster √® disposto a condurre i negoziati.~
+@25   = ~Quindi, la tua gente non puÚ parlare con loro e nemmeno la mia gente. Come pensi di assicurarti il loro aiuto?~
+@26   = ~Forse potremmo chiedere l'assistenza di qualcuno dell'Ordine meno reticente riguardo ai coinvolgimenti politici. Il delegato di Aster Ë disposto a condurre i negoziati.~
 @27   = ~E cosa vorrebbero ottenere?~
-@28   = ~Chi pu√≤ dirlo, con i Lathandriti? Hanno i loro motivi, di certo, comunque l'importante √® che sono disposti ad aiutarci.~
-@29   = ~Vale la pena. Vedr√≤ chi possiede una nave che possiamo affitare.~
+@28   = ~Chi puÚ dirlo, con i Lathandriti? Hanno i loro motivi, di certo, comunque l'importante Ë che sono disposti ad aiutarci.~
+@29   = ~Vale la pena. VedrÚ chi possiede una nave che possiamo affitare.~
 @30   = ~Mi scusi, <PRO_SIRMAAM>, sto cercando una persona di nome <CHARNAME>.~
 @31   = ~L'hai trovata.~
 @32   = ~Cosa vuoi da <PRO_HIMHER>?~
 @33   = ~Non ho mai sentito questo nome.~
-@34   = ~Ho un messaggio da parte di qualcuno che dice che pu√≤ portarti dove vuoi andare.~
+@34   = ~Ho un messaggio da parte di qualcuno che dice che puÚ portarti dove vuoi andare.~
 @35   = ~E questo qualcuno come sa dove io voglio andare?~
 @36   = ~Che messaggio?~
 @37   = ~Puoi venire al dunque?~
-@38   = ~Beh, se vedi <CHARNAME>, digli che Aster vuole parlare con <PRO_HIMHER> al piano superiore dei Cinque Boccali, ma se <PRO_HESHE> ha accettato un'altra offerta non fa niente, in quel caso non si far√† trovare. Qualsiasi cosa questo significhi.~
+@38   = ~Beh, se vedi <CHARNAME>, digli che Aster vuole parlare con <PRO_HIMHER> al piano superiore dei Cinque Boccali, ma se <PRO_HESHE> ha accettato un'altra offerta non fa niente, in quel caso non si far‡ trovare. Qualsiasi cosa questo significhi.~
 @39   = ~Hey, io consegno i messaggi, non li scrivo.~
-@40   = ~Il suo nome √® Aster e vuole essere incontrata al piano di sopra dei Cinque Boccali. Oh, dice anche che se hai accettato un'altra offerta non fa niente, in quel caso non si far√† trova. E' tutto, non chiedere altri dettagli.~
+@40   = ~Il suo nome Ë Aster e vuole essere incontrata al piano di sopra dei Cinque Boccali. Oh, dice anche che se hai accettato un'altra offerta non fa niente, in quel caso non si far‡ trova. E' tutto, non chiedere altri dettagli.~
 @41   = ~Beh, meglio che vada.~
 @42   = ~Strani Incontri
 
-Mi √® stato detto di incontrare una persona chiamata Aster al secondo piano della locanda dei Cinque Boccali, nonostante il messaggero sia stato piuttosto vago sul perch√© dovrei farlo. Ha anche aggiunto che se io ho "accettato un'altra offerta", non dovrei andare perch√© Aster non si far√† trovare l√¨ in questo caso. Ci sono volte in cui penso che tutti sappiano pi√π di me ci√≤ che mi riguarda.~
-@43   = ~La benedizione di Lathander √® su di te, straniero.~ [b!ast_01]
+Mi Ë stato detto di incontrare una persona chiamata Aster al secondo piano della locanda dei Cinque Boccali, nonostante il messaggero sia stato piuttosto vago sul perchÈ dovrei farlo. Ha anche aggiunto che se io ho "accettato un'altra offerta", non dovrei andare perchÈ Aster non si far‡ trovare lÏ in questo caso. Ci sono volte in cui penso che tutti sappiano pi˘ di me ciÚ che mi riguarda.~
+@43   = ~La benedizione di Lathander Ë su di te, straniero.~ [b!ast_01]
 @44   = ~Sei Aster?~
 @45   = ~Mi scusi, devo aver sbagliato camera.~
 @46   = ~E anche su di te.~
 @47   = ~Volevi vedermi?~
-@48   = ~Mi aspettavo qualcosa di un po' pi√π sinistro.~
-@49   = ~Ci incontriamo ancora, sembra. Sei soddisfatto ora? Concorderai con quanto ti ho gi√† offerto?~ [b!ast_02]
+@48   = ~Mi aspettavo qualcosa di un po' pi˘ sinistro.~
+@49   = ~Ci incontriamo ancora, sembra. Sei soddisfatto ora? Concorderai con quanto ti ho gi‡ offerto?~ [b!ast_02]
 @50   = ~Rinfrescami la memoria. Di cosa si trattava?~
 @51   = ~Sono pronto.~
 @52   = ~Non ho oro da spendere.~
-@53   = ~Non sono pi√π interessato.~
+@53   = ~Non sono pi˘ interessato.~
 @54   = ~Sei pronto per parlare?~
 @55   = ~Volevo parlarti.~
-@56   = ~Ci sono dentro fino al collo. Mi √® stato detto di fare cose orribili e non so da dove cominciare.~
+@56   = ~Ci sono dentro fino al collo. Mi Ë stato detto di fare cose orribili e non so da dove cominciare.~
 @57   = ~Volevo dirti di andare al diavolo, ho trovato un'offerta migliore.~
-@58   = ~Mi dispiace, ma hai intrapreso un percorso, e lo devi seguire. Qualunque sia questo percorso, abbi fede nel Signore del Mattino e lui non ti abbandoner√†.~
+@58   = ~Mi dispiace, ma hai intrapreso un percorso, e lo devi seguire. Qualunque sia questo percorso, abbi fede nel Signore del Mattino e lui non ti abbandoner‡.~
 @59   = ~Per 15000 pezzi d'oro, i miei collaboratori ti forniranno un mezzo di trasporto per Spellhold, se dimostrerai loro le tue buone intenzioni.~
-@60   = ~Forse, ma non sono pi√π la persona che cerchi. Addio.~
+@60   = ~Forse, ma non sono pi˘ la persona che cerchi. Addio.~
 @61   = ~E sia. Addio.~
 @62   = ~Se vuole scusarmi, penso di essere entrato nella stanza sbagliata. Addio.~
 @63   = ~Mi dispiace, ma credo tu ti sbagli. Addio.~
-@64   = ~Puoi dirlo forte, s√¨.~
+@64   = ~Puoi dirlo forte, sÏ.~
 @65   = ~Sicuro?~
-@66   = ~Dato che cercavo il guardaroba, dovrei dire s√¨.~
+@66   = ~Dato che cercavo il guardaroba, dovrei dire sÏ.~
 @67   = ~Aspetti qualcuno qui?~
 @68   = ~Non proprio, e tu non sei chi stavo aspettando.~
-@69   = ~Splendido! Non sapevo che avevo a che fare con un <PRO_BROTHERSISTER> della fede. Questo render√† le cose pi√π facili per entrambi.~
-@70   = ~Sar√≤ sincera con te. So che vuoi viaggiare verso il manicomio dove Athkatla manda i suoi "devianti magici", come li chiamano.~
+@69   = ~Splendido! Non sapevo che avevo a che fare con un <PRO_BROTHERSISTER> della fede. Questo render‡ le cose pi˘ facili per entrambi.~
+@70   = ~SarÚ sincera con te. So che vuoi viaggiare verso il manicomio dove Athkatla manda i suoi "devianti magici", come li chiamano.~
 @71   = ~Sembra che tu non approvi.~
-@72   = ~E come hai saputo ci√≤?~
-@73   = ~Voglio solo il mago Irenicus. Non importa se puoi mandare me laggi√π o lui qui.~
-@74   = ~E mi aiuterai, dato che far√≤ tutto ci√≤ che dici e ti pagher√≤ profumatamente.~
-@75   = ~Ti verr√≤ incontro, penso.~
-@76   = ~Come ho saputo ci√≤ non deve interessarti. Vuoi avere accesso a quella prigione o no?~
+@72   = ~E come hai saputo ciÚ?~
+@73   = ~Voglio solo il mago Irenicus. Non importa se puoi mandare me laggi˘ o lui qui.~
+@74   = ~E mi aiuterai, dato che farÚ tutto ciÚ che dici e ti pagherÚ profumatamente.~
+@75   = ~Ti verrÚ incontro, penso.~
+@76   = ~Come ho saputo ciÚ non deve interessarti. Vuoi avere accesso a quella prigione o no?~
 @77   = ~Va' avanti. Ti ascolto.~
 @78   = ~No, preferisco fare a modo mio, grazie.~
 @79   = ~Le mie opinioni non contano qui, dato che non vengo da questa regione, ma trovo strano il concetto di sopprimere il talento arcano.~
-@80   = ~In ogni caso, questo non ha a che fare col perch√© tu sia qui oggi.~
+@80   = ~In ogni caso, questo non ha a che fare col perchÈ tu sia qui oggi.~
 @81   = ~Posso aiutarti, ma prima devi dimostrare di meritarlo.~
-@82   = ~Pensavo che Lathander fosse un dio benevolente! Perch√© devo dimostrargli qualcosa?~
+@82   = ~Pensavo che Lathander fosse un dio benevolente! PerchÈ devo dimostrargli qualcosa?~
 @83   = ~In altre parole, hai una serie di lavori sporchi cose da farmi fare.~
-@84   = ~Se pagassi il passaggio e basta? Non sarebbe pi√π semplice?~
+@84   = ~Se pagassi il passaggio e basta? Non sarebbe pi˘ semplice?~
 @85   = ~Ho avuto altre offerte.~
-@86   = ~Io non chiedo un compenso personale, sebbene ci√≤ non significhi che il mio aiuto sia gratuito.~
-@87   = ~I soldi da soli non bastano. Alcuni sfidano gli ordini del Consiglio dei Sei, e sono i pi√π difficili da scovare. Vogliamo un pagamento da parte tua, ma solo in parte con l'oro e solo per mostrare la tua fede.~
+@86   = ~Io non chiedo un compenso personale, sebbene ciÚ non significhi che il mio aiuto sia gratuito.~
+@87   = ~I soldi da soli non bastano. Alcuni sfidano gli ordini del Consiglio dei Sei, e sono i pi˘ difficili da scovare. Vogliamo un pagamento da parte tua, ma solo in parte con l'oro e solo per mostrare la tua fede.~
 @88   = ~Quindi cosa vuoi che faccia?~
-@89   = ~E perch√© dovrei ascoltarti, se non puoi aiutarmi?~
-@90   = ~Non ho detto che devi dimostrare qualcosa a Lathander. Lo devi ad agenti mortali, che sono pi√π difficili da accontentare.~
-@91   = ~La tua comprensione della situazione √® sicuramente notevole. Comunque la lista √® corta, sebbene pericolosa.~
-@92   = ~Non mi sorprende. La questione √® se puoi assolvere ai compiti associati a quelle offerte seguendo la tua coscienza. Se la risposta √® "no", allora ti invito ad ascoltare ci√≤ che ho da dirti.~
-@93   = ~Se completi due incarichi, organizzer√≤ un passaggio per te fino a Brynnlaw, l'isola dove si trova il manicomio... Spellhold.~ [b!ast_03]
+@89   = ~E perchÈ dovrei ascoltarti, se non puoi aiutarmi?~
+@90   = ~Non ho detto che devi dimostrare qualcosa a Lathander. Lo devi ad agenti mortali, che sono pi˘ difficili da accontentare.~
+@91   = ~La tua comprensione della situazione Ë sicuramente notevole. Comunque la lista Ë corta, sebbene pericolosa.~
+@92   = ~Non mi sorprende. La questione Ë se puoi assolvere ai compiti associati a quelle offerte seguendo la tua coscienza. Se la risposta Ë "no", allora ti invito ad ascoltare ciÚ che ho da dirti.~
+@93   = ~Se completi due incarichi, organizzerÚ un passaggio per te fino a Brynnlaw, l'isola dove si trova il manicomio... Spellhold.~ [b!ast_03]
 @94   = ~Quali due incarichi?~
 @95   = ~Tutto qui? Solo due cose?~
 @96   = ~Preferirei sentire cosa mi offrono gli altri prima di decidere.~
-@97   = ~Non ho detto che non posso aiutarti. Ho detto che ci vorr√† pi√π del semplice oro per ottenere l'aiuto.~
-@98   = ~Prima di darti pi√π informazioni, ho bisogno della tua parola che ti impegnerai a portare a termine gli incarichi... e che manterrai il segreto.~
+@97   = ~Non ho detto che non posso aiutarti. Ho detto che ci vorr‡ pi˘ del semplice oro per ottenere l'aiuto.~
+@98   = ~Prima di darti pi˘ informazioni, ho bisogno della tua parola che ti impegnerai a portare a termine gli incarichi... e che manterrai il segreto.~
 @99   = ~Molto bene, hai la mia parola.~
 @100  = ~Quindi, mi stai chiedendo di impegnarmi in qualcosa senza sapere cosa mi chiederai di fare?~
 @101  = ~Ho avuto altre offerte. Vorrei sentire cosa mi offrono gli altri prima di decidere.~
 @102  = ~Grazie lo stesso, ma prefescisco provare con qualcosa che conosco.~
 @103  = ~Sono sufficienti.~
-@104  = ~Se questa √® la tua scelta, cos√¨ sia. E' giusto che tu sappia, comunque, che la scelta di un'offerta potrebbe chiuderti la possibilit√† delle altre.~
+@104  = ~Se questa Ë la tua scelta, cosÏ sia. E' giusto che tu sappia, comunque, che la scelta di un'offerta potrebbe chiuderti la possibilit‡ delle altre.~
 @105  = ~Cosa significherebbe?~
-@106  = ~Cos√¨ sia.~
-@107  = ~Vorrei pi√π informazioni.~
-@108  = ~Io servo il Signore del Mattino. Non ti chieder√≤ di fare nulla di malvagio.~
+@106  = ~CosÏ sia.~
+@107  = ~Vorrei pi˘ informazioni.~
+@108  = ~Io servo il Signore del Mattino. Non ti chiederÚ di fare nulla di malvagio.~
 @109  = ~Va bene. Sono d'accordo con i tuoi termini.~
-@110  = ~Mi serve pi√π tempo per pensarci.~
+@110  = ~Mi serve pi˘ tempo per pensarci.~
 @111  = ~No, preferisco comunque un'altra offerta.~
 @112  = ~Splendido. Sei pronto ad ascoltare il tuo primo incarico?~ [b!ast_04]
 @113  = ~Prontissimo.~
-@114  = ~Ho da fare al momento. Posso tornare pi√π tardi?~
+@114  = ~Ho da fare al momento. Posso tornare pi˘ tardi?~
 @115  = ~Alcune porte si aprono solo in una direzione. Se vai via, potresti non poter tornare qui.~
-@116  = ~Questa √® una di quelle?~
-@117  = ~Correr√≤ il rischio. Addio.~
+@116  = ~Questa Ë una di quelle?~
+@117  = ~CorrerÚ il rischio. Addio.~
 @118  = ~Addio e buona fortuna. Ne avrai bisogno.~ [b!ast_05]
 @119  = ~Un Alleato Rifiutato
   
-Ho incontrato Aster, che mi ha detto che potrebbe aiutarmi ad andare a Spellhold se eseguir√≤ un paio di incarichi per lei, ma ho rifiutato. Dovrei sentire cosa hanno da proporre gli altri.~
-@120  = ~Ottimo. I miei collaboratori richiedono una prova che tu servi la causa del bene, oltre all'oro che darai a me ora. L'aiuto dell'Ordine ti coster√† 15000 monete d'oro.~ [b!ast_06]
+Ho incontrato Aster, che mi ha detto che potrebbe aiutarmi ad andare a Spellhold se eseguirÚ un paio di incarichi per lei, ma ho rifiutato. Dovrei sentire cosa hanno da proporre gli altri.~
+@120  = ~Ottimo. I miei collaboratori richiedono una prova che tu servi la causa del bene, oltre all'oro che darai a me ora. L'aiuto dell'Ordine ti coster‡ 15000 monete d'oro.~ [b!ast_06]
 @121  = ~Non ho questi soldi ora.~
-@122  = ~Non voglio separarmi da una cos√¨ grossa somma al momento.~
+@122  = ~Non voglio separarmi da una cosÏ grossa somma al momento.~
 @123  = ~Molto bene, ecco il oro.~
-@124  = ~Posso aspettare qui finch√© li avrai.~
+@124  = ~Posso aspettare qui finchÈ li avrai.~
 @125  = ~Posso aspettare fin quando vuoi.~
-@126  = ~Come sai, i Ladri Tenebrosi hanno una roccaforte ad Athkatla. Estorsione, commercio di schiavi, uccisioni e torture sono tra i loro crimini pi√π frequenti.~
-@127  = ~Probabilmente non √® possibile eliminare completamente le attivit√† illecite ad Athkatla, ma ripulire la base dei Ladri Tenebrosi le ridurrebbe al punto che le normali guardie potrebbero far fronte a ci√≤ che rimane.~
-@128  = ~Mi stai chiedendo di affrontare i Ladri Tenebrosi?~
-@129  = ~Molto bene. Sar√≤ di ritorno quando avr√≤ completato l'incarico.~
-@130  = ~Che ricompensa ne otterr√≤?~
+@126  = ~Come sai, i Ladri dell'Ombra hanno una roccaforte ad Athkatla. Estorsione, commercio di schiavi, uccisioni e torture sono tra i loro crimini pi˘ frequenti.~
+@127  = ~Probabilmente non Ë possibile eliminare completamente le attivit‡ illecite ad Athkatla, ma ripulire la base dei Ladri dell'Ombra le ridurrebbe al punto che le normali guardie potrebbero far fronte a ciÚ che rimane.~
+@128  = ~Mi stai chiedendo di affrontare i Ladri dell'Ombra?~
+@129  = ~Molto bene. SarÚ di ritorno quando avrÚ completato l'incarico.~
+@130  = ~Che ricompensa ne otterrÚ?~
 @131  = ~Sei consapevole che potrei anche accordarmi con quell'organizzazione?~
-@132  = ~Non lo far√≤.~
+@132  = ~Non lo farÚ.~
 @133  = ~Prenditi il tempo che ti serve... se pensi che la tua amica Imoen possa sopravvivere al ritardo.~
 @134  = ~Potresti, ma ti avverto che ho il modo di scoprire se accetti un'altra offerta.~
-@135  = ~S√¨.~
-@136  = ~Se la metti cos√¨, accetto le tue richieste.~
+@135  = ~SÏ.~
+@136  = ~Se la metti cosÏ, accetto le tue richieste.~
 @137  = ~Va bene. Voglio che distruggi la loro base.~
-@138  = ~Troverai ricchezze all'interno del covo dei Ladri Tenebrosi.~
-@139  = ~Probabilmente sar√† difficile tornare da loro ora. Mi aspetto che sappiano gi√† del nostro incontro.~
-@140  = ~No, non penso che sarai il benvenuto l√¨.~
+@138  = ~Troverai ricchezze all'interno del covo dei Ladri dell'Ombra.~
+@139  = ~Probabilmente sar‡ difficile tornare da loro ora. Mi aspetto che sappiano gi‡ del nostro incontro.~
+@140  = ~No, non penso che sarai il benvenuto lÏ.~
 @141  = ~E' troppo tardi per questo, ora. Hai accettato i miei termini. Inoltre, sospetto che questo posto sia sorvegliato. Gli altri gruppi sapranno del nostro incontro.~
-@142  = ~Splendido. Mander√≤ in avanscoperta un mio collaboratore, Harold, per farti sapere quando andare l√¨. I Ladri Tenebrosi utilizzano come base un edificio arancione nel Distretto dei Moli. Non vedo l'ora di sapere del tuo successo.~ [b!ast_07]
+@142  = ~Splendido. ManderÚ in avanscoperta un mio collaboratore, Harold, per farti sapere quando andare lÏ. I Ladri dell'Ombra utilizzano come base un edificio arancione nel Distretto dei Moli. Non vedo l'ora di sapere del tuo successo.~ [b!ast_07]
 @143  = ~Una Lunghissima Vacanza
 
-Un uomo vestito in modo appariscente chiamato Malficus Rodendril si √® offerto di aiutarmi a fuggire dai miei problemi, salpando verso una terra lontana. Anche se mi ha detto che Maztica ha un clima piacevole e molto altro da offrire, non sono incline ad accettare questa offerta, per ora. Mi ha informato che rimarr√† alla locanda del Mitico Riposo nella Passeggiata di Waukeen, in caso io cambiassi idea.~
+Un uomo vestito in modo appariscente chiamato Malficus Rodendril si Ë offerto di aiutarmi a fuggire dai miei problemi, salpando verso una terra lontana. Anche se mi ha detto che Maztica ha un clima piacevole e molto altro da offrire, non sono incline ad accettare questa offerta, per ora. Mi ha informato che rimarr‡ alla locanda del Mitico Riposo nella Passeggiata di Waukeen, in caso io cambiassi idea.~
 @144  = ~Una Lunghissima Vacanza
 
-Un uomo vestito in modo appariscente chiamato Malficus Rodendril si √® offerto di aiutarmi a fuggire dai miei problemi, salpando verso una terra lontana... Maztica. La tentazione di andare dove nessuno ha mai sentito parlare della stirpe di Bhaal √® stata cos√¨ forte che ho accettato la sua offerta. Ci dobbiamo incontrare al faro nel Distretto dei Moli.~
+Un uomo vestito in modo appariscente chiamato Malficus Rodendril si Ë offerto di aiutarmi a fuggire dai miei problemi, salpando verso una terra lontana... Maztica. La tentazione di andare dove nessuno ha mai sentito parlare della stirpe di Bhaal Ë stata cosÏ forte che ho accettato la sua offerta. Ci dobbiamo incontrare al faro nel Distretto dei Moli.~
 @145  = ~Una Lunghissima Vacanza
 
-Un uomo vestito in modo appariscente chiamato Malficus Rodendril si √® offerto di aiutarmi a fuggire dai miei problemi, salpando verso una terra lontana. Anche se mi ha detto che Maztica ha un clima piacevole e molto altro da offrire, il costo del passaggio √® di ben 100000 pezzi d'oro. Malficus mi ha avvertito che √® pronto ad abbassare il costo se eseguir√≤ alcuni compiti per lui. Il primo di questi √® ottenere alcuni documenti da una donna di nome Leyt che si trova nel Distretto del Tempio, alla residenza Pimlico. Ha detto che il suo aspetto mi aiuter√† a riconoscerla. Quando avr√≤ i documenti, devo incontrarlo alla locanda del Mitico Riposo nella Passeggiata di Waukeen.~
+Un uomo vestito in modo appariscente chiamato Malficus Rodendril si Ë offerto di aiutarmi a fuggire dai miei problemi, salpando verso una terra lontana. Anche se mi ha detto che Maztica ha un clima piacevole e molto altro da offrire, il costo del passaggio Ë di ben 100000 pezzi d'oro. Malficus mi ha avvertito che Ë pronto ad abbassare il costo se eseguirÚ alcuni compiti per lui. Il primo di questi Ë ottenere alcuni documenti da una donna di nome Leyt che si trova nel Distretto del Tempio, alla residenza Pimlico. Ha detto che il suo aspetto mi aiuter‡ a riconoscerla. Quando avrÚ i documenti, devo incontrarlo alla locanda del Mitico Riposo nella Passeggiata di Waukeen.~
 @146  = ~Una Lunghissima Vacanza 
 
-Un uomo vestito in modo appariscente chiamato Malficus Rodendril si √® offerto di aiutarmi a fuggire dai miei problemi, salpando verso una terra lontana. Anche se mi ha detto che Maztica ha un clima piacevole e molto altro da offrire, il costo del passaggio √® di ben 100,000 pezzi d'oro.  Malficus mi ha avvertito che √® pronto ad abbassare il costo se eseguir√≤ alcuni compiti per lui. Il primo di questi √® ottenere alcuni documenti da una donna di nome Leyt che si trova nel Distretto del Tempio, alla residenza Pimlico. Ha detto che il suo aspetto mi aiuter√† a riconoscerla. Se accetto l'offerta, devo consegnare i documenti a Malficus, che mi aspetta alla locanda del Mitico Riposo nella Passeggiata di Waukeen.~
+Un uomo vestito in modo appariscente chiamato Malficus Rodendril si Ë offerto di aiutarmi a fuggire dai miei problemi, salpando verso una terra lontana. Anche se mi ha detto che Maztica ha un clima piacevole e molto altro da offrire, il costo del passaggio Ë di ben 100,000 pezzi d'oro.  Malficus mi ha avvertito che Ë pronto ad abbassare il costo se eseguirÚ alcuni compiti per lui. Il primo di questi Ë ottenere alcuni documenti da una donna di nome Leyt che si trova nel Distretto del Tempio, alla residenza Pimlico. Ha detto che il suo aspetto mi aiuter‡ a riconoscerla. Se accetto l'offerta, devo consegnare i documenti a Malficus, che mi aspetta alla locanda del Mitico Riposo nella Passeggiata di Waukeen.~
 @147  = ~Una Lunghissima Vacanza 
 
-Il primo compito che devo eseguire per Malficus √® ottenere alcuni documenti da una donna di nome Leyt che si trova nel Distretto del Tempio, alla residenza Pimlico. Ha detto che il suo aspetto mi aiuter√† a riconoscerla. Quando avr√≤ i documenti, devo incontrarlo alla locanda del Mitico Riposo nella Passeggiata di Waukeen.~
+Il primo compito che devo eseguire per Malficus Ë ottenere alcuni documenti da una donna di nome Leyt che si trova nel Distretto del Tempio, alla residenza Pimlico. Ha detto che il suo aspetto mi aiuter‡ a riconoscerla. Quando avrÚ i documenti, devo incontrarlo alla locanda del Mitico Riposo nella Passeggiata di Waukeen.~
 @148  = ~Un Lavoro Pasticciato
 
-Malficus Rodendril mi ha mandato nel Distretto del Tempio a prendere dei documenti da una sua collaboratrice, una donna di nome Leyt, ma lei √® fuggita quando l'ho minacciata. Non sono riuscito ad avere i documenti. Spero che Malficus abbia qualcos'altro da fare per me per abbassare il costo del viaggio.~
+Malficus Rodendril mi ha mandato nel Distretto del Tempio a prendere dei documenti da una sua collaboratrice, una donna di nome Leyt, ma lei Ë fuggita quando l'ho minacciata. Non sono riuscito ad avere i documenti. Spero che Malficus abbia qualcos'altro da fare per me per abbassare il costo del viaggio.~
 @149  = ~Documenti Ottenuti 
 
 Ho ottenuto i ducumenti richiesti da Malficus. Non mi aveva detto che erano contenuti dentro una scatola con un rompicapo! Non importa. Mi ha detto di riconsegnarglieli alla locanda del Mitico Riposo nella Passeggiata di Waukeen, una volta in mio possesso.~
 @150  = ~Una Scorciatoia per lo Schizzinoso
 
-L'assistente capitano Ballas vorrebbe che io avvelenassi il capitano Nador, ma posso fare una cosa del genere a sangue freddo. Ballas ha suggerito di contattare un assassino di professione chiamato Wael che frequesta la locanda di Delosar, e di solito si trova al primo piano. Mi chiedo quanto mi coster√†.~
+L'assistente capitano Ballas vorrebbe che io avvelenassi il capitano Nador, ma posso fare una cosa del genere a sangue freddo. Ballas ha suggerito di contattare un assassino di professione chiamato Wael che frequesta la locanda di Delosar, e di solito si trova al primo piano. Mi chiedo quanto mi coster‡.~
 @151  = ~Alla Ricerca di Veleno
 
-Questo compito diventa sempre pi√π lungo. Ora devo andare al secondo piano della locanda dei Cinque Boccali e incontrare un uomo di nome Vhellon. Lui mi dar√† un "additivo" per l'ultima cena del capitano Nador. Dopo di ci√≤, devo andare alla residenza Vulova nel Distretto Governativo, dove il maggiordomo mi dar√† ulteriori informazioni. Spero di ricordarmi tutto.~
+Questo compito diventa sempre pi˘ lungo. Ora devo andare al secondo piano della locanda dei Cinque Boccali e incontrare un uomo di nome Vhellon. Lui mi dar‡ un "additivo" per l'ultima cena del capitano Nador. Dopo di ciÚ, devo andare alla residenza Vulova nel Distretto Governativo, dove il maggiordomo mi dar‡ ulteriori informazioni. Spero di ricordarmi tutto.~
 @152  = ~Il Costo di un Alleato
   
-Ho incontrato Aster che si √® detta disposta ad aiutarmi ad ottenere un passaggio per Spellhold in cambio di due incarichi da effettuare per lei. Il primo √® distruggere la base dei Ladri Tenebrosi. Devo incontrare il suo collaboratore Harold fuori dal quartier generale dei Ladri Tenebrosi, nel Distretto dei Moli.~
+Ho incontrato Aster che si Ë detta disposta ad aiutarmi ad ottenere un passaggio per Spellhold in cambio di due incarichi da effettuare per lei. Il primo Ë distruggere la base dei Ladri dell'Ombra. Devo incontrare il suo collaboratore Harold fuori dal quartier generale dei Ladri dell'Ombra, nel Distretto dei Moli.~
 @153  = ~Incontrare la Padrona di Valen: Cancellato
 
 Dato che ho accettato di completare gli incarichi di Aster, ora devo andare al Distretto del Cimitero ad incontrare la misteriosa padrona di Valen. Anche se le parole di Valen possono essere state intriganti, le domande resteranno senza risposta... almeno per ora.~
@@ -183,91 +183,91 @@ Dato che ho accettato di completare gli incarichi di Aster, ora devo andare al D
 Gli amici di Gaelan Bayle avrebbero potuto aiutarmi, ma ho rifiutato la loro offerta. Preferisco portare a termine gli incarichi di Aster, invece.~
 @155  = ~Una Lunghissima Vacanza 
 
-Anche se Malficus mi avrebbe potuto allontanare dai miei problemi, non sarebbe durata per molto. Quindi, ho deciso di restare qui nel Faerun e di affrontare le cose. Non posso pi√π cambiare idea... non ha senso cercare ancora Malficus.~
-@156  = ~Se stai considerando altre offerte, magari pi√π redditizie, probabilmente troverai le altre porte chiuse ormai. Mander√≤ in avanscoperta il mio collaboratore, Harold, per farti sapere quando dirigerti l√¨. I Ladri Tenebrosi utilizzano come base un edificio arancione nel Distretto dei Moli. Non vedo l'ora di sapere cosa mi dirai.~
+Anche se Malficus mi avrebbe potuto allontanare dai miei problemi, non sarebbe durata per molto. Quindi, ho deciso di restare qui nel Faerun e di affrontare le cose. Non posso pi˘ cambiare idea... non ha senso cercare ancora Malficus.~
+@156  = ~Se stai considerando altre offerte, magari pi˘ redditizie, probabilmente troverai le altre porte chiuse ormai. ManderÚ in avanscoperta il mio collaboratore, Harold, per farti sapere quando dirigerti lÏ. I Ladri dell'Ombra utilizzano come base un edificio arancione nel Distretto dei Moli. Non vedo l'ora di sapere cosa mi dirai.~
 @157  = ~Il Costo di un Alleato
   
-Ho incontrato Aster, che √® sembrata incapace di accettare un "no" come risposta. Mi aiuter√† ad ottenere un passaggio per Spellhold in cambio di due incarichi da effettuare per lei. Il primo √® distruggere la base dei Ladri Tenebrosi. Devo incontrare il suo collaboratore Harold fuori dal quartier generale dei Ladri Tenebrosi, nel Distretto dei Moli. Dato che le altre opzioni non sono pi√π fattibili, mi resta poca scelta.~
-@158  = ~Sciocco! Hai perso l'opportunit√† di lavorare per me quando hai consegnato il tuo oro sporco a quella puttana di Lathander. Ci incontreremo ancora!~
-@159  = ~Sciocco! Hai perso l'opportunit√† di lavorare per me quando hai consegnato il tuo oro sporco a quella vipera. Ci incontreremo ancora!~
-@160  = ~Sono contento che non hai unito le tue forze a quel bastardo. Diffida di lui. E' un subdolo. Ora, c'√® qualcosa di cui hai bisogno?~
-@161  = ~Hai gi√† preso contatti con il mio agente al quartier generale dei Ladri Tenebrosi?~ [b!ast_08]
-@162  = ~Non ancora, ma lo far√≤ presto.~
+Ho incontrato Aster, che Ë sembrata incapace di accettare un "no" come risposta. Mi aiuter‡ ad ottenere un passaggio per Spellhold in cambio di due incarichi da effettuare per lei. Il primo Ë distruggere la base dei Ladri dell'Ombra. Devo incontrare il suo collaboratore Harold fuori dal quartier generale dei Ladri dell'Ombra, nel Distretto dei Moli. Dato che le altre opzioni non sono pi˘ fattibili, mi resta poca scelta.~
+@158  = ~Sciocco! Hai perso l'opportunit‡ di lavorare per me quando hai consegnato il tuo oro sporco a quella puttana di Lathander. Ci incontreremo ancora!~
+@159  = ~Sciocco! Hai perso l'opportunit‡ di lavorare per me quando hai consegnato il tuo oro sporco a quella vipera. Ci incontreremo ancora!~
+@160  = ~Sono contento che non hai unito le tue forze a quel bastardo. Diffida di lui. E' un subdolo. Ora, c'Ë qualcosa di cui hai bisogno?~
+@161  = ~Hai gi‡ preso contatti con il mio agente al quartier generale dei Ladri dell'Ombra?~ [b!ast_08]
+@162  = ~Non ancora, ma lo farÚ presto.~
 @163  = ~Dove hai detto che era il quartier generale?~
 @164  = ~Puoi darmi qualcosa per aiutarmi?~
-@165  = ~Pi√π aspetti e pi√π loro diventano potenti.~
+@165  = ~Pi˘ aspetti e pi˘ loro diventano potenti.~
 @166  = ~Sul lato occidentale dei Moli, un edificio arancione.~
 @167  = ~Solo le benedizioni di Lathander.~
-@168  = ~Tu devi essere <CHARNAME>. Aster ha detto di aspettarti. Ho qui una chiave che aprir√† la porta segreta per accedere ai livelli inferiori - l'ho avuta da un tizio nei Bassifondi - ma devi mettere al sicuro i livelli superiori prima di aprirla.~
-@169  = ~Tu devi essere <CHARNAME>. Maestro Rhodendril ha detto di aspettarti. Ho qui una chiave che aprir√† la porta segreta per accedere ai livelli inferiori - l'ho avuta da un tizio nei Bassifondi - ma devi mettere al sicuro i livelli superiori prima di aprirla.~
-@170  = ~Cosa stai aspettando? I rinforzi dei Ladri Tenebrosi? Io non dispongo di un'armata, quindi facciamo presto.~
-@171  = ~Ben fatto! Vedr√≤ cosa posso fare per i prigionieri mentre tu fai il tuo rapporto.~
+@168  = ~Tu devi essere <CHARNAME>. Aster ha detto di aspettarti. Ho qui una chiave che aprir‡ la porta segreta per accedere ai livelli inferiori - l'ho avuta da un tizio nei Bassifondi - ma devi mettere al sicuro i livelli superiori prima di aprirla.~
+@169  = ~Tu devi essere <CHARNAME>. Maestro Rhodendril ha detto di aspettarti. Ho qui una chiave che aprir‡ la porta segreta per accedere ai livelli inferiori - l'ho avuta da un tizio nei Bassifondi - ma devi mettere al sicuro i livelli superiori prima di aprirla.~
+@170  = ~Cosa stai aspettando? I rinforzi dei Ladri dell'Ombra? Io non dispongo di un'armata, quindi facciamo presto.~
+@171  = ~Ben fatto! VedrÚ cosa posso fare per i prigionieri mentre tu fai il tuo rapporto.~
 @172  = ~Finalmente, sei qui. Facciamola finita.~
 @173  = ~Apri la porta! Ora, stupida creatura! Ora! <CHARNAME>, spero tu sia pronto.~
-@174  = ~Sei di ritorno! Come √® andata?~ [b!ast_09]
-@175  = ~Il capo dei Ladri Tenebrosi √® morto.~
-@176  = ~Non ho novit√†.~
+@174  = ~Sei di ritorno! Come Ë andata?~ [b!ast_09]
+@175  = ~Il capo dei Ladri dell'Ombra Ë morto.~
+@176  = ~Non ho novit‡.~
 @177  = ~Mi sarebbe utile un po' di aiuto.~
-@178  = ~Ottime notizie! Mander√≤ qualcuno ad aiutare i sopravvissuti dell'assalto immediatamente. E' troppo pensare che i Ladri Tenebrosi siano finiti per sempre, ma questa botta indebolir√† le loro operazioni per un bel po'. Alcuni amici saranno particolarmente compiaciuti da ci√≤.~
+@178  = ~Ottime notizie! ManderÚ qualcuno ad aiutare i sopravvissuti dell'assalto immediatamente. E' troppo pensare che i Ladri dell'Ombra siano finiti per sempre, ma questa botta indebolir‡ le loro operazioni per un bel po'. Alcuni amici saranno particolarmente compiaciuti da ciÚ.~
 @179  = ~Vuoi dire i tuoi amici all'Ordine del Cuore Radioso.~
 @180  = ~Che altro devo fare prima di partire per Spellhold?~
-@181  = ~Non √® stata una cosa facile.~
-@182  = ~Forse non lo sai, ma io posso capire quando qualcuno sta mentendo. Ritorna l√¨.~
-@183  = ~Ah, aspetter√≤.~
+@181  = ~Non Ë stata una cosa facile.~
+@182  = ~Forse non lo sai, ma io posso capire quando qualcuno sta mentendo. Ritorna lÏ.~
+@183  = ~Ah, aspetterÚ.~
 @184  = ~Certo.~
-@185  = ~Ahem... s√¨.~
-@186  = ~Perch√© il sotterfugio?~
-@187  = ~Perch√© dovrebbero... o dovresti tu... aiutarmi?~
-@188  = ~Hai detto due incarichi. Qual √® il prossimo?~
-@189  = ~Forse saprai della guerra tra le due fazioni che c'√® per le strade ultimamente. Un gruppo ha sfidato i Ladri Tenebrosi per la supremazia. Pensiamo che siano vampiri.~
-@190  = ~Perch√© i vampiri dovrebbero interessarsi dei Ladri Tenebrosi?~
+@185  = ~Ahem... sÏ.~
+@186  = ~PerchÈ il sotterfugio?~
+@187  = ~PerchÈ dovrebbero... o dovresti tu... aiutarmi?~
+@188  = ~Hai detto due incarichi. Qual Ë il prossimo?~
+@189  = ~Forse saprai della guerra tra le due fazioni che c'Ë per le strade ultimamente. Un gruppo ha sfidato i Ladri dell'Ombra per la supremazia. Pensiamo che siano vampiri.~
+@190  = ~PerchÈ i vampiri dovrebbero interessarsi dei Ladri dell'Ombra?~
 @191  = ~E tu vuoi che io uccida i vampiri, giusto?~
 @192  = ~Non ci pensare nemmeno. Sarebbe un suicidio.~
-@193  = ~No, effettivamente, ma sei sopravvissuto, perci√≤ devi essere piuttosto abile. Ora, portare a termine un solo incarico √® quello che ti separa da Spellhold.~
-@194  = ~E' difficile per uno straniero comprendere il sottile gioco mutevole di luci e ombre sulla superficie luccicante del torbido letamaio che √® la politica di Athkatla. In ogni caso, alcuni gruppi preferiscono evitare coinvolgimenti potenzialmente diffamatori. Altri, come i seguaci di Lathander, sono meno riluttanti a prendere rischi o a mostrare publicamente le loro simpatie.~
-@195  = ~Dunque "Aster" non √® il tuo vero nome.~
-@196  = ~Chi altro √® coinvolto?~
+@193  = ~No, effettivamente, ma sei sopravvissuto, perciÚ devi essere piuttosto abile. Ora, portare a termine un solo incarico Ë quello che ti separa da Spellhold.~
+@194  = ~E' difficile per uno straniero comprendere il sottile gioco mutevole di luci e ombre sulla superficie luccicante del torbido letamaio che Ë la politica di Athkatla. In ogni caso, alcuni gruppi preferiscono evitare coinvolgimenti potenzialmente diffamatori. Altri, come i seguaci di Lathander, sono meno riluttanti a prendere rischi o a mostrare publicamente le loro simpatie.~
+@195  = ~Dunque "Aster" non Ë il tuo vero nome.~
+@196  = ~Chi altro Ë coinvolto?~
 @197  = ~Pazienza.~
 @198  = ~E' onore e onere di tutte le persone per bene aiutare i meritevoli, ma sospetto che questa non sia la risposta che desideri.~
-@199  = ~Direi piuttosto che assicurarti il passaggio a Spellhold pu√≤ essere considerato un prezzo da pagare adeguato per i servizi che stai fornendo.~
+@199  = ~Direi piuttosto che assicurarti il passaggio a Spellhold puÚ essere considerato un prezzo da pagare adeguato per i servizi che stai fornendo.~
 @200  = ~Dunque cosa vuoi che faccia ora?~
-@201  = ~Dov'√® la tua simpatia ora?~
+@201  = ~Dov'Ë la tua simpatia ora?~
 @202  = ~Quante volte hai ripetuto questa risposta? Non importa, comunque. Dimmi solo cosa devo fare.~
-@203  = ~Non lo so... e questa √® la parte pi√π difficile di tutte.~
-@204  = ~I vampiri non hanno bisogno delle ricchezze dei Ladri Tenebrosi. Cosa ci guadagnano i vampiri a sfidarli?~
+@203  = ~Non lo so... e questa Ë la parte pi˘ difficile di tutte.~
+@204  = ~I vampiri non hanno bisogno delle ricchezze dei Ladri dell'Ombra. Cosa ci guadagnano i vampiri a sfidarli?~
 @205  = ~Ma questo non ha a che fare con l'incarico che ti ho affidato.~
-@206  = ~Athkatla √® una citt√† grande, con stretti vicoli e posti bui dove il male potrebbe nascondersi. I non-morti in questa citt√† potrebbero crescere fino a una smisurata grandezza se lasciati indisturbati.~
-@207  = ~Forse avrai notato strane uccisioni per tutta Athkatla. Cadaveri in luoghi improbabili, alcuni privi di sangue. Magari avrai assistito ad attacchi durante la notte. E se cos√¨ non fosse, te lo sto dicendo io ora. Noi pensiamo che i responsabili di questi fatti siano i vampiri.~
+@206  = ~Athkatla Ë una citt‡ grande, con stretti vicoli e posti bui dove il male potrebbe nascondersi. I non-morti in questa citt‡ potrebbero crescere fino a una smisurata grandezza se lasciati indisturbati.~
+@207  = ~Forse avrai notato strane uccisioni per tutta Athkatla. Cadaveri in luoghi improbabili, alcuni privi di sangue. Magari avrai assistito ad attacchi durante la notte. E se cosÏ non fosse, te lo sto dicendo io ora. Noi pensiamo che i responsabili di questi fatti siano i vampiri.~
 @208  = ~Le mie fonti indicano che l'entrata del loro rifugio si trova sotto il Distretto del Cimitero.~
-@209  = ~Strano che abbiano la loro base l√† dove il clero fa visita regolarmente.~
-@210  = ~Il tuo secondo e ultimo incarico √® andare al Distretto del Cimitero ed accedere al loro rifugio. L'entrata per le catacombe si trova nell'angolo nordest. Il mio aiutante, Zahl, ti aspetter√† l√† sotto.~
+@209  = ~Strano che abbiano la loro base l‡ dove il clero fa visita regolarmente.~
+@210  = ~Il tuo secondo e ultimo incarico Ë andare al Distretto del Cimitero ed accedere al loro rifugio. L'entrata per le catacombe si trova nell'angolo nordest. Il mio aiutante, Zahl, ti aspetter‡ l‡ sotto.~
 @211  = ~Oh, e prendi questi paletti. Ne avrai bisogno per distruggere i vampiri.~
-@212  = ~Far√≤ cos√¨.~
+@212  = ~FarÚ cosÏ.~
 @213  = ~Se proprio devo...~
 @214  = ~E se non volessi affrontare i vampiri?~
 @215  = ~Addio e buona fortuna.~
-@216  = ~La Distruzione dei Ladri Tenebrosi
+@216  = ~La Distruzione dei Ladri dell'Ombra
     
-Aran Linvail, il capo dei Ladri Tenebrosi, √® morto e i suoi seguaci distrutti o dispersi. "Aster" dell'Ordine Lathandrita di Aster ha richiesto la loro distruzione come parte del mio pagamento per raggiungere Spellhold.~
+Aran Linvail, il capo dei Ladri dell'Ombra, Ë morto e i suoi seguaci distrutti o dispersi. "Aster" dell'Ordine Lathandrita di Aster ha richiesto la loro distruzione come parte del mio pagamento per raggiungere Spellhold.~
 @217  = ~Vampiri nelle Catacombe
     
 "Aster", ora rivelatasi come un paladino di Lathander, mi ha ordinato di ripulire Athkatla dai vampiri. Mi ha dato dei paletti di legno e qualche vaga indicazione. Devo incontrare il suo contatto, un uomo chiamato Zahl, vicino all'entrata delle catacombe, sotto al Distretto del Cimitero. L'ingresso si trova nell'angolo nordest.~
-@218  = ~A questo punto √® troppo tardi per cambiare idea. Le altre strade sono chiuse per te... ho paura che tu non abbia altra scelta.~
-@219  = ~Sar√† cos√¨, se ti aspetti la sconfitta. Lathander presta la sua forza per questa causa.~
-@220  = ~Mi piacerebbe un aiuto pi√π concreto di quello di Lathander.~
-@221  = ~E' cos√¨ ironico fare commissioni per un tale idiota.~
-@222  = ~Non c'√® via d'uscita, giusto?~
-@223  = ~Ascolta, ho affrontato i ladri per te e mi √® quasi costata la vita. Avr√≤ guadagnato il passaggio almeno dieci volte, ormai.~
-@224  = ~Sono un paladino di Lathander e membro dell'Ordine di Aster. E s√¨, "Aster" non √® il mio vero nome, ma non ti dir√≤ qual √®.~
-@225  = ~Per quanto riguarda i miei alleati, non posso dirti di pi√π, ma sappi che sono tra i pi√π rispettabili cittadini di Athkatla. Moralmente inattaccabili.~
+@218  = ~A questo punto Ë troppo tardi per cambiare idea. Le altre strade sono chiuse per te... ho paura che tu non abbia altra scelta.~
+@219  = ~Sar‡ cosÏ, se ti aspetti la sconfitta. Lathander presta la sua forza per questa causa.~
+@220  = ~Mi piacerebbe un aiuto pi˘ concreto di quello di Lathander.~
+@221  = ~E' cosÏ ironico fare commissioni per un tale idiota.~
+@222  = ~Non c'Ë via d'uscita, giusto?~
+@223  = ~Ascolta, ho affrontato i ladri per te e mi Ë quasi costata la vita. AvrÚ guadagnato il passaggio almeno dieci volte, ormai.~
+@224  = ~Sono un paladino di Lathander e membro dell'Ordine di Aster. E sÏ, "Aster" non Ë il mio vero nome, ma non ti dirÚ qual Ë.~
+@225  = ~Per quanto riguarda i miei alleati, non posso dirti di pi˘, ma sappi che sono tra i pi˘ rispettabili cittadini di Athkatla. Moralmente inattaccabili.~
 @226  = ~Va bene. Cosa devo fare?~
-@227  = ~Se sono cos√¨ buoni, perch√© io devo fare queste cose?~
+@227  = ~Se sono cosÏ buoni, perchÈ io devo fare queste cose?~
 @228  = ~So chi sono loro. Li ho sentiti organizzare questa cosa. Mi chiedo chi altro sia coinvolto.~
 @229  = ~Come dicevo...~
 @230  = ~Rivolgiti al tuo dio, allora, ma devi agire o abbandonare l'idea di andare a Spellhold.~
-@231  = ~Rischi molto, parlando male di un dio, anche se non lo veneri. Hai cos√¨ tanta sicurezza nel tuo destino?~
+@231  = ~Rischi molto, parlando male di un dio, anche se non lo veneri. Hai cosÏ tanta sicurezza nel tuo destino?~
 @232  = ~Comunque, non importa.~
-@233  = ~Gli incarichi che ti √® stato chiesto di compiere giovano alla citt√† e ai suoi abitanti, quindi s√¨, direi che sono buoni. Se vuoi il nostro aiuto, devi accettare anche queste cose.~
+@233  = ~Gli incarichi che ti Ë stato chiesto di compiere giovano alla citt‡ e ai suoi abitanti, quindi sÏ, direi che sono buoni. Se vuoi il nostro aiuto, devi accettare anche queste cose.~
 @234  = ~Se vuoi il nostro aiuto, devi accettare di fare queste cose.~
 @235  = ~Sottovaluti il dono che ti stiamo dando. Anche se avessi venti volte l'oro che ci hai dato, non troveresti un capitano disposto a trasportarti a Brynnlaw. No, non hai scelta.~
 @236  = ~Come puoi descrivere i miei dipendenti come tenebrosi o malvagi?~
@@ -276,127 +276,127 @@ Aran Linvail, il capo dei Ladri Tenebrosi, √® morto e i suoi seguaci distrutti o
 @239  = ~Finora sono sembrati onesti nelle loro operazioni.~
 @240  = ~Vampiri nelle Catacombe
 
-Ho sconfitto i vampiri e affrontato Bodhi. Lei ha detto di sapere qualcosa di Imoen e mi ha in un certo senso giudicato, prima di ritirarsi nella forma di un pipistrello vampiro. Quello che rimane da fare ora √® tornare da "Aster" e dirle che la gilda √® sconfitta, anche se il loro capo non √® stato ucciso. Avrei anche qualche domanda da farle.
+Ho sconfitto i vampiri e affrontato Bodhi. Lei ha detto di sapere qualcosa di Imoen e mi ha in un certo senso giudicato, prima di ritirarsi nella forma di un pipistrello vampiro. Quello che rimane da fare ora Ë tornare da "Aster" e dirle che la gilda Ë sconfitta, anche se il loro capo non Ë stato ucciso. Avrei anche qualche domanda da farle.
 
-Un'altra questione √® che... Bodhi sapeva. Sapeva che sono un figlio di Bhaal.~
-@241  = ~Sei di ritorno! Che novit√† mi porti?~ [b!ast_10]
-@242  = ~I vampiri sono sconfitti, tuttavia mi dispiace dirti che il loro capo, Bodhi, √® fuggito.~
+Un'altra questione Ë che... Bodhi sapeva. Sapeva che sono un figlio di Bhaal.~
+@241  = ~Sei di ritorno! Che novit‡ mi porti?~ [b!ast_10]
+@242  = ~I vampiri sono sconfitti, tuttavia mi dispiace dirti che il loro capo, Bodhi, Ë fuggito.~
 @243  = ~Ho fatto quello che volevi.~
-@244  = ~L'incarico √® compiuto. Posso partire per Spellhold ora?~
-@245  = ~Nessuna novit√†, mi spiace.~
+@244  = ~L'incarico Ë compiuto. Posso partire per Spellhold ora?~
+@245  = ~Nessuna novit‡, mi spiace.~
 @246  = ~Hai fatto la cosa giusta. Se non hai altri affari di cui occuparti, puoi partire con la prossima alta marea.~ [b!ast_11]
 @247  = ~Ho qualche domanda per te.~
 @248  = ~Ho alcune cose da fare, ancora.~
 @249  = ~Sono pronto ad andare subito.~
-@250  = ~Stai mentendo. Mi dispiace, ma non posso concludere l'accordo fino a che non avrai fatto ci√≤ che ti ho chiesto.~
-@251  = ~C'√® qualcosa che non va?~
+@250  = ~Stai mentendo. Mi dispiace, ma non posso concludere l'accordo fino a che non avrai fatto ciÚ che ti ho chiesto.~
+@251  = ~C'Ë qualcosa che non va?~
 @252  = ~Ho dimenticato dove incontrare il tuo contatto.~
-@253  = ~No, √® solo che ho avuto da fare.~
+@253  = ~No, Ë solo che ho avuto da fare.~
 @254  = ~Mi serve un po' di tempo per prepararmi. ~
 @255  = ~Molto bene. Torna da me quando sei pronto a partire.~ [b!ast_12]
 @256  = ~Molto bene. Seguimi.~ [b!ast_13]
-@257  = ~Eliminare i Ladri Tenebrosi
+@257  = ~Eliminare i Ladri dell'Ombra
 
-Ho salvato un prigioniero, un certo Tizzak, che mi ha informato che l'unico modo per entrare nelle stanze private di Aran √® attraverso due porte magiche. La prima si apre premendo un pulsante... che si trova alla fine di un corridoio disseminato di trappole, a nord. La seconda si apre con una chiave... lui non sa dove si trova, ma mi ha suggerito che potrebbe averla uno stregone di nome Haz.~
+Ho salvato un prigioniero, un certo Tizzak, che mi ha informato che l'unico modo per entrare nelle stanze private di Aran Ë attraverso due porte magiche. La prima si apre premendo un pulsante... che si trova alla fine di un corridoio disseminato di trappole, a nord. La seconda si apre con una chiave... lui non sa dove si trova, ma mi ha suggerito che potrebbe averla uno stregone di nome Haz.~
 @258  = ~Gli Incarichi di Aster
 
-Ho completato gli incarichi che mi ha affidato Aster, e alla fine si √® disposta a lasciarmi partire per Spellhold, dove mi attendono Imoen e Irenicus. Qualunque cosa accada ora, √® certo che la prossima sfida si trovi sull'isola.~
-@259  = ~Non prendi appunti? Fa niente... Nell'angolo a nordest del Distretto del Cimitero troverai un accesso alle catacombe. Nella parte nord delle catacombe, davanti a un paio di porte blu, troverai Zahl, il mio contatto. Lui ti aiuter√† ad aprire queste porte, se non si sar√† spazientito ad aspettarti... Buona fortuna.~ [b!ast_14]
-@260  = ~Prenditi il tempo che vuoi. Sono certa che chiunque stai cercando a Spellhold potr√† attendere.~ [b!ast_15]
+Ho completato gli incarichi che mi ha affidato Aster, e alla fine si Ë disposta a lasciarmi partire per Spellhold, dove mi attendono Imoen e Irenicus. Qualunque cosa accada ora, Ë certo che la prossima sfida si trovi sull'isola.~
+@259  = ~Non prendi appunti? Fa niente... Nell'angolo a nordest del Distretto del Cimitero troverai un accesso alle catacombe. Nella parte nord delle catacombe, davanti a un paio di porte blu, troverai Zahl, il mio contatto. Lui ti aiuter‡ ad aprire queste porte, se non si sar‡ spazientito ad aspettarti... Buona fortuna.~ [b!ast_14]
+@260  = ~Prenditi il tempo che vuoi. Sono certa che chiunque stai cercando a Spellhold potr‡ attendere.~ [b!ast_15]
 @261  = ~Spara.~
-@262  = ~Perch√© mi stai aiutando? Che cosa ci guadagni?~
+@262  = ~PerchÈ mi stai aiutando? Che cosa ci guadagni?~
 @263  = ~Che cosa sai di me? Sai che cosa sono?~
 @264  = ~Quali macchinazioni politiche ho appena favorito?~
-@265  = ~Bodhi sembrava sapere molto di te. Perch√©?~
+@265  = ~Bodhi sembrava sapere molto di te. PerchÈ?~
 @266  = ~Ripensandoci, non voglio chiederti nulla.~
-@267  = ~Dovrebbe essere ovvio. Il mio Ordine, l'Ordine di Aster, voleva distruggere i vampiri. I miei alleati volevano eliminare i Ladri Tenebrosi. Entrambe le cose sono state compiute. Perci√≤, abbiamo tutti avuto ci√≤ che volevamo.~
-@268  = ~So che sei <CHARNAME>, un <PRO_RACE>, e che hai appena compiuto delle azioni molto importanti per me e i miei alleati. Questo √® tutto ci√≤ che mi interessa, temo.~
-@269  = ~Non nascondo che l'Ordine di Aster sia interessato a stabilirsi ad Athkatla, ma √® improbabile che questi piccoli incarichi siano sufficienti a influenzare il Consiglio per approvare il distaccamento. Anzi, penso che al Consiglio non piacer√† sapere quanto accaduto, dato che i Ladri Tenebrosi erano una gilda protetta ad Athkatla.~
+@267  = ~Dovrebbe essere ovvio. Il mio Ordine, l'Ordine di Aster, voleva distruggere i vampiri. I miei alleati volevano eliminare i Ladri dell'Ombra. Entrambe le cose sono state compiute. PerciÚ, abbiamo tutti avuto ciÚ che volevamo.~
+@268  = ~So che sei <CHARNAME>, un <PRO_RACE>, e che hai appena compiuto delle azioni molto importanti per me e i miei alleati. Questo Ë tutto ciÚ che mi interessa, temo.~
+@269  = ~Non nascondo che l'Ordine di Aster sia interessato a stabilirsi ad Athkatla, ma Ë improbabile che questi piccoli incarichi siano sufficienti a influenzare il Consiglio per approvare il distaccamento. Anzi, penso che al Consiglio non piacer‡ sapere quanto accaduto, dato che i Ladri dell'Ombra erano una gilda protetta ad Athkatla.~
 @270  = ~In altre parole, non hai favorito nessuno nell'agenda politica, anche se hai compiuto azioni per qualcuno.~
-@271  = ~Ne sei certo? Potrebbe aver inventato tutto cercando di distrarti. Avr√† pensato che fosse pi√π facile fuggire in questo modo.~
-@272  = ~Oh, no. Sembrava molto sicura di ci√≤ che diceva.~
+@271  = ~Ne sei certo? Potrebbe aver inventato tutto cercando di distrarti. Avr‡ pensato che fosse pi˘ facile fuggire in questo modo.~
+@272  = ~Oh, no. Sembrava molto sicura di ciÚ che diceva.~
 @273  = ~Forse hai ragione.~
 @274  = ~Se lo dici tu. Non fa differenza per me, comunque.~
 @275  = ~Hai altre domande?~
 @276  = ~Sei pronto a partire?~ [b!ast_17]
-@277  = ~S√¨~
+@277  = ~SÏ~
 @278  = ~Non ancora.~
 @279  = ~Ecco la tua nave, come promesso. Il tuo oro ha pagato il passaggio e anche il silenzio dell'equipaggio.~ [B!AST_25]
-@280  = ~Tuttavia un silenzio pi√π simbolico che altro, dato che i miei uomini fanno chiasso tutto il tempo. Generalmente √® meglio incoraggiare il divertimento a bordo.~ [PPSAEM07]
+@280  = ~Tuttavia un silenzio pi˘ simbolico che altro, dato che i miei uomini fanno chiasso tutto il tempo. Generalmente Ë meglio incoraggiare il divertimento a bordo.~ [PPSAEM07]
 @281  = ~Non mi interessano le abitudini dei tuoi uomini, capitano. Basta che mi portino a destinazione sano e salvo, e velocemente.~ [B!AST_26]
-@282  = ~N√© paure n√© preoccupazioni incroceranno i tuoi pensieri stanotte, milord. Ho viaggiato per questi mari talmente tante volte che posso vedere da lontano i guai.~ [PPSAEM08]
-@283  = ~"Milord"? Oh, lascia perdere. <CHARNAME>, questo √® il capitano Saemon Havarian. Lui e la sua nave... Signor Havarian, come si chiama la vostra nave?~ [b!ast_18]
-@284  = ~Ahh, il nome cambia come cambia il vento... principalmente perch√© non mi decido a fissare la targa con la resina. Al momento √® la Galante, finch√© non mi ispirer√† qualcosa di meglio.~
-@285  = ~Per quanto riguarda il viaggio, presta attenzione alle mie parole, <CHARNAME>, poich√© il mare cela pericoli che potresti non conoscere.~
+@282  = ~NÈ paure nÈ preoccupazioni incroceranno i tuoi pensieri stanotte, milord. Ho viaggiato per questi mari talmente tante volte che posso vedere da lontano i guai.~ [PPSAEM08]
+@283  = ~"Milord"? Oh, lascia perdere. <CHARNAME>, questo Ë il capitano Saemon Havarian. Lui e la sua nave... Signor Havarian, come si chiama la vostra nave?~ [b!ast_18]
+@284  = ~Ahh, il nome cambia come cambia il vento... principalmente perchÈ non mi decido a fissare la targa con la resina. Al momento Ë la Galante, finchÈ non mi ispirer‡ qualcosa di meglio.~
+@285  = ~Per quanto riguarda il viaggio, presta attenzione alle mie parole, <CHARNAME>, poichÈ il mare cela pericoli che potresti non conoscere.~
 @286  = ~Stai affidando la mia sicurezza a questo babbeo? Non mi convince il suo sorriso.~
-@287  = ~Non far arrabbiare il capitano, <CHARNAME>, a meno che tu non voglia nuotare fino a Spellhold. Nessuna altra nave si azzarderebbe ad andare l√¨.~
-@288  = ~Un'improvvisa burrasca o uno scoglio nascosto potrebbe rivelarsi fatale per gli incoscienti, anche se √® pi√π probabile che incontreremo pirati.~
-@289  = ~Ecco perch√© il mio aiutante e io abbiamo incluso una protezione per il viaggio.~
+@287  = ~Non far arrabbiare il capitano, <CHARNAME>, a meno che tu non voglia nuotare fino a Spellhold. Nessuna altra nave si azzarderebbe ad andare lÏ.~
+@288  = ~Un'improvvisa burrasca o uno scoglio nascosto potrebbe rivelarsi fatale per gli incoscienti, anche se Ë pi˘ probabile che incontreremo pirati.~
+@289  = ~Ecco perchÈ il mio aiutante e io abbiamo incluso una protezione per il viaggio.~
 @290  = ~Abbiamo pensato di fornirti un altro membro dell'equipaggio... per proteggerti, ovviamente.~
 @291  = ~Dunque siamo pronti a partire. Se tutti sono a bordo, salpiamo il prima possibile.~
 @292  = ~Capitolo 4
 
-Ho completato gli incarichi di Aster, ovvero distruggere i Ladri Tenebrosi e i vampiri, anche se Bodhi mi √® sfuggita. Prima di svanire, mi ha messo al corrente di diverse cose.
+Ho completato gli incarichi di Aster, ovvero distruggere i Ladri dell'Ombra e i vampiri, anche se Bodhi mi Ë sfuggita. Prima di svanire, mi ha messo al corrente di diverse cose.
 
-Sono stati i Ladri Tenebrosi ad attaccare Irenicus nella prigione dove ho ripreso i sensi. Avevano sentito del mio rapimento, ma non ne erano rimasti molto impressionati... poi per√≤ √® apparsa la gilda di Bodhi e molti Ladri Tenebrosi hanno cominciato a sparire. Sono riusciti a scovare la prigione di Irenicus e a collegarla a Bodhi... e io ho assistito al loro fallimentare assalto.
+Sono stati i Ladri dell'Ombra ad attaccare Irenicus nella prigione dove ho ripreso i sensi. Avevano sentito del mio rapimento, ma non ne erano rimasti molto impressionati... poi perÚ Ë apparsa la gilda di Bodhi e molti Ladri dell'Ombra hanno cominciato a sparire. Sono riusciti a scovare la prigione di Irenicus e a collegarla a Bodhi... e io ho assistito al loro fallimentare assalto.
 
-Aster mi ha detto che Imoen e Irenicus sono stati portati nello stesso luogo, un'isola dove sorge un manicomio chiamato Spellhold. Mi ha avvertito che il manicomio √® una fortezza pensata per rinchiudere i maghi pazzi e altri 'devianti'... e accedervi sarebbe difficile anche per lei. L'oro che le ho fornito √® stato usato per pagare il trasporto fino a l√¨, dove trover√≤ le risposte che cerco. Dunque, ho concordato il passaggio con un mercenario di nome Saemon Havarian e ora sono in viaggio...~
-@293  = ~Allora in marcia. Io devo rispedire il mio rapporto sulla terraferma. Potremmo ricevere qualche aiuto ora che la via √® libera.~
+Aster mi ha detto che Imoen e Irenicus sono stati portati nello stesso luogo, un'isola dove sorge un manicomio chiamato Spellhold. Mi ha avvertito che il manicomio Ë una fortezza pensata per rinchiudere i maghi pazzi e altri 'devianti'... e accedervi sarebbe difficile anche per lei. L'oro che le ho fornito Ë stato usato per pagare il trasporto fino a lÏ, dove troverÚ le risposte che cerco. Dunque, ho concordato il passaggio con un mercenario di nome Saemon Havarian e ora sono in viaggio...~
+@293  = ~Allora in marcia. Io devo rispedire il mio rapporto sulla terraferma. Potremmo ricevere qualche aiuto ora che la via Ë libera.~
 @294  = ~Entrare nel Manicomio
 
-Ora che ho la pietra sigillo per entrare al manicomio, Sime ha deciso di mandare un messaggio ad Aster. Spera che possiamo avere un aiuto dagli alleati di Aster, ora che la via per il manicomio √® libera.~
-@295  = ~Ho sentito di questo vampiro. Il suo nome √® Bodhi... ma tu non hai distrutto la sua gilda... su nostra richiesta?~
+Ora che ho la pietra sigillo per entrare al manicomio, Sime ha deciso di mandare un messaggio ad Aster. Spera che possiamo avere un aiuto dagli alleati di Aster, ora che la via per il manicomio Ë libera.~
+@295  = ~Ho sentito di questo vampiro. Il suo nome Ë Bodhi... ma tu non hai distrutto la sua gilda... su nostra richiesta?~
 @296  = ~Ho distrutto la gilda, ma non ho potuto distruggere lei. E' tornata ad Athkatla e ha riacquistato forza.~
-@297  = ~Ho sentito di questo vampiro. Il suo nome √® Bodhi... ma pare che sia stata via, di recente. Hai proprio bisogno del nostro aiuto?~
-@298  = ~Forse √® stata via per un po', ma √® tornata ad Athkatla e ha riacquistato forza.~
+@297  = ~Ho sentito di questo vampiro. Il suo nome Ë Bodhi... ma pare che sia stata via, di recente. Hai proprio bisogno del nostro aiuto?~
+@298  = ~Forse Ë stata via per un po', ma Ë tornata ad Athkatla e ha riacquistato forza.~
 @299  = ~<CHARNAME>, hai avuto quello che desideravi da noi, eppure torni a mettere alla prova la nostra pazienza. Dammi una buona ragione per cui io non debba sbatterti fuori.~
 @300  = ~Hmmm... Conosciamo questo vampiro, e anche la gilda di cui una volta era a capo. Tu li hai distrutti... su nostra richiesta.~
-@301  = ~Bah! Conosciamo questo vampiro. Le nostre fonti ci dicono che hai sconfitto lei e la gilda di cui era a capo. Perch√© ci stai mentendo? Cosa hai in mente, <CHARNAME>?~
+@301  = ~Bah! Conosciamo questo vampiro. Le nostre fonti ci dicono che hai sconfitto lei e la gilda di cui era a capo. PerchÈ ci stai mentendo? Cosa hai in mente, <CHARNAME>?~
 @302  = ~Hmmm... Conosciamo questo vampiro, ma pare che sia stata via, di recente. Pensiamo sia stata colpita.~
-@303  = ~Forse √® stata via per un po', ma ha riacquistato forza ed √® tornata... ed √® troppo potente perch√© io la sconfigga con le mie sole forze.~
-@304  = ~Non sprecher√≤ tempo a spiegartelo. Il fatto √® che lei non √® stata sconfitta e io non posso farlo senza il tuo aiuto.~
-@305  = ~Bah! Conosciamo questo vampiro. Le nostre fonti ci dicono che √® fuggita ad Athkatla. Perch√© ci stai mentendo? Cosa hai in mente, <CHARNAME>?~
-@306  = ~Non sto mentendo. Forse √® stata via per un po', ma ora si √® ripresa ed √® tornata ancora pi√π potente. Non posso sconfiggerla con le mie sole forze.~
-@307  = ~Non sprecher√≤ tempo a spiegartelo. Il fatto √® che non √® andata via e io non posso sconfiggerla senza il tuo aiuto.~
-@308  = ~Tu! Tu non sei dei Ladri Tenebrosi! Uccidi quel maledetto torturatore e liberami! Booter ha le chiavi! Ti dir√≤ tutto quello che so!~
-@309  = ~Tu non sei uno dei Ladri Tenebrosi, vero? Ti prego, lasciami andare! Ti posso aiutare a penetrare le difese di Aran Linvail!~
-@310  = ~La porta √® aperta. Dimmi quello che sai.~
+@303  = ~Forse Ë stata via per un po', ma ha riacquistato forza ed Ë tornata... ed Ë troppo potente perchÈ io la sconfigga con le mie sole forze.~
+@304  = ~Non sprecherÚ tempo a spiegartelo. Il fatto Ë che lei non Ë stata sconfitta e io non posso farlo senza il tuo aiuto.~
+@305  = ~Bah! Conosciamo questo vampiro. Le nostre fonti ci dicono che Ë fuggita ad Athkatla. PerchÈ ci stai mentendo? Cosa hai in mente, <CHARNAME>?~
+@306  = ~Non sto mentendo. Forse Ë stata via per un po', ma ora si Ë ripresa ed Ë tornata ancora pi˘ potente. Non posso sconfiggerla con le mie sole forze.~
+@307  = ~Non sprecherÚ tempo a spiegartelo. Il fatto Ë che non Ë andata via e io non posso sconfiggerla senza il tuo aiuto.~
+@308  = ~Tu! Tu non sei dei Ladri dell'Ombra! Uccidi quel maledetto torturatore e liberami! Booter ha le chiavi! Ti dirÚ tutto quello che so!~
+@309  = ~Tu non sei uno dei Ladri dell'Ombra, vero? Ti prego, lasciami andare! Ti posso aiutare a penetrare le difese di Aran Linvail!~
+@310  = ~La porta Ë aperta. Dimmi quello che sai.~
 @311  = ~Sei libero. Ora dimmi quello che sai di Aran Linvail o ti taglio la gola.~
 @312  = ~Dammi un momento per aprire la porta.~
-@313  = ~Sono quasi a pezzi, perci√≤ devo congedarmi da te.~
+@313  = ~Sono quasi a pezzi, perciÚ devo congedarmi da te.~
 @314  = ~Bene, sei libero ora, quindi dimmi quello che sai.~
 @315  = ~Bodhi chi?~
-@316  = ~Che fortuna! Lei potrebbe non sapere nemmeno della mia cattura. Come segno di ringraziamento, ti dir√≤ come arrivare ad Aran.~
+@316  = ~Che fortuna! Lei potrebbe non sapere nemmeno della mia cattura. Come segno di ringraziamento, ti dirÚ come arrivare ad Aran.~
 @317  = ~Buona fortuna e grazie per avermi salvato.~
 @318  = ~Non mi erano giunte complicazioni da questa fonte. Non importa. La tua piccola invasione finisce qui!~
-@319  = ~Questa √® una sorpresa. Non mi aspettavo che quei paladini facessero una mossa tanto audace. Il loro errore gli coster√† caro... il tuo la vita!~
-@320  = ~Questa √® una sorpresa. Non mi aspettavo che quel viscido conta-fagioli facesse una mossa tanto audace. Il suo errore gli coster√† caro... il tuo la vita!~
+@319  = ~Questa Ë una sorpresa. Non mi aspettavo che quei paladini facessero una mossa tanto audace. Il loro errore gli coster‡ caro... il tuo la vita!~
+@320  = ~Questa Ë una sorpresa. Non mi aspettavo che quel viscido conta-fagioli facesse una mossa tanto audace. Il suo errore gli coster‡ caro... il tuo la vita!~
 @321  = ~Dunque, hai deciso se preferisci separarti dall'oro o effettuare l'ultimo incarico che ho da darti?~
 @322  = ~Hai detto 90000 pezzi d'oro, giusto? Sono pronto a pagarli.~
 @323  = ~Non dimenticare il mio sconto! Ho fatto praticamente tutto quello che mi hai chiesto.~
-@324  = ~No, non ho ancora una somma tanto grande. Volevo vedere se avevi abbassato il costo mentre ero via. Penso che torner√≤ pi√π tardi.~
-@325  = ~Penso che prover√≤ a effettuare l'ultimo incarico.~
-@326  = ~Ripensandoci, penso che avrei fatto meglio ad affrontare le mie responsabilit√†, dopo tutto.~
+@324  = ~No, non ho ancora una somma tanto grande. Volevo vedere se avevi abbassato il costo mentre ero via. Penso che tornerÚ pi˘ tardi.~
+@325  = ~Penso che proverÚ a effettuare l'ultimo incarico.~
+@326  = ~Ripensandoci, penso che avrei fatto meglio ad affrontare le mie responsabilit‡, dopo tutto.~
 @327  = ~Hai deciso cosa farai?~ [b!mal_06]
 @328  = ~Ho i 90000. Mettimi su una nave per Maztica.~
 @329  = ~Ho 50000 pezzi d'oro. Vorrei imbarcarmi ora.~
-@330  = ~Sono pronto ad affrontare i Ladri Tenebrosi.~
-@331  = ~Torner√≤ pi√π tardi.~
+@330  = ~Sono pronto ad affrontare i Ladri dell'Ombra.~
+@331  = ~TornerÚ pi˘ tardi.~
 @332  = ~Salve! Malficus Rodendril, egregio, al tuo servizio!~ [b!mal_01]
 @333  = ~Penso di non aver mai visto una tunica tanto sgargiante.~
 @334  = ~E' davvero il tuo nome?~
 @335  = ~Se non ti dispiace, ho un po' da fare ora.~
 @336  = ~Da dove salti fuori?~
-@337  = ~Hai un aspetto familiare. Ti ho gi√† visto da qualche parte?~
+@337  = ~Hai un aspetto familiare. Ti ho gi‡ visto da qualche parte?~
 @338  = ~Fa tutto parte del piano.~
-@339  = ~Sfortunatamente, s√¨. E' davvero troppo ordinario, per essere un nome, ed √® un peccato.~
-@340  = ~L'ho notata proprio ora, ed √® per questo che ti ho seguito.~
+@339  = ~Sfortunatamente, sÏ. E' davvero troppo ordinario, per essere un nome, ed Ë un peccato.~
+@340  = ~L'ho notata proprio ora, ed Ë per questo che ti ho seguito.~
 @341  = ~Una semplice domanda e una facile risposta. Ti ho seguito.~
 @342  = ~Tremo al pensiero che qualcuno possa non notarmi.~
 @343  = ~Sono stato indubbiamente fortunato ad uscire dalla locanda del Mitico Riposo nell'esatto momento in cui tu entravi alla Passeggiata di Waukeen. E sono stato indubbiamente fortunato ad evitare la valanga di detriti provocata dal tuo ingresso.~
-@344  = ~E cos√¨ mi sono detto: "Egregio, c'√® qualcuno che ha bisogno dei tuoi talenti, assolutamente".~
+@344  = ~E cosÏ mi sono detto: "Egregio, c'Ë qualcuno che ha bisogno dei tuoi talenti, assolutamente".~
 @345  = ~E cosa fai di preciso?~
-@346  = ~Non so se avr√≤ bisogno dei tuoi talenti quando sar√≤ a un miglio di distanza, ma intendo scoprirlo. Perdonami.~
+@346  = ~Non so se avrÚ bisogno dei tuoi talenti quando sarÚ a un miglio di distanza, ma intendo scoprirlo. Perdonami.~
 @347  = ~Per i Nove Inferi, che diavolo hai detto?~
 @348  = ~Qualsiasi cosa vuoi vendermi, non ne ho bisogno. Buona giornata.~
 @349  = ~In parole povere, faccio sparire i problemi.~
@@ -410,32 +410,32 @@ Ora che ho la pietra sigillo per entrare al manicomio, Sime ha deciso di mandare
 @357  = ~Ahem. Ho detto che potresti aver bisogno del mio aiuto.~
 @358  = ~Ne dubito.~
 @359  = ~Ho bisogno di tutto l'aiuto possibile.~
-@360  = ~E' una questione di prospettiva. Da una debita distanza, ogni cosa appare pi√π piccola.~
-@361  = ~Non so se sia veramente possibile far apparire pi√π piccoli i miei problemi. Sono molto grandi e hanno a che fare con divinit√† defunte e profezie.~
+@360  = ~E' una questione di prospettiva. Da una debita distanza, ogni cosa appare pi˘ piccola.~
+@361  = ~Non so se sia veramente possibile far apparire pi˘ piccoli i miei problemi. Sono molto grandi e hanno a che fare con divinit‡ defunte e profezie.~
 @362  = ~Quanta distanza, esattamente?~
-@363  = ~Per quanto attraente, penso che decliner√≤ l'offerta.~
-@364  = ~Non mi piace l'insinuazione che io abbandonerei le mie responsabilit√† cos√¨ senza pensarci.~
-@365  = ~Non pensarla come una fuga. Considerala una questione di visibilit√†.~
-@366  = ~Quando si scrive su una pergamena con il latte, le parole, cos√¨ come la soluzione al tuo dilemma, sono invisibili. Quando la pergamena si scalda, ovvero quando viene introdotta una nuova prospettiva, le parole, le risposte, vengono rivelate.~
-@367  = ~No. Non ascolter√≤ un'altra parola.~
+@363  = ~Per quanto attraente, penso che declinerÚ l'offerta.~
+@364  = ~Non mi piace l'insinuazione che io abbandonerei le mie responsabilit‡ cosÏ senza pensarci.~
+@365  = ~Non pensarla come una fuga. Considerala una questione di visibilit‡.~
+@366  = ~Quando si scrive su una pergamena con il latte, le parole, cosÏ come la soluzione al tuo dilemma, sono invisibili. Quando la pergamena si scalda, ovvero quando viene introdotta una nuova prospettiva, le parole, le risposte, vengono rivelate.~
+@367  = ~No. Non ascolterÚ un'altra parola.~
 @368  = ~Grazie, ma no.~
 @369  = ~Va bene. Fammi la tua proposta.~
-@370  = ~Non c'√® niente di illegale nell'imbarcarsi su una nave. Gli uomini l'hanno fatto per secoli. Anzi, per quelli che si sono innamorati del mare, la difficolt√† sta proprio nell'impossibilit√† di imbarcarsi.~
-@371  = ~Onestamente, a volte √® davvero difficile aiutare chi non vuol farsi aiutare. Addio, allora.~
+@370  = ~Non c'Ë niente di illegale nell'imbarcarsi su una nave. Gli uomini l'hanno fatto per secoli. Anzi, per quelli che si sono innamorati del mare, la difficolt‡ sta proprio nell'impossibilit‡ di imbarcarsi.~
+@371  = ~Onestamente, a volte Ë davvero difficile aiutare chi non vuol farsi aiutare. Addio, allora.~
 @372  = ~Una Lunghissima Vacanza 
 
 Malficus Rodendril, egregio, ha tenuto fede alla sua parola e mi ha messo su una nave per Maztica. Presto, tutti i miei problemi saranno alle spalle...~
 @373  = ~L'Ultimo Compito di Malficus
 
-C'√® un ultimo compito che devo fare per assicurarmi il posto sulla nave per Maztica. Devo uccidere il capo dei Ladri Tenebrosi, Aran Linvail. Si trova alla roccaforte dei Ladri Tenebrosi, un edificio arancione sul lato ovest del Distretto dei Moli. Un contatto di Malficus, Harold, mi aspetter√† l√¨ fuori e mi dar√† le ultime indicazioni. Malficus ha detto che Aran √® molto protetto, perci√≤ dovrei prepararmi bene prima di andare.~
+C'Ë un ultimo compito che devo fare per assicurarmi il posto sulla nave per Maztica. Devo uccidere il capo dei Ladri dell'Ombra, Aran Linvail. Si trova alla roccaforte dei Ladri dell'Ombra, un edificio arancione sul lato ovest del Distretto dei Moli. Un contatto di Malficus, Harold, mi aspetter‡ lÏ fuori e mi dar‡ le ultime indicazioni. Malficus ha detto che Aran Ë molto protetto, perciÚ dovrei prepararmi bene prima di andare.~
 @374  = ~Una Lunghissima Vacanza
 
-Dopo tutti i preamboli, Malficus √® arrivato al dunque. Finalmente questa vacanza a Maztica √® vicina. Dobbiamo incontrarci al faro nel Distretto dei Moli.~
+Dopo tutti i preamboli, Malficus Ë arrivato al dunque. Finalmente questa vacanza a Maztica Ë vicina. Dobbiamo incontrarci al faro nel Distretto dei Moli.~
 @375  = ~Distrazioni Impossibili 
 
-Malficus Rhodendril, una persona piuttosto ambigua, mi ha offerto la possibilit√† di fuggire dalle mie responsabilit√† a Maztica. Per quanto allettante fosse la prospettiva, ho deciso di non sottrarmi al mio dovere. Rester√≤ nel Faerun e far√≤ quello che devo fare.~
-@376  = ~Allora hai bisogno del mio aiuto ancora di pi√π.~
-@377  = ~Ti propongo un viaggio verso Maztica. Non cos√¨ lontano per mare, ma un mondo pi√π distante da qui. Infatti, anche gli dei del Faerun non hanno voce, l√¨. Cosa ne pensi?~
+Malficus Rhodendril, una persona piuttosto ambigua, mi ha offerto la possibilit‡ di fuggire dalle mie responsabilit‡ a Maztica. Per quanto allettante fosse la prospettiva, ho deciso di non sottrarmi al mio dovere. ResterÚ nel Faerun e farÚ quello che devo fare.~
+@376  = ~Allora hai bisogno del mio aiuto ancora di pi˘.~
+@377  = ~Ti propongo un viaggio verso Maztica. Non cosÏ lontano per mare, ma un mondo pi˘ distante da qui. Infatti, anche gli dei del Faerun non hanno voce, lÏ. Cosa ne pensi?~
 @378  = ~Devo rifiutare. Ho preso altri impegni.~
 @379  = ~Allettante, ma no.~
 @380  = ~Assolutamente no! Mi stai insultando con questa proposta.~
@@ -444,42 +444,42 @@ Malficus Rhodendril, una persona piuttosto ambigua, mi ha offerto la possibilit√
 @383  = ~Firmo subito.~
 @384  = ~Come vuoi. Se dovessi cambiare idea, ho una stanza alla locanda del Mitico Riposo. Arrivederci, per ora.~
 @385  = ~Hmmm... Penso di aver sopravvalutato la tua intelligenza. Addio.~
-@386  = ~Come potrai immaginare, un servizio del genere non √® gratis. I capitani disposti ad attraversare il Mare Impervio richiedono somme considerevoli.~
-@387  = ~Il costo √® di 100000 pezzi d'oro, da pagare in anticipo.~
+@386  = ~Come potrai immaginare, un servizio del genere non Ë gratis. I capitani disposti ad attraversare il Mare Impervio richiedono somme considerevoli.~
+@387  = ~Il costo Ë di 100000 pezzi d'oro, da pagare in anticipo.~
 @388  = ~Scordatelo!~
-@389  = ~Non c'√® niente che io possa fare per abbassare la cifra?~
+@389  = ~Non c'Ë niente che io possa fare per abbassare la cifra?~
 @390  = ~La fortuna vuole che io abbia quest'oro in tasca.~
-@391  = ~Dipende. La reciprocit√† √® la moneta dei Reami, dicono. Se puoi portare a termine qualche incarico, sono autorizzato a concederti una riduzione del costo del viaggio.~
+@391  = ~Dipende. La reciprocit‡ Ë la moneta dei Reami, dicono. Se puoi portare a termine qualche incarico, sono autorizzato a concederti una riduzione del costo del viaggio.~
 @392  = ~"Autorizzato"? Che significa?~
 @393  = ~Cosa dovrei fare?~
 @394  = ~Ripensandoci, non mi piace questa faccenda.~
-@395  = ~E' un piacere fare affari con te. Incontriamoci al Distretto dei Moli. Ho un paio di cosette da sistemare e poi ti aspetter√≤ al faro. Da l√¨ andremo insieme al pontile.~
+@395  = ~E' un piacere fare affari con te. Incontriamoci al Distretto dei Moli. Ho un paio di cosette da sistemare e poi ti aspetterÚ al faro. Da lÏ andremo insieme al pontile.~
 @396  = ~Niente di cui preoccuparti, ti assicuro. Procediamo?~
-@397  = ~Se significa andare via da qui, s√¨.~
-@398  = ~Mi serve pi√π tempo per pensarci.~
+@397  = ~Se significa andare via da qui, sÏ.~
+@398  = ~Mi serve pi˘ tempo per pensarci.~
 @399  = ~Non penso.~
 @400  = ~Ci sono tre incarichi da fare per abbassare il costo. Potrai cambiare idea prima di accettare il terzo e ultimo incarico, mantendendo il diritto a rinunciare allo sconto.~
 @401  = ~Dimmi quello che devo fare per primo.~
 @402  = ~Che significa che posso cambiare idea?~
 @403  = ~Mantenere il diritto a rinunciare allo sconto, ovvero?~
-@404  = ~Ho cambiato idea. Rester√≤ qui mi terr√≤ i miei problemi.~
-@405  = ~Prenditi il tempo che ti serve. Ho una stanza alla locanda del Mitico Riposo. Mi troverai l√¨, se cambi idea.~
-@406  = ~Conosci il Distretto del Tempio? Vai l√¨ e incontra un mio... collaboratore, √® una donna che si chiama Leyt. Si trova alla residenza Pimlico Estate. Lei ti dar√† dei documenti in cambio di un compenso irrisorio.~
-@407  = ~Chi pagher√† questo compenso?~
+@404  = ~Ho cambiato idea. ResterÚ qui mi terrÚ i miei problemi.~
+@405  = ~Prenditi il tempo che ti serve. Ho una stanza alla locanda del Mitico Riposo. Mi troverai lÏ, se cambi idea.~
+@406  = ~Conosci il Distretto del Tempio? Vai lÏ e incontra un mio... collaboratore, Ë una donna che si chiama Leyt. Si trova alla residenza Pimlico Estate. Lei ti dar‡ dei documenti in cambio di un compenso irrisorio.~
+@407  = ~Chi pagher‡ questo compenso?~
 @408  = ~Devo riportarti i documenti?~
-@409  = ~Io facilito le cose, non faccio pressioni. Se decidi di restare qui invece che partire per Maztica, √® una tua decisione, per√≤ non riceverai un rimborso delle somme gi√† spese. Inoltre, sappi che ad un certo punto l'impegno sar√† preso e non potrai tornare indietro. Ti avvertir√≤ quando saremo a quel punto.~
+@409  = ~Io facilito le cose, non faccio pressioni. Se decidi di restare qui invece che partire per Maztica, Ë una tua decisione, perÚ non riceverai un rimborso delle somme gi‡ spese. Inoltre, sappi che ad un certo punto l'impegno sar‡ preso e non potrai tornare indietro. Ti avvertirÚ quando saremo a quel punto.~
 @410  = ~Allora dimmi cosa vuoi che faccia.~
 @411  = ~Non mi piace tutto questo parlare di affari e negoziazioni. Me ne vado.~
 @412  = ~E cosa intendi quando dici che ho il diritto a rinunciare allo sconto?~
-@413  = ~Lo sconto √® completamente opzionale. Se possiedi 100000 pezzi d'oro oppure se non vuoi portare a termine un incarico, puoi semplicemente pagare il costo per intero, o la parte rimanente in quel determinato momento.~
+@413  = ~Lo sconto Ë completamente opzionale. Se possiedi 100000 pezzi d'oro oppure se non vuoi portare a termine un incarico, puoi semplicemente pagare il costo per intero, o la parte rimanente in quel determinato momento.~
 @414  = ~Ah. E cosa intendi quando dici che posso cambiare idea?~
 @415  = ~Dunque cosa devo fare?~
 @416  = ~Mi sembra un parlare troppo giuridico, non fa per me.~
-@417  = ~Chiunque voglia usare questo servizio, naturalmente. Leyt non √® irragionevole. Sono sicuro che il suo onorario, se c'√®, √® minimo.~
-@418  = ~Come la riconoscer√≤?~
-@419  = ~Torner√≤ con i documenti.~
-@420  = ~Vedremo. Potrei aver gi√† cambiato idea.~
-@421  = ~Portami i documenti quando li hai. Ho una stanza alla locanda del Mitico Riposo, alla Passeggiata di Waukeen. Ti aspetter√≤ l√¨.~
+@417  = ~Chiunque voglia usare questo servizio, naturalmente. Leyt non Ë irragionevole. Sono sicuro che il suo onorario, se c'Ë, Ë minimo.~
+@418  = ~Come la riconoscerÚ?~
+@419  = ~TornerÚ con i documenti.~
+@420  = ~Vedremo. Potrei aver gi‡ cambiato idea.~
+@421  = ~Portami i documenti quando li hai. Ho una stanza alla locanda del Mitico Riposo, alla Passeggiata di Waukeen. Ti aspetterÚ lÏ.~
 @422  = ~E' piuttosto... appariscente. La noterai, in quel contesto.~
 @423  = ~Splendido.~
 @424  = ~A me non importa. Se accetterai l'offerta, mi troverai alla locanda del Mitico Riposo.~
@@ -491,126 +491,126 @@ Malficus Rhodendril, una persona piuttosto ambigua, mi ha offerto la possibilit√
 @430  = ~Centomila?! E il mio sconto?~
 @431  = ~Non sono sicuro di aver ascoltato bene l'offerta. Me la ripeti?~
 @432  = ~Non l'ho riconsiderata, onestamente.~
-@433  = ~Ho gi√† preso altri impegni.~
+@433  = ~Ho gi‡ preso altri impegni.~
 @434  = ~Ho l'oro proprio qui.~
-@435  = ~Ah, s√¨, certo. Ti avevo detto che ci sono incarichi da fare per abbassare il costo? S√¨, penso di s√¨. Sono sempre meticoloso sui dettagli.~
+@435  = ~Ah, sÏ, certo. Ti avevo detto che ci sono incarichi da fare per abbassare il costo? SÏ, penso di sÏ. Sono sempre meticoloso sui dettagli.~
 @436  = ~Comunque, se effettui degli incarichi per me, sono pronto a ridurre il costo del viaggio. Posso spiegarteli?~
 @437  = ~Fallo.~
-@438  = ~Se faccio tutto quello che chiedi, quanto andr√≤ a risparmiare?~
+@438  = ~Se faccio tutto quello che chiedi, quanto andrÚ a risparmiare?~
 @439  = ~Preferisco fare tutto seguendo le regole.~
 @440  = ~Non mi interessa molto.~
-@441  = ~E chi mi fermer√† dal torturarti finch√© non acconsentirai a farmi andare gratis?~
-@442  = ~Hai gi√† ascoltato l'offerta, in gran parte. Per 100000 pezzi d'oro, posso metterti su una nave per Maztica, dove il clima √® mite tutto l'anno e i nativi sono tra i pi√π ospitali al mondo.~
+@441  = ~E chi mi fermer‡ dal torturarti finchÈ non acconsentirai a farmi andare gratis?~
+@442  = ~Hai gi‡ ascoltato l'offerta, in gran parte. Per 100000 pezzi d'oro, posso metterti su una nave per Maztica, dove il clima Ë mite tutto l'anno e i nativi sono tra i pi˘ ospitali al mondo.~
 @443  = ~Adesso dimmi come abbassare il costo.~
 @444  = ~Non ho oro con me!~
 @445  = ~Ecco il tuo oro. Ora mostrati all'altezza delle tue parole.~
 @446  = ~Non mi interessa.~
-@447  = ~Incontra il mio contatto, una donna di nome Leyt, alla residenza Pimlico nel Distretto del Tempio. Sar√† vestita in modo piuttosto inappropriato per quel luogo, quindi non avrai difficolt√† a trovarla. Ti dar√† dei documenti in cambio di un compenso irrisorio. Quando avrai i documenti, portameli.~
+@447  = ~Incontra il mio contatto, una donna di nome Leyt, alla residenza Pimlico nel Distretto del Tempio. Sar‡ vestita in modo piuttosto inappropriato per quel luogo, quindi non avrai difficolt‡ a trovarla. Ti dar‡ dei documenti in cambio di un compenso irrisorio. Quando avrai i documenti, portameli.~
 @448  = ~Ogni incarico abbassa il costo in proporzione, ma se li completerai tutti personalmente, senza ricorrere ai miei collaboratori, risparmierai approssimativamente 85000 pezzi d'oro... meno le spese, ovviamente.~
 @449  = ~Dimmi cosa devo fare.~
-@450  = ~Per avere un tale sconto, si tratta probabilmente di cose illecite. Torner√≤ quando avr√≤ il l'oro.~
-@451  = ~Molto bene. Rester√≤ qui, se dovessi tornare con l'oro.~
+@450  = ~Per avere un tale sconto, si tratta probabilmente di cose illecite. TornerÚ quando avrÚ il l'oro.~
+@451  = ~Molto bene. ResterÚ qui, se dovessi tornare con l'oro.~
 @452  = ~Non ti ho detto che ci sono incarichi che puoi fare per abbassare il costo? Sicuramente l'ho fatto. Sono sempre meticoloso sui dettagli.~
 @453  = ~Non mi importa. Ho una stanza qui, comunque.~
 @454  = ~Il tuo buon senso, spero. Non mi mancano le risorse... o gli alleati.~
 @455  = ~Ora, se dobbiamo mostrare i muscoli minacciandoci a vicenda, forse possiamo discutere i particolari del contratto. Penso che ti interessi abbassare il costo, giusto?~
-@456  = ~S√¨, mi interessa.~
-@457  = ~Non ho avuto tempo di fare tante commissioni. Se accetto l'offerta, pagher√≤ il prezzo.~
+@456  = ~SÏ, mi interessa.~
+@457  = ~Non ho avuto tempo di fare tante commissioni. Se accetto l'offerta, pagherÚ il prezzo.~
 @458  = ~Hai i documenti?~ [b!mal_04]
-@459  = ~S√¨, sono dentro questa scatola.~
-@460  = ~S√¨, ma il prezzo √® cambiato.~
+@459  = ~SÏ, sono dentro questa scatola.~
+@460  = ~SÏ, ma il prezzo Ë cambiato.~
 @461  = ~Non immagini cosa ho dovuto fare per averli!~
 @462  = ~Eccoli.~
-@463  = ~Se n'√® andata prima di darmi i documenti.~
+@463  = ~Se n'Ë andata prima di darmi i documenti.~
 @464  = ~Ho avuto un piccolo problema...~
-@465  = ~Non mi fidavo della persona che era al Distretto del Tempio, perci√≤ non ho i documenti.~
+@465  = ~Non mi fidavo della persona che era al Distretto del Tempio, perciÚ non ho i documenti.~
 @466  = ~Non ancora.~
 @467  = ~Ho cambiato idea. Vorrei evitare questi incarichi e andare subito a Maztica.~
 @468  = ~Dovevo sapere che i documenti erano dentro questa scatola?~
-@469  = ~Puoi credere a quello che vuoi. Questo √® quello che mi ha dato Leyt quando le ho chiesto i documenti.~
+@469  = ~Puoi credere a quello che vuoi. Questo Ë quello che mi ha dato Leyt quando le ho chiesto i documenti.~
 @470  = ~I documenti sono dentro la scatola.~
 @471  = ~Non ho idea.~
 @472  = ~Inaccettabile. Hai ascoltato bene i termini e io non sono autorizzato a cambiarli. Lascia i documenti o il nostro accordo finisce qui.~
 @473  = ~Oh, va bene. Eccoli.~
-@474  = ~Se √® cos√¨ che la metti, ok. Non voglio avere pi√π niente a che fare con te. Non mi interessa poi tanto Maztica, comunque.~
-@475  = ~Mi terr√≤ i documenti, ma ho l'oro. Vorrei saltare la parte degli incarichi e andare subito a Maztica.~
+@474  = ~Se Ë cosÏ che la metti, ok. Non voglio avere pi˘ niente a che fare con te. Non mi interessa poi tanto Maztica, comunque.~
+@475  = ~Mi terrÚ i documenti, ma ho l'oro. Vorrei saltare la parte degli incarichi e andare subito a Maztica.~
 @476  = ~Sono un giurista, caro. Nulla mi sorprende.~
 @477  = ~Dammi i documenti, adesso.~
 @478  = ~Ho l'oro. Vorrei saltare la parte degli incarichi e andare subito a Maztica.~
 @479  = ~Eccellente. In questo modo hai ridotto il costo del viaggio di 10000 pezzi d'oro. Vuoi ridurlo ancora?~
-@480  = ~No, penso che 90000 non siano cos√¨ tanti. Eccoli.~
-@481  = ~S√¨, se possibile.~
+@480  = ~No, penso che 90000 non siano cosÏ tanti. Eccoli.~
+@481  = ~SÏ, se possibile.~
 @482  = ~Il tempo vola, si dice. Torna da me quando avrai i documenti.~
-@483  = ~E' terribilmente sconveniente. Ora sar√≤ costretto a prendere le tue dichiarazioni sulla fiducia, cosa molto rara nella comunit√† forense.~
-@484  = ~Se mi avessi presentato i documenti come fatto compiuto, ti avrei offerto uno sconto pi√π sostanzioso. Per come stanno le cose adesso, non mi √® possibile farti portare laggi√π per meno di 95000 pezzi d'oro.~
+@483  = ~E' terribilmente sconveniente. Ora sarÚ costretto a prendere le tue dichiarazioni sulla fiducia, cosa molto rara nella comunit‡ forense.~
+@484  = ~Se mi avessi presentato i documenti come fatto compiuto, ti avrei offerto uno sconto pi˘ sostanzioso. Per come stanno le cose adesso, non mi Ë possibile farti portare laggi˘ per meno di 95000 pezzi d'oro.~
 @485  = ~Posso fare qualche altra cosa per abbassare il prezzo?~
-@486  = ~Beh, √® stata una perdita di tempo. Comunque, ecco il tuo rompicapo, e il tuo oro.~
-@487  = ~Non hai pi√π bisogno di me? Addio.~
-@488  = ~Hmmm, capisco. Beh, hai reso le cose pi√π difficile per te. Temo che tu abbia perso il tuo sconto.~
-@489  = ~Beh, √® stata una perdita di tempo. Comunque, ho la somma originaria qui con me, i 100000 pezzi d'oro.~
-@490  = ~Tymora ti sorride, sembrerebbe... anche se il compito che ti sottopongo potrebbe offendere la tua sensibilit√†.~
+@486  = ~Beh, Ë stata una perdita di tempo. Comunque, ecco il tuo rompicapo, e il tuo oro.~
+@487  = ~Non hai pi˘ bisogno di me? Addio.~
+@488  = ~Hmmm, capisco. Beh, hai reso le cose pi˘ difficile per te. Temo che tu abbia perso il tuo sconto.~
+@489  = ~Beh, Ë stata una perdita di tempo. Comunque, ho la somma originaria qui con me, i 100000 pezzi d'oro.~
+@490  = ~Tymora ti sorride, sembrerebbe... anche se il compito che ti sottopongo potrebbe offendere la tua sensibilit‡.~
 @491  = ~Mettimi alla prova.~
 @492  = ~Mi rifiuto di fare qualsiasi azione malvagia.~
 @493  = ~Va' avanti e parla. Posso sempre rifiutarmi, giusto?~
-@494  = ~Non c'√® qualcos'altro con cui posso sostituire questa cosa?~
+@494  = ~Non c'Ë qualcos'altro con cui posso sostituire questa cosa?~
 @495  = ~Molto bene. Conosci i contratti che hanno una risoluzione permanente?~
 @496  = ~Non tergiversiamo. Sto parlando di omicidio.~
 @497  = ~Non puoi pensare sul serio di uccidere qualcuno, <CHARNAME>!~
 @498  = ~Oh, <CHARNAME>! Sarebbe sbagliatissimo!~
-@499  = ~Boo √® infuriato che quell'uomo cattivo abbia suggerito una cosa del genere! Non ascoltarlo, <CHARNAME>!~
+@499  = ~Boo Ë infuriato che quell'uomo cattivo abbia suggerito una cosa del genere! Non ascoltarlo, <CHARNAME>!~
 @500  = ~Conosco bene gli omicidi.~
 @501  = ~Dovrei denunciarti alle guardie immediatamente per aver suggerito un omicidio.~
 @502  = ~Va' avanti.~
 @503  = ~Non posso prendere parte a una cosa del genere.~
-@504  = ~Allora non suggerisco niente del genere. Anche uno della tua sensibilit√†, comunque, potrebbe non avere obiezioni all'eliminare da Athkatla un'organizzazione malvagia e sovversiva.~
+@504  = ~Allora non suggerisco niente del genere. Anche uno della tua sensibilit‡, comunque, potrebbe non avere obiezioni all'eliminare da Athkatla un'organizzazione malvagia e sovversiva.~
 @505  = ~Cosa dovrei fare?~
 @506  = ~Forse sarebbe meglio per tutti se io pagassi il mio passaggio subito. Hai detto 90000 pezzi d'oro, mi pare.~
-@507  = ~Puoi tralasciare questo incarico, se vuoi, ma io non posso accordarti il relativo sconto. Per√≤ c'√® un altro compito che sono autorizzato a offrirti per ridurre il costo del viaggio.~
-@508  = ~Prima di procedere, devo avere il tuo solenne giuramento di segretezza. Rivelare le informazioni che sto per darti avr√† per te conseguenze disastrose, se non fatali.~
+@507  = ~Puoi tralasciare questo incarico, se vuoi, ma io non posso accordarti il relativo sconto. PerÚ c'Ë un altro compito che sono autorizzato a offrirti per ridurre il costo del viaggio.~
+@508  = ~Prima di procedere, devo avere il tuo solenne giuramento di segretezza. Rivelare le informazioni che sto per darti avr‡ per te conseguenze disastrose, se non fatali.~
 @509  = ~Hai la mia parola.~
-@510  = ~Non lo dir√≤ ad anima viva.~
+@510  = ~Non lo dirÚ ad anima viva.~
 @511  = ~Non posso promettere niente.~
-@512  = ~Non mi piace come suona questa cosa. Non mi impegner√≤ in niente di malvagio.~
-@513  = ~Come vuoi. Quando parlerai con loro, devi informarli che io ti ho chiesto se conosci il termine "omicidio". Sono certo che l'Ispettore Brega avr√† questioni pi√π importanti da seguire.~
-@514  = ~Comunque, hai sollevato una questione che ha fatto venir meno la mia fiducia nella tua discrezione. Dunque non proceder√≤ oltre in quella direzione.~
-@515  = ~Forse saprai dell'organizzazione di Athkatla nota come i Ladri Tenebrosi. Anche se il mio datore di lavoro sa che la completa eliminazione di questa organizzazione √® impossibile, la sua efficacia sarebbe materialmente ridotta dalla distruzione della loro base nel Distretto dei Moli.~
-@516  = ~Cosa importa al tuo datore di lavoro dei Ladri Tenebrosi?~
+@512  = ~Non mi piace come suona questa cosa. Non mi impegnerÚ in niente di malvagio.~
+@513  = ~Come vuoi. Quando parlerai con loro, devi informarli che io ti ho chiesto se conosci il termine "omicidio". Sono certo che l'Ispettore Brega avr‡ questioni pi˘ importanti da seguire.~
+@514  = ~Comunque, hai sollevato una questione che ha fatto venir meno la mia fiducia nella tua discrezione. Dunque non procederÚ oltre in quella direzione.~
+@515  = ~Forse saprai dell'organizzazione di Athkatla nota come i Ladri dell'Ombra. Anche se il mio datore di lavoro sa che la completa eliminazione di questa organizzazione Ë impossibile, la sua efficacia sarebbe materialmente ridotta dalla distruzione della loro base nel Distretto dei Moli.~
+@516  = ~Cosa importa al tuo datore di lavoro dei Ladri dell'Ombra?~
 @517  = ~E come mi aiuterebbe tutto questo?~
-@518  = ~Far√≤ come chiedi.~
+@518  = ~FarÚ come chiedi.~
 @519  = ~Impossibile. Sono troppo sorvegliati.~
 @520  = ~Tradirei un'alleanza attaccandoli.~
 @521  = ~Come vuoi.~
-@522  = ~Molto bene. Vai al Distretto Governativo, all'edificio del Consiglio dei Sei, e cerca l'Assistente Capitano Ballas. Lui ti fornir√† ulteriori indicazioni.~
+@522  = ~Molto bene. Vai al Distretto Governativo, all'edificio del Consiglio dei Sei, e cerca l'Assistente Capitano Ballas. Lui ti fornir‡ ulteriori indicazioni.~
 @523  = ~Morte del Capitano
 
-Malficus mi ha inviato al Consiglio dei Sei, dove devo incontrare l'Assistente Capitano Ballas. Lui mi dar√† altre informazioni sull'omicidio che devo compiere per ridurre il costo del mio viaggio a Maztica. Mi attendono sole e spiagge!~
+Malficus mi ha inviato al Consiglio dei Sei, dove devo incontrare l'Assistente Capitano Ballas. Lui mi dar‡ altre informazioni sull'omicidio che devo compiere per ridurre il costo del mio viaggio a Maztica. Mi attendono sole e spiagge!~
 @524  = ~Sfortunato, ma meglio di una falsa promessa.~
 @525  = ~Ci sarebbe un altro incarico da compiere. Ti interessa?~
-@526  = ~E' una faccenda privata, e non deve interessarti. Ti basti sapere che la loro interferenza in una particolare questione √® stata sconveniente.~
+@526  = ~E' una faccenda privata, e non deve interessarti. Ti basti sapere che la loro interferenza in una particolare questione Ë stata sconveniente.~
 @527  = ~Portare a termine questo incarico ridurrebbe considerevolmente il costo del tuo viaggio.~
 @528  = ~Sei all'altezza del compito, sono certo, e riceverai assistenza, almeno a entrare dentro. Siamo d'accordo?~
-@529  = ~S√¨. Lo far√≤.~
+@529  = ~SÏ. Lo farÚ.~
 @530  = ~No, devo rifiutare.~
 @531  = ~Allora temo che quella monetaria sia l'unica soluzione al tuo problema. Sei pronto a pagare per il tuo passaggio?~
 @532  = ~Hai detto 90000 pezzi d'oro, giusto?~
-@533  = ~Non dimenticarti del mio sconto! Non √® stato facile l'incarico che mi hai dato.~
-@534  = ~Non ho tutto quell'oro. Posso tornare quando ne avr√≤ di pi√π?~
-@535  = ~Ripensandoci, credo che prover√≤ a portare a termine l'incarico che mi hai offerto, dopo tutto.~
+@533  = ~Non dimenticarti del mio sconto! Non Ë stato facile l'incarico che mi hai dato.~
+@534  = ~Non ho tutto quell'oro. Posso tornare quando ne avrÚ di pi˘?~
+@535  = ~Ripensandoci, credo che proverÚ a portare a termine l'incarico che mi hai offerto, dopo tutto.~
 @536  = ~Non l'ho dimenticato. Hai abbassato il costo a 50000 pezzi d'oro.~
-@537  = ~Forse affronter√≤ i Ladri Tenebrosi, dopo tutto.~
-@538  = ~Potremmo dire che la vita di un uomo vale pi√π di 40000 pezzi d'oro, ma tant'√®. Pagher√≤.~
+@537  = ~Forse affronterÚ i Ladri dell'Ombra, dopo tutto.~
+@538  = ~Potremmo dire che la vita di un uomo vale pi˘ di 40000 pezzi d'oro, ma tant'Ë. PagherÚ.~
 @539  = ~Posso farcela.~
 @540  = ~Scelta eccellente.~
-@541  = ~Se vuoi. Io rester√≤ qui.~
-@542  = ~I Ladri Tenebrosi non hanno alleati... o meglio nessuno che non tradirebbero. Comunque, rispetto il tuo volere.~
-@543  = ~Troverai probabilmente l'ultimo compito un po' pi√π impegnativo.~
+@541  = ~Se vuoi. Io resterÚ qui.~
+@542  = ~I Ladri dell'Ombra non hanno alleati... o meglio nessuno che non tradirebbero. Comunque, rispetto il tuo volere.~
+@543  = ~Troverai probabilmente l'ultimo compito un po' pi˘ impegnativo.~
 @544  = ~Fatto?~ [b!mal_05]
 @545  = ~Fatto.~
 @546  = ~Dove hai detto che devo andare?~
-@547  = ~Molto bene, davvero molto bene. Ti sei assicurato un corposo sconto, ma c'√® ancora qualcosa che puoi fare per abbassare il costo del passaggio.~
+@547  = ~Molto bene, davvero molto bene. Ti sei assicurato un corposo sconto, ma c'Ë ancora qualcosa che puoi fare per abbassare il costo del passaggio.~
 @548  = ~Sono tutt'orecchie.~
 @549  = ~Ne ho abbastanza. Quanto mi costerebbe adesso?~
-@550  = ~Ci sto ripensando. Ho delle responsabilit√† qui, e dovrei affrontarle.~
+@550  = ~Ci sto ripensando. Ho delle responsabilit‡ qui, e dovrei affrontarle.~
 @551  = ~(sussurra) Devi cercare l'Assistente Capitano Ballas all'edificio del Consiglio dei Sei. Si trova nel Distretto Governativo.~
 @552  = ~Allora ti suggerisco di tornare a completare il lavoro, e di fretta.~
 @553  = ~Direi di no. Ti sei dimostrato falso. Non provare a negarlo.~
@@ -619,63 +619,63 @@ Malficus mi ha inviato al Consiglio dei Sei, dove devo incontrare l'Assistente C
 @556  = ~Ti costerebbe 50000 pezzi d'oro.~
 @557  = ~Bene. Ecco il tuo oro.~
 @558  = ~Va bene. Parlami dell'altro sconto.~
-@559  = ~Ne ho abbastanza di tutto questo. Rester√≤ qui e far√≤ quello che devo fare.~
-@560  = ~Non sono cos√¨ stupido da aspettarmi lealt√† quando tu non ne hai motivo di offrirla, ma speravo che non mi avresti considerato un cretino.~
+@559  = ~Ne ho abbastanza di tutto questo. ResterÚ qui e farÚ quello che devo fare.~
+@560  = ~Non sono cosÏ stupido da aspettarmi lealt‡ quando tu non ne hai motivo di offrirla, ma speravo che non mi avresti considerato un cretino.~
 @561  = ~Il nostro accordo finisce qui. Buona fortuna per ogni malaugurata impresa a cui deciderai di dedicarti. Ne avrai bisogno.~
-@562  = ~Sono costretto ad avvertirti che se dovessi accettare questo incarico, non potrai pi√π tornare indietro. Una volta che l'avrai intrapreso, la tua destinazione sar√† Maztica... oppure l'aldil√†.~
+@562  = ~Sono costretto ad avvertirti che se dovessi accettare questo incarico, non potrai pi˘ tornare indietro. Una volta che l'avrai intrapreso, la tua destinazione sar‡ Maztica... oppure l'aldil‡.~
 @563  = ~Finiamola qui.~
 @564  = ~Sono pronto.~
 @565  = ~Ripensandoci, farei meglio a starne fuori.~
-@566  = ~Molto bene. L'incarico √® semplice. Devi uccidere il capo dei Ladri Tenebrosi, Aran Linvail.~
-@567  = ~Tuttavia riuscire nell'incarico sar√† pi√π complicato. Linvail risiede nella roccaforte dei Ladri Tenebrosi, nel Distretto dei Moli. E' un grande edificio arancione sul lato occidentale. Forse lo avrai visto.~
-@568  = ~Comunque, l'edificio √® pieno dei suoi scagnozzi. Sarebbe saggio prepararsi a un'accanita resistenza.~
+@566  = ~Molto bene. L'incarico Ë semplice. Devi uccidere il capo dei Ladri dell'Ombra, Aran Linvail.~
+@567  = ~Tuttavia riuscire nell'incarico sar‡ pi˘ complicato. Linvail risiede nella roccaforte dei Ladri dell'Ombra, nel Distretto dei Moli. E' un grande edificio arancione sul lato occidentale. Forse lo avrai visto.~
+@568  = ~Comunque, l'edificio Ë pieno dei suoi scagnozzi. Sarebbe saggio prepararsi a un'accanita resistenza.~
 @569  = ~Ti impegni a farlo?~
-@570  = ~S√¨.~
+@570  = ~SÏ.~
 @571  = ~Posso ancora pagarti l'oro e basta?~
-@572  = ~Ci ho ripensato. Rester√≤ qui ed affronter√≤ le mie responsabilit√†.~
+@572  = ~Ci ho ripensato. ResterÚ qui ed affronterÚ le mie responsabilit‡.~
 @573  = ~Pensaci, se ti serve tempo, ma non metterci troppo.~
 @574  = ~Certo. Hai la somma necessaria?~
 @575  = ~Hai detto 90000? Ce li ho.~
 @576  = ~Hai detto 90000? Non ce li ho.~
-@577  = ~Ho 50000 pezzi d'oro, s√¨.~
+@577  = ~Ho 50000 pezzi d'oro, sÏ.~
 @578  = ~Non ho 50000 pezzi d'oro.~
-@579  = ~Benissimo, allora. Ricorda, uccidi Aran Linvail. E' alla roccaforte dei Ladri Tenebrosi, ai Moli. Troverai un mio contatto, Harold, ad accoglierti fuori.~
+@579  = ~Benissimo, allora. Ricorda, uccidi Aran Linvail. E' alla roccaforte dei Ladri dell'Ombra, ai Moli. Troverai un mio contatto, Harold, ad accoglierti fuori.~
 @580  = ~Incontrare la Padrona di Valen: Cancellato
 
-Dato che Malficus ha accettato di risolvere i miei problemi, non ha senso ora andare al Distretto del Cimitero ad incontrare la misteriosa padrona di Valen. Anche se le parole di Valen possono essere state intriganti, il mistero non era cos√¨ allettante da farmi restare in giro a cercare le risposte.~
+Dato che Malficus ha accettato di risolvere i miei problemi, non ha senso ora andare al Distretto del Cimitero ad incontrare la misteriosa padrona di Valen. Anche se le parole di Valen possono essere state intriganti, il mistero non era cosÏ allettante da farmi restare in giro a cercare le risposte.~
 @581  = ~Raccogliere i Soldi per Gaelan Bayle: Spostato 
 
 Gli amici di Gaelan Bayle avrebbero potuto aiutarmi, ma ho rifiutato la loro offerta. Preferisco evitare il problema e lasciare che Malficus risolva i miei problemi.~
 @582  = ~Strani Incontri: Troppo Strani per Preoccuparsene
 
-Il messaggero di Aster √® stato criptico, male informato, o soltanto disinteressato a fornirmi i dettagli dell'incontro che avrebbe dovuto avere luogo, ma non mi importa pi√π nulla ora. Ho accettato che Malficus risolva i miei problemi, quindi Aster pu√≤ andare al diavolo.~
+Il messaggero di Aster Ë stato criptico, male informato, o soltanto disinteressato a fornirmi i dettagli dell'incontro che avrebbe dovuto avere luogo, ma non mi importa pi˘ nulla ora. Ho accettato che Malficus risolva i miei problemi, quindi Aster puÚ andare al diavolo.~
 @583  = ~Sei vivo. Quindi presumo che tu abbia avuto successo?~ [b!mal_07]
 @584  = ~Non sono riuscito ad entrare nel suo rifugio personale.~
 @585  = ~Non ancora. Ho bisogno d'aiuto.~
-@586  = ~No, Aran √® ancora vivo. E' possibile semplicemente pagare e basta il mio viaggio?~
-@587  = ~Aran Linvail √® morto. Quando si parte?~
-@588  = ~S√¨, ce l'ho fatta, ma il costo √® stato grande.~
+@586  = ~No, Aran Ë ancora vivo. E' possibile semplicemente pagare e basta il mio viaggio?~
+@587  = ~Aran Linvail Ë morto. Quando si parte?~
+@588  = ~SÏ, ce l'ho fatta, ma il costo Ë stato grande.~
 @589  = ~Non ancora, no.~
 @590  = ~Ti avevo detto che un mio contatto ti avrebbe aspettato fuori. Lui dovrebbe avere una chiave. Ti suggerisco di fare in fretta.~
 @591  = ~Non sono qui per prenderti per mano, <CHARNAME>. Devi trovare tu il modo di uccidere Aran Linvail.~
 @592  = ~Ti avevo avvertito che una volta accettato l'incarico, non ci sarebbe stato modo di tornare indietro. Devi per forza continuare su questa strada. Buona fortuna.~
-@593  = ~Ben fatto. Far√≤ approntare la nave quanto prima. Tu riposati e rifornisciti di provviste, poi incontriamoci al faro dei Moli.~
+@593  = ~Ben fatto. FarÚ approntare la nave quanto prima. Tu riposati e rifornisciti di provviste, poi incontriamoci al faro dei Moli.~
 @594  = ~Beh, torna da me quando ce l'avrai fatta.~
 @595  = ~Eccellente. Potremo partire appena mi consegnerai 15000 pezzi d'oro.~
 @596  = ~Eccellente. Potremo partire appena mi consegnerai 50000 pezzi d'oro.~
 @597  = ~Ti interessa un po' di emozione, tesoro?~ [FESTH04]
-@598  = ~Direi di s√¨.~
+@598  = ~Direi di sÏ.~
 @599  = ~Mi scusi, signora, sto cercando una donna di nome Leyt.~
 @600  = ~Sono qui per i documenti.~
-@601  = ~Mi interessa veder scorrere il tuo sangue tra le crepe del pavimento, se √® ci√≤ che intendi.~
+@601  = ~Mi interessa veder scorrere il tuo sangue tra le crepe del pavimento, se Ë ciÚ che intendi.~
 @602  = ~Sono io. Cosa posso fare per te?~
 @603  = ~Malficus ha detto che hai dei documenti per me.~
 @604  = ~Torniamo a parlare di emozione...~
 @605  = ~I documenti o la vita.~
-@606  = ~Allora sei nel posto giusto. C'√® un angoletto tranquillo proprio da quella parte...~
+@606  = ~Allora sei nel posto giusto. C'Ë un angoletto tranquillo proprio da quella parte...~
 @607  = ~Whoa! Pensavo scherzassi!~
 @608  = ~Dritta al punto. Il mio genere di donna!~
-@609  = ~Ripensandoci, la mia dolce met√† non mi perdonerebbe mai.~
+@609  = ~Ripensandoci, la mia dolce met‡ non mi perdonerebbe mai.~
 @610  = ~Err... forse non sarebbe poi questa emozione, dopo tutto. Ti serve qualcos'altro?~
 @611  = ~Sto cercando Leyt.~
 @612  = ~Non mi hanno mai insultato tanto!~
@@ -686,23 +686,23 @@ Il messaggero di Aster √® stato criptico, male informato, o soltanto disinteress
 @617  = ~Non ho questi soldi.~
 @618  = ~Zozzo, ma mi piace. Che ne dici?~
 @619  = ~Va bene!~
-@620  = ~Ooh, s√¨. Mostrami quello che hai...~
+@620  = ~Ooh, sÏ. Mostrami quello che hai...~
 @621  = ~Bene! E' stato davvero interessante!~
 @622  = ~Ma forse sei qui per un altro motivo?~
-@623  = ~Non ricordo. Forse mi ricorder√≤ dopo un altro po' di esercizio.~
-@624  = ~Scusa. Non volevo alimentare false speranze, ma la luce non √® molto buona, l√¨. Sei qui per i documenti?~
-@625  = ~Penso che ti taglier√≤ la gola, dopo questa affermazione.~
-@626  = ~Nah, quella nave √® partita ormai. Adesso, o i documenti o niente.~
-@627  = ~Prender√≤ i documenti, allora.~
+@623  = ~Non ricordo. Forse mi ricorderÚ dopo un altro po' di esercizio.~
+@624  = ~Scusa. Non volevo alimentare false speranze, ma la luce non Ë molto buona, lÏ. Sei qui per i documenti?~
+@625  = ~Penso che ti taglierÚ la gola, dopo questa affermazione.~
+@626  = ~Nah, quella nave Ë partita ormai. Adesso, o i documenti o niente.~
+@627  = ~PrenderÚ i documenti, allora.~
 @628  = ~Allora niente.~
-@629  = ~Forse prender√≤ quello che voglio con la forza!~
+@629  = ~Forse prenderÚ quello che voglio con la forza!~
 @630  = ~Eccoli qui. E' stato un piacere fare affari con te.~
 @631  = ~Ah, che importa. Non mi sono costati nulla.~
 @632  = ~Ah, che importa. Sono felice di sbarazzarmi di questa dannata scatola. Tieni.~
 @633  = ~Fa' come ti pare. Sei qui per un motivo?~
 @634  = ~Hai i documenti?~
 @635  = ~No, nessun motivo.~
-@636  = ~Non forzare la sorte. Vuoi i documenti, s√¨ o no?~
+@636  = ~Non forzare la sorte. Vuoi i documenti, sÏ o no?~
 @637  = ~Sicuro.~
 @638  = ~Fa' come ti pare.~
 @639  = ~Addio!~
@@ -718,7 +718,7 @@ Il messaggero di Aster √® stato criptico, male informato, o soltanto disinteress
 @649  = ~(Metti via la scatola.)~
 @650  = ~(Non succede nulla.)~
 @651  = ~(Senti un click.)~
-@652  = ~(Su una riga ci sono scritti i numeri 6, 11, 21 e 41. Dopo l'ultimo numero, c'√® una rotella scorrevole con incisi i numeri 35, 103, 81 e 4. Che cosa fai?)~
+@652  = ~(Su una riga ci sono scritti i numeri 6, 11, 21 e 41. Dopo l'ultimo numero, c'Ë una rotella scorrevole con incisi i numeri 35, 103, 81 e 4. Che cosa fai?)~
 @653  = ~(Fai scorrere la rotella per allineare il 35.)~
 @654  = ~(Fai scorrere la rotella per allineare il 103.)~
 @655  = ~(Fai scorrere la rotella per allineare il 81.)~
@@ -729,14 +729,14 @@ Il messaggero di Aster √® stato criptico, male informato, o soltanto disinteress
 @660  = ~(Allinei la stella.)~
 @661  = ~(Allinei il cerchio.)~
 @662  = ~(Allinei il pentagono.)~
-@663  = ~(Ci sono tre simboli su una riga: dei raggi verdi che escono da un pugno nero, un fiocco di neve bianco e un disco nero dentro a un cerchio porpora. Accanto ad essi c'√® una ruota che scorre con altri simboli: una bilancia, un guanto, una maschera e un sole nascente fatto di gemme.)~
+@663  = ~(Ci sono tre simboli su una riga: dei raggi verdi che escono da un pugno nero, un fiocco di neve bianco e un disco nero dentro a un cerchio porpora. Accanto ad essi c'Ë una ruota che scorre con altri simboli: una bilancia, un guanto, una maschera e un sole nascente fatto di gemme.)~
 @664  = ~(Tu...)~
 @665  = ~(Ruoti e allinei con gli altri simboli la bilancia.)~
 @666  = ~(Ruoti e allinei con gli altri simboli il guanto.)~
 @667  = ~(Ruoti e allinei con gli altri simboli la maschera.) ~
 @668  = ~(Ruoti e allinei con gli altri simboli il sole.)~
 @669  = ~(Metti via la scatola.)~
-@670  = ~(Riconosci che i simboli rappresentano le divinit√† del Faerun. Quelli incisi sulla scatola corrispondono a Bane, Auril e Shar. Quelli sulla ruota a Tyr, Torm, Mask e Lathander. Tu...)~
+@670  = ~(Riconosci che i simboli rappresentano le divinit‡ del Faerun. Quelli incisi sulla scatola corrispondono a Bane, Auril e Shar. Quelli sulla ruota a Tyr, Torm, Mask e Lathander. Tu...)~
 @671  = ~(Porti il simbolo di Tyr accanto agli altri.)~
 @672  = ~(Porti il simbolo di Torm accanto agli altri.)~
 @673  = ~(Porti il simbolo di Mask accanto agli altri.) ~
@@ -749,7 +749,7 @@ Il messaggero di Aster √® stato criptico, male informato, o soltanto disinteress
 @680  = ~Quindi, ottengo una ricompensa facendo il tuo sporco lavoro?~
 @681  = ~Mi sorprende vederti. Pensavo stessi decorando qualche forca, a questo punto.~
 @682  = ~Allora non ho tempo per te. Buona giornata.~
-@683  = ~Io faccio andare il porto di Athkatla, il secondo pi√π grande dell'Amn dopo Waterdeep, all'apice della sua efficienza. Come puoi immaginare, sono un uomo molto impegnato.~
+@683  = ~Io faccio andare il porto di Athkatla, il secondo pi˘ grande dell'Amn dopo Waterdeep, all'apice della sua efficienza. Come puoi immaginare, sono un uomo molto impegnato.~
 @684  = ~E cosa stai facendo qui, allora? Non dovresti essere ai Moli?~
 @685  = ~Quali sono i tuoi compiti, di preciso?~
 @686  = ~Sembra noioso.~
@@ -760,56 +760,56 @@ Il messaggero di Aster √® stato criptico, male informato, o soltanto disinteress
 @691  = ~Un sacco di cose. Buona giornata.~
 @692  = ~Ti suggerisco di chiedere a uno Stregone Incappucciato, allora. Buona giornata.~
 @693  = ~Hmf.~
-@694  = ~Stai scherzando... anche se non mi pare. Bene, sar√≤ breve. Malficus si √® assicurato il tuo silenzio?~
-@695  = ~Il mio silenzio √® come la mia lealt√†, riservata a chi offre di pi√π.~
+@694  = ~Stai scherzando... anche se non mi pare. Bene, sarÚ breve. Malficus si Ë assicurato il tuo silenzio?~
+@695  = ~Il mio silenzio Ë come la mia lealt‡, riservata a chi offre di pi˘.~
 @696  = ~Ho giurato di tenere il segreto.~
-@697  = ~Pi√π o meno.~
+@697  = ~Pi˘ o meno.~
 @698  = ~Dimmi solo quello che vuoi che faccia.~
 @699  = ~Inaccettabile. Vattene prima che io ti faccia arrestare per cospirazione.~
-@700  = ~Calmati. Non parler√≤.~
+@700  = ~Calmati. Non parlerÚ.~
 @701  = ~Sarebbe ironico. Sei tu che vuoi qualcuno assassinato.~
 @702  = ~Sarai morto prima che le parole lascino le tue labbra.~
 @703  = ~Voglio che tu elimini il Capitano Nador.~
-@704  = ~Perch√©?~
+@704  = ~PerchÈ?~
 @705  = ~Semplice.~
-@706  = ~Potrebbe mai essere pi√π banale questo compito?~
-@707  = ~Lo far√≤.~
+@706  = ~Potrebbe mai essere pi˘ banale questo compito?~
+@707  = ~Lo farÚ.~
 @708  = ~Dove posso trovarlo?~
-@709  = ~Ripensandoci, non lo far√≤.~
+@709  = ~Ripensandoci, non lo farÚ.~
 @710  = ~Eccellente.~
-@711  = ~Ti sbagli. Ho solo chiesto se Malficus si √® assicurato il tuo silenzio. Non ho chiesto perch√©. Comunque, mi sembri un tipo poco affidabile. Non voglio fare affari con te. Buona giornata.~
-@712  = ~Forse, ma quanto andresti lontano prima di essere ucciso anche tu? No, non puoi essere cos√¨ stupido. Vai ora.~
-@713  = ~Devi essere da poco ad Athkatla. Nessuno che conosca la politica di Athkatla direbbe una cosa cos√¨ sciocca. L'ambizione, <PRO_MANWOMAN>, √® la forza motrice della Citt√† della Moneta.~
+@711  = ~Ti sbagli. Ho solo chiesto se Malficus si Ë assicurato il tuo silenzio. Non ho chiesto perchÈ. Comunque, mi sembri un tipo poco affidabile. Non voglio fare affari con te. Buona giornata.~
+@712  = ~Forse, ma quanto andresti lontano prima di essere ucciso anche tu? No, non puoi essere cosÏ stupido. Vai ora.~
+@713  = ~Devi essere da poco ad Athkatla. Nessuno che conosca la politica di Athkatla direbbe una cosa cosÏ sciocca. L'ambizione, <PRO_MANWOMAN>, Ë la forza motrice della Citt‡ della Moneta.~
 @714  = ~Ti interessa?~
 @715  = ~Non mi alletta il pensiero di fare un'azione del genere a sangue freddo.~
 @716  = ~Ho preso nota della tua opinione. Ci stai?~
 @717  = ~Un incarico del genere richiede discrezione, certamente. Un assalto diretto nel suo ufficio si rivelerebbe probabilmente inefficace e quasi sicuramente fatale per gli assalitori.~
-@718  = ~La sottigliezza sarebbe pi√π appropriata, e il veleno √® il pi√π sottile tra gli strumenti di un assassino. Il Capitano Nador cener√† alla residenza Vulova stasera. Dato che segue una particolare dieta, i suoi piatti sono sono preparati appositamente per lui e mangiati solo da lui.~
-@719  = ~Il cuoco della residenza Vulova aspetta una consegna di ingredienti speciali necessari al pasto del Capitano Nador. Quando li avrai con te, il maggiordomo della residenza potr√† indirizzarti alla cucina.~
+@718  = ~La sottigliezza sarebbe pi˘ appropriata, e il veleno Ë il pi˘ sottile tra gli strumenti di un assassino. Il Capitano Nador cener‡ alla residenza Vulova stasera. Dato che segue una particolare dieta, i suoi piatti sono sono preparati appositamente per lui e mangiati solo da lui.~
+@719  = ~Il cuoco della residenza Vulova aspetta una consegna di ingredienti speciali necessari al pasto del Capitano Nador. Quando li avrai con te, il maggiordomo della residenza potr‡ indirizzarti alla cucina.~
 @720  = ~Sembra che siano coinvolte diverse persone.~
-@721  = ~Non sar√† ovvio che si tratti di avvelenamento, se Nador √® l'unico che mangia un cibo diverso?~
+@721  = ~Non sar‡ ovvio che si tratti di avvelenamento, se Nador Ë l'unico che mangia un cibo diverso?~
 @722  = ~Dove prendo questi "ingredienti speciali"?~
-@723  = ~No. Non lo far√≤.~
-@724  = ~Peccato, ma √® un tuo diritto rifiutare.~
-@725  = ~Ti ricordo la tua promessa di silenzio. Se ne parlerai con qualcuno, il nostro amico alla locanda del Mitico Riposo chiuder√† ogni rapporto con te.~
+@723  = ~No. Non lo farÚ.~
+@724  = ~Peccato, ma Ë un tuo diritto rifiutare.~
+@725  = ~Ti ricordo la tua promessa di silenzio. Se ne parlerai con qualcuno, il nostro amico alla locanda del Mitico Riposo chiuder‡ ogni rapporto con te.~
 @726  = ~Capito.~
 @727  = ~Vedremo.~
 @728  = ~Abbastanza.~
-@729  = ~La condizione che obbliga il buon Capitano a seguire una rigorosa dieta potr√† spiegare il suo improvviso decesso. L'ingrediente "aggiuntivo" √® stato scelto perch√© non dester√† alcun sospetto.~
-@730  = ~C'√® un uomo al secondo piano della locanda dei Cinque Boccali, nella grande sala dietro le stanze degli ospiti. Lui ti dar√† quello che ti serve.~
+@729  = ~La condizione che obbliga il buon Capitano a seguire una rigorosa dieta potr‡ spiegare il suo improvviso decesso. L'ingrediente "aggiuntivo" Ë stato scelto perchÈ non dester‡ alcun sospetto.~
+@730  = ~C'Ë un uomo al secondo piano della locanda dei Cinque Boccali, nella grande sala dietro le stanze degli ospiti. Lui ti dar‡ quello che ti serve.~
 @731  = ~Ora, se vuoi scusarmi, devo tornare nel mio ufficio a occuparmi di tediose scartoffie. Buona giornata.~
-@732  = ~Lo vuoi fare? S√¨ o no?~
-@733  = ~Comprensibile. Guarda caso, posso metterti in contatto con un uomo che pu√≤ risparmiarti il coinvolgimento diretto in questa vicenda.~
-@734  = ~Dimmi di pi√π.~
+@732  = ~Lo vuoi fare? SÏ o no?~
+@733  = ~Comprensibile. Guarda caso, posso metterti in contatto con un uomo che puÚ risparmiarti il coinvolgimento diretto in questa vicenda.~
+@734  = ~Dimmi di pi˘.~
 @735  = ~No, non posso proprio farlo.~
 @736  = ~L'uomo si chiama Wael. Frequenta la locanda di Delosar, se ricordo bene. Di solito lo trovi al primo piano.~
-@737  = ~Lo cercher√≤.~
+@737  = ~Lo cercherÚ.~
 @738  = ~Non mi pare... no, non posso farlo.~
 @739  = ~Lo farai.~
 @740  = ~Credo che il nostro amico Malficus abbia parlato di una ricompensa, nella forma di una sostanziosa riduzione del costo del viaggio, se ho capito bene.~
 @741  = ~Ora ho molto da fare. Buona giornata.~
-@742  = ~Oh, c'√® stata un'inchiesta, non temere, ma non c'√® stata mai una prova evidente contro di me.~
-@743  = ~Se non te ne vai immediatamente, ti denuncer√≤ per molestie.~
+@742  = ~Oh, c'Ë stata un'inchiesta, non temere, ma non c'Ë stata mai una prova evidente contro di me.~
+@743  = ~Se non te ne vai immediatamente, ti denuncerÚ per molestie.~
 @744  = ~Ahh, riconosco un occhio acuto quando lo vedo.~ [MYSTR01]
 @745  = ~Chi sei?~
 @746  = ~Ballas mi ha detto che hai qualcosa che mi serve.~
@@ -818,9 +818,9 @@ Il messaggero di Aster √® stato criptico, male informato, o soltanto disinteress
 @749  = ~Non sono nessuno di speciale, puoi chiamarmi Vhellon.~
 @750  = ~Potresti dirmi dove posso trovare della merce interessante?~
 @751  = ~Ballas ha detto che hai qualcosa per me.~
-@752  = ~Cosa c'√® da vedere nel Distretto del Ponte?~
+@752  = ~Cosa c'Ë da vedere nel Distretto del Ponte?~
 @753  = ~Non mi dire! Bene, se hai l'oro, io ho quello che ti serve. Cinquanta pezzi.~
-@754  = ~Te ne dar√≤ venti.~
+@754  = ~Te ne darÚ venti.~
 @755  = ~Inteso.~
 @756  = ~Non ho tanto oro.~
 @757  = ~Potrei avere qualcosa che ti interessa. Ma abbassiamo la voce, ok?~
@@ -829,24 +829,24 @@ Il messaggero di Aster √® stato criptico, male informato, o soltanto disinteress
 @760  = ~Lascia perdere.~
 @761  = ~Ti sembro una guida turistica? Va' a chiedere a qualche mercante per strada.~
 @762  = ~Sei un mercante?~
-@763  = ~Non c'√® bisogno di alterarsi.~
+@763  = ~Non c'Ë bisogno di alterarsi.~
 @764  = ~Ottimo.~
-@765  = ~Non √® abbastanza.~
+@765  = ~Non Ë abbastanza.~
 @766  = ~Oh, va bene. Ecco il tuo oro.~
 @767  = ~Non ho quell'oro.~
 @768  = ~Torna quando lo avrai.~
 @769  = ~Parla, se vuoi.~ [STHMA02]
 @770  = ~Ho sentito che sei bravo a eliminare i problemi.~
 @771  = ~Ho bisogno di un favore.~
-@772  = ~Pensavo di poterlo fare, ma non √® cos√¨.~
+@772  = ~Pensavo di poterlo fare, ma non Ë cosÏ.~
 @773  = ~Che ti serve?~
 @774  = ~L'Assistente Capitano Ballas mi ha chiesto di avvelenare il Capitano Nador.~
 @775  = ~Niente. Non posso farlo. Proprio no.~
 @776  = ~Capita. Buona fortuna a te.~
-@777  = ~Non √® una cosa semplice. Cento pezzi d'oro.~
+@777  = ~Non Ë una cosa semplice. Cento pezzi d'oro.~
 @778  = ~Ecco. Ma non dirmi nient'altro.~
 @779  = ~Non ho cento pezzi d'oro.~
-@780  = ~Peccato. Beh, non andr√≤ da nessuna parte, comunque.~
+@780  = ~Peccato. Beh, non andrÚ da nessuna parte, comunque.~
 @781  = ~Salve. Come va?~ [B!NADOR]
 @782  = ~Lo sai che il tuo assistente sta cercando di ucciderti?~
 @783  = ~Vorrei affittare una nave.~
@@ -858,138 +858,138 @@ Il messaggero di Aster √® stato criptico, male informato, o soltanto disinteress
 @789  = ~Infatti! Dovresti segnalare subito questa cosa al Capo Ispettore Brega!~
 @790  = ~Ora, se vuoi scusarmi, devo proprio andare. Ho un impegno importante questa sera... e pare che io debba ingaggiare altro personale di sicurezza.~
 @791  = ~Mi piacerebbe aiutarti, ma temo che dovrai trovare un altro capitano disposto a esaudire la tua richiesta. Il mio ufficio si occupa di faccende legate al porto, non delle navi che lo usano. Buona giornata.~
-@792  = ~Infatti. Sono talmente in ritardo che mi stupisco di non essermi incontrato da solo mentre arrivavo. E' stato un piacere chiacchierare con te. Goditi il soggiorno nella Citt√† della Moneta.~
+@792  = ~Infatti. Sono talmente in ritardo che mi stupisco di non essermi incontrato da solo mentre arrivavo. E' stato un piacere chiacchierare con te. Goditi il soggiorno nella Citt‡ della Moneta.~
 @793  = ~Infatti. Goditi il soggiorno ad Athkatla.~
 @794  = ~Anche a te, <PRO_SIRMAAM>.~
 @795  = ~Comprendo che devo ringraziare te per il prolungamento della mia esistenza.~
-@796  = ~Esatto. C'√® una ricompensa?~
+@796  = ~Esatto. C'Ë una ricompensa?~
 @797  = ~Era la cosa giusta da fare.~
 @798  = ~Io non c'entro niente.~
-@799  = ~Sarai pi√π attento, questi giorni?~
-@800  = ~Posso offrirti un piccolo gesto di gratitudine. Non √® molto, ma le mie spese sono aumentate, con la sicurezza extra e tutto.~
+@799  = ~Sarai pi˘ attento, questi giorni?~
+@800  = ~Posso offrirti un piccolo gesto di gratitudine. Non Ë molto, ma le mie spese sono aumentate, con la sicurezza extra e tutto.~
 @801  = ~E' quello che ho pensato, ma sono di parte, lo ammetto.~
 @802  = ~Troppa modestia, ma ti ringrazio lo stesso.~
-@803  = ~S√¨, devo. A volte mi sento prigioniero nella mia stessa casa, ma almeno sono al sicuro... ma poi penso che ero al sicuro anche prima, quindi vedremo cosa accadr√†.~
+@803  = ~SÏ, devo. A volte mi sento prigioniero nella mia stessa casa, ma almeno sono al sicuro... ma poi penso che ero al sicuro anche prima, quindi vedremo cosa accadr‡.~
 @804  = ~Le feste di Lord Vulova sono sempre divertenti.~
 @805  = ~Dimmi, non ci siamo incontrati lo scorso anno alla serata di primavera di Lady Jysstev?~
-@806  = ~Spero che la cena venga servita presto. Mi √® venuto un certo appetito.~
-@807  = ~Non √® una serata incantevole?~
+@806  = ~Spero che la cena venga servita presto. Mi Ë venuto un certo appetito.~
+@807  = ~Non Ë una serata incantevole?~
 @808  = ~Ho una consegna per la cucina.~
 @809  = ~No, non penso.~
-@810  = ~Ti stavamo aspettando. Portala dietro in cucina, ok? Troverai l√¨ il cuoco.~
+@810  = ~Ti stavamo aspettando. Portala dietro in cucina, ok? Troverai lÏ il cuoco.~
 @811  = ~Aspettavamo una consegna, ma non vedo nessun pacco. Forse te lo sei dimenticato?~
-@812  = ~Non fa niente, abbiamo ancora qualche minuto. Vai a prenderlo, ma sbrigati. Abbiamo gi√† ritardato la cena il pi√π possibile.~
+@812  = ~Non fa niente, abbiamo ancora qualche minuto. Vai a prenderlo, ma sbrigati. Abbiamo gi‡ ritardato la cena il pi˘ possibile.~
 @813  = ~Levati di torno, allora. Stiamo aspettando una consegna importante, e sembra che sia in ritardo.~
 @814  = ~Hai bisogno di qualcosa, straniero?~ [GENMG04]
 @815  = ~Ho qualcosa per te.~
 @816  = ~No, niente.~
 @817  = ~Bene, dai qua. Stanno fremendo per la cena.~
-@818  = ~Non mi pare. Vai a prenderlo, cos√¨ potremo farla finita con questo affare.~
+@818  = ~Non mi pare. Vai a prenderlo, cosÏ potremo farla finita con questo affare.~
 @819  = ~Allora fuori dalla mia cucina.~
 @820  = ~Ah, mi trovo in dolce compagnia! Fermati dopo cena, se ti va, e permettimi di mostrarti la mia residenza.~
 @821  = ~Vieni qui, mia piccola elfa, e siediti sulle mie ginocchia.~
 @822  = ~Non penso che dovrei farlo, mio signore.~
 @823  = ~Non temere, mia cara. Sono un vecchio gentiluomo.~
 @824  = ~Con permesso... devo andare.~
-@825  = ~Ah, se questa non √® la piccola Nalia De'Arnise!~
-@826  = ~Sei diventata una giovane e graziosa donna. S√¨... molto graziosa davvero.~
+@825  = ~Ah, se questa non Ë la piccola Nalia De'Arnise!~
+@826  = ~Sei diventata una giovane e graziosa donna. SÏ... molto graziosa davvero.~
 @827  = ~Lord Vulova, non siete cambiato di una virgola. Un peccato.~
 @828  = ~Strano, non ricordo di averti invitato. Devo controllare la lista degli ospiti.~
 @829  = ~Se devi fare una consegna, parla con il maggiordomo.~
-@830  = ~Mi perdoni, ma questa √® una conversazione privata.~
-@831  = ~Se vedi quel maledetto cuoco, chiedigli perch√© la cena √® cos√¨ in ritardo.~
+@830  = ~Mi perdoni, ma questa Ë una conversazione privata.~
+@831  = ~Se vedi quel maledetto cuoco, chiedigli perchÈ la cena Ë cosÏ in ritardo.~
 @832  = ~Tu sei Anomen Delryn, vero? Ti ho presentato mia figlia?~
 @833  = ~Veramente no, signora.~
 @834  = ~Dobbiamo rimediare all'istante!~
-@835  = ~Signora, la prego! Non √® il momento di fare presentazioni e i miei affari non permettono svaghi, comunque. Mi perdoni.~
-@836  = ~Lord Vulova dovrebbe davvero limitare la sua lista invitati. Non mi ricordo di essere mai stato cos√¨ cordiale.~
-@837  = ~Il codice di abbigliamento √® insopportabilmente indulgente, questi tempi. Una volta con un'armatura addosso non ti avrebbero fatto entrare neanche morto.~
-@838  = ~Ho sentito che il prezzo del ferro si sta rialzando di nuovo. Non si preannuncia niente di buono per la citt√†, ci scommetto.~
-@839  = ~Ti conosco? No... di sicuro non ho conoscenze cos√¨ in basso.~
+@835  = ~Signora, la prego! Non Ë il momento di fare presentazioni e i miei affari non permettono svaghi, comunque. Mi perdoni.~
+@836  = ~Lord Vulova dovrebbe davvero limitare la sua lista invitati. Non mi ricordo di essere mai stato cosÏ cordiale.~
+@837  = ~Il codice di abbigliamento Ë insopportabilmente indulgente, questi tempi. Una volta con un'armatura addosso non ti avrebbero fatto entrare neanche morto.~
+@838  = ~Ho sentito che il prezzo del ferro si sta rialzando di nuovo. Non si preannuncia niente di buono per la citt‡, ci scommetto.~
+@839  = ~Ti conosco? No... di sicuro non ho conoscenze cosÏ in basso.~
 @840  = ~Pensa che sfortuna. Proprio l'altro giorno, mi hanno rubato dei documenti. E pensavo che fossero al sicuro, dopo quello che ho pagato per quella scatola.~
 @841  = ~Ho un'informazione che troveresti interessante. L'Assistente Capitano Ballas sta complottando contro il Capitano Nador.~
-@842  = ~Ah s√¨? Immagino che tu abbia una prova per questa accusa.~
+@842  = ~Ah sÏ? Immagino che tu abbia una prova per questa accusa.~
 @843  = ~Non proprio.~
 @844  = ~Ha provato ad ingaggiarmi per assassinarlo.~
 @845  = ~Che tipo di prova?~
-@846  = ~Non possiamo accusare Ballas senza una prova evidente, comunque mander√≤ qualcuno a indagare. Grazie per avermelo fatto sapere.~
+@846  = ~Non possiamo accusare Ballas senza una prova evidente, comunque manderÚ qualcuno a indagare. Grazie per avermelo fatto sapere.~
 @847  = ~Cosa, hai delle prove? Serve qualcosa di concreto per incastrarlo. Un contratto o qualcosa del genere.~
 @848  = ~No, non abbiamo un contratto.~
 @849  = ~Che tipo di prova vuoi?~
 @850  = ~Hai mai visto farlo? Firmare un contratto per un omicidio?~
 @851  = ~Potresti almeno dire al Capitano Nador di rinunciare al banchetto alla residenza Vulova? E' li che dovrebbe essere compiuto il fatto.~
 @852  = ~Avrei dovuto sapere che non valeva la pena lasciare questo in mano ai burocrati.~
-@853  = ~Qualcosa di tangibile. Un documento, un testimone, qualcosa in pi√π delle tue parole contro di lui.~
-@854  = ~Keldorn era l√¨. Lui pu√≤ dirti quello che ha visto.~
-@855  = ~Anomen ha sentito tutto. Pu√≤ confermare le mie parole.~
+@853  = ~Qualcosa di tangibile. Un documento, un testimone, qualcosa in pi˘ delle tue parole contro di lui.~
+@854  = ~Keldorn era lÏ. Lui puÚ dirti quello che ha visto.~
+@855  = ~Anomen ha sentito tutto. PuÚ confermare le mie parole.~
 @856  = ~Aerie, puoi dire al Capo Ispettore Brega quello che hai sentito?~
-@857  = ~Haer'Dalis pu√≤ confermare quello che ho detto.~
+@857  = ~Haer'Dalis puÚ confermare quello che ho detto.~
 @858  = ~Diglielo anche tu, Jaheira.~
 @859  = ~Yoshimo, se potessi...~
 @860  = ~Puoi dire qualcosa, Edwin?~
-@861  = ~Cernd pu√≤ sostenere la mia tesi.~
+@861  = ~Cernd puÚ sostenere la mia tesi.~
 @862  = ~Sicuramente crederai a Nalia.~
 @863  = ~Viconia...~
 @864  = ~Puoi dirglielo tu senza mettere in mezzo la tua famiglia, Jan?~
 @865  = ~Minsc non ti mentirebbe mai.~
 @866  = ~Lo crederesti se lo sentissi da Korgan?~
-@867  = ~Mazzy sa la verit√† come me.~
+@867  = ~Mazzy sa la verit‡ come me.~
 @868  = ~Mi puoi aiutare, Valygar?~
 @869  = ~Non ho qualcosa del genere.~
 @870  = ~L'omicidio deve compiersi alla residenza Vulova. Se fai in fretta, forse puoi coglierli sul fatto.~
-@871  = ~Non se sono stupidi. E dato che Ballas non lo √®, lo prendo come un no.~
+@871  = ~Non se sono stupidi. E dato che Ballas non lo Ë, lo prendo come un no.~
 @872  = ~Mi serve altro per incastrarlo.~
-@873  = ~La residenza Vulova, dici? Mander√≤ degli uomini l√¨ immediatamente.~
-@874  = ~<CHARNAME> dice la verit√†, Capo Ispettore. Ho sentito l'Assistente Capitano Ballas cospirare contro il Capitano Nador con le mie orecchie.~
+@873  = ~La residenza Vulova, dici? ManderÚ degli uomini lÏ immediatamente.~
+@874  = ~<CHARNAME> dice la verit‡, Capo Ispettore. Ho sentito l'Assistente Capitano Ballas cospirare contro il Capitano Nador con le mie orecchie.~
 @875  = ~E' vero. Ho sentito l'Assistente Capitano Ballas complottare contro il suo superiore con le mie orecchie.~
-@876  = ~E' la verit√†, Ispettore! L'Assistente Capitano Ballas √® un uomo malvagio!~
-@877  = ~Perch√© ci preoccupiamo di queste cose √® un mistero per me, ma <CHARNAME> dice il vero.~
-@878  = ~S√¨. Questo Ballas ha fatto come dice <CHARNAME>. Parola mia.~
-@879  = ~Vuoi coinvolgermi in questa cosa, <CHARNAME>? In ogni caso, √® proprio cos√¨, Ispettore.~
-@880  = ~S√¨, s√¨, va bene. Credi a <PRO_HIMHER>, Ispettore. Ballas √® colpevole.~
-@881  = ~S√¨. Ispettore, Ballas sta cospirando per commettere un omicidio.~
+@876  = ~E' la verit‡, Ispettore! L'Assistente Capitano Ballas Ë un uomo malvagio!~
+@877  = ~PerchÈ ci preoccupiamo di queste cose Ë un mistero per me, ma <CHARNAME> dice il vero.~
+@878  = ~SÏ. Questo Ballas ha fatto come dice <CHARNAME>. Parola mia.~
+@879  = ~Vuoi coinvolgermi in questa cosa, <CHARNAME>? In ogni caso, Ë proprio cosÏ, Ispettore.~
+@880  = ~SÏ, sÏ, va bene. Credi a <PRO_HIMHER>, Ispettore. Ballas Ë colpevole.~
+@881  = ~SÏ. Ispettore, Ballas sta cospirando per commettere un omicidio.~
 @882  = ~E' vero, Capo Ispettore Brega. Ho sentito l'Assistente Capitano Ballas cospirare per commettere un omicidio.~
 @883  = ~Ti aspetti che io creda alle parole di un drow?~
-@884  = ~Beh, beh, <CHARNAME>, non √® stata molto carina questa uscita. Comunque √® la verit√†. Ballas ha provato a ingaggiare <CHARNAME> per uccidere Nador.~
+@884  = ~Beh, beh, <CHARNAME>, non Ë stata molto carina questa uscita. Comunque Ë la verit‡. Ballas ha provato a ingaggiare <CHARNAME> per uccidere Nador.~
 @885  = ~Non ho sentito tutto quello che ha detto Ballas. Ero troppo arrabbiato che voleva uccidere qualcuno su commissione.~
 @886  = ~No, <CHARNAME>, non posso farlo. Conosco questo nano e, te lo dico chiaramente, sarei di fronte al Consiglio se facessi qualcosa sulla parola di quest'uomo.~
 @887  = ~E' come dice <PRO_HESHE>, Capo Ispettore. L'Assistente Capitano Ballas ha provato a convincere <CHARNAME> ad uccidere il Capitano Nador.~
 @888  = ~Non lo so, <CHARNAME>. Abbiamo sentito tutti quello che ha detto Ballas, ma sono l'ultima persona che Brega vorrebbe come testimone.~
 @889  = ~Hai fatto un bel lavoro.~
-@890  = ~Conosco bene Keldorn e la sua testimonianza √® indiscutibile.~
-@891  = ~Mander√≤ subito i miei uomini.~
+@890  = ~Conosco bene Keldorn e la sua testimonianza Ë indiscutibile.~
+@891  = ~ManderÚ subito i miei uomini.~
 @892  = ~Anomen Delryn, giusto? Tua madre era molto rispettata qui ad Athkatla, che riposi in pace.~
-@893  = ~Molto bene, il tuo testimone √® credibile e conferma le tue accuse, e questo mi basta a giustificare un'azione.~
-@894  = ~Ti conosco? Mi spiace, <CHARNAME>, ma non posso autorizzare l'arresto di un noto cittadino sulla base delle parole di qualcuno che √® completamente sconosciuto, a me e al Consiglio.~
-@895  = ~Per quanto ne so, lavoravi per i Ladri Tenebrosi, mago. Dunque non credo che la tua parola abbia molto peso nel Consiglio.~
-@896  = ~Tu sei la figlia di Lord De'Arnise, vero? Non ti conosco personalmente, certo, ma la tua parola sar√† abbastanza per il Consiglio.~
-@897  = ~Mazzy, giusto? Dei cavalieri di Avoreen? S√¨, la tua reputazione ti precede e la tua testimonianza baster√† probabilmente a far arrestare Ballas.~
+@893  = ~Molto bene, il tuo testimone Ë credibile e conferma le tue accuse, e questo mi basta a giustificare un'azione.~
+@894  = ~Ti conosco? Mi spiace, <CHARNAME>, ma non posso autorizzare l'arresto di un noto cittadino sulla base delle parole di qualcuno che Ë completamente sconosciuto, a me e al Consiglio.~
+@895  = ~Per quanto ne so, lavoravi per i Ladri dell'Ombra, mago. Dunque non credo che la tua parola abbia molto peso nel Consiglio.~
+@896  = ~Tu sei la figlia di Lord De'Arnise, vero? Non ti conosco personalmente, certo, ma la tua parola sar‡ abbastanza per il Consiglio.~
+@897  = ~Mazzy, giusto? Dei cavalieri di Avoreen? SÏ, la tua reputazione ti precede e la tua testimonianza baster‡ probabilmente a far arrestare Ballas.~
 @898  = ~Ah, Valygar Corthala. Ho sentito del tuo guaio con gli Stregoni Incappucciati e se avessi potuto fare qualcosa per prevenirlo, l'avrei fatto.~
 @899  = ~Tuttavia, tu hai ucciso due Stregoni Incappucciati. So che hai agito per difenderti, ma sono certo che capirai che non posso presentarmi al Consiglio con la tua testimonianza come unica prova contro Ballas.~
 @900  = ~Ed ecco la tua nave, come promesso. Il tuo oro ha pagato il tuo passaggio e anche il silenzio dell'equipaggio.~ [b!mal_09]
 @901  = ~Non mi interessano le abitudini dei tuoi uomini, capitano. Basta che mi portino a destinazione sano e salvo, e velocemente.~ [B!MAL_08]
-@902  = ~<CHARNAME>, questo √® il Capitano Saemon Havarian. Lui e la sua nave... Signor Havarian, mi sembra di ricordare che la vostra nave si chiami La Perla.~
+@902  = ~<CHARNAME>, questo Ë il Capitano Saemon Havarian. Lui e la sua nave... Signor Havarian, mi sembra di ricordare che la vostra nave si chiami La Perla.~
 @903  = ~Ti prego, <CHARNAME>, non far arrabbiare il capitano. Non in molti sono disposti ad avventurarsi nel lungo viaggio verso Maztica.~
-@904  = ~Chiaro come l'acqua cristallina, milord, anche se non mi piace il tuo tono. Ti assicuro che non accadr√† nulla di imprevisto durante la traversata.~
-@905  = ~Sime ti dar√† qualche consiglio, <CHARNAME>. Lei conosce un po' di abitanti.~
+@904  = ~Chiaro come l'acqua cristallina, milord, anche se non mi piace il tuo tono. Ti assicuro che non accadr‡ nulla di imprevisto durante la traversata.~
+@905  = ~Sime ti dar‡ qualche consiglio, <CHARNAME>. Lei conosce un po' di abitanti.~
 @906  = ~Capitolo 4
 
-Ho completato gli incarichi di Malficus e tuttavia mi sono ritrovato alle porte di Spellhold, non a Maztica, come mi aveva fatto credere. Quel che √® peggio, sembra che Malficus sia alle dipendenze di Bodhi, un potente vampiro.
+Ho completato gli incarichi di Malficus e tuttavia mi sono ritrovato alle porte di Spellhold, non a Maztica, come mi aveva fatto credere. Quel che Ë peggio, sembra che Malficus sia alle dipendenze di Bodhi, un potente vampiro.
 
-Che mi piaccia o no, ormai sono qui, e l'unico modo per tornare indietro √® andare avanti. Da quel che ho capito, sia Irenicus che Imoen si trovano qui, in una specie di manicomio per maghi. Il mio oro √® stato speso per il viaggio su quest'isola, ormai, ed √® qui che trover√≤ le risposte che cerco. Mi hanno avvertito, comunque, che il manicomio √® una fortezza creata per contenere maghi pazzi e altri 'devianti'... ed accedervi sar√† impegnativo.~
+Che mi piaccia o no, ormai sono qui, e l'unico modo per tornare indietro Ë andare avanti. Da quel che ho capito, sia Irenicus che Imoen si trovano qui, in una specie di manicomio per maghi. Il mio oro Ë stato speso per il viaggio su quest'isola, ormai, ed Ë qui che troverÚ le risposte che cerco. Mi hanno avvertito, comunque, che il manicomio Ë una fortezza creata per rinchiudere maghi pazzi e altri 'devianti'... ed accedervi sar‡ impegnativo.~
 @907  = ~E ora, devo fare una confessione.~
-@908  = ~Come avrai immaginato, questa non √® Maztica. Siamo sbarcati a Brynnlaw, come da istruzioni di Malficus.~
-@909  = ~Malficus mi ha tradito! Perch√©?~
+@908  = ~Come avrai immaginato, questa non Ë Maztica. Siamo sbarcati a Brynnlaw, come da istruzioni di Malficus.~
+@909  = ~Malficus mi ha tradito! PerchÈ?~
 @910  = ~Avrei fatto meglio a non fidarmi di quella serpe.~
 @911  = ~Ho speso tutti i miei soldi per fuggire dai problemi, ed eccomi qui, di nuovo nei guai.~
-@912  = ~Mi dispiace per l'inganno. Se ti pu√≤ essere di conforto, Malficus si √® limitato ad eseguire ordini impartiti dall'alto... da Bodhi, una padrona potente ed esigente.~
-@913  = ~Di nuovo, posso solo scusarmi, ma le menzogne sono state necessarie. Comunque, ora sei qui, perci√≤ ti suggerisco di approfittarne.~
+@912  = ~Mi dispiace per l'inganno. Se ti puÚ essere di conforto, Malficus si Ë limitato ad eseguire ordini impartiti dall'alto... da Bodhi, una padrona potente ed esigente.~
+@913  = ~Di nuovo, posso solo scusarmi, ma le menzogne sono state necessarie. Comunque, ora sei qui, perciÚ ti suggerisco di approfittarne.~
 @914  = ~Entrare nel Manicomio
 
-Ora che ho la pietra sigillo per entrare al manicomio, Sime ha deciso di mandare un messaggio a Malficus. Spera che possiamo avere un aiuto dagli alleati di Malficus, ora che la via per il manicomio √® libera, ma dopo il suo tradimento non mi aspetto nulla di buono.~
+Ora che ho la pietra sigillo per entrare al manicomio, Sime ha deciso di mandare un messaggio a Malficus. Spera che possiamo avere un aiuto dagli alleati di Malficus, ora che la via per il manicomio Ë libera, ma dopo il suo tradimento non mi aspetto nulla di buono.~
 @915  = ~Compiere gli Incarichi di Aster per Ricevere il Suo Aiuto
 
-Aran Linvail, il capo dei Ladri Tenebrosi in Athkatla, √® morto. Ora devo tornare da Aster e dirle che il suo difficile incarico √® stato portato a termine.~ 
+Aran Linvail, il capo dei Ladri dell'Ombra di Athkatla, Ë morto. Ora devo tornare da Aster e dirle che il suo difficile incarico Ë stato portato a termine.~ 
 @916  = ~Una Lunghissima Vacanza~
 @917  = ~Il Costo di un Alleato~
 
@@ -997,33 +997,32 @@ Aran Linvail, il capo dei Ladri Tenebrosi in Athkatla, √® morto. Ora devo tornar
 
 @918  = ~Prima di darti altre informazioni, devo assicurarmi che manterrai il segreto.~
 @919  = ~Molto bene. Paga i 15000 pezzi d'oro come sigillo al nostro accordo.~
-@920  = ~Se trovi piacevole sconfiggere i Ladri Tenebrosi, scoprirai che il secondo incarico serve un bene ancora pi√π grande.~
+@920  = ~Se trovi piacevole sconfiggere i Ladri dell'Ombra, scoprirai che il secondo incarico serve un bene ancora pi˘ grande.~
 
 /* new for v14 */
 /* @133 shortened. */
-@923  = ~Take all the time you need.~
+@923  = ~Prenditi tutto il tempo che ti serve.~
 /* @924 is @240 without Imoen */
-@924  = ~Vampires in the Catacombs.
+@924  = ~Vampiri nelle Catacombe
 
-I have defeated the vampires, and have faced Bodhi. She claimed to know something of Irenicus and seemed to be judging me in some manner before she retreated as a vampire bat. All that remains now is to return to "Aster" and tell her that the guild is gone, even if their leader remains unkilled. I might have some questions for her as well.
+Ho sconfitto i vampiri e ho affrontato Bodhi. Lei ha detto di sapere qualcosa di Irenicus e mi Ë sembrato che mi giudicasse in un certo modo, prima di fuggire nella forma di un pipistrello vampiro. Quello che resta da fare ora Ë tornare da "Aster" e comunicarle che la gilda Ë stata distrutta, anche se Bodhi non Ë stata uccisa. E avrei anche delle domande da farle.
 
-One more troubling thing... Bodhi knew. She knew I am a child of Bhaal.~
+E inoltre... Bodhi sapeva. Sapeva che sono un figlio di Bhaal.~
 /* @925 is @258 without Imoen */
-@925  = ~Aster's tasks.
+@925  = ~Gli Incarichi di Aster
 
-I have completed the tasks Aster set out for me, and at last, she has agreed to allow me to depart for Spellhold, where Irenicus awaits. Whatever happens next, I am sure my biggest challenge yet awaits me on this isle.~
+Ho completato gli incarichi di Aster e, finalmente, lei ha convenuto di farmi partire per Spellhold, dove mi attende Irenicus. Qualunque cosa accada ora, Ë certo che la sfida pi˘ grande si trovi sull'isola.~
 /* @926 is @292 without Imoen */
-@926  = ~Chapter 4
+@926  = ~Capitolo 4
 
-I have completed the tasks that Aster set out for me, including destroying both the Shadow Thieves and the vampires, though Bodhi herself escaped. Before she fled, she enlightened me about several things.
+Ho completato gli incarichi di Aster e ho distrutto sia i Ladri dell'Ombra che i vampiri, anche se non ho potuto uccidere Bodhi. Prima di fuggire, mi ha fatto capire alcune cose.
 
-The Shadow Thieves were the ones who attacked Irenicus in the dungeon that I awoke in.  They had heard about my kidnapping, but not thought much of it... but then Bodhi's guild appeared and many of the Shadow Thieves began to disappear.  They managed to track down Irenicus' dungeon and linked it to Bodhi... and I was witness to their subsequent disastrous assault.
+I Ladri dell'Ombra erano quelli che hanno attaccato Irenicus nella prigione dove ho ripreso conoscenza. Avevano saputo del mio rapimento, ma non ne erano rimasti molto impressionati... ma poi Ë apparsa la gilda di Bodhi e molti Ladri dell'Ombra hanno iniziato a sparire. Sono riusciti a collegare la prigione di Irenicus con Bodhi... e io ho assistito al loro assalto disastroso.
 
-Aster told me that Irenicus was taken to an island asylum for mages called Spellhold.  The gold I supplied was used to book passage to the isle, and it is there that I will find the answers I seek.  Aster warns me, though, that the asylum is a veritable fortress meant to contain insane wizards and other 'deviants'... and even gaining entry will be a feat unto itself.  Regardless, passage with a privateer named Saemon Havarian has been booked and I am on my way...~
+Aster mi ha detto che Irenicus Ë stato portato su un'isola-manicomio per maghi chiamata Spellhold. L'oro che io le ho fornito Ë stato usato per pagare il passaggio sull'isola, ed Ë lÏ che avrÚ le risposte che cerco. Aster mi ha avvertito che il manicomio Ë una fortezza creata per imprigionare maghi pazzi e altri 'devianti'... ed accedervi sar‡ molto difficile. In ogni caso, ho prenotato il passaggio con un mercenario di nome Saemon Havarian e ora sono in viaggio...~
 /* @927 is @906 without Imoen */
-@927  = ~Chapter 4
+@927  = ~Capitolo 4
 
-I have completed the tasks that Malficus set out for me only to find myself at the doorstep of Spellhold. What's worse, it looks like Malficus was following the orders of Bodhi, a powerful vampire.
+Ho completato gli incarichi che Malficus mi aveva affidato per ritrovarmi alle porte di Spellhold! Quel che Ë peggio, Ë che sembra che Malficus stesse seguendo gli ordini di Bodhi, un potente vampiro.
 
-Like it or not, I'm here now, and the only way to get back is to go forward. From what I understand, Irenicus is here, at an island asylum for mages called Spellhold.  The gold I supplied was used to book passage to the isle, not to Maztica, as I had originally been led to believe, and it is there that I will find the answers I seek.  I have been warned, though, that the asylum is a veritable fortress meant to contain insane wizards and other 'deviants'... and even gaining entry will be a feat unto itself.~
-
+Che mi piaccia o no, ormai sono qui, e l'unico modo per tornare indietro Ë andare avanti. Da quel che ho capito, Irenicus si trova qui, in una specie di manicomio per maghi. Il mio oro Ë stato speso per il viaggio su quest'isola, non per Maztica, come mi era stato fatto credere, ed Ë qui che troverÚ le risposte che cerco. Mi hanno avvertito, comunque, che il manicomio Ë una fortezza creata per rinchiudere maghi pazzi e altri 'devianti'... ed accedervi sar‡ molto impegnativo.~
