@@ -34,7 +34,7 @@ ALWAYS
 
   LAF HANDLE_CHARSETS
     INT_VAR
-      infer_charset = 1
+      infer_charsets = 1
     STR_VAR
       tra_path = EVAL ~%MOD_FOLDER%~
       noconvert_array = alternatives_noconvert
