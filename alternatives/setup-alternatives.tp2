@@ -4,7 +4,7 @@ SUPPORT ~https://www.gibberlings3.net/forums/forum/173-alternatives/~
 
 README ~alternatives/readme-alternatives.html~ 
 
-VERSION ~v14~ 
+VERSION ~v14.1~ 
 
 ALWAYS
 
@@ -438,7 +438,7 @@ COMPILE ~alternatives/script/b!altmsg.baf~      //Script for Alten, messenger of
 COMPILE ~alternatives/script/b!balus.baf~       //override script for Assistant Harbormaster Ballas 
 COMPILE ~alternatives/script/b!doleyt.baf~      //Leyt's cutscene nookie 
 COMPILE ~alternatives/script/b!mal41b.baf~      //Malficus and the PC part at the Docks 
-COMPILE ~alternatives/script/b!mal41d.baf~      //gets the PC and party to Brynnlaw if they sided with Malficus 
+COMPILE ~alternatives/script/b!mal41d.baf~ EVALUATE_BUFFER      //gets the PC and party to Brynnlaw if they sided with Malficus 
 
 /*
 COMPILE ~alternatives/script/b!malm3b.baf~      //modeled on movie_3b - Malficus takes the party to the docks 

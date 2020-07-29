@@ -41,7 +41,8 @@ THEN
 		ActionOverride(Player5,Rest())
 		ActionOverride(Player6,Rest())
 		TextScreen("B!MALCH4")
-		IncrementChapter("")
+		//IncrementChapter("")
+		SetGlobal("Chapter","GLOBAL",%bg2_chapter_4%)
 		CreateCreature("ppsime",[821.2804],0) // Sime
 		CreateCreature("ppsaem",[782.2713],0) // Saemon Havarian
 		Wait(1)
