@@ -1589,7 +1589,7 @@ END
 IF ~~ mal20 
 SAY @395 
 IF ~~ THEN DO ~AddJournalEntry(@144,QUEST) 
-    EscapeAreaMove("AR0300",3674,2975,7)~ EXIT
+EscapeAreaMove("AR0300",3674,2975,7)~ EXIT
 END 
 
 IF ~~ mal21
