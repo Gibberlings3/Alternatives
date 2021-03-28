@@ -1550,12 +1550,12 @@ END
 
 IF ~~ mal15
 SAY @377 
-+ ~OR(3) Global("WorkingForAran","GLOBAL",1) Global("WorkingForBodhi","GLOBAL",1) GlobalGT("B!Alternatives","GLOBAL",4)~ + @378 + mal13 
-+ ~!Global("WorkingForAran","GLOBAL",1) !Global("WorkingForBodhi","GLOBAL",1) !GlobalGT("B!Alternatives","GLOBAL",4)~ + @379 + mal16 
-+ ~!Global("WorkingForAran","GLOBAL",1) !Global("WorkingForBodhi","GLOBAL",1) !GlobalGT("B!Alternatives","GLOBAL",4)~ + @380 + mal17 
-+ ~!Global("WorkingForAran","GLOBAL",1) !Global("WorkingForBodhi","GLOBAL",1) !GlobalGT("B!Alternatives","GLOBAL",4)~ + @381 + mal18 
-+ ~!Global("WorkingForAran","GLOBAL",1) !Global("WorkingForBodhi","GLOBAL",1) !GlobalGT("B!Alternatives","GLOBAL",4)~ + @382 + mal18 
-+ ~!Global("WorkingForAran","GLOBAL",1) !Global("WorkingForBodhi","GLOBAL",1) !GlobalGT("B!Alternatives","GLOBAL",4)~ + @383 + mal18 
++ ~OR(3) Global("WorkingForAran","GLOBAL",1) Global("WorkingForBodhi","GLOBAL",1) GlobalGT("B!Alternatives","GLOBAL",5)~ + @378 + mal13 
++ ~!Global("WorkingForAran","GLOBAL",1) !Global("WorkingForBodhi","GLOBAL",1) !GlobalGT("B!Alternatives","GLOBAL",5)~ + @379 + mal16 
++ ~!Global("WorkingForAran","GLOBAL",1) !Global("WorkingForBodhi","GLOBAL",1) !GlobalGT("B!Alternatives","GLOBAL",5)~ + @380 + mal17 
++ ~!Global("WorkingForAran","GLOBAL",1) !Global("WorkingForBodhi","GLOBAL",1) !GlobalGT("B!Alternatives","GLOBAL",5)~ + @381 + mal18 
++ ~!Global("WorkingForAran","GLOBAL",1) !Global("WorkingForBodhi","GLOBAL",1) !GlobalGT("B!Alternatives","GLOBAL",5)~ + @382 + mal18 
++ ~!Global("WorkingForAran","GLOBAL",1) !Global("WorkingForBodhi","GLOBAL",1) !GlobalGT("B!Alternatives","GLOBAL",5)~ + @383 + mal18 
 END 
 
 IF ~~ mal16
@@ -1682,11 +1682,11 @@ END
 
 IF ~Global("B!Tourist","GLOBAL",1)~ THEN BEGIN mal35
 SAY @429 
-+ ~!Global("WorkingForAran","GLOBAL",1) !Global("WorkingForBodhi","GLOBAL",1) !GlobalGT("B!Alternatives","GLOBAL",4)~ + @430 + mal36 
-+ ~!Global("WorkingForAran","GLOBAL",1) !Global("WorkingForBodhi","GLOBAL",1) !GlobalGT("B!Alternatives","GLOBAL",4)~ + @431 + mal37 
-+ ~!Global("WorkingForAran","GLOBAL",1) !Global("WorkingForBodhi","GLOBAL",1) !GlobalGT("B!Alternatives","GLOBAL",4)~ + @432 + mal38 
-+ ~OR(3) Global("WorkingForAran","GLOBAL",1) Global("WorkingForBodhi","GLOBAL",1) GlobalGT("B!Alternatives","GLOBAL",4)~ + @433 + mal13 
-+ ~!Global("WorkingForAran","GLOBAL",1) !Global("WorkingForBodhi","GLOBAL",1) !GlobalGT("B!Alternatives","GLOBAL",4) PartyGoldGT(100000)~ + @434 DO ~SetGlobal("B!TouristFirstClass","GLOBAL",1)~ + mal20 
++ ~!Global("WorkingForAran","GLOBAL",1) !Global("WorkingForBodhi","GLOBAL",1) !GlobalGT("B!Alternatives","GLOBAL",5)~ + @430 + mal36 
++ ~!Global("WorkingForAran","GLOBAL",1) !Global("WorkingForBodhi","GLOBAL",1) !GlobalGT("B!Alternatives","GLOBAL",5)~ + @431 + mal37 
++ ~!Global("WorkingForAran","GLOBAL",1) !Global("WorkingForBodhi","GLOBAL",1) !GlobalGT("B!Alternatives","GLOBAL",5)~ + @432 + mal38 
++ ~OR(3) Global("WorkingForAran","GLOBAL",1) Global("WorkingForBodhi","GLOBAL",1) GlobalGT("B!Alternatives","GLOBAL",5)~ + @433 + mal13 
++ ~!Global("WorkingForAran","GLOBAL",1) !Global("WorkingForBodhi","GLOBAL",1) !GlobalGT("B!Alternatives","GLOBAL",5) PartyGoldGT(100000)~ + @434 DO ~SetGlobal("B!TouristFirstClass","GLOBAL",1)~ + mal20 
 END 
 
 IF ~~ mal36
@@ -1855,7 +1855,7 @@ SAY @483
 END 
 
 IF WEIGHT #-1
-~NumTimesTalkedToGT(0) OR(3) GlobalGT("WorkingForAran","GLOBAL",0) GlobalGT("WorkingForBodhi","GLOBAL",0) GlobalGT("B!Alternatives","GLOBAL",4)~ mal51 
+~NumTimesTalkedToGT(0) OR(3) GlobalGT("WorkingForAran","GLOBAL",0) GlobalGT("WorkingForBodhi","GLOBAL",0) GlobalGT("B!Alternatives","GLOBAL",5)~ mal51 
 SAY @487 
 IF ~~ THEN DO ~SetGlobal("B!RefusedAlternaMal","GLOBAL",1) EscapeArea()~ EXIT 
 END 
