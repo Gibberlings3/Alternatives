@@ -4,7 +4,7 @@ SUPPORT ~https://www.gibberlings3.net/forums/forum/173-alternatives/~
 
 README ~alternatives/readme-alternatives.html~ 
 
-VERSION ~v14.1~ 
+VERSION ~v15~ 
 
 ALWAYS
 
@@ -53,7 +53,8 @@ LANGUAGE ~Simplified Chinese~
 				 ~alternatives/english/setup-alternatives.tra~ 
 				 ~alternatives/schinese/setup-alternatives.tra~  
 				 ~alternatives/schinese/prompts-%WEIDU_OS%.tra~
-LANGUAGE ~Italian~ ~italian~ ~alternatives/italian/setup-alternatives.tra~ 
+LANGUAGE ~Italian~ ~italian~ ~alternatives/italian/setup-alternatives.tra~
+LANGUAGE ~Polish~ ~polish~ ~alternatives/polish/setup-alternatives.tra~  
 
 
 BEGIN @1 
