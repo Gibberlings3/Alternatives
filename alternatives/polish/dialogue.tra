@@ -1,0 +1,1058 @@
+@0   = ~Znaleziono dziœ rano kolejne dwa cia³a w porcie, Wes, a Saerk donosi, ¿e wyda³ æwieræ ³adunku przypraw na "c³a".~ 
+@1   = ~Æwieræ? Wasze c³a portowe s¹ a¿ tak wygórowane?~
+@2   = ~Nie.~ 
+@3   = ~Ach. To o te c³a chodzi. Z³odzieje Cienia?~
+@4   = ~Nie inaczej.~ 
+@5   = ~(wzdycha) Pamiêtasz? By³ czas, kiedy wdarlibyœmy siê do siedziby ich gildii z bary³kami oleju pod pachami i pochodniami w zêbach.~
+@6   = ~I to w mundurach.~
+@7   = ~Tegoroczni rekruci s¹ szczególnie gorliwi, Brega. Mo¿e by tak...~ 
+@8   = ~(wzdycha) Chcia³bym siê na to odwa¿yæ. Niech ich wszystkich szlag, ¿e kazali mi podpisaæ ten statut gildii.~
+@9   = ~To przecie¿ ty zdecydowa³eœ, ¿e to gniazdo rzezimieszków stanie siê gildi¹.~ 
+@10  = ~Nie zamierzam t³umaczyæ tego po raz kolejny. To nie by³a decyzja moja, tylko Rady. Twierdzili, ¿e jeœli uznamy ich za gildiê, mo¿emy mieæ na nich wp³yw.~
+@11  = ~I okazali siê byæ otwarci na wp³ywy?~
+@12  = ~Celna uwaga. Ale chcia³bym, ¿eby mo¿na by³o dobraæ siê do nich jakoœ nieoficjalnie.~ 
+@13  = ~Byæ mo¿e jest na to sposób. S³ysza³em doniesienia o grupie poszukiwaczy przygód, którzy w zamian za z³oto gotowi s¹ zrobiæ niemal wszystko. Ponoæ próbuj¹ dostaæ siê do Czarowiêzów.~
+@14  = ~Dlaczego mieliby chcieæ tam p³yn¹æ?~ 
+@15  = ~Z tego co wiem, to ich towarzyszka zosta³a tam osadzona. By³a zamieszana w ten wybuch na Promenadzie Waukeen, choæ moje raporty wskazuj¹, ¿e nie by³a œwiadoma naruszenia prawa. Grup¹ dowodzi ktoœ o imieniu <CHARNAME>.~
+@16  = ~Ach tak, oni. Wiadomo ci, jakiego pokroju to osoba?~
+@17  = ~Nie jest to ktoœ, kogo nazwalibyœmy prawym obywatelem, Brega, ale stawiaj¹c z³o przed wymiarem sprawiedliwoœci móg³by odpokutowaæ przynajmniej czêœæ dawnych wystêpków.~ ~Nie jest to ktoœ, kogo nazwalibyœmy praw¹ obywatelk¹, Brega, ale stawiaj¹c z³o przed wymiarem sprawiedliwoœci mog³aby odpokutowaæ przynajmniej czêœæ dawnych wystêpków.~
+@18  = ~Zawsze to jakiœ sposób, co? Nic na to nie poradzimy, musimy skorzystaæ z takiej pomocy, jak¹ jesteœmy w stanie uzyskaæ.~ 
+@19  = ~Ani lepsza, ani gorsza ni¿ wiêkszoœæ ludzi. Tak przynajmniej s³ysza³em.~
+@20  = ~Mog³o byæ gorzej. A my musimy skorzystaæ z takiej pomocy, jak¹ jesteœmy w stanie uzyskaæ.~ 
+@21  = ~S³ysza³em o nim same dobre rzeczy.~ ~S³ysza³em o niej same dobre rzeczy.~ 
+@22  = ~W takim razie cieszê siê.~
+@23  = ~Jeœli uda ci siê ich przekonaæ, mogê zorganizowaæ transport. Nieoficjalnie, ma siê rozumieæ.~ 
+@24  = ~(wzdycha) Nieoficjalnie. Chyba by³oby najlepiej, gdyby i Zakon nie by³ w to bezpoœrednio zaanga¿owany.~
+@25  = ~Zatem ani twoi, ani moi ludzie nie mog¹ z nimi rozmawiaæ. Jak wiêc proponujesz zapewniæ sobie ich wsparcie?~
+@26  = ~Mo¿e moglibyœmy skorzystaæ z pomocy zakonu mniej zaanga¿owanego politycznie. Zakon Aster móg³by przeprowadziæ negocjacje.~
+@27  = ~A oni co bêd¹ z tego mieli?~
+@28  = ~Z lathandrytami nic nigdy nie wiadomo. Maj¹ swoje powody, to pewne, ale najwa¿niejsze jest to, ¿e chc¹ nam pomóc.~
+@29  = ~Warto spróbowaæ. Ja sprawdzê, czy jest jakiœ statek do wynajêcia.~
+@30  = ~Wybacz, <PRO_LADYLORD>, szukam osoby o imieniu <CHARNAME>.~
+@31  = ~Znalaz³eœ <PRO_MALEFEMALE>.~
+@32  = ~Czego od ni<PRO_HISHER> chcesz?~
+@33  = ~Nigdy o kimœ takim nie s³ysza³em.~ ~Nigdy o kimœ takim nie s³ysza³am.~
+@34  = ~Mam wiadomoœæ od osoby, która twierdzi, ¿e mo¿e ciê zabraæ tam, gdzie chcesz siê udaæ.~
+@35  = ~A sk¹d ta osoba wie, gdzie chcê siê udaæ?~
+@36  = ~Jak brzmi ta wiadomoœæ?~
+@37  = ~Mo¿esz mówiæ jaœniej?~
+@38  = ~Có¿, jeœli go zobaczysz, powiedz mu, ¿e Aster czeka na niego na piêtrze gospody Pod Piêcioma Dzbanami, ale nie k³opocz siê, jeœli <CHARNAME> przyj¹³ ju¿ inn¹ propozycjê, bo wówczas Aster siê tam nie zjawi. Cokolwiek by to mia³o znaczyæ.~ ~Có¿, jeœli j¹ zobaczysz, powiedz jej, ¿e Aster czeka na ni¹ na piêtrze gospody Pod Piêcioma Dzbanami, ale nie k³opocz siê, jeœli <CHARNAME> przyjê³a ju¿ inn¹ propozycjê, bo wówczas Aster siê tam nie zjawi. Cokolwiek by to mia³o znaczyæ.~
+@39  = ~Hej, ja tylko dostarczam wiadomoœci. Nie piszê ich przecie¿.~
+@40  = ~Nazywa siê Aster i mo¿na j¹ spotkaæ na piêtrze gospody Pod Piêcioma Dzbanami. Ach, powiedzia³a te¿, ¿e jeœli przyj¹³eœ ju¿ inn¹ propozycjê, to nie musisz siê trudziæ, bo jej tam nie bêdzie. To wszystko, co rzek³a, wiêc nie wypytuj mnie o szczegó³y.~ ~Nazywa siê Aster i mo¿na j¹ spotkaæ na piêtrze gospody Pod Piêcioma Dzbanami. Ach, powiedzia³a te¿, ¿e jeœli przyjê³aœ ju¿ inn¹ ofertê, to nie musisz siê trudziæ, bo jej tam nie bêdzie. To wszystko, co rzek³a, wiêc nie wypytuj mnie o szczegó³y.~
+@41  = ~Có¿, lepiej ju¿ sobie pójdê.~
+@42  = ~Dziwne spotkania.
+
+Poinformowano mnie, ¿e na piêtrze gospody Pod Piêcioma Dzbanami mogê siê spotkaæ z niejak¹ Aster, choæ pos³aniec nie powiedzia³ konkretnie, dlaczego mia³<PRO_HESHE>bym chcieæ to uczyniæ. Doda³ jeszcze, ¿e gdybym ju¿ zaakceptowa³<PRO_HESHE> jak¹œ "inn¹ propozycjê", wówczas nie ma siê po co trudziæ, bo Aster tam nie bêdzie. Czasami naprawdê myœlê, ¿e wszyscy wokó³ wiêcej wiedz¹ o moich sprawach ni¿ ja sam<PRO_HESHE>.~
+@43  = ~Niech Lathander ciê b³ogos³awi, nieznajomy.~ [b!ast_01] ~Niech Lathander ciê b³ogos³awi, nieznajoma.~
+@44  = ~Nazywasz siê Aster?~
+@45  = ~Przepraszam, musia³em pomyliæ pokoje.~ ~Przepraszam, musia³am pomyliæ pokoje.~
+@46  = ~Ciebie równie¿.~
+@47  = ~Chcia³aœ siê ze mn¹ widzieæ?~
+@48  = ~Spodziewa³em siê czegoœ bardziej z³owrogiego.~ ~Spodziewa³am siê czegoœ bardziej z³owrogiego.~
+@49  = ~Wygl¹da na to, ¿e znów siê spotykamy. Czy teraz jesteœ zadowolony? Zgodzisz siê na zaproponowane warunki?~ [b!ast_02] ~Wygl¹da na to, ¿e znów siê spotykamy. Czy teraz jesteœ zadowolona? Zgodzisz siê na zaproponowane warunki?~
+@50  = ~Odœwie¿ moj¹ pamiêæ. Co to by³y za warunki?~
+@51  = ~Jestem gotowy.~ ~Jestem gotowa.~
+@52  = ~Nie mam wystarczaj¹cej iloœci z³ota.~
+@53  = ~Ju¿ mnie to nie interesuje.~
+@54  = ~Zechcesz ze mn¹ porozmawiaæ?~
+@55  = ~Chcê z tob¹ pomówiæ.~
+@56  = ~Pewne sprawy mnie przeros³y. Domagaj¹ siê ode mnie robienia okropnych rzeczy i nie wiem, co pocz¹æ.~
+@57  = ~Chcia³em ci tylko powiedzieæ, ¿ebyœ sp³ywa³a. Znalaz³em lepsz¹ ofertê.~ ~Chcia³am ci tylko powiedzieæ, ¿ebyœ sp³ywa³a. Znalaz³am lepsz¹ ofertê.~
+@58  = ~Naprawdê mi przykro, ale skoro coœ siê zaczê³o, to trzeba to doprowadziæ do koñca. Jakkolwiek wygl¹da twoja obecna œcie¿ka, miej wiarê w Pana Poranka, a on ciê nie opuœci.~
+@59  = ~Za 15000 sztuk z³ota moi wspólnicy zapewni¹ ci transport do Czarowiêzów, o ile zademonstrujesz wolê wykonania kilku dobrych uczynków.~
+@60  = ~Byæ mo¿e, ale ju¿ nie jestem osob¹, której szukasz. ¯egnaj.~
+@61  = ~Ja tak¿e. ¯egnaj.~
+@62  = ~Wybacz, proszê, chyba pomyli³em pokoje. ¯egnaj.~ ~Wybacz, proszê, chyba pomyli³am pokoje. ¯egnaj.~
+@63  = ~Przykro mi, ale chyba siê mylisz. ¯egnaj.~
+@64  = ~Tak, mo¿esz mnie tak nazywaæ.~
+@65  = ~Jesteœ pewien?~ ~Jesteœ pewna?~
+@66  = ~Jako ¿e szuka³em akurat wychodka, muszê odpowiedzieæ "tak".~ ~Jako ¿e szuka³am akurat wychodka, muszê odpowiedzieæ "tak".~
+@67  = ~Masz siê tutaj z kimœ spotkaæ?~
+@68  = ~Nie do koñca, ale nie jesteœ osob¹, której siê spodziewa³em.~ ~Nie do koñca, ale nie jesteœ osob¹, której siê spodziewa³am.~
+@69  = ~Cudownie! Nie wiedzia³am, ¿e mam do czynienia z bratem w wierze. To uproœci ca³¹ sprawê.~ ~Cudownie! Nie wiedzia³am, ¿e mam do czynienia z siostr¹ w wierze. To uproœci ca³¹ sprawê.~
+@70  = ~Bêdê z tob¹ szczera. Wiem, ¿e chcesz dostaæ siê do przytu³ku, do którego Athkatla zsy³a swoich "magicznych odchyleñców," jak siê ich nazywa.~
+@71  = ~Odnoszê wra¿enie, ¿e tego nie pochwalasz.~
+@72  = ~Jak siê tego dowiedzia³aœ?~
+@73  = ~Chcê tylko dopaœæ maga o imieniu Irenicus. Nie ma dla mnie znaczenia, czy mnie tam zabierzesz, czy œci¹gniesz jego tutaj.~
+@74  = ~A ty zamierzasz mi pomóc, o ile uczyniê wszystko, co powiesz i wynagrodzê ciê ponad miarê.~
+@75  = ~S¹dzê, ¿e to na ciebie tu czekam.~
+@76  = ~To ma³o istotne, jak siê tego dowiedzia³am. Chcesz siê dostaæ do tego wiêzienia czy nie?~
+@77  = ~S³ucham ciê. Kontynuuj.~
+@78  = ~Nie, wolê poszukaæ innego sposobu, dziêki.~
+@79  = ~Moje przekonania s¹ tu bez znaczenia, bo i tak nie pochodzê st¹d. Jednak pomys³, by powstrzymywaæ rozwój talentów magicznych, uwa¿am za dziwny.~
+@80  = ~Poza tym nie ma to zwi¹zku z tym, dlaczego tu dzisiaj jesteœ.~
+@81  = ~Mogê ci pomóc, ale wpierw musisz dowieœæ swojej wartoœci.~
+@82  = ~Zdawa³o mi siê, ¿e Lathander to ³askawy bóg! Dlaczego muszê siê przed nim wykazaæ?~
+@83  = ~Innymi s³owy masz dla mnie listê brudnych robót do wykonania.~
+@84  = ~A gdybym tak po prostu zap³aci³<PRO_HESHE> za transport? Nie by³oby ³atwiej?~
+@85  = ~Wiesz, otrzyma³em te¿ inne propozycje.~ ~Wiesz, otrzyma³am te¿ inne propozycje.~
+@86  = ~Nie domagam siê osobistego wynagrodzenia, jednak nie oznacza to, ¿e moja pomoc nie bêdzie nic kosztowa³a.~
+@87  = ~Same pieni¹dze nie wystarcz¹. Niewielu jest takich, którzy post¹pi¹ wbrew zaleceniom Rady Szeœciu, a ponadto trudno ich znaleŸæ. Za¿¹damy od ciebie zap³aty, lecz tylko czêœæ by³aby do uiszczenia w z³ocie, a i to tylko jako gest dobrej woli.~
+@88  = ~Czego zatem chcesz?~
+@89  = ~Dlaczego wiêc mam ciê s³uchaæ, skoro nie mo¿esz mi pomóc?~
+@90  = ~Nie powiedzia³am, ¿e masz wykazaæ siê przed Lathanderem. Musisz uczyniæ coœ dla jego œmiertelnych przedstawicieli, a ich trudniej zadowoliæ.~
+@91  = ~Niezwykle bystro oceniasz sytuacjê, przy czym ta lista jest krótka, zaœ same zadania s¹ niebezpieczne.~
+@92  = ~Nie jestem tym zaskoczona. Pytanie brzmi, czy da siê wykonaæ zadania zwi¹zane z tymi propozycjami bez uszczerbku na twoim sumieniu. Jeœli nie, to zachêcam ciê do wys³uchania tego, co mam ci do powiedzenia.~
+@93  = ~Jeœli wykonasz dwa zadania, zorganizujê dla ciebie transport do Brynnlaw, na wyspê, gdzie mieœci siê przytu³ek... Czarowiêzy.~ [b!ast_03]
+@94  = ~Co to za dwa zadania?~
+@95  = ~To wszystko? Tylko dwa zadania?~
+@96  = ~Zanim siê zgodzê, chcia³<PRO_HESHE>bym najpierw wys³uchaæ, co oferuj¹ inni.~
+@97  = ~Nie mówi³am, ¿e nie mogê ci pomóc. Powiedzia³am, ¿e bêdzie trzeba czegoœ wiêcej ni¿ pieni¹dze, by uzyskaæ potrzebne ci wsparcie.~
+@98  = ~Zanim podam ci wiêcej informacji, muszê mieæ twoje s³owo, ¿e wype³nisz te zadania... ponadto musisz obiecaæ, ¿e zachowasz dyskrecjê.~
+@99  = ~Dobrze, dajê ci moje s³owo.~
+@100 = ~Zatem prosisz, ¿ebym siê zgodzi³<PRO_HESHE> nie wiedz¹c nawet, czego ode mnie za¿¹dasz?~
+@101 = ~Mam te¿ inne oferty. Wolê pos³uchaæ, co powiedz¹ inni, zanim wyra¿ê zgodê.~
+@102 = ~Dziêki, ale wolê jednak wiedzieæ, w co siê pakujê.~
+@103 = ~Tyle wystarczy.~
+@104 = ~Jeœli taki jest twój wybór, niech tak bêdzie. Uczciwie z mojej strony bêdzie jednak ostrzec ciê, ¿e pod¹¿anie jedn¹ œcie¿k¹ mo¿e zamkn¹æ przed tob¹ inne.~
+@105 = ~Co mia³oby to oznaczaæ?~
+@106 = ~Niech tak bêdzie.~
+@107 = ~Potrzebujê wiêcej informacji.~
+@108 = ~Jestem s³ug¹ Pana Poranka. Nie poproszê ciê o zrobienie czegoœ niegodziwego.~
+@109 = ~To mi wystarczy. Zgadzam siê na twoje warunki.~
+@110 = ~Potrzeba mi wiêcej czasu na zastanowienie.~
+@111 = ~Nie, wolê jednak wspó³pracê z kim innym.~
+@112 = ~Wspaniale. Jesteœ gotów us³yszeæ o pierwszym zadaniu?~ [b!ast_04] ~Wspaniale. Jesteœ gotowa us³yszeæ o pierwszym zadaniu?~
+@113 = ~Bardziej ju¿ nie bêdê.~
+@114 = ~W tej chwili jestem trochê zajêty. Mogê wróciæ póŸniej?~ ~W tej chwili jestem trochê zajêta. Mogê wróciæ póŸniej?~
+@115 = ~Pewne drzwi otwieraj¹ siê tylko w jedn¹ stronê. Jeœli przez nie przejdziesz, mo¿esz ju¿ nie mieæ drogi powrotnej.~
+@116 = ~To jedna z takich sytuacji?~
+@117 = ~Zaryzykujê. ¯egnaj.~
+@118 = ~¯egnam ciê i ¿yczê powodzenia. Bêdziesz go potrzebowaæ.~ [b!ast_05]
+@119 = ~Odmowa sprzymierzeñcowi
+  
+Spotka³em siê z Aster, która powiedzia³a, ¿e mo¿e mi pomóc dostaæ siê do Czarowiêzów, jeœli wykonam dla niej kilka zadañ. Odmówi³em jej i bêdê musia³ sprawdziæ, co inni maj¹ mi do powiedzenia.~ ~Odmowa sprzymierzeñcowi
+  
+Spotka³am siê z Aster, która powiedzia³a, ¿e mo¿e mi pomóc dostaæ siê do Czarowiêzów, jeœli wykonam dla niej kilka zadañ. Odmówi³am jej i bêdê musia³a sprawdziæ, co inni maj¹ mi do powiedzenia.~
+@120 = ~To dobrze. Moi wspólnicy oczekuj¹ widocznego dowodu, ¿e stoisz po stronie prawoœci, a do tego pieniêdzy, które wezmê od ciebie ju¿ teraz. Pomoc Zakonu bêdzie ciê kosztowaæ 15000 z³otych monet.~ [b!ast_06]
+@121 = ~Nie mam w tej chwili pieniêdzy.~
+@122 = ~Nie mogê sobie teraz pozwoliæ na wydanie takiej kwoty.~
+@123 = ~Dobrze, tu jest z³oto.~
+@124 = ~Poczekam tu, a¿ bêdziesz mia³<PRO_HESHE>.~
+@125 = ~Poczekam wiêc, a¿ bêdziesz móg³.~ ~Poczekam wiêc, a¿ bêdziesz mog³a.~
+@126 = ~Jak wiesz, Z³odzieje Cienia posiadaj¹ w Athkatli silny przyczó³ek. Wymuszenia, handel niewolnikami, morderstwa i inne przestêpstwa sk³adaj¹ siê na ich dzia³alnoœæ.~
+@127 = ~Ca³kowite wykorzenienie przestêpczej dzia³alnoœci z Athkatli prawdopodobnie nie jest mo¿liwe, ale wyczyszczenie bazy operacyjnej Z³odziei Cienia ograniczy³oby j¹ do tego stopnia, ¿e przedstawiciele wymiaru sprawiedliwoœci byliby w stanie poradziæ sobie z jej pozosta³oœciami.~
+@128 = ~Chcesz, ¿ebym zaatakowa³<PRO_HESHE> Z³odziei Cienia?~
+@129 = ~W porz¹dku. Wrócê, jak tylko wykonam zadanie.~
+@130 = ~Jak¹ zap³atê za to otrzymam?~
+@131 = ~Bierzesz pod uwagê, ¿e sam<PRO_HESHE> mogê nale¿eæ do tej organizacji?~
+@132 = ~Nie zrobiê tego.~
+@133 = ~Czekaj tak d³ugo, ile ci trzeba... jeœli uwa¿asz, ¿e twoja przyjació³ka Imoen przetrwa tê zw³okê.~
+@134 = ~Mo¿esz, muszê ciê jednak ostrzec, ¿e jeœli zaakceptujesz inn¹ ofertê, natychmiast siê o tym dowiem.~
+@135 = ~Tak.~
+@136 = ~Skoro tak stawiasz sprawê, to przyjmujê twoje warunki.~
+@137 = ~Zgadza siê. Chcê, abyœ zniszczy³<PRO_HESHE> ich bazê.~
+@138 = ~Z pewnoœci¹ znajdziesz bogactwa w kryjówce Z³odziei Cienia.~
+@139 = ~W tym momencie powrót do nich móg³by siê okazaæ dla ciebie trudny. Spodziewam siê, ¿e ju¿ wiedz¹ o naszym spotkaniu.~
+@140 = ~Nie, nie s¹dzê, abyœ by³ tam mile widziany.~ ~Nie, nie s¹dzê, abyœ by³a tam mile widziana.~
+@141 = ~Teraz jest ju¿ za póŸno. Zgodzi³eœ siê na przedstawione warunki. Podejrzewam te¿, ¿e to miejsce jest obserwowane. Inne grupy dowiedz¹ siê o naszym spotkaniu.~ ~Teraz jest ju¿ za póŸno. Zgodzi³aœ siê na przedstawione warunki. Podejrzewam te¿, ¿e to miejsce jest obserwowane. Inne grupy dowiedz¹ siê o naszym spotkaniu.~
+@142 = ~Wspaniale. Poœlê mojego wspó³pracownika, Harolda, by poinstruowa³ ciê, gdy dotrzesz na miejsce. Z³odzieje Cienia wykorzystuj¹ jako swoj¹ bazê budynek w Dokach pomalowany na pomarañczowo. Mam nadziejê, ¿e wkrótce us³yszê o twoim sukcesie.~ [b!ast_07]
+@143 = ~Bardzo d³ugie wakacje. 
+
+Jaskrawo ubrany cz³owiek, który przedstawi³ siê jako wielmo¿ny Malficjusz Rodendril, zaproponowa³ mi pomoc w ucieczce od moich problemów przez wys³anie mnie w rejs do odleg³ej krainy. Powiedzia³ mi, ¿e Maztica jest godna polecenia ze wzglêdu na przyjemny klimat i wiele innych walorów, jednak¿e w chwili obecnej nie zamierzam przyjmowaæ jego oferty. W przypadku, gdybym zmieni³<PRO_HESHE> zdanie, Malficjusza mogê znaleŸæ w Gospodzie Mithrest na Promenadzie Waukeen.~
+@144 = ~Bardzo d³ugie wakacje. 
+
+Jaskrawo ubrany cz³owiek, który przedstawi³ siê jako wielmo¿ny Malficjusz Rodendril, zaproponowa³ mi pomoc w ucieczce od moich problemów przez wys³anie mnie w rejs do odleg³ej krainy... Maztiki. Pokusa, by wyjechaæ gdzieœ, gdzie nikt nie s³ysza³ o pomiocie Bhaala, okaza³a siê zbyt silna, ¿eby odrzuciæ tak¹ ofertê. Mam siê spotkaæ z Malficjuszem przy latarni morskiej w Dokach.~
+@145 = ~Bardzo d³ugie wakacje. 
+
+Jaskrawo ubrany cz³owiek, który przedstawi³ siê jako wielmo¿ny Malficjusz Rodendril, zaproponowa³ mi pomoc w ucieczce od moich problemów przez wys³anie mnie w rejs do odleg³ej krainy. Powiedzia³ mi, ¿e Maztica jest godna polecenia ze wzglêdu na przyjemny klimat i wiele innych walorów, cena podró¿y w wysokoœci 100000 sztuk z³ota jest kwot¹ zaporow¹. Malficjusz twierdzi, ¿e jest przygotowany na obni¿enie kosztów, jeœli wykonam dla niego pewne zadania. Pierwsze polega na odebraniu dokumentów od jego wspólniczki, kobiety o imieniu Leyt, w Dzielnicy Œwi¹tyñ, obok posiad³oœci Pimlico. Jej wygl¹d bêdzie na tyle niezwyk³y, ¿e ³atwo j¹ rozpoznam. Kiedy zdobêdê teczkê z dokumentami, mam siê spotkaæ z Malficjuszem w Gospodzie Mithrest na Promenadzie Waukeen, gdzie otrzymam dalsze instrukcje.~
+@146 = ~Bardzo d³ugie wakacje. 
+
+Jaskrawo ubrany cz³owiek, który przedstawi³ siê jako wielmo¿ny Malficjusz Rodendril, zaproponowa³ mi pomoc w ucieczce od moich problemów przez wys³anie mnie w rejs do odleg³ej krainy. Powiedzia³ mi, ¿e Maztica jest godna polecenia ze wzglêdu na przyjemny klimat i wiele innych walorów, cena podró¿y w wysokoœci 100000 sztuk z³ota jest kwot¹ zaporow¹. Malficjusz twierdzi, ¿e jest przygotowany na obni¿enie kosztów, jeœli wykonam dla niego pewne zadania. Pierwsze polega na odebraniu dokumentów od jego wspólniczki, kobiety o imieniu Leyt, w Dzielnicy Œwi¹tyñ, obok posiad³oœci Pimlico. Jej wygl¹d bêdzie na tyle niezwyk³y, ¿e ³atwo j¹ rozpoznam. Je¿eli zaakceptujê propozycjê Malficjusza, mam zdobyæ teczkê z dokumentami, a nastêpnie spotkaæ siê z nim w Gospodzie Mithrest na Promenadzie Waukeen, gdzie otrzymam dalsze instrukcje.~
+@147 = ~Bardzo d³ugie wakacje. 
+
+Pierwsze zadanie, jakie mam wykonaæ dla Malficjusza, polega na odebraniu dokumentów od jego wspólniczki, kobiety o imieniu Leyt, w Dzielnicy Œwi¹tyñ, obok posiad³oœci Pimlico. Jej wygl¹d bêdzie na tyle niezwyk³y, ¿e ³atwo j¹ rozpoznam. Kiedy zdobêdê teczkê z dokumentami, mam siê spotkaæ z Malficjuszem w Gospodzie Mithrest na Promenadzie Waukeen, gdzie otrzymam dalsze instrukcje.~
+@148 = ~Nieudane spotkanie.
+
+Malficjusz Rodendril wys³a³ mnie do Dzielnicy Œwi¹tyñ, bym odebra³ pewne dokumenty od jego wspólniczki Leyt, ta jednak uciek³a, gdy zacz¹³em jej groziæ. Tym samym nie uda³o mi siê pozyskaæ dokumentów. Mam nadziejê, ¿e Malficjusz zaproponuje mi inn¹ mo¿liwoœæ obni¿enia kosztów podró¿y.~ ~Nieudane spotkanie.
+
+Malficjusz Rodendril wys³a³ mnie do Dzielnicy Œwi¹tyñ, bym odebra³a pewne dokumenty od jego wspólniczki Leyt, ta jednak uciek³a, gdy zaczê³am jej groziæ. Tym samym nie uda³o mi siê pozyskaæ dokumentów. Mam nadziejê, ¿e Malficjusz zaproponuje mi inn¹ mo¿liwoœæ obni¿enia kosztów podró¿y.~
+@149 = ~Dokumenty odzyskane. 
+
+Uda³o mi siê pozyskaæ dokumenty, o które chodzi³o Malficjuszowi. W ogóle nie wspomnia³, ¿e bêd¹ zamkniête w kasetce zabezpieczonej zagadkami! Niewa¿ne. Teraz, kiedy jestem w posiadaniu dokumentów, mam udaæ siê do Gospody Mithrest i porozmawiaæ z Malficjuszem.~
+@150 = ~Droga wyjœcia dla miêczaka.
+
+Pomocnik zarz¹dcy portu Ballas chce, bym otru³ jego zwierzchnika Nadora, uzna³em jednak, ¿e nie bêdê potrafi³ dokonaæ tego z zimn¹ krwi¹. Ballas zasugerowa³, abym skontaktowa³ siê profesjonalnym zabójc¹ o imieniu Wael, który przychodzi czêsto do karczmy Delosara i zwykle przebywa na pierwszym piêtrze. Ciekawe, ile bêdzie mnie to kosztowa³o.~ ~Droga wyjœcia dla miêczaka.
+
+Pomocnik zarz¹dcy portu Ballas chce, bym otru³a jego zwierzchnika Nadora, uzna³am jednak, ¿e nie bêdê potrafi³a dokonaæ tego z zimn¹ krwi¹. Ballas zasugerowa³, abym skontaktowa³a siê profesjonalnym zabójc¹ o imieniu Wael, który przychodzi czêsto do karczmy Delosara i zwykle przebywa na pierwszym piêtrze. Ciekawe, ile bêdzie mnie to kosztowa³o.~
+@151 = ~W poszukiwaniu trucizny.
+
+To zadanie staje siê coraz bardziej absorbuj¹ce. Teraz muszê siê udaæ na drugie piêtro gospody Pod Piêcioma Dzbanami i spotkaæ siê z cz³owiekiem o imieniu Vhellon. Zaopatrzy mnie on w dodatek do ostatniego posi³ku Zarz¹dcy Portu. Potem mam iœæ do posiad³oœci Vulovy w Dzielnicy Rz¹dowej, gdzie kamerdyner pokieruje mnie dalej. Mam nadziejê, ¿e nie pogubiê siê w tym wszystkim.~
+@152 = ~Kosztowny sojusz 
+  
+Spotka³em siê z Aster, która zgodzi³a siê pomóc mi dostaæ siê bezpiecznie do Czarowiêzów w zamian za wykonanie dwóch zadañ. Pierwsze z nich polega na zdobyciu bazy operacyjnej Z³odziei Cienia. Mam siê spotkaæ ze wspólnikiem Aster, Haroldem, na zewn¹trz budynku Z³odziei Cienia w Dokach.~ ~Kosztowny sojusz
+  
+Spotka³em siê z Aster, która zgodzi³a siê pomóc mi dostaæ siê bezpiecznie do Czarowiêzów w zamian za wykonanie dwóch zadañ. Pierwsze z nich polega na zdobyciu bazy operacyjnej Z³odziei Cienia. Mam siê spotkaæ ze wspólnikiem Aster, Haroldem, na zewn¹trz budynku Z³odziei Cienia w Dokach.~
+@153 = ~Spotkanie z mocodawczyni¹ Valen: odwo³ane. 
+
+Jako ¿e zgodzi³em siê wykonaæ zadania dla Aster, nie ma wiêkszego sensu iœæ do Dzielnicy Cmentarnej na spotkanie z tajemnicz¹ mocodawczyni¹ Valen. Chocia¿ zagadkowe s³owa Valen brzmia³y intryguj¹co, pytania z nich wynik³e pozostan¹ bez odpowiedzi... przynajmniej przez jakiœ czas.~ ~Spotkanie z mocodawczyni¹ Valen: odwo³ane. 
+
+Jako ¿e zgodzi³am siê wykonaæ zadania dla Aster, nie ma wiêkszego sensu iœæ do Dzielnicy Cmentarnej na spotkanie z tajemnicz¹ mocodawczyni¹ Valen. Chocia¿ zagadkowe s³owa Valen brzmia³y intryguj¹co, pytania z nich wynik³e pozostan¹ bez odpowiedzi... przynajmniej przez jakiœ czas.~
+@154 = ~Zbierz pieni¹dze dla Gaelana Bayle'a: zarobi ktoœ inny. 
+
+Przyjaciele Gaelana Bayle'a s¹ byæ mo¿e w stanie mi pomóc, ale odrzuci³em ich ofertê. Zamiast tego wykonam zadania dla Aster.~ ~Zbierz pieni¹dze dla Gaelana Bayle'a: zarobi ktoœ inny. 
+
+Przyjaciele Gaelana Bayle'a s¹ byæ mo¿e w stanie mi pomóc, ale odrzuci³am ich ofertê. Zamiast tego wykonam zadania dla Aster.~
+@155 = ~Bardzo d³ugie wakacje: O wiele za d³ugie. 
+
+Mo¿liwe, ¿e Malficjusz by³by w stanie odsun¹æ mnie od moich k³opotów, ale one w koñcu i tak by mnie dogoni³y. Znam moje szczêœcie. Zamiast tego wolê zostaæ w Faerunie i doprowadziæ sprawy do koñca. Nawet gdybym zmieni³<PRO_HESHE> zdanie, nie ma ju¿ drogi powrotnej... i nie ma sensu szukaæ znów Malficjusza.~
+@156 = ~Jeœli rozwa¿asz inne propozycje, nawet bardziej op³acalne, to pozosta³e drogi bêd¹ ju¿ dla ciebie zamkniête. Wyœlê naprzód mojego wspólnika, Harolda, by poinstruowa³ ciê, gdy dotrzesz na miejsce. Z³odzieje Cienia zajmuj¹ pomarañczowy budynek w Dokach. Bêdê czekaæ na raport od ciebie.~
+@157 = ~Kosztowny sojusz
+  
+  Spotka³em siê z Aster, która najwyraŸniej nie potrafi przyj¹æ do wiadomoœci odmownych odpowiedzi. Zgodzi³a siê pomóc mi dostaæ siê bezpiecznie do Czarowiêzów w zamian za wykonanie dwóch zadañ. Pierwsze z nich polega na zdobyciu bazy operacyjnej Z³odziei Cienia. Mam siê spotkaæ ze wspólnikiem Aster, Haroldem, na zewn¹trz budynku Z³odziei Cienia w Dokach. Jako ¿e moje pozosta³e opcje s¹ ju¿ prawdopodobnie nieaktualne, nie mam innego wyboru.~ ~Kosztowny sojusz
+  
+  Spotka³am siê z Aster, która najwyraŸniej nie potrafi przyj¹æ do wiadomoœci odmownych odpowiedzi. Zgodzi³a siê pomóc mi dostaæ siê bezpiecznie do Czarowiêzów w zamian za wykonanie dwóch zadañ. Pierwsze z nich polega na zdobyciu bazy operacyjnej Z³odziei Cienia. Mam siê spotkaæ ze wspólnikiem Aster, Haroldem, na zewn¹trz budynku Z³odziei Cienia w Dokach. Jako ¿e moje pozosta³e opcje s¹ ju¿ prawdopodobnie nieaktualne, nie mam innego wyboru.~
+@158 = ~Daj¹c z³oto tej zak³amanej lathandryckiej suce uda³o ci siê g³upio zaprzepaœciæ szansê na nasz¹ wspó³pracê. Jeszcze siê spotkamy!~
+@159 = ~Daj¹c z³oto temu padalcowi uda³o ci siê g³upio zaprzepaœciæ szansê na nasz¹ wspó³pracê. Jeszcze siê spotkamy!~
+@160 = ~Cieszê siê, ¿e nie dogadaliœcie siê z tym draniem. Uwa¿aj na niego, <LADYLORD>. On jest przebieg³y. A zatem, czy czegoœ potrzebujesz, hê?~
+@161 = ~Skontaktowa³eœ siê ju¿ z moim agentem w pobli¿u siedziby Z³odziei Cienia?~ [b!ast_08] ~Skontaktowa³aœ siê ju¿ z moim agentem w pobli¿u siedziby Z³odziei Cienia?~
+@162 = ~Jeszcze nie, ale wkrótce to uczyniê.~
+@163 = ~Mo¿esz powtórzyæ, gdzie znajduje siê ich siedziba?~
+@164 = ~Mo¿esz daæ mi coœ, co by mi pomog³o?~
+@165 = ~Im d³u¿ej zwlekasz, tym silniejsza staje siê ich pozycja.~
+@166 = ~W zachodniej czêœci Doków, w pomarañczowym budynku.~
+@167 = ~Tylko b³ogos³awieñstwo Lathandera.~
+@168 = ~Ty musisz byæ <CHARNAME>. Asl... Aster powiedzia³a, ¿e mamy ciê oczekiwaæ. Mam klucz, który otwiera sekretne wejœcie na ni¿sze poziomy. Zdoby³em go od pewnego opryszka ze Slumsów. Wczeœniej jednak nale¿y zabezpieczyæ wy¿sze poziomy budynku.~
+@169 = ~Ty musisz byæ <CHARNAME>. Pan Rhodendril powiedzia³, ¿e mamy ciê oczekiwaæ. Mam klucz, który otwiera sekretne wejœcie na ni¿sze poziomy. Zdoby³em go od pewnego opryszka ze Slumsów. Wczeœniej jednak nale¿y zabezpieczyæ wy¿sze poziomy budynku.~
+@170 = ~Na co czekasz? A¿ Z³odzieje Cienia œci¹gn¹ posi³ki? Sam nie powstrzymam armii, wiêc lepiej siê pospiesz.~
+@171 = ~Dobra robota! Zobaczê, co mogê zrobiæ dla wiêŸniów, a ty w tym czasie z³ó¿ raport.~
+@172 = ~W koñcu jesteœ. Te paj¹ki zaczyna³y mnie ju¿ denerwowaæ. Pozwól, ¿e otworzê ci drzwi.~
+@173 = ~Spaœlak! IdŸ otworzyæ drzwi! Dalej, ty g³upie stworzenie! Ju¿! <CHARNAME>, mam nadziejê, ¿e mo¿esz zaczynaæ.~
+@174 = ~Wracasz! Powiod³o ci siê?~ [b!ast_09]
+@175 = ~Przywódca Z³odziei Cienia nie ¿yje.~
+@176 = ~Na razie nic nowego.~
+@177 = ~Przyda³aby mi siê pomoc.~
+@178 = ~Wspania³e wieœci! Natychmiast wyœlê kogoœ, ¿eby pomóg³ ocala³ym z ataku. Nie ma co siê ³udziæ, ¿eby Z³odzieje Cienia zniknêli na dobre, ale ten cios na jakiœ czas wstrzyma ich poczynania. W szczególnoœci pewni moi przyjaciele bêd¹ z tego bardzo zadowoleni.~
+@179 = ~Masz na myœli swoich przyjació³ z Zakonu Promiennego Serca.~
+@180 = ~Co jeszcze mam zrobiæ, zanim bêdê móg³ wyruszyæ do Czarowiêzów?~ ~Co jeszcze mam zrobiæ, zanim bêdê mog³a wyruszyæ do Czarowiêzów?~
+@181 = ~Zadanie, które przede mn¹ postawi³aœ, nie by³o ³atwe.~
+@182 = ~Mo¿e nie wiesz, ale potrafiê stwierdziæ, kiedy ktoœ k³amie. Wracaj tam.~
+@183 = ~Ach, có¿. Bêdê czekaæ dalej.~
+@184 = ~Oczywiœcie.~
+@185 = ~Ahem... tak.~
+@186 = ~Po co ten podstêp?~
+@187 = ~Dlaczego mieliby oni... albo na przyk³ad ty... mi pomagaæ?~
+@188 = ~Wspomina³aœ o dwóch zadaniach. Jakie jest nastêpne?~
+@189 = ~Byæ mo¿e wiadomo ci o wojnie gangów, która ma ostatnio miejsce na ulicach. Pewna grupa zaczê³a walczyæ ze Z³odziejami Cienia o dominacjê. Doszliœmy do wniosku, ¿e to wampiry.~
+@190 = ~Dlaczego wampiry mia³yby niepokoiæ Z³odziei Cienia?~
+@191 = ~I chcesz, abym zabi³<PRO_HESHE> te wampiry, tak?~
+@192 = ~Zapomnij. To czyste samobójstwo.~
+@193 = ~To prawda, nie by³o. Uda³o ci siê jednak je wykonaæ, co dobrze œwiadczy o twoich umiejêtnoœciach. Teraz ju¿ tylko jedno zadanie dzieli ciê od podró¿y do Czarowiêzów.~
+@194 = ~Komuœ z zewn¹trz trudno poj¹æ te subtelne drgania i nieustann¹ grê œwiate³ i cieni na po³yskliwej powierzchni mêtnego zbiornika z nieczystoœciami, którym jest polityka w Athkatli. W ka¿dym razie dla pewnych grup korzystniej jest unikaæ potencjalnie k³opotliwych powi¹zañ. Inni, jak wyznawcy Lathandera, chêtniej podejmuj¹ ryzyko publicznego okazywania swojej lojalnoœci.~
+@195 = ~Zatem "Aster" to nie jest twoje prawdziwe imiê.~
+@196 = ~Kto jeszcze jest zaanga¿owany?~
+@197 = ~Niewa¿ne.~
+@198 = ~Obowi¹zkiem i przywilejem wszystkich dobrych ludzi jest pomagaæ tym, którzy na to zas³uguj¹, lecz podejrzewam, ¿e nie o tak¹ odpowiedŸ ci chodzi³o.~
+@199 = ~Powiedzmy, ¿e zorganizowanie ci podró¿y do Czarowiêzów mo¿na uznaæ za cenê, któr¹ warto zap³aciæ za oddane przez ciebie przys³ugi.~
+@200 = ~Co zatem mam dla ciebie zrobiæ?~
+@201 = ~A wobec kogo ty jesteœ lojalna?~
+@202 = ~D³ugo æwiczy³aœ tê odpowiedŸ? Ale mniejsza o to. Po prostu powiedz mi, co mam zrobiæ.~
+@203 = ~Nie wiem... i to mnie w tym wszystkim najbardziej niepokoi.~
+@204 = ~To prawda, ¿e nikt nie zauwa¿y³by braku paru z³odziei, ale przecie¿ wampirom niepotrzebne s¹ bogactwa Z³odziei Cienia. Dlaczego wampiry mia³yby z nimi konkurowaæ?~
+@205 = ~Ale to nie ma zwi¹zku z zadaniem, które mam dla ciebie.~
+@206 = ~Athkatla jest du¿ym, œwietnie prosperuj¹cym miastem z wieloma w¹skimi uliczkami i os³oniêtymi zau³kami, w których mo¿e ukrywaæ siê z³o. Obecnoœæ nieumar³ych w tym mieœcie mog³aby przybraæ przera¿aj¹ce rozmiary, jeœli siê jej odpowiednio wczeœnie nie powstrzyma.~
+@207 = ~Byæ mo¿e zauwa¿y³eœ ju¿ dziwne zabójstwa tu i ówdzie w Athkatli. Cia³a le¿¹ce w dziwnych miejscach, niektóre pozbawione krwi? Mo¿e by³eœ œwiadkiem niezwyk³ych ataków w ci¹gu nocy? Jeœli nie wiedzia³eœ o tych zdarzeniach, to mówiê ci o nich teraz. Uwa¿amy, ¿e to wampiry s¹ za nie odpowiedzialne.~ ~Byæ mo¿e zauwa¿y³aœ ju¿ dziwne zabójstwa tu i ówdzie w Athkatli. Cia³a le¿¹ce w dziwnych miejscach, niektóre pozbawione krwi? Mo¿e by³aœ œwiadkiem niezwyk³ych ataków w ci¹gu nocy? Jeœli nie wiedzia³aœ o tych zdarzeniach, to mówiê ci o nich teraz. Uwa¿amy, ¿e to wampiry s¹ za nie odpowiedzialne.~
+@208 = ~Moje Ÿród³a wskazuj¹, ¿e wejœcie do ich le¿a mo¿e siê mieœciæ pod Dzielnic¹ Cmentarn¹.~
+@209 = ~Dziwne, ¿e urz¹dzi³y sobie kryjówkê w miejscu regularnie odwiedzanym przez kap³anów.~
+@210 = ~Twoim drugim i ostatnim zadaniem jest udaæ siê do Dzielnicy Cmentarnej i zejœæ do ich legowiska. Wejœcie do krypt mo¿na znaleŸæ na pó³nocno-wschodniej czêœci cmentarza. Mój wspólnik, Zahl, bêdzie na ciebie czeka³ na dole, przy drzwiach do ich kryjówki.~
+@211 = ~Och, i weŸ te ko³ki. Bêd¹ ci potrzebne, by ostatecznie zniszczyæ wampiry.~
+@212 = ~Natychmiast siê tym zajmê.~
+@213 = ~Zrobiê to, skoro muszê.~
+@214 = ~A jeœli nie zechcê polowaæ na te wampiry?~
+@215 = ~¯egnam ciê i ¿yczê powodzenia.~
+@216 = ~Zniszczenie Z³odziei Cienia.
+    
+    Aran Linvail, przywódca Z³odziei Cienia, nie ¿yje, a jego s³udzy rozpierzchli siê albo zginêli. "Aster" z lathandryckiego Zakonu Aster ¿¹da³a ich zniszczenia jako czêœci mojej zap³aty za transport do Czarowiêzów.~
+@217 = ~Wampiry w katakumbach.
+    
+    "Aster," która ujawni³a siê jako paladynka Lathandera, rozkaza³a mi oczyœciæ Athkatlê z wampirów. W tym celu wyposa¿y³a mnie w cztery drewniane ko³ki oraz udzieli³a mi pewnych niejasnych instrukcji. Mam spotkaæ siê z cz³owiekiem o imieniu Zahl w pobli¿u wejœcia do krypty le¿¹cej w katakumbach pod Dzielnic¹ Cmentarn¹. Powiedzia³a równie¿, ¿e do katakumb mo¿na siê dostaæ przez drzwi w pó³nocno-wschodniej czêœci cmentarza.~
+@218 = ~W tym momencie jest ju¿ zdecydowanie za póŸno na zmianê zdania. Wszystkie inne drogi s¹ ju¿ dla ciebie zamkniête, wiêc obawiam siê, ¿e nie masz wyboru.~
+@219 = ~Tak bêdzie, jeœli pójdziesz tam nastawiony na pora¿kê. Lathander u¿ycza swojej mocy w tej sprawie.~ ~Tak bêdzie, jeœli pójdziesz tam nastawiona na pora¿kê. Lathander u¿ycza swojej mocy w tej sprawie.~
+@220 = ~Wola³<PRO_HESHE>bym jak¹œ bardziej namacaln¹ pomoc ni¿ ta od Lathandera.~
+@221 = ~To œmieszne biegaæ na posy³ki dla tego idioty.~
+@222 = ~Nie da siê od tego wymigaæ, prawda?~
+@223 = ~Pos³uchaj, rozprawi³em siê dla ciebie ze z³odziejami i niemal przyp³aci³em to ¿yciem. Musia³em ju¿ z dziesiêæ razy zas³u¿yæ na przewóz do Czarowiêzów.~ ~Pos³uchaj, rozprawi³am siê dla ciebie ze z³odziejami i niemal przyp³aci³am to ¿yciem. Musia³am ju¿ z dziesiêæ razy zas³u¿yæ na przewóz do Czarowiêzów.~
+@224 = ~Jestem paladynem Lathandera oraz cz³onkini¹ Zakonu Aster. I zgadza siê, "Aster" nie jest moim prawdziwym imieniem, ale jego nie chcê ci zdradzaæ.~
+@225 = ~Jeœli zaœ chodzi o moich sprzymierzeñców, to nie wolno mi o nich mówiæ, ale to jedni z najbardziej szanowanych obywateli Athkatli. Ich prawoœæ jest niepodwa¿alna.~
+@226 = ~W porz¹dku. Co muszê zrobiæ?~
+@227 = ~To dlatego muszê robiæ tak szlachetne rzeczy?~
+@228 = ~Wiem, kim s¹. Pods³ucha³em ich, gdy to planowali. Zastanawia³em siê, kto jeszcze jest w to wpl¹tany.~ ~Wiem, kim s¹. Pods³ucha³am ich, gdy to planowali. Zastanawia³am siê, kto jeszcze jest w to wpl¹tany.~
+@229 = ~Jak ju¿ mówi³am...~
+@230 = ~Zwróæ siê zatem do swojego boga, musisz jednak dzia³aæ albo po¿egnasz siê z myœl¹ o dostaniu siê do Czarowiêzów.~
+@231 = ~Wiele ryzykujesz obra¿aj¹c boga, nawet jeœli go nie czcisz. Tak jesteœ pewny swojego przeznaczenia?~ ~Wiele ryzykujesz obra¿aj¹c boga, nawet jeœli go nie czcisz. Tak jesteœ pewna swojego przeznaczenia?~
+@232 = ~Ale to niewa¿ne.~
+@233 = ~Zadania, które masz wykonaæ, przys³u¿¹ siê miastu i jego mieszkañcom, wiêc tak, mo¿na je nazwaæ szlachetnymi. Jeœli jednak chcesz naszej pomocy, musisz je zaakceptowaæ.~
+@234 = ~Jeœli chcesz naszej pomocy, musisz zgodziæ siê wykonaæ te zadania.~
+@235 = ~Nie doceniasz daru, który ci ofiarowujemy. Choæbyœ mia³ dwadzieœcia razy tyle pieniêdzy, ile nam da³eœ, nie znalaz³byœ kapitana chêtnego zabraæ ciê do Brynnlaw. Nie masz wielkiego wyboru.~ ~Nie doceniasz daru, który ci ofiarowujemy. Choæbyœ mia³a dwadzieœcia razy tyle pieniêdzy, ile nam da³aœ, nie znalaz³abyœ kapitana chêtnego zabraæ ciê do Brynnlaw. Nie masz wielkiego wyboru.~
+@236 = ~Jak mo¿esz mówiæ, ¿e moi pracodawcy skrywaj¹ siê w cieniu albo ¿e s¹ Ÿli?~
+@237 = ~Powiedz, czy ci "dobroczyñcy" uczynili coœ poza z³o¿eniem obietnic? Czy rzeczywiœcie dali ci coœ, czy mo¿e tylko upewnili siê, ¿e zawsze bêdziesz pod rêk¹?~
+@238 = ~Nikt mnie nie wykorzystuje! Ci kap³ani i paladyni wiedz¹ tylko tyle, ile zechcê im powiedzieæ!~
+@239 = ~Jak dot¹d wydawali siê byæ wzglêdem mnie uczciwi.~
+@240 = ~Wampiry w katakumbach.
+
+Uda³o nam siê pokonaæ konkurencyjn¹ gildiê, sk³adaj¹c¹ siê g³ównie z wampirów. Na koñcu stanêliœmy oko w oko z Bodhi, która stwierdzi³a, ¿e wie coœ na temat Imoen. Wydawa³o mi siê, ¿e zanim ulotni³a siê w ob³okach dymu, podda³a mnie jakiejœ wnikliwej ocenie. Teraz nie pozostaje nam nic innego, jak wróciæ do "Aster" i powiadomiæ j¹, ¿e wroga gildia przesta³a istnieæ, chocia¿ jej przywódczyni usz³a z ¿yciem. Trzeba zadaæ jej te¿ kilka pytañ.
+
+I jeszcze jedno... Bodhi wiedzia³a. Wiedzia³a, ¿e jestem dzieckiem Bhaala.~
+@241 = ~Wracasz! Jakie wieœci przynosisz?~ [b!ast_10]
+@242 = ~Wampiry rozgromione, ale z przykroœci¹ informujê, ¿e ich przywódczyni, Bodhi, uciek³a.~
+@243 = ~Zrobi³em to, czego chcia³aœ.~ ~Zrobi³am to, czego chcia³aœ.~
+@244 = ~Zadanie wykonane. Czy mogê ju¿ wyruszyæ do Czarowiêzów?~
+@245 = ~Obawiam siê, ¿e nie mam dla ciebie ¿adnych wieœci.~
+@246 = ~W rzeczy samej, œwietnie ci posz³o. Jeœli nie masz innych spraw do za³atwienia, mo¿esz wyruszyæ wraz z nastêpnym odp³ywem.~ [b!ast_11]
+@247 = ~Mam do ciebie kilka pytañ.~
+@248 = ~Jest jeszcze parê spraw, którymi muszê siê zaj¹æ.~
+@249 = ~Jestem gotów do drogi.~ ~Jestem gotowa do drogi.~
+@250 = ~Ok³amujesz mnie. Przykro mi, ale nie ukoñczê przygotowañ, dopóki nie zrobisz tego, o co prosi³am.~
+@251 = ~Jakiœ problem?~
+@252 = ~Nie pamiêtam, gdzie mam siê spotkaæ z twoim magiem.~
+@253 = ~Nie, po prostu by³em zajêty.~ ~Nie, po prostu by³am zajêta.~
+@254 = ~Potrzeba mi wiêcej czasu, by siê przygotowaæ.~
+@255 = ~Dobrze. Wróæ, gdy bêdziesz gotów.~ [b!ast_12] ~Dobrze. Wróæ, gdy bêdziesz gotowa.~
+@256 = ~Dobrze. ChodŸ za mn¹.~ [b!ast_13]
+@257 = ~Zniszczenie Z³odziei Cienia.
+
+Uwolniony przez mnie wiêzieñ o imieniu Tizzak powiedzia³ mi, ¿e jedyna droga do kryjówki Arana prowadzi przez dwoje magicznych drzwi. Pierwsze otwiera przycisk, który znajduje siê na koñcu pe³nego pu³apek korytarza na pó³nocy. Drugie drzwi otwiera siê kluczem. Nie wie, gdzie jest ten klucz, ale powiedzia³, ¿e mo¿e ma go czarodziej o imieniu Haz.~
+@258 = ~Zadania Aster.
+
+Uda³o mi siê wykonaæ wyznaczone mi zadania. W koñcu Aster zgodzi³a siê, bym wyruszy³<PRO_HESHE> do Czarowiêzów, gdzie oczekuj¹ Imoen i Irenicus. Cokolwiek mia³oby siê zdarzyæ, najwiêksze wyzwanie czeka na mnie na tej wyspie.~
+@259 = ~Nie zapisujesz sobie takich spraw w dzienniku? Niewa¿ne. W pó³nocno-wschodnim rogu cmentarza znajdziesz drzwi prowadz¹ce do katakumb. W ich pó³nocnej czêœci, przy nieruchomych niebieskich drzwiach bêdzie czeka³ Zahl, mój wspólnik. Pomo¿e ci w otwarciu drzwi, o ile do tej pory nie straci³ cierpliwoœci czekaj¹c na ciebie. Powodzenia.~ [b!ast_14]
+@260 = ~Nie spiesz siê. Jestem pewna, ¿e osoba, któr¹ chcesz odnaleŸæ w Czarowiêzach, mo¿e poczekaæ.~ [b!ast_15]
+@261 = ~Pytaj œmia³o.~
+@262 = ~Dlaczego mi pomagasz? Jak¹ masz w tym korzyœæ?~
+@263 = ~Co ci o mnie wiadomo? Wiesz, kim jestem?~
+@264 = ~Co to za polityczne intrygi, w których w³aœnie pomog³em?~ ~Co to za polityczne intrygi, w których w³aœnie pomog³am?~
+@265 = ~Bodhi wydawa³a siê du¿o wiedzieæ o tobie i twoich motywach. Dlaczego?~
+@266 = ~W³aœciwie to nie jestem a¿ tak bardzo ciekaw<PRO_HESHE>.~
+@267 = ~Mo¿na by s¹dziæ, ¿e to oczywiste. Mój zakon, Zakon Aster, chcia³ zniszczyæ wampiry. Moi sprzymierzeñcy chcieli siê pozbyæ Z³odziei Cienia. Oba zadania zosta³y wype³nione, wiêc wszyscy maj¹ to, czego chcieli.~
+@268 = ~Wiem, ¿e nazywasz siê <CHARNAME> i ¿e w³aœnie wykona³eœ pewne zadania, które by³y niezwykle wa¿ne dla mnie i moich sojuszników. Na tym koñczy siê moje zainteresowanie twoj¹ osob¹.~ ~Wiem, ¿e nazywasz siê <CHARNAME> i ¿e w³aœnie wykona³aœ pewne zadania, które by³y niezwykle wa¿ne dla mnie i moich sojuszników. Na tym koñczy siê moje zainteresowanie twoj¹ osob¹.~
+@269 = ~Nie bêdê zaprzeczaæ, ¿e Zakon Aster jest zainteresowany utworzeniem placówki w Athkatli, ale to ma³o prawdopodobne, by ten ma³y uczynek sk³oni³ Radê do podpisania statutu. W³aœciwie to jestem niemal pewna, ¿e Rada nie bêdzie zachwycona tym, co siê sta³o, poniewa¿ Z³odzieje Cienia byli gildi¹ chronion¹ przez miasto.~
+@270 = ~Innymi s³owy, nie przys³u¿y³eœ siê niczyim politycznym celom, nawet jeœli pomog³eœ w urzeczywistnieniu prywatnych.~ ~Innymi s³owy, nie przys³u¿y³aœ siê niczyim politycznym celom, nawet jeœli pomog³aœ w urzeczywistnieniu prywatnych.~
+@271 = ~Jesteœ tego pewien? Równie dobrze mog³a zmyœliæ wszystko to, co ci powiedzia³a, by ciê zdekoncentrowaæ. Byæ mo¿e s¹dzi³a, ¿e u³atwi jej to ucieczkê.~ ~Jesteœ tego pewna? Równie dobrze mog³a zmyœliæ wszystko to, co ci powiedzia³a, by ciê zdekoncentrowaæ. Byæ mo¿e s¹dzi³a, ¿e u³atwi jej to ucieczkê.~
+@272 = ~O nie. Wydawa³a siê byæ pewna tego, co mówi.~
+@273 = ~Mo¿e i masz racjê.~
+@274 = ~Skoro tak mówisz. Dla mnie to jednak bez znaczenia.~
+@275 = ~Masz jeszcze jakieœ pytania?~
+@276 = ~Jesteœ gotowy do wyp³yniêcia?~ [b!ast_17] ~Jesteœ gotowa do wyp³yniêcia?~
+@277 = ~Tak.~
+@278 = ~Jeszcze nie.~
+@279 = ~Ten statek zabierze ciê na wyspê. Twoja sakiewka by³a wystarczaj¹co pêkata, aby uspokoiæ wszelkie obawy za³ogi.~ [B!AST_25]
+@280 = ~Choæ cisza znaczy ponoæ wiêcej od s³ów, moi ludzie nic sobie z tego nie robi¹. Sam raczej ich zachêcam do tego, ¿eby siê radowali.~ [PPSAEM07]
+@281 = ~Przyzwyczajenia cz³onków za³ogi to twoja sprawa, kapitanie. Przynajmniej do czasu, dopóki bêd¹ siê dobrze spisywaæ i dostarcz¹ moich ludzi na czas.~ [B!AST_26]
+@282 = ~Dzisiejszego wieczoru nie musisz siê niczego baæ. Wiele razy p³ywa³em po tym morzu i nie przewidujê ¿adnych problemów.~ [PPSAEM08]
+@283 = ~W takim razie mo¿emy przejœæ do prezentacji. To kapitan Saemon Havarian. On i jego statek... panie Havarian, jak siê nazywa pañski statek?~ [b!ast_18]
+@284 = ~Ach, nazwa zmienia siê wraz z porywem wiatru, przewa¿nie dlatego, ¿e nie mogê siê jakoœ zebraæ, ¿eby powiesiæ tablicê ze stosownym napisem. Na razie nazywa siê Galante.~
+@285 = ~A co do podró¿y, to zwa¿ na moje s³owa, <CHARNAME>, bo na morzu mo¿na spotkaæ niebezpieczeñstwa, o których ci siê nawet nie œni³o.~
+@286 = ~Powierzasz moje bezpieczeñstwo temu fircykowatemu g³upcowi? Nie podoba mi siê ten jego uœmieszek.~
+@287 = ~<CHARNAME>, nie rozgniewaj go, przynajmniej dopóki nie dop³yniecie do Czarowiêzów. ¯aden inny kapitan nie odwa¿y siê na tak¹ podró¿.~
+@288 = ~Mo¿emy trafiæ na jak¹œ ukryt¹ rafê albo nag³y sztorm, choæ ju¿ bardziej prawdopodobne, ¿e trafimy na piratów.~
+@289 = ~W³aœnie dlatego postara³em siê o ochronê w czasie tego rejsu.~
+@290 = ~Mo¿esz ju¿ czuæ siê powiadomiony. Uznaliœmy za stosowne zapewniæ ci dodatkowego cz³onka za³ogi... oczywiœcie to dla twojego bezpieczeñstwa.~
+@291 = ~A wiêc za³oga w komplecie, jesteœmy gotowi do podró¿y. Najlepiej jeœli wyruszymy najwczeœniej, jak to mo¿liwe.~
+@292 = ~Rozdzia³ 4
+
+Wype³ni³em zadania, które wyznaczy³a mi Aster, wliczaj¹c w to zniszczenie zarówno Z³odziei Cienia, jak i wampirów, choæ samej Bodhi uda³o siê zbiec. Zanim uciek³a, uœwiadomi³a mi kilka spraw.
+
+To Z³odzieje Cienia zaatakowali Irenicusa w lochu, w którym siê obudzi³em. Byli œwiadomi faktu, ¿e zosta³em schwytany, choæ nie uwa¿ali tego za nic wiêcej ni¿ zwyk³e porwanie i nie swoj¹ sprawê. Jednak¿e nied³ugo potem pojawi³a siê Bodhi, a ich cz³onkowie zaczêli znikaæ. Uda³o im siê odkryæ lochy Irenicusa i powi¹zali to z Bodhi... a ja by³em œwiadkiem ich zakoñczonego katastrof¹ ataku.
+
+Aster powiedzia³a mi, ¿e Irenicus jak i Imoen zostali zabrani do znajduj¹cego siê na wyspie przytu³ku zwanego Czarowiêzy. Z³oto, którego dostarczy³em, pos³u¿y³o do zapewnienia rejsu na wyspê i to tam znajdê odpowiedzi, których poszukujê. Aster ostrzeg³a mnie jednak, ¿e przytu³ek to prawdziwa forteca zbudowana z myœl¹ o przetrzymywaniu szalonych magów i innych "odchyleñców"... i samo uzyskanie tam wstêpu bêdzie nie lada wyczynem. Tak czy inaczej, transport na wyspê z korsarzem Saemonem Havarianem zosta³ ju¿ zarezerwowany i pozostaje mi wyruszyæ w drogê...~ ~Rozdzia³ 4
+
+Wype³ni³am zadania, które wyznaczy³a mi Aster, wliczaj¹c w to zniszczenie zarówno Z³odziei Cienia, jak i wampirów, choæ samej Bodhi uda³o siê zbiec. Zanim uciek³a, uœwiadomi³a mi kilka spraw.
+
+To Z³odzieje Cienia zaatakowali Irenicusa w lochu, w którym siê obudzi³am. Byli œwiadomi faktu, ¿e zosta³am schwytana, choæ nie uwa¿ali tego za nic wiêcej ni¿ zwyk³e porwanie i nie swoj¹ sprawê. Jednak¿e nied³ugo potem pojawi³a siê Bodhi, a ich cz³onkowie zaczêli znikaæ. Uda³o im siê odkryæ lochy Irenicusa i powi¹zali to z Bodhi... a ja by³am œwiadkiem ich zakoñczonego katastrof¹ ataku.
+
+Aster powiedzia³a mi, ¿e Irenicus jak i Imoen zostali zabrani do znajduj¹cego siê na wyspie przytu³ku zwanego Czarowiêzy. Z³oto, którego dostarczy³am, pos³u¿y³o do zapewnienia rejsu na wyspê i to tam znajdê odpowiedzi, których poszukujê. Aster ostrzeg³a mnie jednak, ¿e przytu³ek to prawdziwa forteca zbudowana z myœl¹ o przetrzymywaniu szalonych magów i innych "odchyleñców"... i samo uzyskanie tam wstêpu bêdzie nie lada wyczynem. Tak czy inaczej, transport na wyspê z korsarzem Saemonem Havarianem zosta³ ju¿ zarezerwowany i pozostaje mi wyruszyæ w drogê...~
+@293 = ~To do roboty. Ja muszê przes³aæ raport na kontynent. Mo¿e moglibyœmy otrzymaæ pomoc, skoro ju¿ wiadomo, co trzeba zrobiæ.~
+@294 = ~Dostajê siê do przytu³ku
+
+Teraz, kiedy mam ju¿ kamieñ stra¿niczy, dziêki któremu zdo³am dostaæ siê do przytu³ku, Sime posz³a wys³aæ wiadomoœæ do Aster. Ma nadziejê, ¿e teraz, gdy droga do przytu³ku stoi otworem, uda nam siê uzyskaæ pomoc od jej sprzymierzeñców.~
+@295 = ~S³ysza³em o tej wampirzycy. Nazywa siê Bodhi... ale czy nie uda³o ci siê ju¿ zniszczyæ jej i jej gildii... na nasze zlecenie?~
+@296 = ~Zniszczy³em jej gildiê, ale nie uda³o mi siê zabiæ samej wampirzycy. Teraz, odzyskawszy si³y, powróci³a do Athkatli.~ ~Zniszczy³am jej gildiê, ale nie uda³o mi siê zabiæ samej wampirzycy. Teraz, odzyskawszy si³y, powróci³a do Athkatli.~
+@297 = ~S³ysza³em o tej wampirzycy. Nazywa siê Bodhi... wydaje siê jednak, ¿e ostatnio jej tu nie by³o. Jesteœ pewien, ¿e potrzebna ci nasza pomoc?~ ~S³ysza³em o tej wampirzycy. Nazywa siê Bodhi... wydaje siê jednak, ¿e ostatnio jej tu nie by³o. Jesteœ pewna, ¿e potrzebna ci nasza pomoc?~
+@298 = ~Nie by³o jej tu przez jakiœ czas, ale teraz, odzyskawszy si³y, powróci³a do Athkatli.~
+@299 = ~<CHARNAME>. Masz to, czego od nas chcia³eœ, a mimo to wracasz tu wystawiaj¹c na próbê nasz¹ cierpliwoœæ. Daj mi przynajmniej jeden dobry powód, dlaczego nie mia³bym ciê wyrzuciæ z tych komnat.~
+@300 = ~Hmm. Wiemy o tej wampirzycy, jak równie¿ o gildii, której niegdyœ przewodzi³a. S¹dzi³em, ¿e zniszczy³eœ j¹... i to na nasze zlecenie.~ ~Hmm. Wiemy o tej wampirzycy, jak równie¿ o gildii, której niegdyœ przewodzi³a. S¹dzi³am, ¿e zniszczy³aœ j¹... i to na nasze zlecenie.~
+@301 = ~Te¿ coœ! Wiemy o tej wampirzycy. Nasze Ÿród³a donosz¹, ¿e pokona³eœ j¹ i jej gildiê. Po co nas ok³amujesz, <CHARNAME>? Co za intrygê knujesz?~ ~Te¿ coœ! Wiemy o tej wampirzycy. Nasze Ÿród³a donosz¹, ¿e pokona³aœ j¹ i jej gildiê. Po co nas ok³amujesz, <CHARNAME>? Co za intrygê knujesz?~
+@302 = ~Hmm. Wiemy o tej wampirzycy, choæ ostatnio nie przejawia³a ¿adnej aktywnoœci. S¹dziliœmy, ¿e zosta³a zabita.~
+@303 = ~Nie by³o jej tutaj, ale teraz odzyska³a si³y i wróci³a... i jest zbyt potê¿na, ¿ebym sam j¹ pokona³<PRO_HESHE>.~
+@304 = ~Nie bêdê traciæ czasu na wyjaœnienia. Fakty s¹ takie, ¿e nie zosta³a pokonana, a ja nie dam sobie z ni¹ rady bez waszej pomocy.~
+@305 = ~Te¿ coœ! Wiemy o tej wampirzycy. Nasze Ÿród³a donosz¹, ¿e zbieg³a z Athkatli. Po co nas ok³amujesz, <CHARNAME>? Co za intrygê knujesz?~
+@306 = ~Nie ok³amujê was. Nie by³o jej tu przez jakiœ czas, ale teraz powróci³a do Athkatli z odzyskanymi si³ami. Nie pokonam jej w pojedynkê.~
+@307 = ~Nie bêdê traciæ czasu na wyjaœnienia. Fakty s¹ takie, ¿e nie odesz³a st¹d, a ja nie dam sobie z ni¹ rady bez waszej pomocy.~
+@308 = ~Ty! Nie jesteœ Z³odziejem Cienia! Zabij tego przeklêtego oprawcê i uwolnij mnie! £apacz ma klucze! Powiem ci wszystko, co wiem!~
+@309 = ~Nie jesteœ Z³odziejem Cienia, prawda? Uwolnij mnie, proszê! Mogê ci pomóc przedostaæ siê przez si³y obronne Arana Linvaila!~
+@310 = ~Drzwi s¹ otwarte. Powiedz mi, co wiesz.~
+@311 = ~Jesteœ wolny. Teraz mów, jak znaleŸæ Arana Linvaila albo poder¿nê ci gard³o!~
+@312 = ~Daj mi moment na otwarcie drzwi.~
+@313 = ~Jestem nieco zmêczony i muszê ciê ju¿ opuœciæ.~
+@314 = ~No, ju¿ jesteœ wolny. Mów, co wiesz.~
+@315 = ~Jaka Bodhi?~
+@316 = ~Tym lepiej dla mnie! Mo¿e nawet ona nie wie, ¿e mnie schwytali. W ramach wdziêcznoœci powiem ci, jak dostaæ siê do Arana.~
+@317 = ~¯yczê powodzenia i dziêkujê za uratowanie mnie.~
+@318 = ~Nie przewidywa³em zagro¿enia z tej strony. Niewa¿ne. Tutaj skoñczy siê wasza ma³a inwazja!~
+@319 = ~To niespodzianka. Nie myœla³em, ¿e ci paladyni odwa¿¹ siê na taki œmia³y krok. Ta pomy³ka bêdzie ich drogo kosztowaæ. Ty zap³acisz za ni¹ ¿yciem.~
+@320 = ~To niespodzianka. Nie myœla³em, ¿e ten przebieg³y liczykrupa odwa¿y siê na taki œmia³y krok. Ta pomy³ka bêdzie go drogo kosztowaæ. Ty zap³acisz za ni¹ ¿yciem.~
+@321 = ~A zatem postanowi³eœ ju¿, czy wolisz rozstaæ siê ze z³otem, czy wykonaæ ostatnie zadanie, które ci proponujê?~ ~A zatem postanowi³aœ ju¿, czy wolisz rozstaæ siê ze z³otem, czy wykonaæ ostatnie zadanie, które ci proponujê?~
+@322 = ~Mówi³eœ o 90000 sztuk z³ota, tak? Jestem przygotowany na zap³acenie takiej kwoty.~ ~Mówi³eœ o 90000 sztuk z³ota, tak? Jestem przygotowana na zap³acenie takiej kwoty.~
+@323 = ~Nie zapominaj o mojej obni¿ce! Zrobi³em prawie wszystko, czego ode mnie chcia³eœ.~ ~Nie zapominaj o mojej obni¿ce! Zrobi³am prawie wszystko, czego ode mnie chcia³eœ.~
+@324 = ~Nie, nadal nie mam przy sobie tak wielkiej kwoty. Chcia³em tylko sprawdziæ, czy w miêdzyczasie nie obni¿y³eœ ceny. Chyba wrócê póŸniej.~ ~Nie, nadal nie mam przy sobie tak wielkiej kwoty. Chcia³am tylko sprawdziæ, czy w miêdzyczasie nie obni¿y³eœ ceny. Chyba wrócê póŸniej.~
+@325 = ~Spróbujê zmierzyæ siê z ostatnim zadaniem, o którym mówi³eœ.~
+@326 = ~Przemyœla³em to i uzna³em, ¿e zostanê tu i zajmê siê moimi obowi¹zkami.~ ~Przemyœla³am to i uzna³am, ¿e zostanê tu i zajmê siê moimi obowi¹zkami.~
+@327 = ~Zdecydowa³eœ ju¿, co zamierzasz?~ [b!mal_06] ~Zdecydowa³aœ ju¿, co zamierzasz?~
+@328 = ~Mam 90000 sztuk z³ota. Zabierz mnie na statek p³yn¹cy do Maztiki.~
+@329 = ~Mam 50000 sztuk z³ota. Chcê p³yn¹æ ju¿ teraz.~
+@330 = ~Jestem gotowy zmierzyæ siê ze Z³odziejami Cienia.~ ~Jestem gotowa zmierzyæ siê ze Z³odziejami Cienia.~
+@331 = ~Wrócê póŸniej.~
+@332 = ~Witaj! Jestem wielmo¿ny Malficjusz Rodendril, do twych us³ug!~ [b!mal_01]
+@333 = ~Chyba nigdy nie widzia³em tak krzykliwej tuniki.~ ~Chyba nigdy nie widzia³am tak krzykliwej tuniki.~
+@334 = ~Naprawdê tak masz na imiê?~
+@335 = ~Wybacz, proszê, ale mam teraz pewne sprawy na g³owie.~
+@336 = ~Sk¹d siê tu wzi¹³eœ?~
+@337 = ~Wygl¹dasz znajomo. Czy ja ciê ju¿ gdzieœ nie widzia³em?~ ~Wygl¹dasz znajomo. Czy ja ciê ju¿ gdzieœ nie widzia³am?~
+@338 = ~To nale¿y do moich zamiarów.~
+@339 = ~Niestety tak. Jest o wiele za pospolite jak na imiê, co mnie akurat martwi.~
+@340 = ~Od razu to zauwa¿y³em i dlatego w³aœnie postanowi³em ciê œledziæ.~
+@341 = ~Proste pytanie, na które istnieje ³atwa odpowiedŸ. Œledzi³em ciê.~
+@342 = ~Wzdrygam siê na sam¹ myœl, ¿e ktoœ móg³by mnie nie zauwa¿yæ.~
+@343 = ~Szczêœliwie dla mnie opuszcza³em gospodê Mithrest w tym samym momencie, kiedy ty w tak efektowny sposób zjawi³eœ siê na Promenadzie Waukeen. Mia³em zreszt¹ podwójne szczêœcie, bo mój refleks okaza³ siê wystarczaj¹cy, by uchyliæ siê przed gruzem, który fruwa³ w powietrzu po twoim wyjœciu.~ ~Szczêœliwie dla mnie opuszcza³em gospodê Mithrest w tym samym momencie, kiedy ty w tak efektowny sposób zjawi³aœ siê na Promenadzie Waukeen. Mia³em zreszt¹ podwójne szczêœcie, bo mój refleks okaza³ siê wystarczaj¹cy, by uchyliæ siê przed gruzem, który fruwa³ w powietrzu po twoim wyjœciu.~
+@344 = ~I wtedy powiedzia³em sobie: "Panie Rodendril, jeœli mia³eœ pan kiedykolwiek jakieœ talenty, to w³aœnie jest tu ktoœ, komu siê one przydadz¹."~
+@345 = ~A czym siê zajmujesz?~
+@346 = ~Nie wiem, czy potrzebne mi s¹ twoje talenty, ale nie mam zamiaru tego dociekaæ. A teraz wybacz.~
+@347 = ~Co, na Dziewiêæ Piekie³, w³aœnie powiedzia³eœ?~
+@348 = ~Cokolwiek sprzedajesz, niczego nie chcê. Dobrego dnia.~
+@349 = ~Mówi¹c najproœciej, sprawiam, ¿e problemy znikaj¹.~
+@350 = ~Co proponujesz?~
+@351 = ~Nie mam zamiaru uciekaæ od moich problemów.~
+@352 = ~A dok³adnie jak to robisz?~
+@353 = ~Niezbyt mi siê podoba twój ton. Nie mam zamiaru uczestniczyæ w czymœ nielegalnym.~
+@354 = ~Nie mo¿esz sprawiæ, ¿eby moje problemy zniknê³y.~
+@355 = ~Nie, dziêkujê.~
+@356 = ~Zanim tak pochopnie siê ze mn¹ po¿egnasz, nie wys³uchasz przynajmniej tego, co mam do powiedzenia?~
+@357 = ~Ahem. Powiedzia³em, ¿e mo¿e przyda³aby ci siê moja pomoc.~
+@358 = ~W¹tpiê.~
+@359 = ~Przyda mi siê ka¿da mo¿liwa pomoc.~
+@360 = ~To kwestia perspektywy. Z pewnego oddalenia wszystko zdaje siê byæ mniejsze.~
+@361 = ~Nie wiem, czy to mo¿liwe, aby moje problemy mog³y siê wydawaæ mniejsze. S¹ bardzo du¿e, powi¹zane z martwymi bogami i proroctwami.~
+@362 = ~A dok³adnie z jakiego oddalenia?~
+@363 = ~To kusz¹ca propozycja, ale muszê odmówiæ.~
+@364 = ~Insynuowanie, ¿e móg³bym tak zwyczajnie zrzuciæ z siebie odpowiedzialnoœæ, jest dla mnie obraŸliwe.~ ~Insynuowanie, ¿e mog³abym tak zwyczajnie zrzuciæ z siebie odpowiedzialnoœæ, jest dla mnie obraŸliwe.~
+@365 = ~Nie patrz na to jak na ucieczkê. To tylko kwestia przyjêcia innego punktu widzenia.~
+@366 = ~Gdy ktoœ pisze na pergaminie mlekiem, wtedy znaki, jak rozwi¹zanie twoich problemów, s¹ niewidoczne. Po podgrzaniu pergaminu, to znaczy przy zastosowaniu nowej perspektywy, znaki albo odpowiedzi zostaj¹ ujawnione.~
+@367 = ~Nie, nie zamierzam dalej tego s³uchaæ.~
+@368 = ~Dziêki, ale nic z tego.~
+@369 = ~Dobrze. Powiedz mi, co proponujesz.~
+@370 = ~Nie ma nic nielegalnego w tym, ¿e wsiada siê na statek. Ludzie czyni¹ tak od eonów. Tak naprawdê to dla tych ogarniêtych mi³oœci¹ do morza trudnoœæ polega na tym, by powstrzymaæ siê od ¿eglowania.~
+@371 = ~Naprawdê, niektórym ludziom nie da siê pomóc. ¯egnaj zatem.~
+@372 = ~Bardzo d³ugie wakacje. 
+
+Wielmo¿ny Malficjusz Rodendril dotrzyma³ s³owa i umieœci³ mnie na statku p³yn¹cym do Maztiki. Wkrótce zostawiê wszystkie moje problemy za sob¹...~
+@373 = ~Ostatnie zadanie Malficjusza
+
+Jest jeszcze jedno zadanie, które muszê wykonaæ, by znaleŸæ siê na pok³adzie statku do Maztiki. Muszê zabiæ przywódcê Z³odziei Cienia, Arana Linvaila. Mo¿na go znaleŸæ w siedzibie Z³odziei Cienia, pomarañczowym budynku w zachodniej czêœci Doków. Agent Malficjusza, Harold, bêdzie na mnie czeka³ na zewn¹trz, by udzieliæ mi ostatnich instrukcji. Malficjusz twierdzi, ¿e Aran jest dobrze strze¿ony, wiêc nale¿y siê dobrze przygotowaæ.~
+@374 = ~Bardzo d³ugie wakacje.
+
+Po tych wszystkich przeszkodach, przez które Malficjusz kaza³ mi skakaæ, te wakacje w Maztice bêd¹ prawdziw¹ przyjemnoœci¹. Mamy spotkaæ siê u progu latarni morskiej w Dokach.~
+@375 = ~Niedopuszczalna rozrywka
+
+Malficjusz Rodendril, przebieg³y i nazbyt drobiazgowy osobnik, zaproponowa³ mi ucieczkê od moich obowi¹zków i rejs do Maztiki. Choæ jego oferta by³a nader kusz¹ca, postanowi³em nie uchylaæ siê od moich obowi¹zków. Zostanê w Faerunie i zrobiê, co do mnie nale¿y.~ ~Niedopuszczalna rozrywka
+
+Malficjusz Rodendril, przebieg³y i nazbyt drobiazgowy osobnik, zaproponowa³ mi ucieczkê od moich obowi¹zków i rejs do Maztiki. Choæ jego oferta by³a nader kusz¹ca, postanowi³am nie uchylaæ siê od moich obowi¹zków. Zostanê w Faerunie i zrobiê, co do mnie nale¿y.~
+@376 = ~W takim razie potrzebujesz mojej pomocy nawet bardziej, ni¿ s¹dzi³em.~
+@377 = ~Proponujê ci rejs do Maztiki. Podró¿ morzem nie trwa d³ugo, a jednoczeœnie jest to wyprawa do innego œwiata. Nawet bogowie Faerunu s¹ tam nieobecni. Co ty na to?~
+@378 = ~Muszê odmówiæ. Mam ju¿ inne plany.~
+@379 = ~Brzmi kusz¹co, ale nie.~
+@380 = ~W ¿adnym razie! Obra¿asz mnie t¹ propozycj¹.~
+@381 = ~Ile by to kosztowa³o?~
+@382 = ~Nie ma bogów, powiadasz? Nie ma Bhaala ani jego dzieci...~
+@383 = ~Mo¿esz rezerwowaæ dla mnie miejsce.~
+@384 = ~Jak sobie ¿yczysz. Gdybyœ zmieni³<PRO_HESHE> zdanie, to nocujê w gospodzie Mithrest. Do zobaczenia.~
+@385 = ~Hmf. Wygl¹da na to, ¿e przeceni³em twoj¹ inteligencjê. ¯egnaj.~
+@386 = ~Mo¿na sobie ³atwo wyobraziæ, ¿e pomoc, któr¹ oferujê, musi kosztowaæ. Jak ci wiadomo, op³acenie kapitana na tyle pewnego, by przep³yn¹³ Bezdro¿ne Morze, wymaga niebagatelnej kwoty.~
+@387 = ~Bêdê potrzebowa³ 100000 sztuk z³ota, p³atnych z góry.~
+@388 = ~Zapomnij!~
+@389 = ~Mo¿na jakoœ obni¿yæ tê cenê?~
+@390 = ~Tak siê szczêœliwie sk³ada, ¿e mam przy sobie tak¹ sumê.~
+@391 = ~To zale¿y. Jak powiadaj¹, wzajemne przys³ugi s¹ w Krainach jak pieni¹dz. Jeœli podejmiesz siê wykonania kilku zadañ, jestem upowa¿niony obni¿yæ koszty transportu.~
+@392 = ~"Upowa¿niony"? Co to ma oznaczaæ?~
+@393 = ~Co mia³<PRO_HESHE>bym zrobiæ?~
+@394 = ~Po g³êbszym przemyœleniu jednak nie podoba mi siê to, co s³yszê.~
+@395 = ~To przyjemnoœæ robiæ z tob¹ interesy. Spotkamy siê w Dokach. Mam jeszcze kilka drobnych spraw do za³atwienia, a potem bêdê czeka³ na ciebie przy latarni morskiej. Stamt¹d udamy siê na przystañ.~
+@396 = ~Nic, czym musia³<PRO_HESHE>byœ siê przejmowaæ, zapewniam ciê. Mam mówiæ dalej?~
+@397 = ~Jeœli to oznacza, ¿e siê st¹d wydostanê, to tak.~
+@398 = ~Potrzeba mi wiêcej czasu, by to przemyœleæ.~
+@399 = ~Nie, nie s¹dzê.~
+@400 = ~Mo¿esz uczyniæ trzy rzeczy, by obni¿yæ cenê. Mo¿esz te¿ w ka¿dej chwili zmieniæ zdanie, zachowuj¹c mo¿liwoœæ rezygnacji z obni¿ki, ale tylko do momentu, gdy zaakceptujesz trzecie zadanie.~
+@401 = ~Powiedz mi, co mam zrobiæ najpierw.~
+@402 = ~Co masz na myœli mówi¹c, ¿e mogê zmieniæ zdanie?~
+@403 = ~Co to znaczy, ¿e zachowam mo¿liwoœæ rezygnacji z obni¿ki?~
+@404 = ~Zmieni³em zdanie. Zostajê tu i sam zajmê siê moimi problemami.~ ~Zmieni³am zdanie. Zostajê tu i sama zajmê siê moimi problemami.~
+@405 = ~Zastanawiaj siê tak d³ugo, ile chcesz. Nocujê w gospodzie Mithrest. Tam mo¿esz mnie znaleŸæ, gdybyœ zmieni³<PRO_HESHE> zdanie.~
+@406 = ~Znasz Dzielnicê Œwi¹tyñ? IdŸ tam i spotkaj siê z moj¹... wspólniczk¹, kobiet¹ o imieniu Leyt. Bêdzie przy posiad³oœci Pimlico. Da ci teczkê z dokumentami w zamian za drobn¹ rekompensatê.~
+@407 = ~A kto ma pokryæ tê rekompensatê?~
+@408 = ~I teczkê mam przynieœæ tobie?~
+@409 = ~Jestem kimœ, kto stara siê pomóc, a nie jakimœ bandziorem. Jeœli postanowisz tu zostaæ zamiast p³yn¹æ do Maztiki b¹dŸ gdziekolwiek indziej, to bêdzie twoja decyzja, jednak¿e nie otrzymasz zwrotu poniesionych kosztów. Muszê równie¿ zaznaczyæ, ¿e od pewnego momentu bêdziesz ju¿ zobowi¹zany pod¹¿aæ pewn¹ drog¹ postêpowania. Dam ci wyraŸnie znaæ, kiedy ten moment nast¹pi.~ ~Jestem kimœ, kto stara siê pomóc, a nie jakimœ bandziorem. Jeœli postanowisz tu zostaæ zamiast p³yn¹æ do Maztiki b¹dŸ gdziekolwiek indziej, to bêdzie twoja decyzja, jednak¿e nie otrzymasz zwrotu poniesionych kosztów. Muszê równie¿ zaznaczyæ, ¿e od pewnego momentu bêdziesz ju¿ zobowi¹zana pod¹¿aæ pewn¹ drog¹ postêpowania. Dam ci wyraŸnie znaæ, kiedy ten moment nast¹pi.~
+@410 = ~Powiedz mi zatem, czego ode mnie oczekujesz.~
+@411 = ~Nie podoba mi siê ca³e to gadanie o uk³adach i negocjacjach. Odchodzê.~
+@412 = ~A co masz na myœli mówi¹c, ¿e mogê zrezygnowaæ z obni¿ek?~
+@413 = ~Obni¿ki s¹ w pe³ni nieobowi¹zkowe. Jeœli znajdziesz siê w posiadaniu 100000 sztuk z³ota albo postanowisz nie wykonywaæ pewnych zadañ, mo¿esz po prostu uiœciæ ca³¹ cenê albo jej proporcjonalnie obliczon¹ czêœæ.~
+@414 = ~Ach. Co mia³eœ na myœli mówi¹c, ¿e mogê zmieniæ zdanie?~
+@415 = ~Co zatem mam zrobiæ?~
+@416 = ~Du¿o w tym jakiejœ prawniczej gadki szmatki. To chyba jednak nie dla mnie.~
+@417 = ~Naturalnie ten, kto odnosi korzyœæ z us³ugi. Leyt nie jest nierozs¹dna. Jestem pewien, ¿e jej stawka, o ile w ogóle jej za¿¹da, bêdzie minimalna.~
+@418 = ~Jak ona wygl¹da?~
+@419 = ~Wrócê z dokumentami.~
+@420 = ~Zobaczymy. Mog³em w³aœnie zmieniæ zdanie.~ ~Zobaczymy. Mog³am w³aœnie zmieniæ zdanie.~
+@421 = ~Przynieœ mi dokumenty, kiedy bêdziesz je mia³<PRO_HESHE>. Nocujê w gospodzie Mithrest, na Promenadzie Waukeen. Tam bêdê na ciebie czeka³.~
+@422 = ~Ona jest raczej... ekstrawagancka. W tamtym otoczeniu ³atwo bêdzie j¹ zauwa¿yæ.~
+@423 = ~Wspaniale.~
+@424 = ~Mnie to obojêtne. Gdybyœ postanowi³<PRO_HESHE> przyj¹æ moj¹ ofertê, to bêdê czeka³ w gospodzie Mithrest.~
+@425 = ~I oto jesteœ. Zaczyna³em siê obawiaæ, ¿e wpad³eœ do morza. Gotowy do wyp³yniêcia?~ [b!mal_02] ~I oto jesteœ. Zaczyna³em siê obawiaæ, ¿e wpad³aœ do morza. Gotowa do wyp³yniêcia?~
+@426 = ~Mam jeszcze kilka spraw do za³atwienia.~
+@427 = ~Pospiesz siê zatem. Nie mogê tu czekaæ w nieskoñczonoœæ.~
+@428 = ~Zatem ruszajmy!~
+@429 = ~Witaj. Czy przemyœla³eœ moj¹ hojn¹ ofertê? Sto tysiêcy sztuk z³ota i raz na zawsze pozbêdziesz siê problemów.~ [b!mal_03] ~Witaj. Czy przemyœla³aœ moj¹ hojn¹ ofertê? Sto tysiêcy sztuk z³ota i raz na zawsze pozbêdziesz siê problemów.~
+@430 = ~Sto tysiêcy! A co z moj¹ obni¿k¹?~
+@431 = ~Nie jestem pewny, jak dok³adnie brzmia³a oferta. Móg³byœ j¹ powtórzyæ?~ ~Nie jestem pewna, jak dok³adnie brzmia³a oferta. Móg³byœ j¹ powtórzyæ?~
+@432 = ~Szczerze mówi¹c, to jeszcze jej nie przemyœla³em.~ ~Szczerze mówi¹c, to jeszcze jej nie przemyœla³am.~
+@433 = ~Umówi³em siê ju¿ z kimœ innym.~ ~Umówi³am siê ju¿ z kimœ innym.~
+@434 = ~Tu mam z³oto.~
+@435 = ~Ach tak, oczywiœcie. Czy powiedzia³em, ¿e w celu obni¿enia kosztów mo¿esz wykonaæ pewne zadania? Musia³em o tym napomkn¹æ. Zawsze jestem bardzo dba³y o szczegó³y.~
+@436 = ~W ka¿dym razie, jeœli wykonasz dla mnie pewne zadania, pozwoli mi to obni¿yæ koszty podró¿y. Mam przejœæ do ich omówienia?~
+@437 = ~Tak, proszê.~
+@438 = ~Jeœli uczyniê wszystko, o co prosisz, to ile mogê zaoszczêdziæ?~
+@439 = ~Wolê raczej, ¿eby wszystko przebieg³o zwyk³ym trybem.~
+@440 = ~W ogóle mnie to nie interesuje.~
+@441 = ~A co mnie powstrzyma przed torturowaniem ciê tak d³ugo, a¿ zgodzisz siê zabraæ mnie za darmo?~
+@442 = ~S³ysza³eœ moj¹ ofertê, a przynajmniej wiêksz¹ jej czêœæ. Za kwotê 100000 sztuk z³ota mogê ciê umieœciæ na szybkim statku p³yn¹cym do Maztiki, gdzie klimat jest przyjemny przez ca³y rok, a mieszkañcy nad wyraz goœcinni.~ ~S³ysza³aœ moj¹ ofertê, a przynajmniej wiêksz¹ jej czêœæ. Za kwotê 100000 sztuk z³ota, mogê ciê umieœciæ na szybkim statku p³yn¹cym do Maztiki, gdzie klimat jest przyjemny przez ca³y rok, a mieszkañcy nad wyraz goœcinni.~
+@443 = ~Powiedz mi teraz, jak obni¿yæ koszty.~
+@444 = ~Nie mam przy sobie takiej sumy!~
+@445 = ~Tu jest z³oto. Teraz czas, abyœ ty wywi¹za³ siê z umowy.~
+@446 = ~Nie interesuje mnie to.~
+@447 = ~Spotkaj siê z moj¹ wspólniczk¹, kobiet¹ o imieniu Leyt, przy posiad³oœci Pimlico w Dzielnicy Œwi¹tyñ. Przypuszczam, ¿e bêdzie ubrana raczej nieodpowiednio jak na tamt¹ czêœæ miasta, wiêc znajdziesz j¹ bez problemu. Da ci teczkê z dokumentami w zamian za jak¹œ drobn¹ rekompensatê. Kiedy ju¿ zdobêdziesz dokumenty, przynieœ je do mnie.~
+@448 = ~Ka¿de zadanie, które wykonasz, obni¿a koszty proporcjonalnie do podstawy, ale jeœli ukoñczysz wszystkie zadania osobiœcie, bez uciekania siê do poœredników, mo¿esz zaoszczêdziæ nawet 85000 sztuk z³ota... dochodz¹ do tego twoje koszty, oczywiœcie.~
+@449 = ~Powiedz mi, co mam zrobiæ.~
+@450 = ~Przy takiej obni¿ce musi chodziæ o coœ nielegalnego. Wrócê, gdy bêdê mieæ pe³n¹ kwotê.~
+@451 = ~Dobrze. Bêdê tu, gdybyœ zamierza³<PRO_HESHE> wróciæ z pieniêdzmi.~
+@452 = ~Czy nie powiedzia³em, ¿e w celu obni¿enia kosztów mo¿esz wykonaæ pewne zadania? Musia³em o tym napomkn¹æ. Zawsze jestem bardzo dba³y o szczegó³y.~
+@453 = ~Dla mnie to bez znaczenia. I tak tutaj nocujê.~
+@454 = ~Przypuszczam, ¿e twój zdrowy rozs¹dek. Mam pewne zasoby i... sprzymierzeñców.~
+@455 = ~A teraz, gdy ju¿ skoñczyliœmy prê¿yæ musku³y, przedyskutujemy mo¿e szczegó³y umowy. Zak³adam, ¿e interesowa³oby ciê obni¿enie kosztów, prawda?~
+@456 = ~Tak, by³bym tym zainteresowany.~ ~Tak, by³abym tym zainteresowana.~
+@457 = ~Nie mam czasu biegaæ i wykonywaæ zadania. Jeœli przyjmê twoj¹ ofertê, to uiszczê ca³¹ cenê.~
+@458 = ~Masz dokumenty?~ [b!mal_04]
+@459 = ~Mam je. S¹ w tej kasetce.~
+@460 = ~Mam je, ale cena uleg³a zmianie.~
+@461 = ~Nie uwierzy³byœ, co musia³em zrobiæ, by je zdobyæ!~ ~Nie uwierzy³byœ, co musia³am zrobiæ, by je zdobyæ!~
+@462 = ~Mam je.~
+@463 = ~Leyt uciek³a przed oddaniem mi dokumentów.~
+@464 = ~Napotka³em na ma³y problem...~ ~Napotka³am na ma³y problem...~
+@465 = ~Nie porozumia³em siê z osob¹ czekaj¹c¹ w Dzielnicy Œwi¹tyñ, dlatego nie mam dokumentów.~ ~Nie porozumia³am siê z osob¹ czekaj¹c¹ w Dzielnicy Œwi¹tyñ, dlatego nie mam dokumentów.~
+@466 = ~Jeszcze nie.~
+@467 = ~Zmieni³em zdanie. Wolê zrezygnowaæ z zadañ i udaæ siê natychmiast do Maztiki.~ ~Zmieni³am zdanie. Wolê zrezygnowaæ z zadañ i udaæ siê natychmiast do Maztiki.~
+@468 = ~I co, mam uwierzyæ, ¿e w œrodku znajduj¹ siê dokumenty?~
+@469 = ~Mo¿esz wierzyæ, w co zechcesz. To w³aœnie da³a mi Leyt, gdy za¿¹da³em dokumentów.~ ~Mo¿esz wierzyæ, w co zechcesz. To w³aœnie da³a mi Leyt, gdy za¿¹da³am dokumentów.~
+@470 = ~Dokumenty znajduj¹ siê wewn¹trz kasetki.~
+@471 = ~Nie mam pojêcia.~
+@472 = ~To nie do przyjêcia. Znasz warunki, a ja nie mam upowa¿nienia, by je zmieniaæ. Oddaj mi dokumenty albo koñczymy nasz¹ znajomoœæ.~
+@473 = ~Och, ju¿ dobrze. Oto one.~
+@474 = ~Jeœli tak, to dobrze. Nie chcê mieæ z tob¹ wiêcej do czynienia. Tak w ogóle ma³o mnie obchodzi ta Maztica.~
+@475 = ~Zatrzymam wiêc te dokumenty, ale mam ca³e potrzebne z³oto. Chcê zrezygnowaæ z zadañ i udaæ siê natychmiast do Maztiki.~
+@476 = ~Jestem prawnikiem, mój drogi. Mnie nic nie jest w stanie zdziwiæ.~ ~Jestem prawnikiem, moja droga. Mnie nic nie jest w stanie zdziwiæ.~
+@477 = ~Pozwolisz, ¿e wezmê teraz dokumenty.~
+@478 = ~Mam ca³e potrzebne z³oto. Chcê zrezygnowaæ z zadañ i udaæ siê natychmiast do Maztiki.~
+@479 = ~Wspaniale. Tym samym uda³o ci siê zredukowaæ koszty twojej podró¿y o 10000 sztuk z³ota. Chcia³<PRO_HESHE>byœ obni¿yæ je jeszcze bardziej?~
+@480 = ~Nie, wydaje mi siê, ¿e 90000 sztuk to niewygórowana cena. Proszê.~
+@481 = ~Tak, w rzeczy samej.~
+@482 = ~Strata czasu, jak to mówi¹. Wróæ do mnie, gdy bêdziesz mieæ dokumenty.~
+@483 = ~To straszna niedogodnoœæ. Teraz bêdê musia³ przyj¹æ twoje zapewnienia w oparciu o samo zaufanie, a to rzadki towar w œrodowisku prawniczym.~
+@484 = ~Gdybyœ dostarczy³<PRO_HESHE> mi dokumenty w postaci gotowej do natychmiastowego u¿ycia, móg³bym ci zaoferowaæ bardziej znacz¹c¹ obni¿kê. W obecnym stanie rzeczy nie mogê obni¿yæ ceny bardziej ni¿ do 95000 sztuk z³ota.~
+@485 = ~Czy mogê jeszcze w jakiœ sposób obni¿yæ koszty?~
+@486 = ~Có¿, nie by³o to raczej warte poœwiêconego czasu. Niemniej jednak dajê ci to pude³ko z ³amig³ówk¹ oraz twoje z³oto.~
+@487 = ~Nie potrzebujesz mnie ju¿? Zatem ¿egnaj.~
+@488 = ~Hmmm, rozumiem. Trochê skomplikowa³eœ swoj¹ sytuacjê. Obawiam siê, ¿e ta mo¿liwoœæ obni¿enia ceny w³aœnie ci przepad³a.~ ~Hmmm, rozumiem. Trochê skomplikowa³aœ swoj¹ sytuacjê. Obawiam siê, ¿e ta mo¿liwoœæ obni¿enia ceny w³aœnie ci przepad³a.~
+@489 = ~Có¿, nie by³o to raczej warte poœwiêconego czasu. Niemniej jednak mam przy sobie pe³n¹ sumê. Oto 100000 sztuk z³ota.~
+@490 = ~Zdaje siê, ¿e Tymora uœmiecha siê do ciebie, lecz zadanie, które przed tob¹ stoi, mo¿e naruszaæ twoj¹ wra¿liwoœæ.~
+@491 = ~Przekonajmy siê.~
+@492 = ~Odmawiam pope³nienia jakiegokolwiek z³ego uczynku.~
+@493 = ~Opowiedz mi o tym. Zawsze przecie¿ mogê odmówiæ, prawda?~
+@494 = ~Mo¿e jest jakieœ inne, zastêpcze zadanie?~
+@495 = ~Bardzo dobrze. Mia³eœ ju¿ do czynienia ze zleceniami zwi¹zanymi z ostatecznym rozwi¹zaniem?~ ~Bardzo dobrze. Mia³aœ ju¿ do czynienia ze zleceniami zwi¹zanymi z ostatecznym rozwi¹zaniem?~
+@496 = ~Zreszt¹, nazywajmy rzeczy po imieniu. Chodzi mi o zabójstwo.~
+@497 = ~<CHARNAME>, chyba nie zamierzasz rozwa¿aæ czyjegoœ zabójstwa!~
+@498 = ~Och, <CHARNAME>! To by³oby z³e!~
+@499 = ~Boo trzêsie siê z wœciek³oœci, ¿e ten z³y cz³owiek coœ takiego zaproponowa³! <CHARNAME>, nie s³uchaj go!~
+@500 = ~Zabójstwa nie s¹ mi obce.~
+@501 = ~Powinienem natychmiast wydaæ ciê w³adzom za sugerowanie czegoœ takiego.~ ~Powinnam natychmiast wydaæ ciê w³adzom za sugerowanie czegoœ takiego.~
+@502 = ~Mów dalej.~
+@503 = ~Nie mogê wzi¹æ udzia³u w takim procederze.~
+@504 = ~W takim razie nie bêdê tego proponowa³. Jednak¿e nawet z twoim poczuciem moralnoœci nie powinieneœ mieæ nic przeciwko uwolnieniu Athkatli od pewnej z³owrogiej, wywrotowej organizacji.~ ~W takim razie nie bêdê tego proponowa³. Jednak¿e nawet z twoim poczuciem moralnoœci nie powinnaœ mieæ nic przeciwko uwolnieniu Athkatli od pewnej z³owrogiej, wywrotowej organizacji.~
+@505 = ~Co mia³<PRO_HESHE>bym zrobiæ?~
+@506 = ~Mo¿e bêdzie lepiej dla wszystkich, jeœli od razu zap³acê za podró¿. Wspomina³eœ, jak mi siê zdaje, o 90000 sztuk z³ota?~
+@507 = ~Mo¿esz pomin¹æ zadanie, jeœli tak jest twoja wola, ale wtedy nie bêdê móg³ ci zaoferowaæ obni¿ki, któr¹ jego wykonanie by zapewnia³o. Jest jeszcze jedno zlecenie, które jestem upowa¿niony ci zaproponowaæ w celu obni¿enia kosztów podró¿y.~
+@508 = ~Zanim przejdê dalej, muszê uzyskaæ twoj¹ obietnicê zachowania pe³nej dyskrecji. Ujawnienie osobom trzecim informacji, które mam zamiar ci udzieliæ, mo¿e byæ dla ciebie szkodliwe, a nawet katastrofalne w skutkach.~
+@509 = ~Masz moje s³owo.~
+@510 = ~Nikomu nie pisnê nawet s³owa.~
+@511 = ~Nie mogê z³o¿yæ takiej obietnicy.~
+@512 = ~Nie podoba mi siê to, co mówisz. Nie pope³niê ¿adnego przestêpstwa.~
+@513 = ~Jak chcesz. Gdy bêdziesz z nimi rozmawia³, musisz ich poinformowaæ, ¿e spyta³em, czy s³ysza³eœ o czymœ takim jak "zabójstwo". Jestem pewien, ¿e Inspektor Brega bêdzie mia³ pilniejsze sprawy na g³owie. Œmiem przypuszczaæ, ¿e wszystkie jego sprawy oka¿¹ siê wa¿niejsze od tej.~ ~Jak chcesz. Gdy bêdziesz z nimi rozmawia³a, musisz ich poinformowaæ, ¿e spyta³em, czy s³ysza³aœ o czymœ takim jak "zabójstwo". Jestem pewien, ¿e Inspektor Brega bêdzie mia³ pilniejsze sprawy na g³owie. Œmiem przypuszczaæ, ¿e wszystkie jego sprawy oka¿¹ siê wa¿niejsze.~
+@514 = ~Jednak¿e t¹ swoj¹ wypowiedzi¹ podkopa³eœ moje zaufanie do twojej dyskrecji, wiêc nie bêdê kontynuowa³ tego tematu.~ ~Jednak¿e t¹ swoj¹ wypowiedzi¹ podkopa³aœ moje zaufanie do twojej dyskrecji, wiêc nie bêdê kontynuowa³ tego tematu.~
+@515 = ~Z pewnoœci¹ wiesz o pewnej organizacji w Athkatli znanej jako Z³odzieje Cienia. Mój pracodawca zdaje sobie sprawê, ¿e kompletna jej likwidacja jest niemo¿liwa, ale jej efektywnoœæ zosta³aby wydatnie ograniczona, gdyby uda³o siê zniszczyæ jej siedzibê w Dokach.~
+@516 = ~Dlaczego twojego pracodawcê obchodz¹ Z³odzieje Cienia?~
+@517 = ~A w jaki sposób mnie to pomo¿e?~
+@518 = ~Zrobiê to, o co prosisz.~
+@519 = ~Niemo¿liwe. Ich ochrona jest zbyt silna.~
+@520 = ~Atakuj¹c ich zerwa³<PRO_HESHE>bym sojusz.~
+@521 = ~Jak sobie ¿yczysz.~
+@522 = ~Dobrze. IdŸ do Dzielnicy Rz¹dowej, do gmachu Rady Szeœciu, i odszukaj Ballasa, który jest pomocnikiem zarz¹dcy portu. Zazwyczaj mo¿na go znaleŸæ poœród innych urzêdników. On udzieli ci dalszych instrukcji.~
+@523 = ~Œmieræ zarz¹dcy portu.
+
+Malficjusz skierowa³ mnie do Budynku Rady Szeœciu, gdzie mam siê spotkaæ z Ballasem, pomocnikiem zarz¹dcy portu. Udzieli mi on dalszych informacji zwi¹zanych z zabójstwem, którego muszê dokonaæ, by koszty mojej podró¿y do Maztiki zosta³y obni¿one. S³oñce i pla¿a ju¿ na mnie czekaj¹!~
+@524 = ~Szkoda, ale rzeczywiœcie lepiej nie sk³adaæ fa³szywych obietnic.~
+@525 = ~Jest jeszcze jedno zadanie, które mo¿esz wykonaæ. Interesuje ciê to?~
+@526 = ~To prywatna sprawa, która ciebie nie dotyczy. Wystarczy powiedzieæ, ¿e ich dzia³alnoœæ okaza³a siê byæ k³opotliwa.~
+@527 = ~Ukoñczenie tego zadania znacz¹co obni¿y koszty twojej podró¿y.~
+@528 = ~Jestem pewien, ¿e podo³asz temu zdaniu. Otrzymasz te¿ pomoc, przynajmniej gdy chodzi o dostanie siê do œrodka. Umowa stoi?~
+@529 = ~Tak, zrobiê to.~
+@530 = ~Nie, muszê odmówiæ.~
+@531 = ~Obawiam siê zatem, ¿e pozosta³o nam jedynie finansowe rozwi¹zanie twojego problemu. Jesteœ przygotowany na op³acenie podró¿y?~ ~Obawiam siê zatem, ¿e pozosta³o nam jedynie finansowe rozwi¹zanie twojego problemu. Jesteœ przygotowana na op³acenie podró¿y?~
+@532 = ~Jeœli dobrze pamiêtam, to mia³o byæ 90000 sztuk z³ota?~
+@533 = ~Nie zapominaj o mojej obni¿ce! Zadanie, które mi wyznaczy³eœ, nie by³o wcale ³atwe.~
+@534 = ~Nie mam przy sobie kwoty 50000 sztuk z³ota, a co dopiero wiêkszej. Mogê wróciæ, gdy zdobêdê wiêcej pieniêdzy?~
+@535 = ~Po namyœle spróbujê siê jednak zmierzyæ z tym zadaniem, o którym wspomnia³eœ.~
+@536 = ~Nie zapomnia³em. Uda³o ci siê obni¿yæ cenê do 50000 sztuk z³ota.~
+@537 = ~Mo¿e jednak zmierzê siê ze Z³odziejami Cienia.~
+@538 = ~Zdawa³oby siê, ¿e ¿ycie ludzkie jest warte wiêcej ni¿ 40000 sztuk z³ota, ale niewa¿ne, zap³acê.~
+@539 = ~Poradzê sobie.~
+@540 = ~Doskona³y wybór.~
+@541 = ~Jak sobie ¿yczysz. Bêdê tu czeka³.~
+@542 = ~Z³odzieje Cienia nie maj¹ sojuszników... ani nikogo, kogo nie byliby w stanie zdradziæ. Niemniej jednak muszê uszanowaæ twoj¹ wolê.~
+@543 = ~Ostatnie zadanie mo¿e byæ dla ciebie nieco wiêkszym wyzwaniem.~
+@544 = ~Zrobione?~ [b!mal_05]
+@545 = ~Zrobione.~
+@546 = ~Dok¹d mia³em siê udaæ?~ ~Dok¹d mia³am siê udaæ?~
+@547 = ~Dobrze, naprawdê dobrze. Zapewni³eœ sobie doœæ znaczny upust, ale mo¿esz zrobiæ jeszcze jedn¹ rzecz, by bardziej obni¿yæ koszty podró¿y.~ ~Dobrze, naprawdê dobrze. Zapewni³aœ sobie doœæ znaczny upust, ale mo¿esz zrobiæ jeszcze jedn¹ rzecz, by bardziej obni¿yæ koszty podró¿y.~
+@548 = ~Jestem za.~
+@549 = ~Zrobi³em wystarczaj¹co wiele. Ile kosztowa³aby teraz podró¿?~ ~Zrobi³am wystarczaj¹co wiele. Ile kosztowa³aby teraz podró¿?~
+@550 = ~Przemyœla³em to jeszcze raz. Mam tu pewne obowi¹zki i powinienem siê nimi zaj¹æ.~ ~Przemyœla³am to jeszcze raz. Mam tu pewne obowi¹zki i powinnam siê nimi zaj¹æ.~
+@551 = ~(wzdycha) Szukasz pomocnika zarz¹dcy portu o imieniu Ballas w Budynku Rady Szeœciu. Budynek znajduje siê w Dzielnicy Rz¹dowej.~
+@552 = ~Sugerujê zatem, abyœ dokoñczy³<PRO_HESHE> robotê i to z nale¿ytym poœpiechem.~
+@553 = ~Wiem, ¿e nie. Zawiod³eœ. Nie próbuj nawet zaprzeczaæ.~ ~Wiem, ¿e nie. Zawiod³aœ. Nie próbuj nawet zaprzeczaæ.~
+@554 = ~Wyobra¿asz sobie, abym nic nie wiedzia³ o sprawach moich klientów? Jesteœ w b³êdzie.~
+@555 = ~Wszystko bardzo skomplikowa³eœ, <CHARNAME>.~ ~Wszystko bardzo skomplikowa³aœ, <CHARNAME>.~
+@556 = ~Kosztowa³aby 50000 sztuk z³ota.~
+@557 = ~Dobrze. Tu jest twoje z³oto.~
+@558 = ~W porz¹dku. Opowiedz mi o tej innej mo¿liwoœci obni¿enia ceny.~
+@559 = ~Mam doœæ tego wszystkiego. Zostajê tutaj i zrobiê, co mam zrobiæ.~
+@560 = ~Nie jestem na tyle g³upi, by oczekiwaæ od ciebie lojalnoœci, gdy nie masz powodu mi jej okazywaæ. Mia³em jednak nadziejê, ¿e nie bêdziesz mia³<PRO_HESHE> mnie za g³upca.~
+@561 = ~Nasze porozumienie dobieg³o koñca. ¯yczê ci powodzenia we wszelkich b³êdnych przedsiêwziêciach, w jakich postanowi³eœ wzi¹æ udzia³. Bêdzie ci ono potrzebne.~ ~Nasze porozumienie dobieg³o koñca. ¯yczê ci powodzenia we wszelkich b³êdnych przedsiêwziêciach, w jakich postanowi³aœ wzi¹æ udzia³. Bêdzie ci ono potrzebne.~
+@562 = ~Mam obowi¹zek ciê ostrzec, ¿e jeœli zaakceptujesz to zadanie, nie bêdzie ju¿ odwrotu. Kiedy siê go podejmiesz, to nastêpnym twoim przystankiem bêdzie Maztica albo... grób.~
+@563 = ~Miejmy to ju¿ za sob¹.~
+@564 = ~Jestem gotowy.~ ~Jestem gotowa.~
+@565 = ~Po przemyœleniu sprawy chyba jednak siê wstrzymam.~
+@566 = ~Œwietnie. Zadanie samo w sobie jest proste. Musisz zabiæ przywódcê Z³odziei Cienia, Arana Linvaila.~
+@567 = ~Wykonanie tej misji mo¿e siê jednak okazaæ bardziej skomplikowane. Linvail przebywa w kwaterze g³ównej Z³odziei Cienia w Dokach. To du¿y pomarañczowy budynek na zachodnim skraju. Byæ mo¿e go kojarzysz.~
+@568 = ~W budynku roi siê od ludzi Linvaila. Dobrze by by³o przygotowaæ siê na silny opór.~
+@569 = ~Jesteœ zdecydowany siê tego podj¹æ?~ ~Jesteœ zdecydowana siê tego podj¹æ?~
+@570 = ~Tak.~
+@571 = ~Nadal mogê po prostu zap³aciæ?~
+@572 = ~Przemyœla³em to. Zostajê tutaj, by zaj¹æ siê moimi zobowi¹zaniami.~ ~Przemyœla³am to. Zostajê tutaj, by zaj¹æ siê moimi zobowi¹zaniami.~
+@573 = ~Przemyœl to jeszcze raz, jeœli musisz, ale nie zwlekaj za d³ugo.~
+@574 = ~Oczywiœcie. Posiadasz potrzebn¹ kwotê?~
+@575 = ~90000 sztuk z³ota? Mam je.~
+@576 = ~90000 sztuk z³ota? Nie mam.~
+@577 = ~Tak, mam 50000 sztuk z³ota.~
+@578 = ~Nie mam 50000 sztuk z³ota.~
+@579 = ~Zatem dobrze. Pamiêtaj, masz zabiæ Arana Linvaila. Znajdziesz go w kwaterze Z³odziei Cienia w Dokach. Na zewn¹trz spotkasz przewodnika o imieniu Harold.~
+@580 = ~Spotkanie z mocodawczyni¹ Valen: odwo³ane. 
+
+Jako ¿e Malficjusz zgodzi³ siê rozwi¹zaæ za mnie moje problemy, nie ma wiêkszego sensu iœæ do Dzielnicy Cmentarnej na spotkanie z tajemnicz¹ mocodawczyni¹ Valen. Chocia¿ zagadkowe s³owa Valen brzmia³y intryguj¹co, pytania z nich wynik³e pozostan¹ bez odpowiedzi... przynajmniej przez jakiœ czas.~
+@581 = ~Zbierz pieni¹dze dla Gaelana Bayle'a: zarobi ktoœ inny. 
+
+Przyjaciele Gaelana Bayle'a s¹ byæ mo¿e w stanie mi pomóc, ale odrzuci³em ich ofertê. Wole raczej unikn¹æ ca³ej tej k³opotliwej sytuacji i pozwoliæ Malficjuszowi rozwi¹zaæ za mnie moje problemy.~ ~Zbierz pieni¹dze dla Gaelana Bayle'a: zarobi ktoœ inny. 
+
+Przyjaciele Gaelana Bayle'a s¹ byæ mo¿e w stanie mi pomóc, ale odrzuci³am ich ofertê. Wole raczej unikn¹æ ca³ej tej k³opotliwej sytuacji i pozwoliæ Malficjuszowi rozwi¹zaæ za mnie moje problemy.~
+@582 = ~Dziwne spotkania: zbyt dziwne, by siê nimi przejmowaæ. 
+
+Wys³annik Aster by³ mo¿e tajemniczy, niedoinformowany albo po prostu nie zale¿a³o mu na przekazaniu szczegó³owych informacji o planowanym spotkaniu, ale teraz to niewa¿ne. Zgodzi³em siê, by to Malficjusz rozwi¹za³ za mnie moje problemy, wiêc ta Aster mo¿e siê wypchaæ.~ ~Dziwne spotkania: zbyt dziwne, by siê nimi przejmowaæ. 
+
+Wys³annik Aster by³ mo¿e tajemniczy, niedoinformowany albo po prostu nie zale¿a³o mu na przekazaniu szczegó³owych informacji o planowanym spotkaniu, ale teraz to niewa¿ne. Zgodzi³am siê, by to Malficjusz rozwi¹za³ za mnie moje problemy, wiêc ta Aster mo¿e siê wypchaæ.~
+@583 = ~¯yjesz. Zak³adam wiêc, ¿e ci siê powiod³o?~ [b!mal_07]
+@584 = ~Nie mogê przedostaæ siê przez drzwi prowadz¹ce do jego kryjówki.~
+@585 = ~Jeszcze nie. Potrzebujê pomocy.~
+@586 = ~Nie, Aran nadal ¿yje. Czy mogê po prostu op³aciæ moj¹ podró¿?~
+@587 = ~Aran Linvail nie ¿yje. Kiedy odp³ywamy?~
+@588 = ~Tak, uda³o siê, ale cena za to by³a wysoka.~
+@589 = ~Nie, jeszcze nie.~
+@590 = ~Pamiêtam, ¿e mówi³em ci, ¿e przewodnik bêdzie czeka³ na zewn¹trz budynku. On powinien mieæ klucz. Doradzam poœpiech.~
+@591 = ~<CHARNAME>, nie jestem tu po to, by prowadziæ ciê za r¹czkê. Sam<PRO_HESHE> bêdziesz musia³<PRO_HESHE> znaleŸæ sposób na pokonanie Arana Linvaila.~
+@592 = ~Ostrzega³em ciê, ¿e jeœli podejmiesz siê tego zadania, to nie bêdzie od niego odwrotu. Obawiam siê, ¿e musisz doprowadziæ to do koñca. Powodzenia.~
+@593 = ~Dobra robota. Rozka¿ê przygotowaæ okrêt. Spotkaj siê ze mn¹ w Dokach przy latarni morskiej, gdy ju¿ odpoczniesz i uzupe³nisz zapasy.~
+@594 = ~Có¿, w takim razie wróæ tu, gdy ju¿ ci siê uda.~
+@595 = ~Wspaniale. Mo¿emy odp³ywaæ, gdy tylko bêdziesz mia³<PRO_HESHE> 15000 sztuk z³ota.~
+@596 = ~Wspaniale. Mo¿emy odp³ywaæ, gdy tylko bêdziesz mia³<PRO_HESHE> 50000 sztuk z³ota.~
+@597 = ~Chcesz prze¿yæ coœ wstrz¹saj¹cego, skarbie?~ [FESTH04]
+@598 = ~W³aœciwie to tak.~
+@599 = ~Wybacz, pani, ale szukam osoby o imieniu Leyt.~
+@600 = ~Przychodzê po dokumenty.~
+@601 = ~Chcê widzieæ, jak twoja krew s¹czy siê przez szpary w bruku, jeœli o to ci chodzi.~
+@602 = ~To w³aœnie ja. Czym mogê s³u¿yæ?~
+@603 = ~Malficjusz powiedzia³, ¿e bêdziesz dla mnie mieæ pewne dokumenty.~
+@604 = ~Porozmawiajmy znów o czymœ wstrz¹saj¹cym.~
+@605 = ~Dokumenty albo ¿ycie, wybieraj.~
+@606 = ~No to trafi³eœ pod w³aœciwy adres. Jest tu ma³y, przytulny zak¹tek...~ ~No to trafi³aœ pod w³aœciwy adres. Jest tu ma³y, przytulny zak¹tek...~
+@607 = ~Och nie! Myœla³em, ¿e ¿artowa³aœ!~ ~Och nie! Myœla³am, ¿e ¿artowa³aœ!~
+@608 = ~Od razu do rzeczy. Mój typ kobiety!~
+@609 = ~Jednak nie, moja ukochana nigdy by mi nie wybaczy³a.~ ~Jednak nie, mój ukochany nigdy by mi nie wybaczy³.~
+@610 = ~Ech... widzê, ¿e jednak nie by³oby w tym nic wstrz¹saj¹cego. Chcesz jeszcze czegoœ?~
+@611 = ~Szukam Leyt.~
+@612 = ~Jeszcze nikt mnie tak nie obrazi³!~
+@613 = ~Iiiiiii!~
+@614 = ~Piêædziesi¹t sztuk z³ota.~
+@615 = ~Proszê.~
+@616 = ~To strasznie du¿o. Mo¿e dziesiêæ?~
+@617 = ~Nie mam przy sobie takiej iloœci z³ota.~
+@618 = ~To niegrzecznie, ale podoba mi siê. Co ty na to?~
+@619 = ~W porz¹dku!~
+@620 = ~O tak. Poka¿, co tam masz...~
+@621 = ~No, to z pewnoœci¹ by³o przyjemne!~
+@622 = ~Ale, jak przypuszczam, jesteœ tu z innego powodu?~
+@623 = ~Nie pamiêtam. Mo¿e przypomnê sobie, jeœli jeszcze trochê razem poæwiczymy.~
+@624 = ~Przepraszam, nie mia³am zamiaru rozbudzaæ w tobie nadziei, po prostu oœwietlenie nie jest tu najlepsze. Przychodzisz po dokumenty?~
+@625 = ~Chyba poder¿nê ci gard³o za ten komentarz.~
+@626 = ~Nic z tego, tamten okrêt ju¿ odp³yn¹³. Teraz mo¿emy rozmawiaæ tylko o tych papierach albo wcale.~
+@627 = ~Poproszê wiêc o dokumenty.~
+@628 = ~Zatem wcale.~
+@629 = ~Mo¿e po prostu powinienem wzi¹æ si³¹ to, czego chcê!~ ~Mo¿e po prostu powinnam wzi¹æ si³¹ to, czego chcê!~
+@630 = ~Proszê bardzo. To przyjemnoœæ robiæ z tob¹ interesy.~
+@631 = ~Ach, co mi tam. Przecie¿ nic mnie nie kosztowa³y.~
+@632 = ~Ach, co mi tam. W tej chwili chcê ju¿ tylko pozbyæ siê tego przeklêtego pude³ka. Proszê.~
+@633 = ~Jak wolisz. Przychodzisz tu z jakiegoœ powodu?~
+@634 = ~Masz pewne dokumenty?~
+@635 = ~Nie, bez powodu.~
+@636 = ~Lepiej nie przeci¹gaj struny. Chcesz te dokumenty czy nie?~
+@637 = ~Pewnie.~
+@638 = ~Jak wolisz.~
+@639 = ~¯egnaj!~
+@640 = ~(Na pude³ku nie widaæ dziurki od klucza, posiada ono jednak jakiœ rodzaj zamka. Wydaje siê, ¿e po rozwi¹zaniu czterech ³amig³ówek bêdzie mo¿na je otworzyæ.)~
+@641 = ~(spróbuj u³o¿yæ pierwsz¹ uk³adankê)~
+@642 = ~(od³ó¿ pude³ko)~
+@643 = ~(Pude³ko otwiera siê, odkrywaj¹c ma³¹ rolkê dokumentów.)~
+@644 = ~(Widzisz ró¿nokolorowe klejnoty umieszczone w szeregu oraz przesuwan¹ taœmê, na której rozmieszczono kolejne klejnoty. Kamienie znajduj¹ce siê w szeregu to: ametyst, ró¿owy kwarc i kryszta³ górski. Na taœmie znajduj¹ siê: szmaragd, cytryn, granat i szafir. Co chcesz zrobiæ?)~
+@645 = ~(przesuñ do szeregu szmaragd)~
+@646 = ~(przesuñ do szeregu cytryn)~
+@647 = ~(przesuñ do szeregu granat)~
+@648 = ~(przesuñ do szeregu szafir)~
+@649 = ~(od³ó¿ pude³ko)~
+@650 = ~(Nic siê nie dzieje.)~
+@651 = ~(S³yszysz klikniêcie.)~
+@652 = ~(Liczby: 6, 11, 21 i 41 s¹ zapisane w szeregu. Za ostatni¹ liczb¹ znajduje siê suwak z wyrytymi liczbami: 35, 103, 81 i 4. Co chcesz zrobiæ?)~
+@653 = ~(przesuñ suwak, by liczba 35 koñczy³a szereg)~
+@654 = ~(przesuñ suwak, by liczba 103 koñczy³a szereg)~
+@655 = ~(przesuñ suwak, by liczba 81 koñczy³a szereg)~
+@656 = ~(przesuñ suwak, by liczba 4 koñczy³a szereg)~
+@657 = ~(Widzisz szereg utworzony z wygrawerowanych figur, a za nimi suwak z kolejnymi figurami. Figury tworz¹ce szereg to: kwadrat, trójk¹t i oœmiok¹t. Figury na suwaku to: linia, krzy¿, gwiazda, okr¹g i piêciok¹t. Co chcesz zrobiæ?)~
+@658 = ~(przesuñ suwak, by umieœciæ liniê na koñcu szeregu)~
+@659 = ~(przesuñ suwak, by umieœciæ krzy¿ na koñcu szeregu)~
+@660 = ~(przesuñ suwak, by umieœciæ gwiazdê na koñcu szeregu)~
+@661 = ~(przesuñ suwak, by umieœciæ okr¹g na koñcu szeregu)~
+@662 = ~(przesuñ suwak, by umieœciæ piêciok¹t na koñcu szeregu)~
+@663 = ~(Widzisz szereg utworzony z nastêpuj¹cych symboli: zielone promienie strzelaj¹ce z d³oni w czarnej rêkawicy, bia³y p³atek œniegu oraz czarny dysk na fioletowym kole. Obok znajduje siê przesuwany pasek, a na nim kolejne symbole: waga, d³oñ w metalowej rêkawicy, maska oraz wschód s³oñca wysadzany klejnotami.)~
+@664 = ~(Teraz...)~
+@665 = ~(ustaw wagê w szeregu z pozosta³ymi symbolami)~
+@666 = ~(ustaw d³oñ w rêkawicy w szeregu z pozosta³ymi symbolami)~
+@667 = ~(ustaw maskê w szeregu z pozosta³ymi symbolami)~
+@668 = ~(ustaw wschód s³oñca w szeregu z pozosta³ymi symbolami)~
+@669 = ~(od³ó¿ pude³ko)~
+@670 = ~(Wœród oznaczeñ na pude³ku rozpoznajesz œwiête symbole bóstw Faerunu. Odnosz¹ siê one do nastêpuj¹cych bogów: Bane'a, Auril oraz Shar. Symbole na ruchomym pasku nawi¹zuj¹ do Tyra, Torma, Maski i Lathandera. Teraz...)~
+@671 = ~(ustaw symbol Tyra w szeregu z pozosta³ymi symbolami)~
+@672 = ~(ustaw symbol Torma w szeregu z pozosta³ymi symbolami)~
+@673 = ~(ustaw symbol Maski w szeregu z pozosta³ymi symbolami)~
+@674 = ~(ustaw symbol Lathandera w szeregu z pozosta³ymi symbolami)~
+@675 = ~Mam ma³o czasu, wiêc siê streszczaj, prostaku.~ [NOBMA03]
+@676 = ~Mogê ci w czymœ pomóc?~
+@677 = ~Co tu robisz?~
+@678 = ~W tej chwili niczego nie potrzebujê.~
+@679 = ~Przys³a³ mnie Malficjusz.~
+@680 = ~I co? Otrzymam nagrodê za wykonanie twojej brudnej roboty?~
+@681 = ~Dziwiê siê, ¿e ciê tutaj widzê. Myœla³em, ¿e do tej pory bêdziesz ju¿ ozdob¹ jakiejœ szubienicy.~ ~Dziwiê siê, ¿e ciê tutaj widzê. Myœla³am, ¿e do tej pory bêdziesz ju¿ ozdob¹ jakiejœ szubienicy.~
+@682 = ~Wobec tego nie mam dla ciebie czasu. ¯egnam.~
+@683 = ~Dbam o to, ¿eby port w Athkatli, najwiêkszy w Amn i ustêpuj¹cy wielkoœci¹ tylko temu w Waterdeep, dzia³a³ z najwiêksz¹ mo¿liw¹ wydajnoœci¹. Jak mo¿esz sobie wyobraziæ, jestem bardzo zajêtym cz³owiekiem.~
+@684 = ~Co tu robisz w takim razie? Nie powinieneœ byæ w Dokach?~
+@685 = ~Co dok³adnie robisz?~
+@686 = ~Wydaje siê nudne.~
+@687 = ~Nie wygl¹dasz na przesadnie zajêtego.~
+@688 = ~Szukam informacji o kimœ pojmanym przez Zakapturzonych Czarodziei.~
+@689 = ~¯egnaj.~
+@690 = ~Nie mam czasu na takie g³upoty. ¯egnaj.~
+@691 = ~Bardzo wiele rzeczy. ¯egnaj.~
+@692 = ~Proponujê spytaæ któregoœ Zakapturzonego Czarodzieja. ¯egnaj.~
+@693 = ~Hmf.~
+@694 = ~Musisz ¿artowaæ... choæ widzê, ¿e jednak nie. Dobrze, bêdê siê streszcza³. Malficjusz zapewni³ sobie twoje milczenie?~
+@695 = ~Moje milczenie jest jak moja lojalnoœæ: zarezerwowane dla tego, kto zap³aci najwiêcej.~
+@696 = ~Przyrzek³em, ¿e bêdê milcza³.~ ~Przyrzek³am, ¿e bêdê milcza³a.~
+@697 = ~Mniej wiêcej.~
+@698 = ~Po prostu powiedz, czego ode mnie oczekujesz.~
+@699 = ~To nie do przyjêcia. Zmiataj st¹d, zanim ka¿ê ciê aresztowaæ za spisek.~
+@700 = ~Spokojnie, nie puszczê pary z ust.~
+@701 = ~To by³oby œmieszne. W koñcu to ty chcesz, by ktoœ zgin¹³.~
+@702 = ~By³byœ martwy, zanim zd¹¿y³byœ wypowiedzieæ te s³owa.~
+@703 = ~Chcê, ¿ebyœ usun¹³ zarz¹dcê portu Nadora.~ ~Chcê, ¿ebyœ usunê³a Zarz¹dcê Portu Nadora.~
+@704 = ~Dlaczego?~
+@705 = ~To banalnie ³atwe.~
+@706 = ~Chyba nie da³o siê znaleŸæ ³atwiejszego zlecenia.~
+@707 = ~Zrobiê to.~
+@708 = ~Gdzie mogê go znaleŸæ?~
+@709 = ~Po przemyœleniu tej sprawy jednak odmówiê.~
+@710 = ~Wspaniale.~
+@711 = ~Mylisz siê. Prosi³em Malficjusza tylko o to, by postara³ siê o twoje milczenie. Nie mówi³em mu, w jakim celu. Niemniej jednak wydajesz mi siê osob¹ niegodn¹ zaufania i nie chcê mieæ z tob¹ wiêcej nic wspólnego. ¯egnam.~
+@712 = ~Byæ mo¿e, ale jak d³ugo by potrwa³o, zanim i ciebie by zabito? Nie, nie by³<PRO_HESHE>byœ na tyle g³upi<PRO_HESHE>. A teraz idŸ sobie.~
+@713 = ~Musisz byæ nowy w Athkatli. Nikt obeznany z polityk¹ tego miasta nie powiedzia³by czegoœ tak niem¹drego. Ambicja, mój dobry panie, to si³a sprawcza w Mieœcie Pieni¹dza.~ ~Musisz byæ nowa w Athkatli. Nikt obeznany z polityk¹ tego miasta nie powiedzia³by czegoœ tak niem¹drego. Ambicja, moja dobra pani, to si³a sprawcza w Mieœcie Pieni¹dza.~
+@714 = ~Interesuje ciê to?~
+@715 = ~Uwiera mnie myœl, ¿e mam to zrobiæ z zimn¹ krwi¹.~
+@716 = ~Zapamiêtam sobie twoj¹ opiniê. Wchodzisz w to?~
+@717 = ~Zadanie takie jak to wymaga oczywiœcie dyskrecji. Napaœæ na niego w jego biurze mog³aby siê okazaæ nieskuteczna i prawdopodobnie zgubna dla sprawców.~
+@718 = ~Wyrafinowane metody odnios¹ w tej sytuacji du¿o lepszy skutek, a najbardziej wyrafinowanym narzêdziem zabójcy jest trucizna. Zarz¹dca portu Nador bêdzie tego wieczora wieczerza³ w posiad³oœci Vulovy. Jako ¿e Nador jest na szczególnej diecie, potrawy dla niego bêd¹ przygotowywane osobno i wy³¹cznie on bêdzie je jad³.~
+@719 = ~Kucharz Vulovy spodziewa siê dostawy pewnych rzadkich sk³adników na posi³ki dla Nadora. Kiedy ty bêdziesz w ich posiadaniu, kamerdyner pokieruje ciê prosto do kuchni.~
+@720 = ~Wygl¹da na to, ¿e wielu ludzi ju¿ o tym wie.~
+@721 = ~Czy to nie wyda siê oczywiste, ¿e Nador zosta³ otruty, skoro bêdzie jad³ jedzenie, którego nie tknie nikt inny?~
+@722 = ~Gdzie mam zdobyæ te "specjalne sk³adniki"?~
+@723 = ~Nie. Nie uczyniê tego.~
+@724 = ~To szkoda, ale masz prawo odmówiæ.~
+@725 = ~Muszê ci przypomnieæ o obietnicy zachowania milczenia. Jeœli powiesz o tym komukolwiek, nasz przyjaciel w gospodzie Mithrest odmówi dalszej wspó³pracy z tob¹.~
+@726 = ~Zrozumia³em.~ ~Zrozumia³am.~
+@727 = ~Zobaczymy.~
+@728 = ~Wystarczaj¹co niewielu.~
+@729 = ~Stan zdrowia, który wymusza na zarz¹dcy trzymanie siê zaleconej diety, równie¿ mo¿e pos³u¿yæ jako wyjaœnienie jego nag³ej œmierci. Ten szczególny "sk³adnik" zosta³ wybrany w³aœnie dlatego, bo nie wzbudzi zbytnich podejrzeñ.~
+@730 = ~Na drugim piêtrze gospody Pod Piêcioma Dzbanami, w du¿ym salonie za pokojami goœcinnymi, czeka pewien cz³owiek. On zaopatrzy ciê w to, czego potrzebujesz.~
+@731 = ~A teraz, jeœli wybaczysz, muszê wróciæ do biura i zaj¹æ siê nu¿¹c¹ papierkow¹ robot¹. ¯egnaj.~
+@732 = ~Zrobisz to? Tak albo nie.~
+@733 = ~Szkoda, ale potrafiê to zrozumieæ. Tak siê sk³ada, ¿e mogê ciê skontaktowaæ z kimœ, kto oszczêdzi ci koniecznoœci uczestniczenia w tym osobiœcie.~
+@734 = ~Powiedz mi wiêcej.~
+@735 = ~Nie, w ogóle nie mogê tego zrobiæ.~
+@736 = ~Jego imiê to Wael. Z tego co pamiêtam, bywa czêsto w karczmie Delosara. Zazwyczaj mo¿na go znaleŸæ na pierwszym piêtrze.~
+@737 = ~Odszukam go.~
+@738 = ~Nie jestem pewny... nie, nie mogê tego zrobiæ.~ ~Nie jestem pewna... nie, nie mogê tego zrobiæ.~
+@739 = ~Zrób to.~
+@740 = ~Wierzê, ¿e nasz przyjaciel Malficjusz ustali³ z tob¹ nagrodê. Jeœli dobrze rozumiem, to ma ona formê znacznego obni¿enia kosztów podró¿y.~
+@741 = ~Jestem bardzo zajêtym cz³owiekiem, zatem ¿egnaj.~
+@742 = ~Och, oczywiœcie, by³o jakieœ œledztwo, ale nie by³o ¿adnych dowodów œwiadcz¹cych o mojej winie.~
+@743 = ~A ciebie, jeœli zaraz st¹d nie wyjdziesz, oskar¿ê o nêkanie.~
+@744 = ~Aach, poznaæ cz³eka bywa³ego i doœwiadczonego.~ [MYSTR01]
+@745 = ~Kim jesteœ?~
+@746 = ~Ballas powiedzia³, ¿e masz coœ, czego potrzebujê.~
+@747 = ~Wiesz, gdzie mo¿na kupiæ dyskretnie kilka rzeczy?~
+@748 = ~Przepraszam, ¿e przeszkadzam. Ju¿ sobie idê.~
+@749 = ~Nie jestem nikim wa¿nym, ale mo¿esz nazywaæ mnie Vhellon.~
+@750 = ~Mo¿esz mi powiedzieæ, gdzie mogê znaleŸæ pewne interesuj¹ce towary?~
+@751 = ~Ballas powiedzia³, ¿e masz coœ dla mnie.~
+@752 = ~Co warto zobaczyæ w Dzielnicy Mostów?~
+@753 = ~No nie mów! Có¿, jeœli masz pieni¹dze, dostaniesz to, czego potrzebujesz. Piêædziesi¹t sztuk z³ota.~
+@754 = ~Dam ci dwadzieœcia.~
+@755 = ~Proszê.~
+@756 = ~Nie mam tylu pieniêdzy.~
+@757 = ~Mogê mieæ coœ, co ciê zainteresuje. Tylko cicho, rozumiesz?~
+@758 = ~Poka¿ mi, co masz.~
+@759 = ~Nie, dziêki.~
+@760 = ~¯aden problem.~
+@761 = ~Czy ja wygl¹dam na przewodnika wycieczek? IdŸ zapytaæ któregoœ kupca na ulicy.~
+@762 = ~Jesteœ sprzedawc¹?~
+@763 = ~Nie ma potrzeby byæ niegrzecznym.~
+@764 = ~I gotowe.~
+@765 = ~To nie wystarczy.~
+@766 = ~Och, w porz¹dku. Oto pieni¹dze.~
+@767 = ~Nie mam takiej iloœci z³ota.~
+@768 = ~Wróæ, gdy bêdziesz mia³<PRO_HESHE>.~
+@769 = ~Mów, jeœli chcesz.~ [STHMA02]
+@770 = ~Ponoæ jesteœ dobry w rozwi¹zywaniu problemów.~
+@771 = ~Potrzebujê przys³ugi.~
+@772 = ~Myœla³em, ¿e mogê to zrobiæ, ale nie potrafiê.~ ~Myœla³am, ¿e mogê to zrobiæ, ale nie potrafiê.~
+@773 = ~Czego ci trzeba?~
+@774 = ~Ballas poprosi³ mnie o otrucie zarz¹dcy portu Nadora.~
+@775 = ~Niczego. Nie mogê tego zrobiæ. Po prostu nie mogê.~
+@776 = ~Bywa. ¯yczê powodzenia.~
+@777 = ~To nie³atwe zadanie. Sto sztuk z³ota.~
+@778 = ~Proszê. Tylko nic wiêcej mi o tym nie mów.~
+@779 = ~Nie mam takiej kwoty.~
+@780 = ~Szkoda. Có¿, nigdzie siê st¹d nie ruszam.~
+@781 = ~Pozdrawiam ciê. Jak siê miewasz?~ [B!NADOR]
+@782 = ~Jesteœ œwiadom, ¿e twój pomocnik próbuje zorganizowaæ zamach na twoje ¿ycie?~
+@783 = ~Chcia³<PRO_HEHSE>bym wynaj¹æ statek.~
+@784 = ~Jestem zarz¹dc¹ portu. Nadzorujê stosowanie przepisów obowi¹zuj¹cych w porcie. Upewniam siê, ¿e przewoŸnicy dzia³aj¹ zgodnie z polityk¹ Athkatli, ¿e c³a portowe s¹ p³acone w odpowiedniej wysokoœci oraz poœredniczê we wszelkich sporach, jakie mog¹ z tego tytu³u wynikn¹æ.~
+@785 = ~Musisz byæ bardzo zajêtym cz³owiekiem.~
+@786 = ~Ach, to teraz ju¿ wiem.~
+@787 = ~Zatem... czy mogê naj¹æ statek?~
+@788 = ~Dobrego dnia.~
+@789 = ~Coœ takiego! Powinieneœ niezw³ocznie zawiadomiæ o tym G³ównego Inspektora Bregê!~ ~Coœ takiego! Powinnaœ niezw³ocznie zawiadomiæ o tym G³ównego Inspektora Bregê!~
+@790 = ~A teraz wybacz, ale naprawdê muszê ju¿ iœæ. Mam wa¿n¹ sprawê, któr¹ muszê siê zaj¹æ dziœ wieczór, a wygl¹da na to, ¿e bêdê musia³ zatrudniæ dodatkowych ludzi do ochrony.~
+@791 = ~Chcia³bym ci pomóc, ale obawiam siê, ¿e bêdziesz musia³<PRO_HESHE> znaleŸæ kapitana gotowego spe³niæ twoj¹ proœbê. Moje biuro zajmuje siê sprawami zwi¹zanymi z portem, a nie statkami, które do niego zawijaj¹. Dobrego dnia.~
+@792 = ~Rzeczywiœcie, mam takie opóŸnienie, ¿e dziwiê siê, i¿ dot¹d nie spotka³em samego siebie przychodz¹cego do pracy. Przyjemnie by³o z tob¹ rozmawiaæ. ¯yczê udanego pobytu w Mieœcie Pieni¹dza.~
+@793 = ~Tak jest. ¯yczê ci udanego pobytu w Athkatli.~
+@794 = ~Tobie równie¿, <PRO_LADYLORD>.~
+@795 = ~Rozumiem, ¿e muszê ci podziêkowaæ za to, ¿e jeszcze ¿yjê?~
+@796 = ~To prawda. Masz dla mnie jak¹œ nagrodê?~
+@797 = ~Tak w³aœnie nale¿a³o uczyniæ.~
+@798 = ~Nie mia³em z tym nic wspólnego.~ ~Nie mia³am z tym nic wspólnego.~
+@799 = ~Teraz chyba jesteœ ostro¿niejszy?~
+@800 = ~Mogê ci zaoferowaæ ten ma³y wyraz wdziêcznoœci. To niewiele, ale moje wydatki ostatnio wzros³y, przy ca³ej tej ochronie i w ogóle.~
+@801 = ~Pomyœla³em podobnie, ale moje zdanie nie jest, co oczywista, obiektywne.~
+@802 = ~Jesteœ zbyt skromny, przyjmij jednak moje podziêkowania.~ ~Jesteœ zbyt skromna, przyjmij jednak moje podziêkowania.~
+@803 = ~Tak, po prostu muszê byæ. Czasami czujê siê jak wiêzieñ we w³asnym domu, ale przynajmniej jestem bezpieczny... choæ z drugiej strony wczeœniej te¿ czu³em siê bezpieczny, wiêc zobaczymy, co siê wydarzy.~
+@804 = ~Przyjêcia u lorda Vulovy s¹ zawsze takie przyjemne.~
+@805 = ~Powiedz, czy nie spotkaliœmy siê ostatniej wiosny na wieczorku towarzyskim u lady Jysstev?~
+@806 = ~Mam nadziejê, ¿e nied³ugo podadz¹ kolacjê. Nabra³em du¿ego apetytu.~
+@807 = ~Czy to nie cudowny wieczór?~
+@808 = ~Mam dostawê dla kuchni.~
+@809 = ~Nie, nie s¹dzê.~
+@810 = ~Spodziewaj¹ siê ciebie. Po prostu zanieœ to do kuchni, dobrze? Kucharz jest w œrodku.~
+@811 = ~Oczekujemy dostawy, ale nie widzê ¿adnych pakunku. Mo¿e zapomnia³eœ wzi¹æ go ze sob¹?~
+@812 = ~Niewa¿ne, mamy jeszcze trochê czasu. Przynieœ to, ale jak najszybciej. Ju¿ opóŸniliœmy kolacjê najbardziej, jak by³o to mo¿liwe.~
+@813 = ~Zatem idŸ sobie. Spodziewamy siê wa¿nej dostawy i wygl¹da na to, ¿e siê opóŸnia.~
+@814 = ~Chcesz czegoœ, przybyszu?~ [GENMG04]
+@815 = ~Mam coœ dla ciebie.~
+@816 = ~Nie, niczego nie chcê.~
+@817 = ~W takim razie daj mi to. Ju¿ od d³u¿szego czasu wrzeszcz¹, by podaæ kolacjê.~
+@818 = ~Nie s¹dzê. Przynieœ to i miejmy to ju¿ za sob¹.~
+@819 = ~W takim razie wynocha z mojej kuchni.~
+@820 = ~Och, w jakim to czaruj¹cym towarzystwie siê znalaz³em! Zostañ, proszê, po kolacji, a z chêci¹ oprowadzê ciê po mojej posiad³oœci.~
+@821 = ~ChodŸ no tu, moja s³odka ma³a elfko, i usi¹dŸ mi na kolanach.~
+@822 = ~Wydaje mi siê, ¿e nie powinnam tego robiæ, panie.~
+@823 = ~Nie obawiaj siê, moja droga. Jestem dobrze wychowanym starszym panem.~
+@824 = ~Przepraszam... muszê iœæ.~
+@825 = ~Hej, czy to nie ma³a Nalia d'Arnise!~
+@826 = ~Wyros³aœ na ca³kiem ³adn¹ m³od¹ kobietê. Tak... w rzeczy samej bardzo ³adn¹.~
+@827 = ~Lordzie Vulova, ani trochê siê pan nie zmieni³. Szkoda.~
+@828 = ~Dziwne, ale nie pamiêtam, ¿ebym ciê zaprasza³. Muszê sprawdziæ listê goœci.~
+@829 = ~Jeœli dorêczasz jakieœ przesy³ki, za³atw to z ³aski swojej z kamerdynerem.~
+@830 = ~Przepraszam, ale to prywatna rozmowa.~
+@831 = ~Jeœli spotkasz tego przeklêtego kucharza, to spytaj go, dlaczego kolacja tak siê opóŸnia.~
+@832 = ~Ach, czy¿ to nie Anomen Delryn? Czy kiedykolwiek przedstawi³am ciê mojej córce?~
+@833 = ~Nie, pani, nie uczyni³aœ tego.~
+@834 = ~Natychmiast powinniœmy to naprawiæ!~
+@835 = ~Proszê ciê, pani! To miejsce niezbyt siê nadaje do zawierania znajomoœci, a moje obowi¹zki nie pozwalaj¹ mi na oddawanie siê przyjemnoœciom. Wybacz mi, proszê.~
+@836 = ~Lord Vulova powinien naprawdê ograniczyæ liczbê zaproszeñ. Nie pamiêtam, kiedy ostatnio by³am w takim t³umie.~
+@837 = ~Zwyczaje, jeœli chodzi o ubiór, uleg³y ostatnio okropnemu rozluŸnieniu. Pamiêtam czasy, kiedy nikt za ¿adne skarby œwiata nie zjawi³by siê w zbroi na takim przyjêciu.~
+@838 = ~S³ysza³em, ¿e ceny ¿elaza znów id¹ w górê. le to wró¿y temu miastu, mówiê ci.~
+@839 = ~Czy my siê znamy? Nie, jestem pewny, ¿e nie znam nikogo z tak niskich sfer.~
+@840 = ~A¿ nie mogê uwierzyæ w mojego pecha. Ledwie kilka dni temu skradziono mi cenne dokumenty. A wydawa³oby siê, ¿e s¹ bezpieczne, szczególnie ¿e tyle zap³aci³em za tamt¹ kasetkê.~
+@841 = ~Posiadam informacje, które mog¹ ciê zainteresowaæ. Pomocnik zarz¹dcy portu, Ballas, knuje spisek na ¿ycie swojego zwierzchnika, Nadora.~
+@842 = ~Doprawdy? Zak³adam, ¿e posiadasz jakiœ dowód na poparcie tego oskar¿enia?~
+@843 = ~Nie, w³aœciwie to nie.~
+@844 = ~Próbowa³ mnie wynaj¹æ, bym zabi³<PRO_HESHE> Nadora.~
+@845 = ~Jakiego rodzaju dowód?~
+@846 = ~Nie mo¿emy zabraæ siê za Ballasa nie maj¹c twardych dowodów, ale poœlê paru ch³opaków, by siê temu przyjrzeli. Dziêkujê, ¿e zwróci³eœ mi na to uwagê.~ ~Nie mo¿emy zabraæ siê za Ballasa nie maj¹c twardych dowodów, ale poœlê paru ch³opaków, by siê temu przyjrzeli. Dziêkujê, ¿e zwróci³aœ mi na to uwagê.~
+@847 = ~Co? Masz na to jakiœ dowód? Potrzebujê czegoœ solidnego, ¿eby mieæ punkt zaczepienia. Kontraktu czy czegoœ takiego.~
+@848 = ~Nie, nie mam kontraktu.~
+@849 = ~Jakiego dowodu chcesz?~
+@850 = ~A ludzie rzeczywiœcie tak robi¹? Podpisuj¹ kontrakty na zabicie kogoœ?~
+@851 = ~Mo¿esz przynajmniej powiedzieæ zarz¹dcy Nadorowi, ¿eby zrezygnowa³ z bankietu w posiad³oœci Vulovy? To tam ma siê to wydarzyæ.~
+@852 = ~Powinienem by³ wiedzieæ, ¿e nie warto oddawaæ tej sprawy w rêce biurokratów.~ ~Powinnam by³a wiedzieæ, ¿e nie warto oddawaæ tej sprawy w rêce biurokratów.~
+@853 = ~Coœ, na czym bêdê móg³ siê oprzeæ. Dokument, œwiadek, coœ wiêcej ni¿ twoje s³owo przeciwko jego s³owu.~
+@854 = ~Keldorn by³ przy tym obecny. Mo¿e opowiedzieæ o tym, co widzia³.~
+@855 = ~Anomen wszystko s³ysza³. Mo¿e potwierdziæ moje s³owa.~
+@856 = ~Aerie, mo¿esz powiedzieæ G³ównemu Inspektorowi Brega, co s³ysza³aœ?~
+@857 = ~Haer'dalis mo¿e potwierdziæ wszystko to, co powiedzia³em.~ ~Haer'dalis mo¿e potwierdziæ wszystko to, co powiedzia³am.~
+@858 = ~Jaheiro, zechcesz opowiedzieæ panu?~
+@859 = ~Yoshimo, gdybyœ móg³...~
+@860 = ~Uczynisz nam ten zaszczyt, Edwinie?~
+@861 = ~Cernd poprze moje s³owa.~
+@862 = ~Z pewnoœci¹ uwierzysz Nalii.~
+@863 = ~Viconio...~
+@864 = ~Mo¿esz mu to opowiedzieæ bez mieszania w to swojej rodziny, Janie?~
+@865 = ~Minsc na pewno by ciê nie ok³ama³.~
+@866 = ~Uwierzy³byœ s³ysz¹c to od Korgana?~
+@867 = ~Mazzy zna ca³¹ prawdê.~
+@868 = ~Mam twoje poparcie, prawda Valygarze?~
+@869 = ~Niczego takiego nie mam.~
+@870 = ~Skrytobójstwo ma siê wydarzyæ w posiad³oœci Vulovy. Jeœli siê pospieszysz, mo¿e z³apiesz ich na gor¹cym uczynku.~
+@871 = ~Nie, chyba ¿e s¹ g³upi. A poniewa¿ Ballas taki nie jest, to przypuszczam, ¿e tego nie zrobi³.~
+@872 = ~Potrzeba czegoœ innego.~
+@873 = ~Posiad³oœæ Vulovy, powiadasz? Ka¿ê tam natychmiast pos³aæ kilku ludzi.~
+@874 = ~<CHARNAME> mówi prawdê, G³ówny Inspektorze. S³ysza³em na w³asne uszy, jak Ballas spiskowa³ przeciwko zarz¹dcy portu Nadorowi.~
+@875 = ~To prawda. S³ysza³em, jak pomocnik zarz¹dcy portu spiskowa³ przeciwko swojemu prze³o¿onemu.~
+@876 = ~To wszystko prawda, Inspektorze! Pomocnik zarz¹dcy portu Ballas to bardzo z³y cz³owiek!~
+@877 = ~Dlaczego siê tym wszystkim zajmujemy to dla mnie tajemnica, ale <CHARNAME> mówi prawdê.~
+@878 = ~Ten Ballas zrobi³ to, co mówi <CHARNAME>. Masz moje s³owo.~
+@879 = ~<CHARNAME>, jesteœ pewien, ¿e chcesz, abym siê w to miesza³? W ka¿dym razie jest tak, jak on mówi, Inspektorze.~ ~<CHARNAME>, jesteœ pewna, ¿e chcesz, abym siê w to miesza³? W ka¿dym razie jest tak, jak ona mówi, Inspektorze.~
+@880 = ~Tak tak, ju¿ dobrze. Uwierz mu, Inspektorze. Ballas jest winny tego, o co siê go oskar¿a.~ ~Tak tak, ju¿ dobrze. Uwierz jej, Inspektorze. Ballas jest winny tego, o co siê go oskar¿a.~
+@881 = ~Zrobiê to. Inspektorze Brega, Ballas planuje pope³niæ morderstwo.~
+@882 = ~To prawda, G³ówny Inspektorze Brega. S³ysza³am, jak Ballas planuje pope³niæ morderstwo.~
+@883 = ~Oczekujesz, ¿e dam wiarê s³owu drowa?~
+@884 = ~No no, <CHARNAME>, to nie by³o zbyt mi³e. Ale to prawda. To znaczy nie to, ¿e by³o to niemi³e, choæ to te¿ jest prawd¹, ale to, ¿e Ballas próbowa³ nas wynaj¹æ, abyœmy zabili Nadora.~
+@885 = ~Nie s³ysza³em wszystkiego, co mówi³ Ballas. By³em zajêty wœciekaniem siê, ¿e chcia³ kogoœ zabiæ, by zdobyæ jego stanowisko. Z³e to czasy, mój przyjacielu, gdy cz³owiek gotów jest zabiæ dla czegoœ takiego.~
+@886 = ~Nie, <CHARNAME>, tego zrobiæ nie mogê. Znam tego krasnoluda i powiadam ci, ¿e gdybym zrobi³ cokolwiek wed³ug jego s³ów, to sam stan¹³bym przed obliczem Rady.~
+@887 = ~Jest tak, jak powiedzia³<PRO_HESHE> <CHARNAME>, G³ówny Inspektorze. Ballas próbowa³ uzyskaæ nasz¹ zgodê na zabicie zarz¹dcy Nadora.~
+@888 = ~Nie wiem, <CHARNAME>. Wszyscy s³yszeliœmy, co powiedzia³ Ballas, ale jestem chyba ostatni¹ osob¹, któr¹ Brega chcia³by za œwiadka.~
+@889 = ~Dobra robota, obywatelu.~
+@890 = ~Keldorn jest mi dobrze znany i jego œwiadectwo jest niepodwa¿alne.~
+@891 = ~Ka¿ê moim ludziom natychmiast siê tym zaj¹æ.~
+@892 = ~Anomen Delryn, prawda? Twoja matka, niech spoczywa w pokoju, by³a szanowan¹ osob¹ w Athkatli.~
+@893 = ~No dobrze, twój œwiadek jest wiarygodny i potwierdza twoje zarzuty, a to dostatecznie uzasadnia podjêcie dalszych dzia³añ.~
+@894 = ~Czy ja ciê znam? Wybacz, <CHARNAME>, ale nie mogê aresztowaæ zaprzysiê¿onego urzêdnika na podstawie s³ów kogoœ kompletnie nieznanego mnie i Radzie.~
+@895 = ~Z tego co s³ysza³em, to ostatnio pracowa³eœ jako cz³owiek do specjalnych poruczeñ u Z³odziei Cienia, magu. Nie wydaje mi siê, ¿eby twoje s³owo mia³o jakiekolwiek znaczenie dla Rady.~
+@896 = ~Jesteœ córk¹ lorda d'Arnise, prawda? Nie znam ciê osobiœcie, ale twoje s³owo bêdzie wystarczaj¹ce dla Rady.~
+@897 = ~Mazzy, prawda? Z rycerzy Arvoreena? Tak, jesteœ osob¹ z du¿¹ reputacj¹, a twoje œwiadectwo mo¿e staæ siê przyczyn¹ aresztowania Ballasa.~
+@898 = ~Przecie¿ to Valygar Corthala. S³ysza³em o twoim zatargu z Zakapturzonymi Czarodziejami i gdybym móg³ temu w jakiœ sposób zapobiec, to z pewnoœci¹ bym to uczyni³.~
+@899 = ~Nawet pomimo tego, ¿e zabi³eœ dwóch Zakapturzonych. Wiem, ¿e dzia³a³eœ w samoobronie, jestem jednak pewien, ¿e rozumiesz, dlaczego nie mogê stan¹æ przed Rad¹ z twoim zeznaniem jako jedynym dowodem przeciwko Ballasowi.~
+@900 = ~Ten statek zabierze ciê na wyspê. Twoja sakiewka by³a wystarczaj¹co pêkata, aby uspokoiæ wszelkie obawy za³ogi.~ [b!mal_09]
+@901 = ~Przyzwyczajenia cz³onków za³ogi to twoja sprawa, kapitanie. Przynajmniej do czasu, dopóki bêd¹ siê dobrze spisywaæ i dostarcz¹ moich ludzi na czas.~ [B!MAL_08]
+@902 = ~<CHARNAME>, oto Saemon Havarian, kapitan tego statku. On i jego statek... panie Havarian, z tego co pamiêtam, to twój statek nazywa³ siê Per³a.~
+@903 = ~Staraj siê nie rozz³oœciæ kapitana, <CHARNAME>. Nie ka¿dy kapitan odwa¿y siê wyruszyæ w d³ug¹ podró¿ do Maztiki.~
+@904 = ~Jaœniej nie mo¿na, jaœnie panie, chocia¿ nie pochwalam twego tonu. Zapewniam ciê, nic niespodziewanego nas nie spotka podczas rejsu.~
+@905 = ~Sime równie¿ bêdzie mia³a kilka rad dla ciebie, <CHARNAME>. Zna tam kilku mieszkañców.~
+@906 = ~Rozdzia³ 4
+
+Wype³ni³em zadania, które wyznaczy³ mi Malficjusz, tylko po to, by znaleŸæ siê u progu Czarowiêzów. Co gorsza, wygl¹da na to, ¿e Malficjusz dzia³a³ na rozkaz Bodhi, potê¿nej wampirzycy.
+
+Czy mi siê to podoba, czy nie, jestem teraz w tym miejscu, a jedyn¹ szans¹ na powrót jest iœæ naprzód. Z tego, co zrozumia³em, zarówno Irenicus, jak i Imoen s¹ tutaj, na wyspie, w przytu³ku dla magów zwanym Czarowiêzami. Z³oto, którego dostarczy³em, pos³u¿y³o do zapewnienia rejsu na wyspê, a nie do Maztiki, jak pocz¹tkowo kazano mi myœleæ, i to tam znajdê odpowiedzi, których poszukujê. Zosta³em jednak ostrze¿ony, ¿e przytu³ek to prawdziwa forteca zbudowana z myœl¹ o przetrzymywaniu szalonych magów i innych "odchyleñców"... i samo uzyskanie tam wstêpu bêdzie nie lada wyczynem.~ ~Rozdzia³ 4
+
+Wype³ni³am zadania, które wyznaczy³ mi Malficjusz, tylko po to, by znaleŸæ siê u progu Czarowiêzów. Co gorsza, wygl¹da na to, ¿e Malficjusz dzia³a³ na rozkaz Bodhi, potê¿nej wampirzycy.
+
+Czy mi siê to podoba, czy nie, jestem teraz w tym miejscu, a jedyn¹ szans¹ na powrót jest iœæ naprzód. Z tego, co zrozumia³am, zarówno Irenicus, jak i Imoen s¹ tutaj, na wyspie, w przytu³ku dla magów zwanym Czarowiêzami. Z³oto, którego dostarczy³am, pos³u¿y³o do zapewnienia rejsu na wyspê, a nie do Maztiki, jak pocz¹tkowo kazano mi myœleæ, i to tam znajdê odpowiedzi, których poszukujê. Zosta³am jednak ostrze¿ona, ¿e przytu³ek to prawdziwa forteca zbudowana z myœl¹ o przetrzymywaniu szalonych magów i innych "odchyleñców"... i samo uzyskanie tam wstêpu bêdzie nie lada wyczynem.~
+@907 = ~A teraz muszê siê do czegoœ przyznaæ.~
+@908 = ~Jak mog³eœ siê ju¿ domyœliæ, to nie jest Maztica. Przybyliœmy do Brynnlaw, zgodnie z zaleceniem Malficjusza.~ ~Jak mog³aœ siê ju¿ domyœliæ, to nie jest Maztica. Przybyliœmy do Brynnlaw, zgodnie z zaleceniem Malficjusza.~
+@909 = ~Malficjusz mnie zdradzi³! Dlaczego?~
+@910 = ~Powinienem by³ wiedzieæ, ¿e nie wolno ufaæ temu wê¿owi.~ ~Powinnam by³a wiedzieæ, ¿e nie wolno ufaæ temu wê¿owi.~
+@911 = ~Wyda³em ca³e z³oto, by uciec od k³opotów, a znów znalaz³em siê w samym ich œrodku.~ ~Wyda³am ca³e z³oto, by uciec od k³opotów, a znów znalaz³am siê w samym ich œrodku.~
+@912 = ~Przykro mi z powodu tego podstêpu. Jeœli to ciê pocieszy, to Malficjusz wykonywa³ jedynie rozkazy swojej mocodawczyni, Bodhi, potê¿nej i wymagaj¹cej pani.~
+@913 = ~Mogê tylko przeprosiæ, ¿e te k³amstwa by³y konieczne. Tak czy inaczej, znalaz³eœ siê teraz w tym miejscu, wiêc radzê w pe³ni to wykorzystaæ.~ ~Mogê tylko przeprosiæ, ¿e te k³amstwa by³y konieczne. Tak czy inaczej, znalaz³aœ siê teraz w tym miejscu, wiêc radzê w pe³ni to wykorzystaæ.~
+@914 = ~Dostajê siê do przytu³ku
+
+Teraz kiedy mam ju¿ kamieñ stra¿niczy, dziêki któremu zdo³am dostaæ siê do przytu³ku, Sime posz³a wys³aæ wiadomoœæ do Malficjusza. Ma nadziejê, ¿e teraz, kiedy droga do przytu³ku stoi otworem, uda nam siê uzyskaæ pomoc od jego sprzymierzeñców, ale po jego nikczemnej zdradzie nie liczê na pomoc z jego strony.~
+@915 = ~Wykonaj zadania Aster, by uzyskaæ jej pomoc.
+
+Aran Linvail, przywódca Z³odziei Cienia w Athkatli, nie ¿yje. Teraz muszê wróciæ do Aster i powiedzieæ jej, ¿e to ponure zadanie zosta³o wykonane.~
+@916 = ~Bardzo d³ugie wakacje~
+@917 = ~Kosztowny sojusz.~
+@918 = ~Zanim podam ci wiêcej informacji, musisz obiecaæ, ¿e zachowasz dyskrecjê.~
+@919 = ~Znakomicie. Teraz zap³aæ 15000 sztuk z³ota, by przypieczêtowaæ nasz¹ umowê.~
+@920 = ~Jeœli zgodzisz siê rozbiæ Z³odziei Cienia, to drugie zadanie mo¿e ci siê wydaæ jeszcze bardziej szlachetne.~
+@923 = ~Czekaj tak d³ugo, ile ci trzeba.~
+@924 = ~Wampiry w katakumbach.
+
+Uda³o nam siê pokonaæ konkurencyjn¹ gildiê, sk³adaj¹c¹ siê g³ównie z wampirów. Na koñcu stanêliœmy oko w oko z Bodhi, która stwierdzi³a, ¿e wie coœ na temat Irenicusa. Wydawa³o mi siê, ¿e zanim ulotni³a siê w ob³okach dymu, podda³a mnie jakiejœ wnikliwej ocenie. Teraz nie pozostaje nam nic innego, jak wróciæ do "Aster" i powiadomiæ j¹, ¿e wroga gildia przesta³a istnieæ, chocia¿ jej przywódczyni usz³a z ¿yciem. Trzeba zadaæ jej te¿ kilka pytañ.
+
+I jeszcze jedno... Bodhi wiedzia³a. Wiedzia³a, ¿e jestem dzieckiem Bhaala.~
+@925 = ~Zadania Aster.
+
+Uda³o mi siê wykonaæ wyznaczone mi zadania. W koñcu Aster zgodzi³a siê, bym wyruszy³<PRO_HESHE> do Czarowiêzów, gdzie znajdê Irenicusa. Cokolwiek mia³oby siê zdarzyæ, najwiêksze wyzwanie czeka na mnie na tej wyspie.~
+@926 = ~Rozdzia³ 4
+
+Wype³ni³em zadania, które wyznaczy³a mi Aster, wliczaj¹c w to zniszczenie zarówno Z³odziei Cienia, jak i wampirów, choæ samej Bodhi uda³o siê zbiec. Zanim uciek³a, uœwiadomi³a mi kilka spraw.
+
+To Z³odzieje Cienia zaatakowali Irenicusa w lochu, w którym siê obudzi³em. Byli œwiadomi faktu, ¿e zosta³em schwytany, choæ nie uwa¿ali tego za nic wiêcej ni¿ zwyk³e porwanie i nie swoj¹ sprawê. Jednak¿e nied³ugo potem pojawi³a siê Bodhi, a ich cz³onkowie zaczêli znikaæ. Uda³o im siê odkryæ lochy Irenicusa i powi¹zali to z Bodhi... a ja by³em œwiadkiem ich zakoñczonego katastrof¹ ataku.
+
+Aster powiedzia³a mi, ¿e Irenicus zosta³ zabrany do znajduj¹cego siê na wyspie przytu³ku zwanego Czarowiêzy. Z³oto, którego dostarczy³em, pos³u¿y³o do zapewnienia rejsu na wyspê i to tam znajdê odpowiedzi, których poszukujê. Aster ostrzeg³a mnie jednak, ¿e przytu³ek to prawdziwa forteca zbudowana z myœl¹ o przetrzymywaniu szalonych magów i innych "odchyleñców"... i samo uzyskanie tam wstêpu bêdzie nie lada wyczynem. Tak czy inaczej, transport na wyspê z korsarzem Saemonem Havarianem zosta³ ju¿ zarezerwowany i pozostaje mi wyruszyæ w drogê...~ ~Rozdzia³ 4
+
+Wype³ni³am zadania, które wyznaczy³a mi Aster, wliczaj¹c w to zniszczenie zarówno Z³odziei Cienia, jak i wampirów, choæ samej Bodhi uda³o siê zbiec. Zanim uciek³a, uœwiadomi³a mi kilka spraw.
+
+To Z³odzieje Cienia zaatakowali Irenicusa w lochu, w którym siê obudzi³am. Byli œwiadomi faktu, ¿e zosta³am schwytana, choæ nie uwa¿ali tego za nic wiêcej ni¿ zwyk³e porwanie i nie swoj¹ sprawê. Jednak¿e nied³ugo potem pojawi³a siê Bodhi, a ich cz³onkowie zaczêli znikaæ. Uda³o im siê odkryæ lochy Irenicusa i powi¹zali to z Bodhi... a ja by³am œwiadkiem ich zakoñczonego katastrof¹ ataku.
+
+Aster powiedzia³a mi, ¿e Irenicus zosta³ zabrany do znajduj¹cego siê na wyspie przytu³ku zwanego Czarowiêzy. Z³oto, którego dostarczy³am, pos³u¿y³o do zapewnienia rejsu na wyspê i to tam znajdê odpowiedzi, których poszukujê. Aster ostrzeg³a mnie jednak, ¿e przytu³ek to prawdziwa forteca zbudowana z myœl¹ o przetrzymywaniu szalonych magów i innych "odchyleñców"... i samo uzyskanie tam wstêpu bêdzie nie lada wyczynem. Tak czy inaczej, transport na wyspê z korsarzem Saemonem Havarianem zosta³ ju¿ zarezerwowany i pozostaje mi wyruszyæ w drogê...~
+@927 = ~Rozdzia³ 4
+
+Wype³ni³em zadania, które wyznaczy³ mi Malficjusz, tylko po to, by znaleŸæ siê u progu Czarowiêzów. Co gorsza, wygl¹da na to, ¿e Malficjusz dzia³a³ na rozkaz Bodhi, potê¿nej wampirzycy.
+
+Czy mi siê to podoba, czy nie, jestem teraz w tym miejscu, a jedyn¹ szans¹ na powrót jest iœæ naprzód. Z tego, co zrozumia³em, Irenicus jest tutaj, na wyspie, w przytu³ku dla magów zwanym Czarowiêzami. Z³oto, którego dostarczy³em, pos³u¿y³o do zapewnienia rejsu na wyspê, a nie do Maztiki, jak pocz¹tkowo kazano mi myœleæ, i to tam znajdê odpowiedzi, których poszukujê. Zosta³em jednak ostrze¿ony, ¿e przytu³ek to prawdziwa forteca zbudowana z myœl¹ o przetrzymywaniu szalonych magów i innych "odchyleñców"... i samo uzyskanie tam wstêpu bêdzie nie lada wyczynem.~ ~Rozdzia³ 4
+
+Wype³ni³am zadania, które wyznaczy³ mi Malficjusz, tylko po to, by znaleŸæ siê u progu Czarowiêzów. Co gorsza, wygl¹da na to, ¿e Malficjusz dzia³a³ na rozkaz Bodhi, potê¿nej wampirzycy.
+
+Czy mi siê to podoba, czy nie, jestem teraz w tym miejscu, a jedyn¹ szans¹ na powrót jest iœæ naprzód. Z tego, co zrozumia³am, Irenicus jest tutaj, na wyspie, w przytu³ku dla magów zwanym Czarowiêzami. Z³oto, którego dostarczy³am, pos³u¿y³o do zapewnienia rejsu na wyspê, a nie do Maztiki, jak pocz¹tkowo kazano mi myœleæ, i to tam znajdê odpowiedzi, których poszukujê. Zosta³am jednak ostrze¿ona, ¿e przytu³ek to prawdziwa forteca zbudowana z myœl¹ o przetrzymywaniu szalonych magów i innych "odchyleñców"... i samo uzyskanie tam wstêpu bêdzie nie lada wyczynem.~
