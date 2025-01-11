@@ -24,12 +24,12 @@ ALWAYS
 
   // Only setup-alternatives is stated in LANGUAGE and needs to be reloaded after conversion
   ACTION_DEFINE_ARRAY alternatives_reload BEGIN setup-alternatives END
-  ACTION_DEFINE_ARRAY alternatives_noconvert BEGIN END
+  ACTION_DEFINE_ARRAY alternatives_noconvert BEGIN install END
 	
 	/* don't convert the mod name for Windows users. by c4_angel */
-	ACTION_IF ~%LANGUAGE%~ STR_EQ ~schinese~ THEN BEGIN
-		ACTION_DEFINE_ARRAY alternatives_noconvert BEGIN ~prompts-%WEIDU_OS%~ END
-	END
+	//ACTION_IF ~%LANGUAGE%~ STR_EQ ~schinese~ THEN BEGIN
+	//	ACTION_DEFINE_ARRAY alternatives_noconvert BEGIN ~prompts-%WEIDU_OS%~ END
+	//END
 	/* no convertion */
 
   LAF HANDLE_CHARSETS
@@ -48,11 +48,7 @@ LANGUAGE ~English~ ~english~ ~alternatives/english/setup-alternatives.tra~
 LANGUAGE ~Russian~ ~russian~ ~alternatives/russian/setup-alternatives.tra~
 LANGUAGE ~French~ ~french~ ~alternatives/french/setup-alternatives.tra~ 
 LANGUAGE ~German~ ~german~ ~alternatives/german/setup-alternatives.tra~ 
-LANGUAGE ~Simplified Chinese~ 
-				 ~schinese~
-				 ~alternatives/english/setup-alternatives.tra~ 
-				 ~alternatives/schinese/setup-alternatives.tra~  
-				 ~alternatives/schinese/prompts-%WEIDU_OS%.tra~
+LANGUAGE ~Simplified Chinese~ ~schinese~ ~alternatives/schinese/install.tra~ // 汉化：c4_angel 协助：武骧金星
 LANGUAGE ~Italian~ ~italian~ ~alternatives/italian/setup-alternatives.tra~
 LANGUAGE ~Polish~ ~polish~ ~alternatives/polish/setup-alternatives.tra~  
 
@@ -581,13 +577,13 @@ END
     
  
 /* b!mal.cre and b!mal2.cre soundset in Chinese by c4_angel */
-ACTION_IF ~%LANGUAGE%~ STR_EQ ~schinese~ THEN BEGIN
-	COPY_EXISTING ~b!mal.cre~ ~override/b!mal.cre~
-		SAY SELECT_COMMON1 @40001
-
-	COPY_EXISTING ~b!mal2.cre~ ~override/b!mal2.cre~
-		SAY SELECT_COMMON1 @40001
-END
+//ACTION_IF ~%LANGUAGE%~ STR_EQ ~schinese~ THEN BEGIN
+//	COPY_EXISTING ~b!mal.cre~ ~override/b!mal.cre~
+//		SAY SELECT_COMMON1 @40001
+//
+//	COPY_EXISTING ~b!mal2.cre~ ~override/b!mal2.cre~
+//		SAY SELECT_COMMON1 @40001
+//END
 
 
 
